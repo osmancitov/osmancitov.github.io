@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="destilería-osmancito">Destilería Osmancito</h1>
+<p><em>Entra la materia prima. Sale el destilado puro.</em></p>
+<hr />
+<h2 id="qué-es">Qué es</h2>
+<p>Destilería Osmancito es un sistema de lectura profunda que opera
+dentro de Claude. Toma cualquier corpus — un libro, un guión, una obra
+completa — y lo somete a calor y tiempo hasta que revela lo que no podía
+decir solo.</p>
+<p>No es un resumidor ni un buscador. Es una planta de extracción que
+produce fracciones nobles.</p>
+<p><strong>Misión principal:</strong> entrar a un corpus, extraer lo
+mejor, entender qué tipo de objeto es, y salir con cuatro imágenes que
+lo encapsulen. Todo en una sola sesión.</p>
+<hr />
+<h2 id="arquitectura">Arquitectura</h2>
+<pre><code>CORPUS
+  ↓
+RECEPCIÓN DE MATERIA PRIMA
+  · Registro de entrada (palabras, riqueza léxica, primera y más frecuente palabra de contenido)
+  · Sinopsis y figuras clave
+  · Materias primas dominantes
+  · Prompt de portada
+  ↓
+TALLER PRINCIPAL — cuatro módulos en secuencia
+  │
+  ├── MÓDULO ALAMBIQUE — DESTILACIÓN
+  │     Destilado maestro · Barricas (extractos + fracciones nobles por capítulo)
+  │     Cartografía · Nota de cata · Prompt de imagen A
+  │
+  ├── MÓDULO CONTROL DE CALIDAD — INSPECCIÓN
+  │     Seis estratos · Clasificación de nave · Veredicto de zarpe
+  │     Nota naval · Prompt de imagen B
+  │
+  ├── MÓDULO LABORATORIO — ANÁLISIS DE SEDIMENTO
+  │     Ausencias · Síntomas · Cifras
+  │     Cuatro lentes de lectura · El compuesto base · Prompt de imagen C
+  │
+  └── MÓDULO ETIQUETADO — TOPOLOGÍA Y FIRMA
+        Fallas de cierre · Núcleo de curvatura
+        Red conceptual · Estrategia de grandeza · Prompt de imagen D</code></pre>
+<hr />
+<h2 id="el-personal">El personal</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Módulo</th>
+<th>Operario</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recepción de Materia Prima</td>
+<td>El Recepcionista</td>
+<td>Seco, protocolar, pesa sin opinar</td>
+</tr>
+<tr>
+<td>Alambique</td>
+<td>El Maestro Destilador</td>
+<td>Paciente, sensorial, reposado</td>
+</tr>
+<tr>
+<td>Control de Calidad</td>
+<td>El Inspector</td>
+<td>Seco, profesional, directo</td>
+</tr>
+<tr>
+<td>Laboratorio</td>
+<td>El Químico</td>
+<td>Quieto, concentrado, no sorprendido</td>
+</tr>
+<tr>
+<td>Etiquetado</td>
+<td>El Maestro de Bodega</td>
+<td>Preciso, definitivo, sella y libera</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cómo-funciona">Cómo funciona</h2>
+<p><strong>Fase 0 — Recepción de Materia Prima</strong> — recibe el
+corpus. Produce el registro de entrada, sinopsis, figuras clave,
+materias primas dominantes y el prompt de portada. Protocolo ZIP
+disponible para epubs descomprimidos.</p>
+<p><strong>Módulo Alambique — Destilación</strong> — destilado maestro,
+barricas (extractos y fracciones nobles por capítulo), cartografía, nota
+de cata. El corazón del sistema. Produce las fracciones nobles:
+fragmentos que sobreviven solos, que alguien repetiría años después.</p>
+<p><strong>Módulo Control de Calidad — Inspección</strong> — seis
+estratos de análisis estructural, clasificación de nave, veredicto de
+zarpe, nota naval. Determina qué tipo de objeto es el corpus y si vale
+el viaje.</p>
+<p><strong>Módulo Laboratorio — Análisis de Sedimento</strong> —
+ausencias, síntomas, cifras, y cuatro lentes de lectura (lo que dice,
+muestra, exige y guarda). El compuesto base: el núcleo de sentido más
+irreducible del corpus.</p>
+<p><strong>Módulo Etiquetado — Topología y Firma</strong> — las fallas
+de cierre (predictores de inagotabilidad), el núcleo de curvatura
+semántica, y la estimación de la red conceptual. La estrategia de
+grandeza en una línea.</p>
+<hr />
+<h2 id="los-cuatro-prompts-de-imagen">Los cuatro prompts de imagen</h2>
+<p>Cada módulo produce un prompt en español para generador de imágenes
+externo. Los cuatro prompts son la sorpresa que espera al final del
+proceso — cada uno construido desde las cualidades únicas de este corpus
+en esta etapa. No hay dos prompts iguales entre corpus distintos.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Prompt</th>
+<th>Qué genera</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Portada</strong></td>
+<td>Atmósfera del corpus — imagen que puede preceder todo el
+paquete</td>
+</tr>
+<tr>
+<td><strong>Imagen A</strong></td>
+<td>El mundo donde vive la bebida elegida — escena construida desde la
+fusión de la bebida y el corpus</td>
+</tr>
+<tr>
+<td><strong>Imagen B</strong></td>
+<td>El arquetipo de nave específico en el estado que revela el
+veredicto</td>
+</tr>
+<tr>
+<td><strong>Imagen C</strong></td>
+<td>El hallazgo del Laboratorio hecho visible — derivado de las
+ausencias, síntomas y cifras concretas</td>
+</tr>
+<tr>
+<td><strong>Imagen D</strong></td>
+<td>La etiqueta química del corpus — su firma topológica como objeto
+único listo para despacho</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="archivos-del-sistema">Archivos del sistema</h2>
+<pre><code>destileria/
+├── system-prompt.md              — instrucciones de arranque (17 líneas)
+├── protocolo-destileria.md       — recepción + taller completo (5 fases)
+└── README.md                     — este archivo</code></pre>
+<hr />
+<h2 id="cómo-instalar">Cómo instalar</h2>
+<p><strong>1.</strong> Crear proyecto nuevo en Claude. Nombre:
+<em>Destilería Osmancito</em>.</p>
+<p><strong>2.</strong> Subir los tres archivos:
+<code>system-prompt.md</code>, <code>protocolo-destileria.md</code>,
+<code>README.md</code>.</p>
+<p><strong>3.</strong> En el recuadro de instrucciones del proyecto,
+escribir exactamente: &gt; <em>Lee el archivo system-prompt.md</em></p>
+<p><strong>4.</strong> Verificar: abrir conversación nueva y escribir
+<strong>Hola</strong>. El sistema debe responder: &gt; <em>Soy la
+Destilería Osmancito. Entra la materia prima. Sale el destilado
+puro.</em></p>
+<hr />
+<h2 id="para-usar-el-sistema">Para usar el sistema</h2>
+<p>Entregar el corpus de cualquiera de estas formas: - Adjuntar el
+archivo (epub, pdf, txt) - Escribir título y autor - Adjuntar ZIP con
+epub descomprimido - Subir el epub descomprimido al proyecto
+previamente</p>
+<p>El sistema ejecuta la Recepción de Materia Prima + los cuatro módulos
+del taller en secuencia, sin pedir confirmaciones intermedias.</p>
+<hr />
+<h2 id="vocabulario-central">Vocabulario central</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Término</th>
+<th>Definición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Corpus</strong></td>
+<td>La materia prima. Todo lo que entra a la Destilería</td>
+</tr>
+<tr>
+<td><strong>Fracción noble</strong></td>
+<td>Lo que sobrevive la destilación. El fragmento que alguien repetiría
+años después</td>
+</tr>
+<tr>
+<td><strong>Extracto</strong></td>
+<td>La esencia funcional de una barrica</td>
+</tr>
+<tr>
+<td><strong>Barrica</strong></td>
+<td>Unidad por capítulo: extracto + fracciones nobles</td>
+</tr>
+<tr>
+<td><strong>Destilado maestro</strong></td>
+<td>El epítome del corpus. Texto autónomo que encarna el libro sin
+resumirlo</td>
+</tr>
+<tr>
+<td><strong>Nota de cata</strong></td>
+<td>Descripción sensorial del corpus como bebida</td>
+</tr>
+<tr>
+<td><strong>Falla de cierre</strong></td>
+<td>Tensión que persiste sin resolverse. Las fallas abiertas predicen
+inagotabilidad</td>
+</tr>
+<tr>
+<td><strong>Núcleo de curvatura</strong></td>
+<td>El concepto de mayor gravitación semántica</td>
+</tr>
+<tr>
+<td><strong>Compuesto base</strong></td>
+<td>El núcleo de sentido más irreducible del corpus</td>
+</tr>
+<tr>
+<td><strong>Etiqueta química</strong></td>
+<td>El conjunto de variables topológicas que identifican el corpus como
+objeto</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conocimiento-operativo-integrado">Conocimiento operativo
+integrado</h2>
+<p>Los descubrimientos empíricos de versiones anteriores están
+integrados en el Módulo Etiquetado como conocimiento operativo:</p>
+<ul>
+<li><strong>Las fallas abiertas predicen inagotabilidad</strong> (13/13
+corpus confirmados) → integrado en la sección Fallas de Cierre</li>
+<li><strong>La grandeza es integración, no acumulación</strong> (redes
+small-world en corpus canónicos) → integrado en la sección Red
+Conceptual</li>
+</ul>
+<hr />
+<p><em>Destilería · Entra la materia prima. Sale el destilado puro.</em>
+<em>Cuatro módulos. Cuatro imágenes. Cada corpus, una sorpresa.</em></p>
+</body>
+</html>
