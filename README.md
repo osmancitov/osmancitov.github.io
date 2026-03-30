@@ -106,7 +106,7 @@ destileria/
 
 **1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 
-**2.** Subir los tres archivos: `[system-prompt.md](https://github.com/osmancitov/Destileria/raw/main/system-prompt.md)`, `[protocolo-destileria.md](https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md)`, `[README.md](https://github.com/osmancitov/Destileria/raw/main/README.md)`.
+**2.** Subir los tres archivos: [`system-prompt.md`](https://github.com/osmancitov/Destileria/raw/main/system-prompt.md), [`protocolo-destileria.md`](https://github.com/osmancitov/Destileria/raw/main/protocolo-destileria.md), [`README.md`](https://github.com/osmancitov/Destileria/raw/main/README.md).
 
 **3.** En el recuadro de instrucciones del proyecto, escribir exactamente:
 > *Lee el archivo system-prompt.md*
