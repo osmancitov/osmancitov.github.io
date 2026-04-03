@@ -1,6 +1,6 @@
 # Destilería Osmancito
 *Entra la materia prima. Sale el destilado puro.*
-*v3.7 · 2026-03-30*
+*v3.8 · 2026-04-02*
 
 
 ---
