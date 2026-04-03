@@ -44,13 +44,17 @@
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  html { scroll-behavior: smooth; }
+  /* Ajusta este valor para cambiar el tamaño de TODO el documento */
+  html { 
+    scroll-behavior: smooth; 
+    font-size: 150%; 
+  }
 
   body {
     background: var(--pale);
     color: var(--ink);
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
     line-height: 1.75;
   }
 
@@ -60,7 +64,7 @@
     color: var(--cream);
     text-align: center;
     padding: 3.5rem 2rem 3rem;
-    border-bottom: 4px solid var(--gold);
+    border-bottom: 0.25rem solid var(--gold); /* 4px */
     position: relative;
     overflow: hidden;
   }
@@ -70,9 +74,9 @@
     background: repeating-linear-gradient(
       45deg,
       transparent,
-      transparent 40px,
-      rgba(201,153,58,0.04) 40px,
-      rgba(201,153,58,0.04) 42px
+      transparent 2.5rem,
+      rgba(201,153,58,0.04) 2.5rem,
+      rgba(201,153,58,0.04) 2.625rem
     );
   }
   .masthead-label {
@@ -99,8 +103,8 @@
     margin-top: 0.5rem;
   }
   .masthead-rule {
-    width: 80px;
-    height: 2px;
+    width: 5rem; /* 80px */
+    height: 0.125rem; /* 2px */
     background: var(--gold);
     margin: 1.5rem auto;
   }
@@ -114,8 +118,8 @@
   /* ── TOC ── */
   #toc {
     background: var(--parchment);
-    border-bottom: 2px solid var(--rule);
-    padding: 2.5rem max(2rem, calc(50vw - 380px));
+    border-bottom: 0.125rem solid var(--rule);
+    padding: 2.5rem max(2rem, calc(50vw - 23.75rem)); /* 380px -> 23.75rem */
   }
   #toc h2 {
     font-family: 'Fira Mono', monospace;
@@ -127,7 +131,7 @@
   }
   .toc-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(16.25rem, 1fr)); /* 260px */
     gap: 0.2rem 2rem;
   }
   .toc-grid a {
@@ -137,7 +141,7 @@
     color: var(--sepia);
     text-decoration: none;
     padding: 0.2rem 0;
-    border-bottom: 1px dotted var(--rule);
+    border-bottom: 0.0625rem dotted var(--rule);
     transition: color 0.2s, padding-left 0.2s;
   }
   .toc-grid a:hover { color: var(--amber); padding-left: 0.4rem; }
@@ -146,7 +150,7 @@
 
   /* ── MAIN LAYOUT ── */
   main {
-    max-width: 780px;
+    max-width: 48.75rem; /* 780px */
     margin: 0 auto;
     padding: 3rem 2rem 6rem;
   }
@@ -155,7 +159,7 @@
   .module-header {
     margin: 4rem 0 2rem;
     padding: 1.5rem 0 1rem;
-    border-top: 3px solid var(--sepia);
+    border-top: 0.1875rem solid var(--sepia); /* 3px */
     position: relative;
   }
   .module-tag {
@@ -178,7 +182,7 @@
     font-size: 0.88rem;
     color: var(--faint);
     margin-top: 0.5rem;
-    border-left: 2px solid var(--rule);
+    border-left: 0.125rem solid var(--rule);
     padding-left: 0.75rem;
   }
 
@@ -204,7 +208,7 @@
 
   .field-block {
     background: var(--parchment);
-    border-left: 3px solid var(--rule);
+    border-left: 0.1875rem solid var(--rule);
     padding: 1rem 1.25rem;
     margin: 1rem 0 1.5rem;
     font-size: 0.95rem;
@@ -225,7 +229,7 @@
   /* ── BARRICA ── */
   .barrica {
     margin: 2.5rem 0;
-    border-top: 1px solid var(--rule);
+    border-top: 0.0625rem solid var(--rule);
     padding-top: 1.5rem;
   }
   .barrica-title {
@@ -242,7 +246,7 @@
   }
   .extracto {
     background: rgba(181,115,42,0.06);
-    border-left: 2px solid var(--amber);
+    border-left: 0.125rem solid var(--amber);
     padding: 0.85rem 1.1rem;
     margin-bottom: 1.2rem;
     font-size: 0.96rem;
@@ -258,7 +262,7 @@
   .fraccion {
     margin: 1.5rem 0 0.5rem;
     padding-left: 1.2rem;
-    border-left: 3px solid var(--gold);
+    border-left: 0.1875rem solid var(--gold);
   }
   .fraccion-hook {
     font-family: 'IM Fell English', serif;
@@ -274,7 +278,7 @@
     color: var(--cream);
     padding: 1.75rem 2rem;
     margin: 2rem 0;
-    border-radius: 2px;
+    border-radius: 0.125rem;
   }
   .cata-box .cata-label {
     font-family: 'Fira Mono', monospace;
@@ -319,7 +323,7 @@
     text-align: center;
     padding: 2rem 1rem;
     margin: 2rem 0;
-    border: 1px solid var(--rule);
+    border: 0.0625rem solid var(--rule);
     position: relative;
   }
   .compuesto::before {
@@ -347,7 +351,7 @@
   .falla {
     margin: 0.75rem 0;
     padding: 0.5rem 0;
-    border-bottom: 1px dotted var(--rule);
+    border-bottom: 0.0625rem dotted var(--rule);
   }
   .falla strong {
     color: var(--sepia);
@@ -375,7 +379,7 @@
     line-height: 1.7;
     padding: 1.5rem;
     margin: 1.5rem 0;
-    border-left: 3px solid var(--amber);
+    border-left: 0.1875rem solid var(--amber);
     white-space: pre-wrap;
   }
   .prompt-box .p-label {
@@ -385,7 +389,7 @@
     font-size: 0.6rem;
     display: block;
     margin-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(201,153,58,0.3);
+    border-bottom: 0.0625rem solid rgba(201,153,58,0.3);
     padding-bottom: 0.5rem;
   }
 
@@ -395,7 +399,7 @@
     font-style: italic;
     font-size: 1.05rem;
     color: var(--sepia);
-    border-left: 3px solid var(--sepia);
+    border-left: 0.1875rem solid var(--sepia);
     padding: 0.75rem 1.25rem;
     margin: 1.5rem 0;
     line-height: 1.8;
@@ -405,7 +409,7 @@
   .topo-field {
     margin: 0.5rem 0;
     padding-bottom: 0.5rem;
-    border-bottom: 1px dotted var(--rule);
+    border-bottom: 0.0625rem dotted var(--rule);
     font-size: 0.96rem;
   }
   .topo-key {
@@ -425,7 +429,7 @@
     text-align: center;
     color: var(--sepia);
     padding: 1.5rem;
-    border: 2px solid var(--sepia);
+    border: 0.125rem solid var(--sepia);
     margin: 2rem 0;
   }
 
@@ -433,7 +437,7 @@
   #colophon {
     text-align: center;
     padding: 3rem 2rem;
-    border-top: 3px solid var(--sepia);
+    border-top: 0.1875rem solid var(--sepia);
     margin-top: 4rem;
   }
   #colophon p {
@@ -454,11 +458,11 @@
   /* ── UTILS ── */
   hr.section-rule {
     border: none;
-    border-top: 1px solid var(--rule);
+    border-top: 0.0625rem solid var(--rule);
     margin: 2rem 0;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 37.5rem) { /* 600px */
     main { padding: 2rem 1.25rem 4rem; }
     .toc-grid { grid-template-columns: 1fr; }
     .prompt-box { font-size: 0.65rem; }

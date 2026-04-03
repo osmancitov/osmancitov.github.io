@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destilería Osmancito — El planeta de los simios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1410;
+    --paper: #f5f0e8;
+    --amber: #c87941;
+    --rust: #8b3a2a;
+    --gold: #b8973d;
+    --sienna: #5c3317;
+    --pale: #ede7d9;
+    --dim: #7a6a55;
+    --rule: #c4b49a;
+    --accent: #2d4a3e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; font-size: 150%;}
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  /* MASTHEAD */
+  .masthead {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 3rem 4rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--rust), var(--amber), var(--gold), var(--amber), var(--rust));
+  }
+  .masthead-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: var(--rule);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .masthead h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--paper);
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  .masthead .author {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+
+  /* TOC */
+  .toc-wrapper {
+    background: var(--pale);
+    border-bottom: 1px solid var(--rule);
+    padding: 2.5rem 4rem;
+  }
+  .toc-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    color: var(--dim);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem 3rem;
+  }
+  .toc-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 0.85rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px dotted var(--rule);
+    transition: color 0.2s;
+  }
+  .toc-item:hover { color: var(--amber); }
+  .toc-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--amber);
+    flex-shrink: 0;
+  }
+  .toc-sub {
+    font-style: italic;
+    color: var(--dim);
+  }
+
+  /* MAIN LAYOUT */
+  .main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 3rem 6rem;
+  }
+
+  /* MÓDULO HEADERS */
+  .module-header {
+    margin: 5rem 0 3rem;
+    padding: 2.5rem 0 1.5rem;
+    border-top: 2px solid var(--ink);
+    position: relative;
+  }
+  .module-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    color: var(--amber);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+  .module-header h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    text-transform: uppercase;
+  }
+  .module-voice {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--dim);
+    margin-top: 0.75rem;
+    font-style: italic;
+    letter-spacing: 0.05em;
+  }
+
+  /* SECTION HEADERS */
+  .section-head {
+    margin: 3rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section-head h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    color: var(--rust);
+    text-transform: uppercase;
+  }
+  .section-sub {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--dim);
+    margin-top: 0.25rem;
+  }
+
+  /* FICHA DE RECEPCIÓN */
+  .ficha {
+    background: var(--pale);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--amber);
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+  }
+  .ficha-field {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    gap: 0.5rem 1.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.9rem;
+  }
+  .ficha-field:last-child { border-bottom: none; }
+  .ficha-key {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    color: var(--dim);
+    text-transform: uppercase;
+    padding-top: 0.15rem;
+  }
+  .ficha-val { color: var(--ink); }
+
+  /* PROSE */
+  p {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    text-align: justify;
+    hyphens: auto;
+  }
+  .lead {
+    font-size: 1.15rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--sienna);
+    margin-bottom: 2rem;
+    border-left: 2px solid var(--amber);
+    padding-left: 1.5rem;
+  }
+
+  /* BARRICAS */
+  .barrica {
+    margin: 3.5rem 0;
+    padding-top: 2rem;
+    border-top: 1px dashed var(--rule);
+  }
+  .barrica-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    color: var(--amber);
+    text-transform: uppercase;
+  }
+  .barrica h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin: 0.4rem 0 0.2rem;
+    color: var(--ink);
+  }
+  .barrica-sub {
+    font-style: italic;
+    color: var(--dim);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  .extracto {
+    background: var(--pale);
+    padding: 1.5rem;
+    border-left: 2px solid var(--rule);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+  .extracto-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.25em;
+    color: var(--dim);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  /* FRACCIONES NOBLES */
+  .fraccion {
+    margin: 2rem 0;
+    padding: 1.5rem 0 1.5rem 2rem;
+    border-left: 3px solid var(--amber);
+  }
+  .fraccion-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    color: var(--rust);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .fraccion p {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--sienna);
+    margin-bottom: 0;
+  }
+
+  /* NOTA DE CATA */
+  .nota-cata {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 2.5rem;
+    margin: 3rem 0;
+    position: relative;
+  }
+  .nota-cata::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--rust), var(--amber), var(--gold));
+  }
+  .nota-cata-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  .nota-cata p {
+    color: var(--paper);
+    font-size: 0.95rem;
+    text-align: left;
+  }
+  .nota-campo {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 0.4rem 1rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.88rem;
+  }
+  .nota-campo-key {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    text-transform: uppercase;
+    padding-top: 0.1rem;
+  }
+  .nota-campo-val { color: var(--pale); }
+
+  /* CLASIFICACIÓN NAVE */
+  .nave-box {
+    background: var(--rust);
+    color: var(--paper);
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+  }
+  .nave-box-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.6);
+    margin-bottom: 0.5rem;
+  }
+  .nave-name {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+  }
+  .nave-just {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgba(245,240,232,0.85);
+  }
+
+  /* ESTRATOS */
+  .estrato {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    border: 1px solid var(--rule);
+    position: relative;
+  }
+  .estrato-num {
+    position: absolute;
+    top: -0.9rem;
+    left: 1.5rem;
+    background: var(--paper);
+    padding: 0 0.75rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--amber);
+    text-transform: uppercase;
+  }
+  .estrato h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--rust);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  /* VEREDICTO */
+  .veredicto {
+    background: var(--accent);
+    color: var(--paper);
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+  }
+  .veredicto-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.5);
+    margin-bottom: 0.5rem;
+  }
+  .veredicto-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .veredicto-just {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgba(245,240,232,0.8);
+  }
+
+  /* NOTA NAVAL */
+  .nota-naval {
+    background: var(--pale);
+    border: 1px solid var(--rule);
+    border-bottom: 3px solid var(--amber);
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    font-size: 1.0rem;
+    color: var(--sienna);
+    line-height: 1.9;
+  }
+  .nota-naval-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--dim);
+    font-style: normal;
+    margin-bottom: 1rem;
+  }
+
+  /* FALLAS DE CIERRE */
+  .falla {
+    padding: 1rem 0;
+    border-bottom: 1px dotted var(--rule);
+  }
+  .falla:last-child { border-bottom: none; }
+  .falla-pregunta {
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 0.25rem;
+  }
+  .falla-tipo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    text-transform: uppercase;
+  }
+  .falla-tipo.raiz { color: var(--rust); }
+
+  /* TOPOLOGÍA */
+  .topo-field {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 0.5rem 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.9rem;
+  }
+  .topo-field:last-child { border-bottom: none; }
+  .topo-key {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: var(--dim);
+    text-transform: uppercase;
+    padding-top: 0.1rem;
+  }
+
+  /* COMPUESTO BASE */
+  .compuesto {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 2.5rem;
+    text-align: center;
+    margin: 2.5rem 0;
+  }
+  .compuesto-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 1.5rem;
+  }
+  .compuesto-text {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--paper);
+    line-height: 1.6;
+  }
+  .compuesto-dash { color: var(--amber); margin: 0 0.5rem; }
+
+  /* GRANDEZA */
+  .grandeza {
+    background: var(--amber);
+    padding: 1.5rem 2.5rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .grandeza-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna);
+    margin-bottom: 0.5rem;
+  }
+  .grandeza-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+  }
+
+  /* PROMPT BOXES */
+  .prompt-box {
+    background: #1a1410;
+    border: 1px solid #3a2f20;
+    padding: 2rem;
+    margin: 3rem 0;
+    position: relative;
+  }
+  .prompt-box::before {
+    content: 'PROMPT DE IMAGEN';
+    position: absolute;
+    top: -0.7rem;
+    left: 1.5rem;
+    background: #1a1410;
+    padding: 0 0.75rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    color: var(--amber);
+    text-transform: uppercase;
+  }
+  .prompt-box p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    line-height: 1.8;
+    color: #c9b99a;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  /* DIVIDER */
+  .rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+  .rule-heavy {
+    border: none;
+    border-top: 2px solid var(--ink);
+    margin: 4rem 0;
+  }
+
+  /* COLOFÓN */
+  .colofonium {
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 2px solid var(--ink);
+    margin-top: 5rem;
+  }
+  .colofonium-mark {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+  .colofonium-lema {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--amber);
+    margin-top: 0.5rem;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 680px) {
+    .masthead { padding: 2rem 1.5rem; }
+    .masthead h2 { font-size: 2rem; }
+    .toc-wrapper { padding: 1.5rem; }
+    .toc-grid { grid-template-columns: 1fr; }
+    .main { padding: 0 1.5rem 4rem; }
+    .ficha-field { grid-template-columns: 1fr; }
+    .nota-campo { grid-template-columns: 1fr; }
+    .topo-field { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-label">Destilería Osmancito · Análisis Completo · v3.8</div>
+  <h1>El planeta de los simios</h1>
+  <h2>Pierre Boulle</h2>
+  <div class="author">Lote DO-2026-04 &nbsp;·&nbsp; 51.313 palabras &nbsp;·&nbsp; Destilado 94°</div>
+</header>
+
+<!-- TOC -->
+<nav class="toc-wrapper">
+  <div class="toc-title">Índice de módulos</div>
+  <div class="toc-grid">
+    <a href="#recepcion" class="toc-item"><span class="toc-num">00</span> Registro de Entrada</a>
+    <a href="#portada-producto" class="toc-item"><span class="toc-num">—</span> Prompt · Portada del Producto</a>
+    <a href="#portada" class="toc-item"><span class="toc-num">—</span> Prompt · Portada del Corpus</a>
+    <a href="#alambique" class="toc-item"><span class="toc-num">01</span> Módulo Alambique</a>
+    <a href="#destilado" class="toc-item toc-sub"><span class="toc-num">↳</span> Destilado Maestro</a>
+    <a href="#barricas" class="toc-item toc-sub"><span class="toc-num">↳</span> Barricas (3 partes · 38 capítulos)</a>
+    <a href="#cartografia" class="toc-item toc-sub"><span class="toc-num">↳</span> Cartografía</a>
+    <a href="#cata" class="toc-item toc-sub"><span class="toc-num">↳</span> Nota de Cata</a>
+    <a href="#calidad" class="toc-item"><span class="toc-num">02</span> Módulo Control de Calidad</a>
+    <a href="#nave" class="toc-item toc-sub"><span class="toc-num">↳</span> Clasificación de Nave</a>
+    <a href="#estratos" class="toc-item toc-sub"><span class="toc-num">↳</span> Seis Estratos</a>
+    <a href="#dictamen" class="toc-item toc-sub"><span class="toc-num">↳</span> Dictamen · Veredicto · Nota Naval</a>
+    <a href="#laboratorio" class="toc-item"><span class="toc-num">03</span> Módulo Laboratorio</a>
+    <a href="#ausencias" class="toc-item toc-sub"><span class="toc-num">↳</span> Ausencias · Síntomas · Cifras</a>
+    <a href="#lentes" class="toc-item toc-sub"><span class="toc-num">↳</span> Cuatro Lentes · Compuesto Base</a>
+    <a href="#etiquetado" class="toc-item"><span class="toc-num">04</span> Módulo Etiquetado</a>
+    <a href="#fallas" class="toc-item toc-sub"><span class="toc-num">↳</span> Fallas de Cierre · Red · Grandeza</a>
+  </div>
+</nav>
+
+<main class="main">
+
+<!-- ═══════════════════════════════════════════════ FASE 0 ═══ -->
+<section id="recepcion">
+<div class="module-header">
+  <span class="module-tag">Fase 0</span>
+  <h2>Registro de Entrada</h2>
+  <div class="module-voice">El Recepcionista · seco, protocolar, pesa sin opinar</div>
+</div>
+
+<div class="ficha">
+  <div class="ficha-field">
+    <div class="ficha-key">Título</div>
+    <div class="ficha-val">El planeta de los simios</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Autor</div>
+    <div class="ficha-val">Pierre Boulle</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Año</div>
+    <div class="ficha-val">1963</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Formato recibido</div>
+    <div class="ficha-val">ZIP plano (epub descomprimido) · 41 archivos xhtml + toc.ncx</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Estructura</div>
+    <div class="ficha-val">3 partes · 38 capítulos narrativos + coda final · marco exterior de pareja interestelar</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Palabras del corpus</div>
+    <div class="ficha-val">51.313</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Palabras del producto</div>
+    <div class="ficha-val">~3.100 (estimado)</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Rendimiento de destilación</div>
+    <div class="ficha-val"><strong>94°</strong> — destilado de alta compresión</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Palabra más frecuente con contenido</div>
+    <div class="ficha-val"><em>simio / simios</em> — coincide con el título y la tesis superficial; confirma la obsesión declarada. Pero la segunda palabra de mayor densidad orbita alrededor de <em>hombre</em>: el corpus habla de simios para hablar de otra cosa.</div>
+  </div>
+  <div class="ficha-field">
+    <div class="ficha-key">Idioma del corpus</div>
+    <div class="ficha-val">Español (traducción)</div>
+  </div>
+</div>
+
+<div class="section-head"><h3>Sinopsis y Figuras Clave</h3></div>
+
+<p>En el año 2500, el periodista Ulises Mérou acompaña al profesor Antelle y al joven Levain en una expedición a Betelgeuse, estrella supergigante a 300 años luz. Aterrizan en Soror, planeta gemelo de la Tierra con una diferencia decisiva: los simios —gorilas, orangutanes, chimpancés— son los amos de la civilización, y los hombres, criaturas mudas que viven en la jungla como animales. Ulises es capturado, encerrado en un instituto de investigación biológica, estudiado como cobaya. A fuerza de demostrar inteligencia ante la chimpancé científica Zira y su prometido Cornelius, consigue ser reconocido como ser racional, liberado, colabora con los simios en el desenterramiento de una ciudad humana anterior, descubre que la especie humana reinó antes en Soror y fue desplazada por los simios cuando aquella se abandonó a la pasividad y la imitación. Escapa con Nova —la mujer sin lenguaje que ha sido su compañera de jaula— y su hijo recién nacido. El manuscrito de su aventura llega al espacio, donde Jinn y Phyllis —pareja de ociosos interestelares— lo leen y lo descartan como ficción: ellos son chimpancés.</p>
+
+<p><strong>Ulises Mérou</strong> — narrador y protagonista. Periodista terrestre; voz del hombre que descubre qué significa ser animal.<br>
+<strong>Zira</strong> — chimpancé, zoóloga, primera en reconocer la humanidad de Ulises. Voz de la ciencia contra el dogma.<br>
+<strong>Cornelius</strong> — chimpancé, paleontólogo, prometido de Zira. Voz de la hipótesis prohibida.<br>
+<strong>Zaïus</strong> — orangután, autoridad científica y política. Voz del orden que protege su propia continuidad.<br>
+<strong>Nova</strong> — mujer sin lenguaje. Cuerpo sin palabra; humanidad en su forma más desnuda.<br>
+<strong>Profesor Antelle</strong> — el gran científico que regresa a ser animal; la degradación consumada.<br>
+<strong>Jinn y Phyllis</strong> — los lectores del manuscrito; el giro final.</p>
+
+<div class="section-head"><h3>Materias Primas Dominantes</h3></div>
+
+<p><strong>¿Es el lenguaje lo que nos hace humanos o es la humanidad lo que produce el lenguaje?</strong> El corpus trabaja sin descanso la relación entre palabra y especie. Nova no habla; Antelle deja de hablar. Ulises habla y por eso sobrevive. Los simios hablan y por eso mandan. La pregunta nunca se formula directamente: se demuestra por ensayo de presión.</p>
+
+<p><strong>¿Puede la civilización degradarse sin catástrofe, simplemente por comodidad?</strong> La tesis enterrada en la ciudad del desierto —los hombres cedieron por imitación y pasividad, no por guerra— es la falla más inquietante del corpus. No un apocalipsis. Una renuncia.</p>
+
+<p><strong>¿Quién mira a quién cuando uno observa al otro?</strong> La estructura de observación se invierte constantemente: Ulises observa a los simios; los simios lo estudian como cobaya; el lector observa a Ulises observando; Jinn y Phyllis leen la historia como nosotros. El corpus es un telescopio apuntado simultáneamente en todas direcciones.</p>
+</section>
+
+<!-- PROMPT PORTADA PRODUCTO -->
+<section id="portada-producto">
+<div class="section-head" style="margin-top:4rem"><h3>Prompt · Portada del Producto</h3></div>
+<div class="prompt-box">
+<p>Objeto editorial de alta factura —el producto completo de la Destilería Osmancito sobre <em>El planeta de los simios</em>— presentado como un libro cerrado sobre una mesa de trabajo iluminada por luz de laboratorio rasante, temperatura amarilla, hora de madrugada.<br><br>
+Cubierta de tela verde oliva muy oscuro, casi negro, con letras estampadas en oro mate: EL PLANETA DE LOS SIMIOS en la parte superior, dominante. En la parte inferior, DESTILERÍA OSMANCITO en tipografía Cinzel discreta, como sello editorial. Subtítulo lateral en el lomo: ANÁLISIS COMPLETO · DESTILADO 94°.<br><br>
+Elemento visual en cubierta: la huella de un pie humano perfectamente formada sobre arena —símbolo central del corpus, el momento en que todo cambia— impresa con técnica de grabado en relieve, casi imperceptible, que solo se revela bajo luz oblicua.<br><br>
+Sobre la cubierta, un compás de navegación antiguo abierto y una pluma de ave usada, como si alguien hubiera estado trabajando con este libro hace un momento y acaba de alejarse.<br><br>
+Paleta: verde oscuro, oro mate, negro profundo, con un halo ámbar en la luz de trabajo. Sin colores primarios.<br><br>
+Ilustración editorial de alta factura. Sin fotorrealismo. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<!-- PROMPT PORTADA CORPUS -->
+<section id="portada">
+<div class="section-head"><h3>Prompt · Portada del Corpus</h3></div>
+<div class="prompt-box">
+<p>Una huella de pie humano en arena húmeda, recién hecha, solitaria, sin dueño visible. El punto de vista es desde arriba, a un metro del suelo, como si quien mira fuera el siguiente en llegar y el rastro acabara de formarse. A la derecha del encuadre, la sombra de algo —no definido, no humano— cae sobre la arena sin proyectar forma reconocible.<br><br>
+La arena es rojiza, de planeta distinto: el mismo grano que el de nuestros desiertos pero con una temperatura cromática de óxido de hierro, luz de Betelgeuse filtrando anaranjado desde el horizonte que no se ve.<br><br>
+La huella está perfecta. El entorno que debería contextualizarla está borrado: no hay jungla, no hay lago, no hay figura. Solo la evidencia de un ser y la ausencia de su cuerpo.<br><br>
+Paleta: rojizo terroso, ámbar oxidado, sombra profunda sin negro puro. Una sola fuente de luz lateral, muy baja.<br><br>
+Estilo pictórico, sin fotorrealismo. En la esquina inferior izquierda, etiqueta discreta: DESTILERÍA OSMANCITO · EL PLANETA DE LOS SIMIOS · BOULLE. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ MÓDULO 1 ═══ -->
+<section id="alambique">
+<div class="module-header">
+  <span class="module-tag">Módulo 01</span>
+  <h2>Alambique — Destilación</h2>
+  <div class="module-voice">El Maestro Destilador · paciente, sensorial, reposado</div>
+</div>
+
+<p style="font-style:italic;color:var(--dim);font-size:0.85rem;">Materia prima en el alambique. Comenzando destilación. · Destilando barrica por barrica… · Componiendo el destilado maestro… · Eligiendo la bebida para la nota de cata…</p>
+
+<div class="section-head" id="destilado"><h3>Destilado Maestro</h3></div>
+
+<p class="lead">Un hombre escribe en el espacio lo que nadie en la Tierra querría creer. Que llegó a un planeta donde los monos tienen corbata y los hombres no saben su nombre.</p>
+
+<p>Hay planetas que giran alrededor de estrellas que llevan tanto tiempo ardiendo que la luz que vemos de ellas salió antes de que existiera el lenguaje. Ulises Mérou lo sabe, o debería saberlo, cuando parte hacia Betelgeuse con dos compañeros y la convicción de que la inteligencia es patrimonio exclusivo de su especie. No es una convicción formulada: es el aire que respira. Todos respiramos el mismo.</p>
+
+<p>Lo que encuentra en Soror no es una inversión de papeles. Es un espejo sin deformaciones, y eso es peor. Los simios no son crueles ni absurdos: son lógicos, organizados, curiosos, jerárquicos, capaces de la misma condescendencia afectuosa con que un zoólogo terráqueo observa a sus sujetos de estudio. Hacen ciencia. Escriben libros. Tienen secretarias. El orangután lleva levita negra con estrella en la solapa. La chimpancé tiene vocación. La civilización funciona. Solo que los hombres —criaturas desnudas, silenciosas, sin lenguaje y sin herramienta— son, en ese planeta, animales de laboratorio.</p>
+
+<p>Ulises sobrevive porque habla. O más exactamente: porque puede demostrar que habla. La diferencia importa. Apilar cajones para alcanzar la comida no basta. Imitar gestos no basta. Hace falta que el gorila guarda crea que el prisionero piensa antes de actuar, no que actúa antes de pensar. La línea entre el animal y el ser humano no pasa por el ADN ni por la morfología: pasa por la gramática. Y Ulises tiene la suerte de conocer gramática.</p>
+
+<p>Pero el corpus no habla solo de él. Debajo de la aventura de un hombre capturado hay otra historia más quieta y más aterradora: la historia de cómo una civilización entera puede desaparecer sin catástrofe, simplemente por dejar de querer esforzarse. La ciudad enterrada en el desierto guarda el registro de esa renuncia. Los hombres de Soror cedieron a la pasividad. Los simios, que los imitaban desde abajo, los superaron. No hubo guerra. Solo el lento desplazamiento de quien deja de necesitar lo que tiene.</p>
+
+<p>Y al final, cuando Ulises regresa a la Tierra convencido de haber escapado, el corpus clava su giro con la precisión de un cirujano: Jinn y Phyllis, la pareja que lee el manuscrito, sacude las orejas peludas. Eran chimpancés desde la primera línea. La Tierra no era la salvación. Era solo el siguiente planeta de simios.</p>
+
+<p>El corpus no pide horror. Pide reconocimiento. La familiaridad de todo lo que describe —las jerarquías académicas, la condescendencia de los poderosos, los tests para medir la inteligencia del otro, la ciudad que sucumbe a la imitación— es el verdadero mecanismo de su inquietud. No hay monstruos en Soror. Hay espejos.</p>
+
+<!-- BARRICAS -->
+<div class="section-head" id="barricas" style="margin-top:4rem"><h3>Barricas</h3><div class="section-sub">Tres partes · 38 capítulos narrativos</div></div>
+
+<!-- PARTE I -->
+<div class="barrica">
+  <div class="barrica-num">Barrica · Primera Parte · Marco y capítulos I–XVII</div>
+  <h4>La Huella en la Arena</h4>
+  <div class="barrica-sub">El universo como patio de recreo de ricos, hasta que aparece una huella que no debería estar ahí</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>La Primera Parte instala el mundo con una calma engañosa. Jinn y Phyllis —pareja de turistas del cosmos que navegan a vela por las radiaciones estelares— encuentran flotando en el espacio una botella con manuscrito. El corpus empieza a leerse a sí mismo: la historia de Ulises Mérou, periodista que en 2500 parte hacia Betelgeuse. El aterrizaje en Soror produce el primer golpe: una huella de pie humano perfecto en la arena. Luego Nova, mujer sin lenguaje, criatura de belleza animal. Luego los hombres de la jungla, desnudos, silenciosos, destruyendo todo lo tecnológico que tocan. Luego la cacería: los jinetes que los acorralan desde los árboles son gorilas bien vestidos. Ulises cae en la red. La parte concluye cuando comparte jaula con Nova en un instituto de investigación biológica y comienza a procesar lo que ha visto: esta civilización funciona, solo que los roles están invertidos con exactitud quirúrgica. El movimiento de la parte es el de una presión que se acumula: cada capítulo descarta una explicación razonable y la sustituye por algo más difícil de sostener.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">Lo que ya no necesita explicación</div>
+    <p>Jinn y Phyllis pasaban unas vacaciones maravillosas en el espacio, lo más lejos posible de los astros habitados. En aquel tiempo los viajes interplanetarios eran cosa corriente. Los desplazamientos intersiderales no tenían nada de particular. Pero Jinn y Phyllis, una pareja de ricos ociosos, se hacían notar en el cosmos por su originalidad salpicada de unas gotitas de poesía. Recorrían el universo por placer, a la vela.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">El instante en que todo se decide</div>
+    <p>Lo verdaderamente curioso de esta agresión es que no iba dirigida en realidad contra nuestras personas. No querían quitarnos la vida, sino nuestros vestidos y todos los accesorios que llevábamos. Fuimos inmovilizados en un instante. Un torbellino de manos rebusconas nos arrancaron las armas, las municiones y las bolsas para tirarlas lejos. Tan pronto como comprendí qué era lo que excitaba su furor, les dejé hacer con toda pasividad.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">La frontera del reconocimiento</div>
+    <p>Aquel ser era un mono, un gorila de buena talla. Aunque me iba repitiendo que me iba volviendo loco, no podía tener la menor duda sobre su especie. Pero encontrar a un gorila sobre el planeta Soror no constituía la extravagancia esencial del caso. Ésta era que aquel mono iba correctamente vestido como un hombre de nuestro planeta y, sobre todo, que llevaba las prendas con toda soltura. Esta naturalidad fue lo primero que me impresionó.</p>
+  </div>
+</div>
+
+<!-- PARTE II -->
+<div class="barrica">
+  <div class="barrica-num">Barrica · Segunda Parte · Capítulos I–IX (Parte II)</div>
+  <h4>La Jaula como Laboratorio</h4>
+  <div class="barrica-sub">Ser estudiado es ser reducido; demostrar que se piensa es la única forma de resistencia posible</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Ulises aprende la lengua de los simios con ayuda de Zira, la chimpancé científica que lo observa con creciente perplejidad. Los tests se multiplican: puzles, estímulos, laberintos de cajones. Ulises los resuelve con una facilidad que primero divierte a los guardianes, luego los inquieta. Obtiene libros, luz, acceso al parque bajo supervisión. Aprende la estructura política de Soror —triunvirato de gorila, orangután y chimpancé, sociedad sin naciones—, la jerarquía de las tres razas de simios, la actitud de los orangutanes hacia cualquier verdad que amenace el orden establecido. Cornelius, el prometido de Zira, empieza a sospechar que la historia de Soror tiene un secreto enterrado. El momento culminante de la parte es el discurso de Ulises ante el Congreso Científico, donde se dirige a los simios en su propia lengua, con la humildad estratégica que Zira le enseñó a usar como palanca. El Gran Consejo decreta su liberación.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">La lección del animal observado</div>
+    <p>Me prometí a mí mismo no dejarme llevar jamás por la ira, sino buscar todas las ocasiones de dar a conocer mi espíritu con una paciencia inagotable. Cuando me di cuenta de que yo giraba lo mismo que los otros prisioneros desde hacia un buen rato, me sentí lleno de despecho y me esforcé en sentarme quieto ante la reja, adoptando una postura tan humana y tan pensativa como me fue posible.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">La raza que elige sus verdades</div>
+    <p>—¿Tú qué crees? —dijo ella—. El simio es, con seguridad, la única criatura racional, la única que posee un alma al mismo tiempo que un cuerpo. Los más materialistas de nuestros sabios están de acuerdo en reconocer la esencia sobrenatural del alma simiesca. Frases como ésta me sobresaltaban siempre, a pesar mío.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">El discurso más calculado de la historia</div>
+    <p>«Ilustre presidente, nobles gorilas, sabios orangutanes, ingeniosos chimpancés, ¡oh, simios!, permitid que un hombre se dirija a vosotros. Ya sé que mi presencia es grotesca, mi forma repulsiva, mi perfil bestial, mi olor infecto y el color de mi piel repugnante. Sé que la vista de este cuerpo ridículo es una ofensa para vosotros, pero sé también que me dirijo a los más sabios y a los más discretos de todos los simios.»</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">La degradación sin violencia</div>
+    <p>Las visitas periódicas que me he obligado a hacer al profesor Antelle son un deber cada día más penoso. Lo encuentro en compañía de la muchacha con la cual dormía en el jardín zoológico. Tiene el aire dichoso. Ha engordado y parece más joven. He hecho lo imposible para poder comunicarme con él. También hoy lo pruebo sin resultado alguno. Sólo se interesa por los pasteles que le doy.</p>
+  </div>
+</div>
+
+<!-- PARTE III -->
+<div class="barrica">
+  <div class="barrica-num">Barrica · Tercera Parte · Capítulos I–XII (Parte III) + Coda</div>
+  <h4>La Ciudad Enterrada y el Planeta que Sigue</h4>
+  <div class="barrica-sub">Bajo la arena hay una respuesta que nadie quiere pronunciar en voz alta</div>
+  <div class="extracto">
+    <div class="extracto-label">Extracto</div>
+    <p>Liberado, Ulises colabora con Cornelius. Una expedición arqueológica descubre en el desierto una ciudad enterrada de origen humano, con objetos idénticos a los de la Tierra: muñecas, cuadernos, libros de texto —los mismos que usan los simios actuales, copiados casi sin cambios. La conclusión de Cornelius y Ulises es la misma: hace diez mil años, los hombres reinaban en Soror. Los simios los imitaban. Y los hombres, por comodidad, por pereza intelectual, por abandono de la voluntad, cedieron el poder sin darse cuenta. Los simios gobiernan ahora porque los hombres dejaron de hacer lo que los distinguía. El hallazgo es peligroso: los orangutanes intentan suprimirlo. Nova da a luz un hijo que habla. La conspiración de los orangutanes se cierra. Cornelius planea la huida: Ulises, Nova y el niño Sirio escapan en una nave cósmica. La última línea del corpus se vuelve sobre sí misma: Jinn y Phyllis sacuden las orejas peludas.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">La hipótesis que destruye el consuelo</div>
+    <p>Supongamos que los hombres hayan reinado antes en este Planeta como dueños. Supongamos que una civilización humana parecida a la nuestra haya existido en Soror hace más de diez mil años... Apenas formulada siento la excitación que da encontrar la única pista buena entre todos los caminos engañosos. ¿Es posible que estas criaturas desprovistas de sabiduría la hayan perpetuado por un simple proceso de imitación?</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">El espejo enterrado</div>
+    <p>Lo que los arqueólogos han puesto al descubierto es una ciudad entera, enterrada bajo las arenas de un desierto y de la que ya no quedan más que las ruinas. Pero tengo la convicción de que estas ruinas guardan un secreto prodigioso que he jurado descubrir. Hacer investigaciones entre piedras que se desmenuzan a cada gesto y arena que se hunde bajo nuestros pasos es un trabajo de benedictino.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">El hombre que vuelve a ser animal sin saberlo</div>
+    <p>El mes que siguió a mi regreso lo pasé en cama, atacado de un mal que me producía accesos violentos de fiebre. Ya no había duda alguna para mí que a la era simiesca del planeta Soror había precedido una era humana. Mi amor propio comprobaba con satisfacción que los monos no han inventado nada, que han sido simples imitadores. Mi humillación se debe al hecho de que una civilización humana haya podido ser asimilada con tal facilidad.</p>
+  </div>
+  <div class="fraccion">
+    <div class="fraccion-title">El giro que no se olvidará</div>
+    <p>—Una bonita mixtificación —dijo finalmente Jinn esforzándose en sonreír. Ella seguía reflexionando. Le costaba dejarse convencer. No obstante, se resignó a ello exhalando un suspiro: —Tienes razón, Jinn. ¿Hombres racionales? ¿Hombres detentores de la sabiduría? ¿Hombres inspirados por el espíritu...? No, esto no es posible. Soltó toda la vela ofreciéndola por entero a las radiaciones combinadas de los tres soles, mientras Phyllis sacudió enérgicamente las orejas peludas.</p>
+  </div>
+</div>
+
+<!-- CARTOGRAFÍA -->
+<div class="section-head" id="cartografia"><h3>Cartografía</h3></div>
+
+<p><strong>Densidad.</strong> Las barricas de mayor concentración son las de la Segunda Parte: el congreso científico (cap. VII–IX de P.II), los tests de inteligencia, y la conversación en el parque donde Zira advierte a Ulises de los peligros de revelarse. La Tercera Parte tiene densidad geológica concentrada en los capítulos de excavación y en la tesis de la degradación voluntaria. Los capítulos de transición son los de ajuste cómodo a la vida de jaula (P.II, cap. I) y los de convalecencia (P.III, cap. V).</p>
+
+<p><strong>Materias recurrentes.</strong> La huella —un rastro sin dueño visible— aparece al inicio (en la arena), se repite en los tests (Ulises deja marcas de su inteligencia para que los simios las lean), y culmina en la ciudad enterrada (toda una civilización que no dejó más que piedras). El vestido como marcador de especie: lo primero que los hombres de la jungla hacen es despojar a los humanos de sus ropas. El test como ritual de reconocimiento: los simios solo creen en la inteligencia que demuestran estadísticamente.</p>
+
+<p><strong>Tensiones centrales.</strong> El corpus no resuelve su pregunta más profunda: si los hombres de Soror cedieron por imitación y pasividad, ¿qué impide que ocurra lo mismo en la Tierra? La advertencia está implícita y nunca se formula. Tampoco resuelve la tensión entre el reconocimiento y la condescendencia: Zira y Cornelius reconocen la inteligencia de Ulises pero lo tratan, hasta el final, con la ternura con que se trata a una mascota excepcional.</p>
+
+<p><strong>Voces y presencias.</strong> Zira tiene el protagonismo narrativo más sostenido después de Ulises. Nova, paradójicamente, ocupa más espacio emocional que casi cualquier personaje con voz: su presencia muda es el polo magnético que organiza el deseo y la culpa de Ulises. El profesor Antelle es la figura más aterradora del corpus precisamente porque deja de ser figura: se convierte en fondo.</p>
+
+<p><strong>Arco del proceso.</strong> El argumento no se resuelve: se desplaza. Ulises cree escapar; el corpus le concede la huida y luego le quita el suelo debajo de los pies. El giro final no es una vuelta de tuerca: es la confirmación de que el lector también leyó desde adentro de la jaula.</p>
+
+<!-- NOTA DE CATA -->
+<div class="section-head" id="cata"><h3>Nota de Cata</h3></div>
+
+<div class="nota-cata">
+  <div class="nota-cata-label">Nota de Cata · Destilería Osmancito</div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Tipo</div>
+    <div class="nota-campo-val">Absenta de alta graduación, destilada con artemisa y anís verde, acabado seco</div>
+  </div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Origen</div>
+    <div class="nota-campo-val">Val-de-Travers, Canton de Neuchâtel, Suiza · Año imaginario: 1963</div>
+  </div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Entrada</div>
+    <div class="nota-campo-val">Limpia, casi inocente: notas de hierbas frescas, un viaje que parece de placer. El calor no se siente todavía.</div>
+  </div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Cuerpo</div>
+    <div class="nota-campo-val">Medio, tenso. Progresión rápida hacia un amargor que no avisa: anís que se vuelve medicinal, artemisa que quema en las encías. La bebida cambia de carácter en el paladar.</div>
+  </div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Final</div>
+    <div class="nota-campo-val">Prolongado, seco, con un retrogusto metálico que no desaparece. El último trago revela que el primero era una trampa. Se queda en la garganta como una pregunta sin respuesta.</div>
+  </div>
+  <div class="nota-campo">
+    <div class="nota-campo-key">Maridaje</div>
+    <div class="nota-campo-val">Con Kafka. Con el espejo del baño por la mañana. Con cualquier reunión donde alguien demuestre su inteligencia para que lo dejen salir.</div>
+  </div>
+</div>
+
+<!-- PROMPT IMAGEN MÓDULO 1 -->
+<div class="prompt-box">
+<p>Una copa de absenta servida —verde translúcido, sin diluir aún— sobre la superficie de un escritorio de madera oscura, en una sala que no es un bar ni una biblioteca sino las dos cosas. La copa está rodeada de papeles manuscritos en un idioma que casi parece el nuestro: las letras son reconocibles individualmente pero las palabras no forman frases conocidas.<br><br>
+La luz viene de una sola fuente lateral, ámbar, como si Betelgeuse estuviera al otro lado de la ventana. En el líquido verde se refleja, distorsionada, la silueta de alguien que no está en la habitación.<br><br>
+El recipiente es el apropiado: copa Belle Époque de cristal fino con base en estrella. Pero la superficie donde reposa no es de bar: tiene marcas de jaula, líneas paralelas grabadas en la madera como si alguien hubiera llevado la cuenta de los días.<br><br>
+Etiqueta visible en el frente de la copa: DESTILERÍA OSMANCITO / EL PLANETA DE LOS SIMIOS · BOULLE / ABSENTA DE ALTA GRADUACIÓN, VAL-DE-TRAVERS · 1963 / «Se queda en la garganta como una pregunta sin respuesta».<br><br>
+Paleta: verde profundo, ámbar cálido, madera oscura, luz rasante. Sin azules. Sin blancos.<br><br>
+Estilo pictórico, sin fotorrealismo. Iluminación en claroscuro. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ MÓDULO 2 ═══ -->
+<section id="calidad">
+<div class="module-header">
+  <span class="module-tag">Módulo 02</span>
+  <h2>Control de Calidad — Inspección</h2>
+  <div class="module-voice">El Inspector · seco, profesional, directo</div>
+</div>
+
+<p style="font-style:italic;color:var(--dim);font-size:0.85rem;">Nave recibida. Iniciando inspección. · Inspeccionando casco y quilla… · Sondeando aguas profundas… · Examinando al capitán y su sombra… · Emitiendo veredicto de zarpe…</p>
+
+<div class="section-head" id="nave"><h3>Clasificación de Nave</h3></div>
+
+<div class="nave-box">
+  <div class="nave-box-label">Arquetipo</div>
+  <div class="nave-name">El Velero · Bueno</div>
+  <div class="nave-just">Ligero, aparentemente sencillo, completamente dependiente del ángulo desde el que el lector llega. Quien lo lee como aventura de ciencia ficción recibe entretenimiento competente. Quien llega con el viento correcto recibe algo que no se olvida. No hay relleno estructural, pero tampoco carga excesiva: el corpus sabe cuánto pesa y navega exactamente en ese rango. El giro final es su aparejo más secreto: solo funciona si el lector no lo anticipó, y casi nadie lo anticipa aunque lo haya leído antes.</div>
+</div>
+
+<!-- LOS SEIS ESTRATOS -->
+<div class="section-head" id="estratos"><h3>Los Seis Estratos de Inspección</h3></div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 1</div>
+  <h4>Casco y Quilla — Estructura argumental</h4>
+  <p>El andamiaje es una muñeca rusa de tres niveles: marco exterior (Jinn y Phyllis / manuscrito encontrado), narrativa principal (aventura de Ulises), y la tesis enterrada bajo arena (historia geológica de Soror). Los tres niveles se sostienen mutuamente: sin el marco exterior, el giro final es imposible; sin la tesis arqueológica, el libro es solo una aventura de inversión de roles; sin la aventura central, nadie llega a la tesis. El casco es sólido. No hay capítulos atrofiados —incluso los de ajuste cómodo a la jaula cumplen función: demuestran que la degradación es posible sin violencia. El único riesgo estructural es la velocidad desigual entre partes: la Primera es densa en acción, la Segunda en diálogo intelectual, la Tercera exige paciencia con la arqueología. El corpus no colapsa en ningún punto. Certificado de navegabilidad: emitido.</p>
+</div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 2</div>
+  <h4>Corrientes y Vientos — Fuerzas externas</h4>
+  <p>El corpus se escribe en 1963, en plena Guerra Fría, en el contexto de los primeros viajes espaciales reales y de la descolonización europea acelerada. Boulle fue prisionero de guerra japonés en Indochina: la experiencia de ser tratado como inferior por una cultura que funciona con sus propias lógicas, donde el detenido debe demostrar su humanidad a sus captores, está inscrita en el texto con una densidad que el autor no necesitó declarar. La tensión entre civilización occidental y pueblos "primitivos" se invierte limpiamente: quienes llevan ropa y juzgan la capacidad intelectual mediante tests son los simios; quienes viven sin lenguaje en la jungla son los hombres blancos. El punto de inflexión más cargado ideológicamente es el que Boulle no desarrolla: la tesis de la degradación voluntaria como advertencia al Occidente de 1963 que empieza a acomodarse en el consumo.</p>
+</div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 3</div>
+  <h4>Arquitectura Naval — Patrones y asimetrías</h4>
+  <p>La distribución de perspectivas es llamativamente desigual y esa desigualdad es el mecanismo. Nova tiene cero palabras y máxima presencia emocional. El profesor Antelle comienza como figura de autoridad y desaparece como animal: su arco es el más radical del corpus y el menos desarrollado, lo que es, en sí mismo, el argumento. Los orangutanes —la casta conservadora, defensora del dogma— son los únicos que tienen razones comprensibles para lo que hacen: ven el peligro de la verdad arqueológica y lo suprimen. El corpus les concede esa coherencia sin amarlos. La paradoja productiva: Ulises escapa gracias a que los simios lo reconocen como excepcional. Pero su excepcionalidad lo convierte en el argumento que los orangutanes usan para desacreditar la teoría general: si este hombre habla, es un fenómeno, no una regla.</p>
+</div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 4</div>
+  <h4>Aguas Profundas — Ontología y ética implícitas</h4>
+  <p>La ontología del corpus descansa en un supuesto que nunca examina: el lenguaje como marcador definitivo de la racionalidad y, por tanto, de la humanidad plena. Nova no habla; por tanto, es tratada como inferior incluso por Ulises, que la ama con la misma ternura con que se ama a un animal hermoso. El corpus nunca interroga este supuesto. La ética implícita es más perturbadora que la declarada: Ulises trata a Nova exactamente como los simios lo tratan a él en la jaula —con condescendencia afectuosa, con cuidado genuino, con la convicción de que el otro es inteligente pero no del todo igual. El libro dice ser una crítica al especismo; es también, sin quererlo, su demostración. Las sombras no reconocidas incluyen que la inteligencia medida por tests es la inteligencia de quien diseña los tests, y que Ulises pasa todos los tests de los simios porque los tests de los simios miden exactamente lo que Ulises sabe hacer.</p>
+</div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 5</div>
+  <h4>El Capitán y su Sombra — Proyecciones y arquetipos</h4>
+  <p>Boulle proyecta en Ulises el fantasma del intelectual que sobrevive donde los demás sucumben porque sabe que es diferente. El profesor Antelle —el más grande de los tres viajeros, el Premio Nobel del grupo— es quien cae más bajo: es la figura de la inteligencia que no sirve de nada cuando el entorno cambia. Levain, el más joven, muere en la cacería sin dejar rastro intelectual. El patrón compulsivo del corpus es la demostración repetida de que la inteligencia debe ser legible para el otro para tener valor: no basta pensar, hay que hacer que el observador entienda que pensaste. Esto es, simultáneamente, la tesis central del libro y el mecanismo de supervivencia de Boulle como prisionero en Indochina. El arquetipo que emerge sin ser invocado es el del testigo: quien sobrevive para contar, no porque sea el más fuerte, sino porque es el único que sabe que hay que contar.</p>
+</div>
+
+<div class="estrato">
+  <div class="estrato-num">Estrato 6</div>
+  <h4>Registro de Origen y Carga — Puerto de partida</h4>
+  <p>Boulle es un ingeniero francés, hijo del colonialismo, prisionero de la Segunda Guerra Mundial en Asia, escritor de ciencia ficción que no se considera escritor de ciencia ficción. El corpus lleva esa carga: la mirada del europeo que descubre que puede ser tratado como inferior, que el lugar de la raza dominante no es fijo, que la civilización es un acuerdo que puede renegociarse. Las genealogías intelectuales no declaradas incluyen a Wells —la inversión de jerarquías naturales—, a Swift —la sátira de la razón—, y de manera más subterránea, a Franz Kafka: el hombre que debe demostrar que merece ser tratado como tal. Las contribuciones silenciadas son las de los pueblos colonizados que ofrecieron el material experiencial a la inversión satírica de Boulle, y que aquí aparecen codificados como "hombres de la jungla" sin lenguaje.</p>
+</div>
+
+<!-- DICTAMEN -->
+<div class="section-head" id="dictamen"><h3>Sinopsis del Viaje</h3></div>
+
+<p>Este velero navega con viento que el pasajero no nota hasta que ya está en alta mar. La maniobra de abordaje es impecable: el marco de Jinn y Phyllis es tan casual, tan de turistas cósmicos, que el lector lo atraviesa sin registrar que acaba de entrar en la trampa. Cuando la trampa cierra —en las últimas dos páginas, con las orejas peludas de Phyllis— el golpe llega de atrás.</p>
+
+<p>La carga real del corpus no es la inversión de roles —eso es el señuelo— sino la tesis sobre la degradación voluntaria, que Boulle entierra en el tercer acto con la misma estrategia que el corpus describe: bajo capas de arena, accesible solo para quien excava. Cornelius y Ulises llegan a la ciudad enterrada; el lector llega a la tesis enterrada. Los dos hallazgos se iluminan mutuamente.</p>
+
+<p>Las grietas son reales pero no fatales. Nova es un personaje sin voz en un libro sobre el lenguaje como marcador de humanidad: esa contradicción no se resuelve. El corpus la sostiene como paradoja productiva aunque no tenga control total sobre ella. El profesor Antelle merece más espacio del que recibe: su degradación es la prueba más perturbadora de toda la tesis, y el libro la gestiona en tres párrafos cuando merecería tres capítulos. Y la tesis de la degradación humana en Soror, que es el núcleo filosófico del texto, llega demasiado tarde y se desarrolla con demasiada prisa en los capítulos arqueológicos.</p>
+
+<p>El capitán no sabe exactamente lo que navega. Cree escribir una aventura con giro; escribe una indagación sobre qué condiciones producen la humanidad, y cuáles la disuelven. El velero llega. Llega con carácter.</p>
+
+<div class="veredicto">
+  <div class="veredicto-label">Veredicto de Zarpe</div>
+  <div class="veredicto-text">Zarpe Autorizado con Advertencias</div>
+  <div class="veredicto-just">Navega y vale el viaje. Advertencia específica: quien embarca buscando respuestas encontrará preguntas. La tesis arqueológica requiere paciencia en la Tercera Parte. Nova merece más de lo que recibe. El giro final no repara estas grietas, pero las hace irrelevantes.</div>
+</div>
+
+<div class="nota-naval">
+  <div class="nota-naval-label">Nota Naval</div>
+  <p>Un velero de madera clara, pintado de un verde que el tiempo ha vuelto gris, sin bandera visible. El capitán no está en cubierta: está debajo, escribiendo. La nave navega sola, empujada por radiaciones de tres soles que no pueden verse simultáneamente. Las velas son más finas de lo que parecen desde el muelle —casi transparentes— y en el tejido de la vela mayor, si uno se acerca lo suficiente, puede leer una huella de pie humano estampada como filigrana. Cuando el velero pasa frente al inspector, algo en la línea del casco no cuadra: es demasiado ligero para lo que carga. Lo que carga no son mercancías. Son espejos.</p>
+</div>
+
+<!-- PROMPT IMAGEN MÓDULO 2 -->
+<div class="prompt-box">
+<p>Un velero de madera clara —líneas ligeras, mastelero alto— varado en arena roja bajo una luz que no es la del sol que conocemos. El casco tiene una fisura única, horizontal, a la altura de la cubierta, como si la embarcación se hubiera abierto en el momento de tocar fondo y luego se hubiera cerrado casi del todo. La arena alrededor del casco muestra huellas de pies humanos que rodean la nave en círculo y se detienen a metro y medio, como si quienes caminaban se hubieran convertido en otra cosa antes de llegar.<br><br>
+El inspector está de espaldas, mirando el casco, con un instrumento de medición en la mano derecha —algo entre un compás náutico y un fonendoscopio. La postura no revela sorpresa: revela reconocimiento.<br><br>
+Luz de Betelgeuse: anaranjada, oblicua, temperatura de ocaso permanente. El cielo es más oscuro de lo necesario para ser de día.<br><br>
+El documento en la mano izquierda del inspector lee: DESTILERÍA OSMANCITO / EL PLANETA DE LOS SIMIOS · BOULLE / VELERO, BUENO · ZARPE AUTORIZADO CON ADVERTENCIAS.<br><br>
+Paleta: rojo terroso, ámbar cálido, madera gris, sombra larga. Sin azules.<br><br>
+Estilo pictórico, sin fotorrealismo. Luz de trabajo en claroscuro. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ MÓDULO 3 ═══ -->
+<section id="laboratorio">
+<div class="module-header">
+  <span class="module-tag">Módulo 03</span>
+  <h2>Laboratorio — Análisis de Sedimento</h2>
+  <div class="module-voice">El Químico · quieto, concentrado, no sorprendido</div>
+</div>
+
+<p style="font-style:italic;color:var(--dim);font-size:0.85rem;">Analizando trazas del sedimento… · Leyendo con los cuatro lentes… · El compuesto base: identificado.</p>
+
+<div class="section-head" id="ausencias"><h3>Ausencias</h3></div>
+
+<p>El corpus orbita sin tocar tres centros que su propia lógica debería exigir. El primero: la perspectiva de Nova. Ella es el personaje más presente emocionalmente en la Primera y parte de la Segunda sección, y no tiene voz. El libro habla constantemente sobre la ausencia de lenguaje en los hombres de Soror, pero nunca intenta —ni siquiera brevemente— imaginar qué siente o percibe alguien sin lenguaje. Nova existe como objeto de deseo, de compasión y de demostración argumental. El corpus la necesita muda para que su función narrativa funcione; pero esa necesidad produce el vacío más grande del análisis: el libro sobre el lenguaje que no puede preguntarle a quien no tiene lenguaje qué es no tenerlo.</p>
+
+<p>El segundo centro rodeado: la sociedad simiesca desde adentro. Tenemos acceso a ella casi exclusivamente a través de Zira y Cornelius, que son los disidentes, los que ya creen en Ulises. El corpus nunca accede a la experiencia de un simio ordinario, sin conflicto con el dogma. Los orangutanes están retratados desde afuera, como obstáculos. La civilización simiesca, en toda su complejidad interna, es el fondo sobre el que se recortan los personajes sin que el corpus la habite.</p>
+
+<p>El tercero: qué pasó exactamente durante la transición. La ciudad enterrada da la conclusión —los hombres cedieron a la imitación y la pasividad— pero no el proceso. El corpus necesita esa laguna para que la tesis funcione como advertencia: si el proceso fuera narrado en detalle, podría parecer evitable. La vaguedad es estructural.</p>
+
+<div class="section-head"><h3>Síntomas</h3></div>
+
+<p>El corpus se acelera donde debería detenerse en dos momentos precisos. El primero: la degradación del profesor Antelle. Cuando Ulises lo visita en la jaula con su compañera, conteniendo como un animal feliz, el corpus lo despacha en dos párrafos y pone en boca de Cornelius la moraleja filosófica: «el espíritu puede perderse, al igual que adquirirse». La velocidad aquí es un síntoma. La escena exige lentitud, perplejidad, tiempo para que la pérdida pese. Boulle la cierra rápido porque sostenerla amenazaría el tono de aventura. El síntoma revela que hay dos libros en tensión: la novela de ideas y la novela de acción, y en ese punto la novela de acción ganó.</p>
+
+<p>El segundo: la relación de Ulises con Nova. El corpus sostiene con elegancia la ambivalencia —ella es hermosa, es su compañera, no es su igual— hasta que Nova queda embarazada. A partir de ahí el corpus maneja el embarazo y el nacimiento del niño con una prisa que contrasta con la densidad anterior. Como si la paternidad de un hombre con una mujer sin lenguaje abriera una pregunta ética que el corpus prefiere no formular: ¿puede haber consentimiento sin lenguaje? El síntoma es el cambio de ritmo narrativo exactamente donde esa pregunta empieza a ser ineludible.</p>
+
+<p>Hay además un síntoma tonal en los capítulos arqueológicos: Ulises se vuelve analítico, casi ensayístico, en los capítulos donde formula la tesis de la degradación. El cambio de registro de primera persona narrativa a primera persona reflexiva-académica no tiene causa narrativa: es el autor pensando en voz alta con la máscara del personaje puesta de manera cada vez más laxa.</p>
+
+<div class="section-head"><h3>Cifras</h3></div>
+
+<p>La presencia de <em>la ropa</em> como marcador de humanidad tiene densidad estadística anómala. Aparece en el momento de la captura (los hombres de la jungla destruyen las prendas), en la primera vista del gorila cazador vestido con chaqueta, en la descripción de Zaïus con levita negra y pantalón a rayas, en la referencia a las modas simiescas, y en el contraste continuo entre la desnudez de los hombres de Soror y el atuendo de los simios. La ropa no es decorado: es la cifra que el corpus usa para condensar el problema de la civilización. Lo que los hombres de la jungla primero destruyen es exactamente lo que convierte a Ulises en animal ante sus ojos.</p>
+
+<p>La cifra <em>diez mil años</em> aparece dos veces con énfasis narrativo explícito —una vez en la estimación de la ciudad enterrada, otra en la formulación de la tesis de Cornelius— y una vez más implícitamente en la descripción de la duración de la civilización simiesca. El número ancla la tesis geológica en una escala que escapa al tiempo humano ordinario pero no al tiempo histórico: diez mil años es neolítico, es el inicio de la agricultura en la Tierra. La elección no es arbitraria.</p>
+
+<p>La <em>sonrisa</em> —el gesto humano por excelencia que Nova intenta imitar torpemente— aparece como cifra de reconocimiento: primero Ulises intenta sonreírle, luego Nova ensaya el gesto y solo produce una mueca. El corpus vuelve a ese gesto en el capítulo final: Jinn «se esfuerza en sonreír» cuando descarta el manuscrito. La sonrisa es la cifra que conecta al ser humano con el simio que lo lee y lo rechaza.</p>
+
+<!-- LOS CUATRO LENTES -->
+<div class="section-head" id="lentes"><h3>Los Cuatro Lentes de Lectura</h3></div>
+
+<div class="section-head" style="border-bottom:none; padding-bottom:0"><h3 style="font-size:0.8rem; color:var(--dim);">Lente 1 — Lo que dice</h3></div>
+<p>El corpus dice: un periodista terrestre viaja a un planeta donde los simios son civilizados y los hombres son animales, sobrevive demostrando su inteligencia ante los científicos simios, descubre que los hombres reinaron antes en ese planeta y fueron desplazados por la pasividad voluntaria, escapa y regresa a lo que cree que es la Tierra pero resulta ser otro planeta de simios. Los mismos hechos, con énfasis distinto: el corpus dice que la civilización no es un estado estable sino un esfuerzo que puede dejar de hacerse. Y dice, más discretamente, que la línea entre el observador y el observado depende de quién tenga el instrumental de observación.</p>
+
+<div class="section-head" style="border-bottom:none; padding-bottom:0"><h3 style="font-size:0.8rem; color:var(--dim);">Lente 2 — Lo que muestra</h3></div>
+<p>El corpus muestra, mediante la estructura especular, que toda categoría de inferioridad es contingente: lo que hace a un ser inferior o superior es el sistema de valoración que impone quien tiene el poder de imponerlo. La huella en la arena es la imagen central: un rastro sin dueño, evidencia de presencia sin cuerpo presente. Es el símbolo de la humanidad de Soror —que existió, dejó marca, ya no está en forma reconocible— y también el símbolo de la lectura: lo que encontramos en un texto es siempre la huella de alguien que ya no está.</p>
+
+<div class="section-head" style="border-bottom:none; padding-bottom:0"><h3 style="font-size:0.8rem; color:var(--dim);">Lente 3 — Lo que exige</h3></div>
+<p>El corpus exige del lector que reconozca en la civilización simiesca los mecanismos de la suya propia: la academia que produce dogma, la jerarquía que protege sus propios supuestos, la condescendencia afectuosa hacia quien se acepta como inferior pero inteligente. Exige también que el lector se pregunte, al terminar, si estaría del lado de los orangutanes o del lado de Zira —y si la respuesta importa, dado que en el giro final el lector ya estaba adentro de la jaula. Lo que exige implícitamente y nunca declara: que nos preguntemos si seguimos haciendo lo que hace que la inteligencia sea legible para quien nos observa. Si hemos dejado, como los hombres de Soror, de necesitar esforzarnos.</p>
+
+<div class="section-head" style="border-bottom:none; padding-bottom:0"><h3 style="font-size:0.8rem; color:var(--dim);">Lente 4 — Lo que guarda</h3></div>
+<p>El corpus guarda una pregunta teológica que no puede formularse sin desmantelar su propio mecanismo de sátira: si los simios tienen alma —como declara Zira siguiendo la doctrina del planeta— y los hombres no, ¿qué determina el alma? El corpus responde provisionalmente con el lenguaje. Pero Nova tiene un hijo que habla, y ese hijo es la fisura en la doctrina simiesca: el lenguaje puede aparecer donde no estaba. Lo que el corpus guarda, desde la profundidad mítica, es la historia de Babel al revés: no la dispersión de las lenguas sino la recuperación de una lengua en un cuerpo que se creía incapaz de tenerla. El niño Sirio no es solo el hijo de Ulises y Nova: es la prueba de que las categorías que separan al ser humano del animal no son fijas, y eso aterra a todo el que basa su posición en que lo sean.</p>
+
+<div class="compuesto">
+  <div class="compuesto-label">El Compuesto Base</div>
+  <div class="compuesto-text">La inteligencia sin testigo es invisible<span class="compuesto-dash">—</span>desde la profundidad de quien depende de que alguien con poder lo reconozca para existir</div>
+</div>
+
+<!-- PROMPT IMAGEN MÓDULO 3 -->
+<div class="prompt-box">
+<p>Mesa de laboratorio iluminada por una sola lámpara de cuello de ganso, temperatura blanca fría. Sobre la mesa: un espectrómetro antiguo —baquelita negra, diales de latón oxidado— apuntando a una probeta de vidrio grueso que contiene algo verde opaco, no líquido del todo, con la consistencia de una niebla solidificada.<br><br>
+Al lado de la probeta, una tarjeta de índex con escritura a mano en tinta azul: una huella de pie humano dibujada con precisión técnica, como un hallazgo arqueológico catalogado. Encima de la huella, dos palabras subrayadas: <em>legible / ilegible</em>.<br><br>
+En el cuaderno de campo abierto a la derecha, columnas de observaciones en letra pequeña. En la esquina superior del cuaderno, una etiqueta impresa: DESTILERÍA OSMANCITO / EL PLANETA DE LOS SIMIOS · BOULLE / «La inteligencia sin testigo es invisible».<br><br>
+El fondo está en sombra. No hay ventanas. El único color cálido es el reflejo del ámbar de la probeta sobre la superficie metálica del espectrómetro.<br><br>
+Paleta: negro profundo, blanco frío de laboratorio, verde opaco de la muestra, ámbar del reflejo. Sin tonos naturales.<br><br>
+Ilustración científica de precisión. Sin fotorrealismo. Luz en claroscuro. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ MÓDULO 4 ═══ -->
+<section id="etiquetado">
+<div class="module-header">
+  <span class="module-tag">Módulo 04</span>
+  <h2>Etiquetado — Topología y Firma</h2>
+  <div class="module-voice">El Maestro de Bodega · preciso, definitivo, sella y libera</div>
+</div>
+
+<p style="font-style:italic;color:var(--dim);font-size:0.85rem;">Calculando fallas de cierre… · Mapeando el núcleo de curvatura… · Estimando la red conceptual… · Etiqueta aplicada. Lote liberado.</p>
+
+<div class="section-head" id="fallas"><h3>Fallas de Cierre</h3></div>
+
+<div class="falla">
+  <div class="falla-pregunta">¿Puede la civilización degradarse voluntariamente sin catástrofe, solo por dejar de necesitar el esfuerzo que la sostiene?</div>
+  <div class="falla-tipo raiz">Abierta · Raíz</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿Qué hace a un ser humano un ser humano cuando no puede demostrarlo ante quien tiene el poder de reconocerlo?</div>
+  <div class="falla-tipo">Abierta</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿Es Nova un ser humano pleno? Y si la respuesta depende del que hace la pregunta, ¿qué dice eso del que pregunta?</div>
+  <div class="falla-tipo">Abierta</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿La Tierra del siglo XXXI escapará el destino de Soror, o ya ha comenzado su propia renuncia?</div>
+  <div class="falla-tipo">Abierta</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿Habría reconocido Ulises la humanidad de Nova si no hubiera sido hermosa?</div>
+  <div class="falla-tipo">Abandonada</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿Qué pasó exactamente en Soror durante los diez mil años de transición?</div>
+  <div class="falla-tipo">Cerrada — respondida con la tesis de la degradación voluntaria, aunque esa respuesta sea incompleta</div>
+</div>
+<div class="falla">
+  <div class="falla-pregunta">¿Sobrevivirá el niño Sirio en el sistema solar al que Ulises regresa?</div>
+  <div class="falla-tipo">Performativa — depende del lector seguir imaginando</div>
+</div>
+
+<p style="margin-top:1.5rem;"><strong>Apertura total:</strong> 4/7 — alta inagotabilidad. La falla raíz no tiene respuesta posible dentro de los parámetros del corpus ni fuera de ellos: es constitutivamente abierta.</p>
+
+<div class="section-head"><h3>Núcleo de Curvatura</h3></div>
+
+<div class="topo-field">
+  <div class="topo-key">Núcleo principal</div>
+  <div>El <strong>reconocimiento</strong> —el acto de ser visto como igual por quien tiene el poder de verlo— transforma el significado de cada escena del corpus. La jaula, el test, el discurso, la ciudad enterrada, el giro final: todo orbita alrededor de quién reconoce a quién, bajo qué condiciones, con qué consecuencias.</div>
+</div>
+<div class="topo-field">
+  <div class="topo-key">Tipo de curvatura</div>
+  <div>Sobre concepto filosófico (reconocimiento como condición de existencia política y ontológica)</div>
+</div>
+<div class="topo-field">
+  <div class="topo-key">Sistema secundario</div>
+  <div>El <strong>lenguaje</strong> como instrumento del reconocimiento. La asimetría: el reconocimiento es el fin; el lenguaje, el medio. Pero el corpus tiende a confundirlos, lo que produce su tensión más productiva: Nova existe como ser humano aun sin lenguaje, o debería; pero el reconocimiento nunca llega.</div>
+</div>
+
+<div class="section-head"><h3>Red Conceptual</h3></div>
+
+<div class="topo-field">
+  <div class="topo-key">Forma estimada</div>
+  <div>Small-world — alta interconexión entre nodos principales con distancia media baja</div>
+</div>
+<div class="topo-field">
+  <div class="topo-key">Nodo de mayor integración</div>
+  <div><em>El lenguaje</em> — conecta civilización, humanidad, jaula, tests, discurso, ciudad enterrada, Nova, Antelle, Sirio y el giro final</div>
+</div>
+<div class="topo-field">
+  <div class="topo-key">Coherencia</div>
+  <div>El núcleo de curvatura (reconocimiento) y el nodo de mayor integración (lenguaje) <strong>divergen ligeramente</strong> —y esa divergencia es la tensión generativa del corpus: el lenguaje es el instrumento, el reconocimiento es la meta, y el libro demuestra que tener el instrumento no garantiza alcanzar la meta.</div>
+</div>
+
+<div class="grandeza">
+  <div class="grandeza-label">Estrategia de Grandeza</div>
+  <div class="grandeza-text">Espiral reveladora con giro de marco — el argumento que parecía llegado a su fin revela que el lector estaba adentro de él desde la primera línea</div>
+</div>
+
+<!-- PROMPT IMAGEN MÓDULO 4 -->
+<div class="prompt-box">
+<p>Una botella de laboratorio sellada con cera roja oscura, sobre fondo negro profundo. La botella es de vidrio grueso, ligeramente verdoso, con forma de frasco de colección naturalista del siglo XIX. Dentro, suspendida en un líquido translúcido ámbar, una huella de pie humano —tridimensional, perfecta, en miniatura— como si alguien hubiera logrado preservar no el pie sino el rastro que dejó.<br><br>
+En la etiqueta del frasco, caligrafía técnica del siglo XIX con tipografía contemporánea superpuesta en dos capas: DESTILERÍA OSMANCITO / EL PLANETA DE LOS SIMIOS · BOULLE / ESPIRAL REVELADORA CON GIRO DE MARCO.<br><br>
+Alrededor de la botella, cuatro elementos brillantes —como chispas de cuarzo— y tres apagados, como carbón. Los brillantes representan las fallas abiertas; los apagados, las cerradas y abandonadas.<br><br>
+El sello de cera tiene impreso un símbolo en negativo: un ojo que mira hacia adentro.<br><br>
+Paleta: negro absoluto como fondo, ámbar intenso del líquido, verde botella, rojo oscuro de la cera, puntos de luz blanca fría. Sin colores cálidos fuera de la botella.<br><br>
+Ilustración científica del siglo XIX, técnica de grabado. Sin fotorrealismo. Fondo negro profundo. Relación de aspecto 2:3.</p>
+</div>
+</section>
+
+<hr class="rule-heavy">
+
+<div class="colofonium">
+  <div class="colofonium-mark">Destilería Osmancito</div>
+  <div class="colofonium-lema">Entra la materia prima. Sale el destilado puro.</div>
+  <div style="font-family:'IBM Plex Mono',monospace; font-size:0.6rem; color:var(--dim); letter-spacing:0.2em; margin-top:1rem; text-transform:uppercase;">Cuatro módulos · Cuatro imágenes · El lote sale.</div>
+  <div style="font-family:'IBM Plex Mono',monospace; font-size:0.55rem; color:var(--rule); letter-spacing:0.15em; margin-top:0.5rem;">Producto — Destilería Osmancito — El planeta de los simios — Pierre Boulle</div>
+</div>
+
+</main>
+</body>
+</html>
