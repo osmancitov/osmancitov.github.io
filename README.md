@@ -54,7 +54,7 @@ destileria-osmancito/
 
 ## Cómo instalar
 
-**1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
+**1.** Crear proyecto nuevo en [`Claude`](https://claude.ai/). Nombre: *Destilería Osmancito*.
 
 **2.** En el recuadro de instrucciones del proyecto, pegar el contenido de [`maestro.md`](https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.md)
 
