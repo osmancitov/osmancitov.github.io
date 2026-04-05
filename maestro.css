@@ -1010,8 +1010,8 @@ footer,
 
 @media (max-width: 600px) {
   :root {
-    --base: 1rem;
-    --ratio: 1.25;
+    --base: 1.5rem;   /* Valor original = 1rem */
+    --ratio: 1.00;   /* Valor original = 1.25 */
   }
 
   .destilado-maestro p:first-child::first-letter {
@@ -1019,6 +1019,19 @@ footer,
   }
 }
 
+/* Contenedor para imágenes responsivas */
+.img-container {
+  max-width: 100%;
+  margin: var(--sp-4) auto;
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /* ==========================================================================
    FIN DE DESTILERÍA OSMANCITO — HOJA DE ESTILO MAESTRA
