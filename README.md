@@ -41,7 +41,7 @@ Fallas de cierre clasificadas por tipo (abierta, cerrada, abandonada, performati
 ```
 destileria-osmancito/
 │
-├── maestro.md            # El prompt maestro completo
+├── prompt.md            # El prompt maestro completo
 ├── maestro.css           # Hoja de estilos única para todos los productos
 ├── README.md             # Este archivo
 ├── README.html           # Versión HTML del README
@@ -56,7 +56,7 @@ destileria-osmancito/
 
 **1.** Crear proyecto nuevo en [`Claude`](https://claude.ai/). Nombre: *Destilería Osmancito*.
 
-**2.** En el recuadro de instrucciones del proyecto, pegar el contenido de [`maestro.md`](https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/maestro.md)
+**2.** En el recuadro de instrucciones del proyecto, pegar el contenido de [`prompt.md`](https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/prompt.md)
 
 
 ---
