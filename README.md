@@ -59,7 +59,7 @@ destileria-osmancito/
 
 **1.** Crear proyecto nuevo en Claude. Nombre: *Destilería Osmancito*.
 
-**2.** En el recuadro de instrucciones del proyecto, pegar el contenido del [`prompt-maestro.md`](https://github.com/osmancitov/osmancitov.github.io/blob/main/prompt-maestro.md).
+**2.** En el recuadro de instrucciones del proyecto, pegar el contenido del [`prompt-maestro.md`](https://github.com/osmancitov/osmancitov.github.io/raw/main/prompt-maestro.md).
 
 
 ---
