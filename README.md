@@ -1,6 +1,6 @@
 # Destilería Osmancito
 
-**v3.9 · 2026**
+**v4.0 · 2026**
 
 Un sistema de análisis literario profundo operado mediante prompt de lenguaje natural. El corpus entra. Un paquete de análisis completo sale.
 
@@ -39,14 +39,17 @@ Fallas de cierre clasificadas por tipo (abierta, cerrada, abandonada, performati
 ## Estructura del repositorio
 
 ```
-destileria-osmancito/
+osmancitov.github.io/
 │
-├── prompt.md            # El prompt maestro completo
-├── maestro.css           # Hoja de estilos única para todos los productos
+├── prompt.md             # El prompt maestro completo
 ├── README.md             # Este archivo
 ├── README.html           # Versión HTML del README
+├── index.html            # Página principal
+│
 └── Destilaciones/
     ├── img /             # Imágenes
+	├── stl /             # Estilos
+	│
     └── 00n.html          # Lotes procesados
 ```
 
