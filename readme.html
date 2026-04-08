@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Destilería Osmancito — Documentación del proyecto</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/260405d.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/260407c.css">
   
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
@@ -47,28 +47,28 @@
       </div>
 
       <div class="barrica" id="modulo-alambique">
-        <h3 class="barrica-numero">Módulo Alambique — Destilación</h3>
+        <h3 class="barrica-numero">Alambique — Destilación</h3>
         <div class="extracto">
           <p>El destilado maestro encarna el corpus en 300 a 500 palabras de prosa literaria autónoma: funciona sin haber leído el libro. Le siguen las barricas, una por capítulo, cada una con su extracto en tiempo presente y sus fracciones nobles — los fragmentos que sobreviven solos, que contienen tensión interna y que alguien repetiría años después. El módulo cierra con la cartografía del conjunto y la nota de cata: el corpus descrito como si fuera una bebida, con taxonomía precisa y sin piedad innecesaria.</p>
         </div>
       </div>
 
       <div class="barrica" id="modulo-inspeccion">
-        <h3 class="barrica-numero">Módulo Control de Calidad — Inspección</h3>
+        <h3 class="barrica-numero">Control de Calidad — Inspección</h3>
         <div class="extracto">
           <p>Todo corpus es clasificado como arquetipo de nave: galeón, carabela, submarino, barco fantasma, crucero turístico, nave hospital, iceberg. Cada arquetipo tiene tres registros: bueno, regular, malo. La inspección se realiza en seis estratos —casco y quilla, corrientes y vientos, arquitectura naval, aguas profundas, el capitán y su sombra, registro de origen— y culmina en un veredicto de zarpe con cinco categorías posibles y una nota naval en prosa poética.</p>
         </div>
       </div>
 
       <div class="barrica" id="modulo-laboratorio">
-        <h3 class="barrica-numero">Módulo Laboratorio — Análisis de Sedimento</h3>
+        <h3 class="barrica-numero">Laboratorio — Análisis de Sedimento</h3>
         <div class="extracto">
           <p>El laboratorio trabaja lo que el corpus no puede nombrar. Las ausencias son lo que el texto rodea sin decir. Los síntomas son las inconsistencias de tono, ritmo o argumento ancladas en capítulo o imagen específica. Las cifras son los patrones de recurrencia anómala. Los cuatro lentes de lectura —lo que dice, lo que muestra, lo que exige, lo que guarda— se aplican siempre. Al final: el compuesto base, el núcleo irreducible del corpus en una sola proposición.</p>
         </div>
       </div>
 
       <div class="barrica" id="modulo-etiquetado">
-        <h3 class="barrica-numero">Módulo Etiquetado — Topología y Firma</h3>
+        <h3 class="barrica-numero">Etiquetado — Topología y Firma</h3>
         <div class="extracto">
           <p>Las fallas de cierre son las preguntas que el corpus activa y no resuelve. Se clasifican por tipo —abierta, cerrada, abandonada, performativa, asimétrica— y se identifica la falla raíz de la que emergen todas las demás. Las fallas abiertas son el predictor más robusto de inagotabilidad: confirmado en 13/13 corpus analizados. El módulo cierra con el núcleo de curvatura, la red conceptual estimada y la estrategia de grandeza: el mecanismo por el que este corpus produce —o no— inagotabilidad.</p>
         </div>
@@ -266,30 +266,44 @@
     <div class="pie-sello">Destilería Osmancito · Sistema de análisis literario profundo · v4.0<br>Entra la materia prima. Sale el destilado puro.</div>
   </footer>
 
-  <script>
+<script>
     const toc = document.querySelector('#toc ul');
-    const secciones = document.querySelectorAll('section.modulo');
-    secciones.forEach(sec => {
-      const titulo = sec.querySelector('h2');
-      if (!titulo) return;
+    
+    // El radar ahora busca el H1 soberano Y los siervos H2/H3 dentro de los módulos
+    const encabezados = document.querySelectorAll('section.modulo h1, section.modulo h2, section.modulo h3');
+
+    encabezados.forEach(titulo => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = '#' + sec.id;
-      a.textContent = titulo.textContent;
-      li.appendChild(a);
-      const subsecciones = sec.querySelectorAll('h3[id], h4[id]');
-      if (subsecciones.length) {
-        const ul = document.createElement('ul');
-        subsecciones.forEach(sub => {
-          const sli = document.createElement('li');
-          const sa = document.createElement('a');
-          sa.href = '#' + sub.id;
-          sa.textContent = sub.textContent;
-          sli.appendChild(sa);
-          ul.appendChild(sli);
-        });
-        li.appendChild(ul);
+      
+      // Asegurar identidad para el anclaje
+      if (!titulo.id) {
+          titulo.id = titulo.textContent.trim().toLowerCase().replace(/\s+/g, '-');
       }
+      
+      a.href = '#' + titulo.id;
+      a.textContent = titulo.textContent;
+
+      // Estilización de la Jerarquía
+      if (titulo.tagName === 'H1') {
+        li.style.fontWeight = '800';
+        li.style.fontSize = '1.1em';
+        li.style.marginTop = '18px';
+        li.style.marginBottom = '12px';
+        li.style.listStyle = 'none'; // El soberano no lleva puntos
+      } else if (titulo.tagName === 'H2') {
+        li.style.marginLeft = '15px';
+        li.style.fontWeight = 'bold';
+		li.style.marginTop = '6px';
+        li.style.marginBottom = '4px';
+      } else if (titulo.tagName === 'H3') {
+        li.style.marginLeft = '30px';
+        li.style.fontSize = '0.9em';
+		li.style.marginTop = '3px';
+        li.style.marginBottom = '2px';
+      }
+
+      li.appendChild(a);
       toc.appendChild(li);
     });
   </script>

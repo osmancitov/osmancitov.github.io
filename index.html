@@ -62,9 +62,6 @@ font-size: calc(.3*var(--sz-xl));
   <nav id="toc">
     <div class="toc-titulo">Navegación</div>
     <ul>
-      <li><a href="#recepcion">Lotes producidos</a></li>
-	  <li><a href="#sobre">Sobre la destilería</a></li>
-      <li><a href="README.html">Sobre el sistema</a></li>
     </ul>
   </nav>
 
@@ -87,7 +84,7 @@ font-size: calc(.3*var(--sz-xl));
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Título</span>
           <span class="ficha-campo-valor destacado">
-            <a href="destilaciones/003_Planeta_Simios.html">El Planeta de los Simios</a>
+            <h3><a href="destilaciones/003_Planeta_Simios.html">El Planeta de los Simios</a></h3>
           </span>
         </div>
         <div class="ficha-campo">
@@ -125,7 +122,7 @@ font-size: calc(.3*var(--sz-xl));
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Título</span>
           <span class="ficha-campo-valor destacado">
-            <a href="destilaciones/002_Story_Philosophy.html">The Story of Philosophy</a>
+            <h3><a href="destilaciones/002_Story_Philosophy.html">La Historia de la Filosofía</a></h3>
           </span>
         </div>
         <div class="ficha-campo">
@@ -163,7 +160,7 @@ font-size: calc(.3*var(--sz-xl));
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Título</span>
           <span class="ficha-campo-valor destacado">
-            <a href="destilaciones/001_Oriental_Heritage.html">Our Oriental Heritage</a>
+            <h3><a href="destilaciones/001_Oriental_Heritage.html">Nuestra Herencia Oriental</a></h3>
           </span>
         </div>
         <div class="ficha-campo">
@@ -194,15 +191,28 @@ font-size: calc(.3*var(--sz-xl));
         </div>
       </div>
 
+
+	  
+    </section>
+
+    <!-- ══ SOBRE ══ -->
+    <section class="modulo etiquetado" id="sobre">
+      <div class="modulo-cabecera">
+        <h2>Acerca de</h2>
+      </div>
+      <div class="bitacora">Un sistema de lectura profunda que opera dentro de Claude.</div>
+      <p class="estrategia-grandeza-texto">
+		Destilería Osmancito es el instrumento que extrae lo que el texto cargaba sin saberlo: la fracción noble que sobrevive sin contexto, la contradicción irresuelta que el autor no vio, la pregunta que el corpus abre y no cierra, el compuesto base que queda cuando todo lo demás se evapora. Opera dentro de Claude mediante un prompt de lenguaje natural: el corpus entra — cualquier libro, guión u obra completa — y un paquete de análisis estructurado sale. No resume ni reseña. Somete el texto a calor y tiempo hasta que aparece lo que sobrevive: fracciones nobles, la arquitectura oculta, el sedimento conceptual, la firma topológica. Cuatro módulos. Seis imágenes generadas. Cada corpus produce una sorpresa distinta. El sistema opera siempre en español, sin importar el idioma del corpus. Entra la materia prima. Sale el destilado puro. → <a href="readme.html#como-instalar">Cómo instalar el sistema</a></a>
+      </p>
+	  
         <!-- ══ LOTE 000 ══ -->
-		
       <div class="ficha-recepcion">
         <div class="ficha-seccion-titulo">Lote 000 · Abr 2026</div>
 
         <div class="ficha-campo">
           <span class="ficha-campo-nombre">Título</span>
           <span class="ficha-campo-valor destacado">
-            <a href="README.html">Destilería Osmancito — Sistema</a>
+            <h3><a href="README.html">Información del Sistema</a></h3>
           </span>
         </div>
         <div class="ficha-campo">
@@ -223,19 +233,8 @@ font-size: calc(.3*var(--sz-xl));
             <a href="README.html">Leer documentación →</a>
           </span>
         </div>
-      </div>
+      </div>	  
 	  
-    </section>
-
-    <!-- ══ SOBRE ══ -->
-    <section class="modulo etiquetado" id="sobre">
-      <div class="modulo-cabecera">
-        <h2>Sobre la Destilería</h2>
-      </div>
-      <div class="bitacora">Un sistema de lectura profunda que opera dentro de Claude.</div>
-      <p class="estrategia-grandeza-texto">
-		Destilería Osmancito es el instrumento que extrae lo que el texto cargaba sin saberlo: la fracción noble que sobrevive sin contexto, la contradicción irresuelta que el autor no vio, la pregunta que el corpus abre y no cierra, el compuesto base que queda cuando todo lo demás se evapora. Opera dentro de Claude mediante un prompt de lenguaje natural: el corpus entra — cualquier libro, guión u obra completa — y un paquete de análisis estructurado sale. No resume ni reseña. Somete el texto a calor y tiempo hasta que aparece lo que sobrevive: fracciones nobles, la arquitectura oculta, el sedimento conceptual, la firma topológica. Cuatro módulos. Seis imágenes generadas. Cada corpus produce una sorpresa distinta. El sistema opera siempre en español, sin importar el idioma del corpus. Entra la materia prima. Sale el destilado puro. → <a href="readme.html#como-instalar">Cómo instalar el sistema</a></a>
-      </p>
     </section>
 
   </main>
@@ -244,6 +243,48 @@ font-size: calc(.3*var(--sz-xl));
   <footer class="pie-documento">
     <div class="pie-sello">Destilería Osmancito<br>Entra la materia prima. Sale el destilado puro.</div>
   </footer>
+
+<script>
+    const toc = document.querySelector('#toc ul');
+    
+    // El radar ahora busca el H1 soberano Y los siervos H2/H3 dentro de los módulos
+    const encabezados = document.querySelectorAll('section.modulo h1, section.modulo h2, section.modulo h3');
+
+    encabezados.forEach(titulo => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      
+      // Asegurar identidad para el anclaje
+      if (!titulo.id) {
+          titulo.id = titulo.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+      }
+      
+      a.href = '#' + titulo.id;
+      a.textContent = titulo.textContent;
+
+      // Estilización de la Jerarquía
+      if (titulo.tagName === 'H1') {
+        li.style.fontWeight = '800';
+        li.style.fontSize = '1.1em';
+        li.style.marginTop = '18px';
+        li.style.marginBottom = '12px';
+        li.style.listStyle = 'none'; // El soberano no lleva puntos
+      } else if (titulo.tagName === 'H2') {
+        li.style.marginLeft = '15px';
+        li.style.fontWeight = 'bold';
+		li.style.marginTop = '6px';
+        li.style.marginBottom = '4px';
+      } else if (titulo.tagName === 'H3') {
+        li.style.marginLeft = '30px';
+        li.style.fontSize = '0.9em';
+		li.style.marginTop = '3px';
+        li.style.marginBottom = '2px';
+      }
+
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  </script>
 
 </body>
 </html>
