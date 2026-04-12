@@ -1,176 +1,159 @@
-# Destilería Osmancito
-
-**v4.1 · 2026**
-
-Un sistema de análisis literario profundo operado mediante prompt de lenguaje natural. El corpus entra. Un paquete de análisis completo sale.
+# Destilería Osmancito — Sistema de Lectura Profunda
+*v4.4 · 2026-04-12*
 
 ---
 
 ## Qué es
 
-Destilería Osmancito es un prompt maestro para modelos de lenguaje que transforma cualquier corpus literario en un análisis estructurado de cuatro módulos. No resume. No reseña. Destila: extrae la esencia funcional, inspecciona la arquitectura, analiza el sedimento y firma la topología conceptual del texto.
+Destilería Osmancito es un sistema de análisis literario que opera dentro de Claude. El corpus entra — cualquier libro, obra completa o guión — y un paquete de análisis estructurado sale. No resume ni reseña. Somete el texto a calor y tiempo hasta que aparece lo que sobrevive.
 
-El sistema opera siempre en español, independientemente del idioma del corpus de entrada.
+El sistema opera siempre en español, sin importar el idioma del corpus. Sin pausas. Sin confirmaciones intermedias.
 
 ---
 
-## Cómo funciona
+## Qué produce
 
-El prompt se entrega al modelo como instrucción de sistema. El usuario entrega un corpus —archivo adjunto, título y autor, o ZIP descomprimido de epub— y el sistema ejecuta el protocolo completo sin pausas, sin confirmaciones intermedias, sin preguntas.
-
-El producto es un documento estructurado con jerarquía de títulos fija, clases semánticas predefinidas y cuatro prompts de imagen generados en cada análisis.
-
-### Los cuatro módulos
+Cuatro módulos en secuencia. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.
 
 **Módulo Alambique — Destilación**
-Destilado maestro del corpus (300–500 palabras de prosa literaria autónoma), análisis por barricas (extracto + fracciones nobles por capítulo), cartografía del conjunto y nota de cata sensorial con taxonomía de bebidas.
+El corpus se transforma. Primero el destilado maestro: 300 a 500 palabras de prosa literaria que encarna el libro sin resumirlo. Luego barrica por barrica: el extracto de cada capítulo y las fracciones nobles — los fragmentos que sobreviven solos, que alguien repetiría años después. Al final, la cartografía del conjunto y la nota de cata: el corpus descrito como si fuera una bebida.
 
 **Módulo Control de Calidad — Inspección**
-Clasificación del corpus como arquetipo de nave (galeón, carabela, submarino, barco fantasma, etc.), inspección en seis estratos (casco y quilla, corrientes, arquitectura, aguas profundas, el capitán y su sombra, registro de origen), veredicto de zarpe y nota naval.
+El corpus se examina como una embarcación. Se le asigna un arquetipo de nave — desde el Galeón hasta el Naufragio Flotante — y se somete a seis estratos de inspección: estructura argumental, fuerzas externas, arquitectura interna, profundidad ontológica, proyecciones del autor, origen y carga real. La Nota Naval describe la nave en prosa poética. La Partitura la escucha. El Veredicto de Zarpe decide si sale.
 
 **Módulo Laboratorio — Análisis de Sedimento**
-Ausencias (lo que el corpus rodea sin nombrar), síntomas (inconsistencias de tono y argumento), cifras (patrones de recurrencia anómala), cuatro lentes de lectura (literal, alegórico, moral, profundo) y compuesto base: el núcleo irreducible del corpus en una sola proposición.
+Lo que queda en el fondo del alambique. Las ausencias que el corpus rodea sin nombrar. Los síntomas de sus inconsistencias. Los patrones con recurrencia anómala. Cuatro lentes que leen el mismo texto desde ángulos distintos: lo que dice, lo que muestra, lo que exige, lo que guarda. Al final, el compuesto base: la proposición más irreducible del corpus.
 
 **Módulo Etiquetado — Topología y Firma**
-Fallas de cierre clasificadas por tipo (abierta, cerrada, abandonada, performativa, asimétrica) con identificación de la falla raíz, núcleo de curvatura, red conceptual estimada y estrategia de grandeza.
-
----
-
-## Estructura del repositorio
-
-```
-osmancitov.github.io/
-│
-├── prompt.md             # El prompt maestro completo
-├── README.md             # Este archivo
-├── README.html           # Versión HTML del README
-├── index.html            # Página principal
-│
-└── Destilaciones/
-    ├── img /             # Imágenes
-	├── stl /             # Estilos
-	│
-    └── 00n.html          # Lotes procesados
-```
-
----
-
-## Cómo instalar
-
-**1.** Crear proyecto nuevo en [`Claude`](https://claude.ai/). Nombre: *Destilería Osmancito*.
-
-**2.** En el recuadro de instrucciones del proyecto, pegar el contenido de [`prompt.md`](https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/prompt.md)
-
-
----
-
-## Archivos HTML producidos
-
-Cada análisis completo puede exportarse como archivo `.html` que enlaza externamente a `maestro.css`. Los HTML producidos no contienen estilos embebidos ni estilos inline. Modificar el CSS actualiza todos los documentos existentes sin reescribir ninguno.
-
-### Convención de nombre
-
-```
-Destilería Osmancito — [Título] — [Autor].html
-```
-
-### Estructura del HTML
-
-Cabecera de documento → índice TOC (generado automáticamente por script) → cinco secciones `<section class="modulo">` → pie de página.
-
-Cada sección tiene un ID fijo: `#recepcion`, `#alambique`, `#inspeccion`, `#laboratorio`, `#etiquetado`.
-
----
-
-## Clases semánticas del CSS
-
-El sistema define un vocabulario de clases exactas que el CSS debe reconocer. Las principales:
-
-### Estructura general
-- `.cabecera-documento` — cabecera del documento
-- `.modulo` + `.recepcion` / `.alambique` / `.inspeccion` / `.laboratorio` / `.etiquetado`
-- `.modulo-cabecera` — cabecera interior de cada módulo
-- `.bitacora` — líneas de voz del operario
-- `.pie-documento`
-
-### Recepción
-- `.ficha-recepcion`, `.ficha-seccion-titulo`, `.ficha-campo`
-- `.ficha-campo-nombre`, `.ficha-campo-valor`, `.ficha-campo-valor.destacado`
-
-### Alambique
-- `.destilado-maestro`, `.barrica`, `.barrica-numero`, `.barrica-subtitulo`
-- `.extracto`, `.fraccion-noble`, `.fraccion-anzuelo`
-- `.cartografia`, `.cartografia-seccion`, `.cartografia-seccion-titulo`
-- `.nota-de-cata`, `.campo-cata`, `.campo-cata-nombre`, `.campo-cata-valor`
-
-### Inspección
-- `.clasificacion-nave`, `.nave-arquetipo`, `.nave-registro`
-- `.estrato`, `.estrato-numero`
-- `.veredicto` + `.zarpe-autorizado` / `.zarpe-advertencias` / `.zarpe-parcial` / `.embargo` / `.hundimiento`
-- `.veredicto-categoria`, `.veredicto-justificacion`, `.nota-naval`
-
-### Laboratorio
-- `.laboratorio-seccion`, `.lente`, `.lente-numero`
-- `.compuesto-base`, `.compuesto-base-etiqueta`, `.compuesto-base-texto`
-
-### Etiquetado
-- `.fallas-cierre`, `.falla` + `.abierta` / `.cerrada` / `.abandonada` / `.raiz`
-- `.falla-pregunta`, `.falla-tipo`, `.apertura-total`
-- `.nucleo-curvatura`, `.red-conceptual`, `.campo-nombre`, `.campo-valor`
-- `.estrategia-grandeza-texto`
-
-### Prompts de imagen
-- `.prompt-imagen` + `.prompt-imagen-alambique` / `.prompt-imagen-inspeccion` / `.prompt-imagen-laboratorio` / `.prompt-imagen-etiquetado`
-- `.prompt-imagen-cabecera`, `.prompt-cuerpo`
+La etiqueta química del corpus. Las preguntas que dejó abiertas — fallas de cierre — y su proporción de apertura total. El núcleo de curvatura: el concepto con mayor gravitación. La forma de la red conceptual. La estrategia de grandeza: el mecanismo por el que este corpus produce — o no — inagotabilidad.
 
 ---
 
 ## Vocabulario del sistema
 
-| Término | Definición |
-|---|---|
-| Corpus | La materia prima. Todo lo que entra. |
-| Fracción noble | El fragmento que sobrevive solo. Lo que alguien repetiría años después. |
-| Extracto | La esencia funcional de una barrica. |
-| Barrica | Unidad por capítulo: extracto + fracciones nobles. |
-| Destilado maestro | El epítome del corpus. Texto autónomo que encarna el libro sin resumirlo. |
-| Nota de cata | El corpus descrito como si fuera una bebida. |
-| Falla de cierre | Pregunta que el corpus activa y no resuelve. |
-| Núcleo de curvatura | El concepto que transforma el significado de todo lo que lo rodea. |
-| Compuesto base | El núcleo de sentido más irreducible del corpus. |
-| Rendimiento de destilación | Relación entre volumen del corpus y volumen del producto, expresada en grados. |
+**Corpus** — La materia prima. Todo lo que entra.
+
+**Fracción noble** — El fragmento que sobrevive solo. Lo que alguien repetiría años después.
+
+**Extracto** — La esencia funcional de una barrica: qué ocurre aquí que importa para el todo.
+
+**Barrica** — Unidad por capítulo: extracto más fracciones nobles.
+
+**Destilado maestro** — El epítome del corpus. Texto autónomo que encarna el libro sin resumirlo.
+
+**Nota de cata** — El corpus descrito como si fuera una bebida.
+
+**Nave / Capitán** — El corpus como embarcación; el autor como presencia que emerge del texto.
+
+**Flota** — El conjunto de obras de un autor analizado en modo obra completa. Cada obra es una nave; la flota las muestra en relación.
+
+**Nave insignia** — La obra de mayor densidad y carácter dentro de una flota. No necesariamente la más conocida.
+
+**Falla de cierre** — Pregunta que el corpus activa y no resuelve. Las abiertas predicen inagotabilidad.
+
+**Núcleo de curvatura** — El concepto que transforma el significado de todo lo que lo rodea.
+
+**Compuesto base** — El núcleo de sentido más irreducible del corpus.
+
+**Etiqueta química** — El conjunto de variables topológicas que identifican el corpus como objeto.
 
 ---
 
 ## Modos de entrada
 
-El sistema acepta tres modos de entrega del corpus:
+**Modo 1 — Archivo adjunto** — epub, pdf, txt adjunto a la sesión. El sistema registra y procede.
 
-**Modo 1 — Archivo adjunto** (epub, pdf, txt): el corpus llega adjunto. El sistema registra y procede.
+**Modo 2 — Título y autor** — Sin archivo. El sistema trabaja desde su conocimiento del corpus.
 
-**Modo 2 — Título y autor**: sin archivo. El sistema trabaja desde su conocimiento del corpus.
+**Modo 3 — ZIP plano** — epub descomprimido. Se activa el Protocolo ZIP: el sistema lee la estructura, clasifica los archivos, ejecuta el manifiesto y delimita el corpus antes de proceder.
 
-**Modo 3 — ZIP plano** (epub descomprimido): activa el Protocolo ZIP. El sistema lee `toc.ncx`, clasifica los archivos, ejecuta manifiesto internamente, incluye lo narrativo y paratextual relevante, excluye lo legal, los separadores y el aparato accesorio, resuelve las ambigüedades por criterio de densidad narrativa, sin consultar.
-
----
-
-## Concentración de destilación
-
-**La Concentración de la Destilación** expresa la relación de volumen entre el destilado final y el corpus original. Si el destilado emplea el 8% de la cantidad de palabras del corpus original, la concentración es de 12.5x. Se expresa en grados de magnificación, como los de una lupa o un microscopio. 
-
-Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras es una concentración de 12.5x. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
-
-Un corpus de 80.000 palabras destilado en un producto de 6.400 palabras (8% del original) produce un destilado de **92°**. Cuanto más alto el grado, más severa la compresión, más noble el resultado.
+**Modo 4 — Obra completa** — Solo el nombre del autor, sin corpus específico. Se activa el Protocolo Flota: el sistema delimita la obra conocida, asigna arquetipos, identifica la nave insignia, y ejecuta el análisis de cada obra en formato comprimido. La Imagen de Flota reemplaza las imágenes de inspección individuales y muestra todas las naves del autor en relación.
 
 ---
 
-## Fallas de cierre y predicción de inagotabilidad
+## La Partitura
 
-Las fallas abiertas son el predictor más robusto de inagotabilidad de un corpus. Un texto con alta proporción de fallas genuinamente abiertas seguirá produciendo lecturas nuevas en cada relectura.
+Dentro del Módulo de Inspección, después del Veredicto y la Nota Naval, el sistema escucha el corpus. La partitura tiene dos partes: primero, el corpus descrito como música — su pulso, su instrumentación, si es solista o coral, si resuelve o se interrumpe. Luego, una pieza real y escuchable: título, autor o intérprete, y una línea de justificación. La pieza debe ser localizable en Spotify, YouTube u otra plataforma de acceso común. Puede ser de cualquier género. Lo que el corpus exija, no lo que suene culto.
 
-Confirmado en 13/13 corpus analizados: todos los textos clasificados como inagotables tienen mayoría de fallas abiertas.
+---
+
+## Las imágenes
+
+Cada análisis produce seis prompts de imagen, construidos desde las cualidades únicas del corpus en cada etapa. Nunca desde plantilla genérica.
+
+**Imagen de Presentación** — El producto de la Destilería como objeto editorial físico. Un libro sobre el libro.
+
+**Imagen de Recepción** — La atmósfera del corpus encarnada en imagen. Nunca una escena concreta del argumento.
+
+**Imagen de Destilación** — La nota de cata encarnada desde un ángulo inesperado. No ilustra la bebida: la encarna.
+
+**Imagen de Inspección** — La nave en el escenario que su veredicto exige: puede ser el dique seco, mar abierto, tormenta en travesía. La atmósfera surge de la Nota Naval y el tempo de la Partitura en conjunción.
+
+**Imagen de Laboratorio** — El momento del hallazgo: lo que el corpus guardaba, hecho visible. El escenario surge del compuesto base, no de la convención del laboratorio.
+
+**Imagen de Topología y Firma** — La forma física de la inagotabilidad de este corpus. No una traducción de variables en visual: una encarnación.
+
+**Imagen de Flota** — Solo en Modo 4. Todas las naves del autor en una imagen panorámica. La posición, el tamaño y el estado de cada nave dicen lo que ningún listado puede decir.
+
+---
+
+## Arquetipos de nave
+
+**Naves que valen el viaje** — El Galeón · La Carabela · El Velero · El Bote Salvavidas · El Barco de Investigación · La Nave Hospital
+
+**Naves peligrosas** — El Barco Pirata · El Barco Fantasma · El Submarino
+
+**Naves inútiles** — La Balsa · El Barco Encallado · El Crucero Turístico · La Nave Museo · El Galeón Hundido
+
+**Naves activamente dañinas** — El Barco Cargado de Pólvora · El Naufragio Flotante · El Iceberg
+
+---
+
+## Veredictos de zarpe
+
+**Zarpe autorizado** — Sólido, honesto, vale el viaje.
+
+**Zarpe autorizado con advertencias** — Zarpa pero con riesgos específicos declarados.
+
+**Zarpe parcial recomendado** — Hay valor, pero no en su totalidad. Se especifica qué secciones.
+
+**Embargo preventivo** — Carga sospechosa o peligrosa. No zarpa.
+
+**Hundimiento recomendado** — No hay nada que salvar. Se explica con precisión.
+
+---
+
+## Fallas de cierre
+
+Las preguntas que el corpus activa y no resuelve. Las abiertas son el predictor más robusto de inagotabilidad — 13/13 corpus confirmados con alta apertura producen lectura duradera.
+
+**Tipos** — Abierta · Abandonada · Cerrada · Performativa · Asimétrica
+
+La falla raíz es aquella de la que emergen todas las demás.
+
+---
+
+## Taxonomía de bebidas
+
+**Destilados nobles** — alta densidad intelectual, largo aliento: Whisky de malta · Cognac · Armagnac · Mezcal artesanal · Ron añejo
+
+**Fermentados** — complejidad media, terroir cultural fuerte: Vino de terroir · Vino natural · Cerveza artesanal · Sidra
+
+**Infusiones y rituales** — ritmo lento, contemplación: Café de especialidad · Mate · Té de origen · Agua mineral de manantial
+
+**Populares y culturales** — gran alcance, audiencias amplias: Refresco de cola · Jugo de fruta natural · Limonada
+
+**Sagrados y psicoactivos** — alteran la percepción, transforman: Ayahuasca · Pulque de maguey · Absenta · Kombucha madre
+
+---
+
+## Formato del documento producido
+
+Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue el patrón: *Destilería Osmancito — Título — Autor.md*
+
+Cuando se solicita versión HTML, el documento usa el CSS externo del sistema — nunca estilos embebidos — y genera el TOC automáticamente desde los IDs del documento.
 
 ---
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
-*Cuatro módulos. Cuatro imágenes. Cada corpus, una sorpresa.*
+*Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
