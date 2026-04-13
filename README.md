@@ -1,5 +1,5 @@
 # Destilería Osmancito — Sistema de Lectura Profunda
-*v4.4 · 2026-04-12*
+*v4.5 · 2026-04-12*
 
 ---
 
@@ -25,7 +25,7 @@ El corpus se examina como una embarcación. Se le asigna un arquetipo de nave �
 Lo que queda en el fondo del alambique. Las ausencias que el corpus rodea sin nombrar. Los síntomas de sus inconsistencias. Los patrones con recurrencia anómala. Cuatro lentes que leen el mismo texto desde ángulos distintos: lo que dice, lo que muestra, lo que exige, lo que guarda. Al final, el compuesto base: la proposición más irreducible del corpus.
 
 **Módulo Etiquetado — Topología y Firma**
-La etiqueta química del corpus. Las preguntas que dejó abiertas — fallas de cierre — y su proporción de apertura total. El núcleo de curvatura: el concepto con mayor gravitación. La forma de la red conceptual. La estrategia de grandeza: el mecanismo por el que este corpus produce — o no — inagotabilidad.
+La etiqueta química del corpus. Las preguntas que dejó abiertas — fallas de cierre — y su proporción de apertura total. El núcleo de curvatura: el concepto con mayor gravitación. La forma de la red conceptual. La estrategia de grandeza: el mecanismo por el que este corpus produce — o no — inagotabilidad. Al final, la Sentencia Final: dos o tres líneas donde el Alambique habla en primera persona y emite su juicio definitivo sobre lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía.
 
 ---
 
@@ -74,6 +74,12 @@ La etiqueta química del corpus. Las preguntas que dejó abiertas — fallas de 
 ## La Partitura
 
 Dentro del Módulo de Inspección, después del Veredicto y la Nota Naval, el sistema escucha el corpus. La partitura tiene dos partes: primero, el corpus descrito como música — su pulso, su instrumentación, si es solista o coral, si resuelve o se interrumpe. Luego, una pieza real y escuchable: título, autor o intérprete, y una línea de justificación. La pieza debe ser localizable en Spotify, YouTube u otra plataforma de acceso común. Puede ser de cualquier género. Lo que el corpus exija, no lo que suene culto.
+
+---
+
+## La Sentencia Final
+
+Al cierre del Módulo Etiquetado, después de la Estrategia de Grandeza y antes de la imagen final, el Alambique emite su veredicto en forma de sentencia. No moraleja, no resumen, no recomendación de lectura. Dos o tres líneas de prosa densa que dicen lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía. La diferencia entre una moraleja y una sentencia es que la moraleja explica; la sentencia corta.
 
 ---
 
@@ -157,3 +163,4 @@ Cuando se solicita versión HTML, el documento usa el CSS externo del sistema �
 
 *Destilería Osmancito · Entra la materia prima. Sale el destilado puro.*
 *Cuatro módulos. Seis imágenes. Una partitura. Una flota, cuando el autor lo merece.*
+*Novedades v4.5: La Sentencia Final · Placeholders de imagen en HTML por sección.*
