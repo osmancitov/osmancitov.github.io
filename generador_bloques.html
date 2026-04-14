@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de Lotes — Destilería Osmancito</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background: #f5f4f0;
+    color: #1a1a18;
+    padding: 2rem 1rem;
+  }
+
+  .contenedor { max-width: 780px; margin: 0 auto; }
+
+  header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #d3d1c7;
+    padding-bottom: 1.5rem;
+  }
+
+  .sello {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888780;
+    margin-bottom: 0.4rem;
+  }
+
+  h1 { font-size: 22px; font-weight: 500; }
+
+  h2 {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #888780;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 0.5px solid #d3d1c7;
+  }
+
+  .zona-yaml {
+    border: 1.5px dashed #b4b2a9;
+    border-radius: 10px;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    background: #fff;
+    position: relative;
+  }
+
+  .zona-yaml:hover, .zona-yaml.sobre { border-color: #534ab7; background: #f0effc; }
+  .zona-yaml.cargado { border-color: #1d9e75; background: #f0faf6; border-style: solid; }
+
+  .zona-yaml input[type="file"] {
+    position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+  }
+
+  .zona-icono { font-size: 28px; margin-bottom: 0.5rem; }
+  .zona-texto { font-size: 14px; color: #5f5e5a; }
+  .zona-texto strong { color: #1a1a18; font-weight: 500; }
+  .zona-archivo { font-size: 13px; color: #1d9e75; margin-top: 0.4rem; font-weight: 500; }
+
+  .campo {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 8px;
+    align-items: start;
+    margin-bottom: 0.75rem;
+  }
+
+  label { font-size: 13px; color: #5f5e5a; padding-top: 8px; line-height: 1.4; }
+  label small { display: block; font-size: 11px; color: #b4b2a9; margin-top: 2px; }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 0.5px solid #b4b2a9;
+    border-radius: 6px;
+    background: #fff;
+    color: #1a1a18;
+    transition: border-color 0.15s;
+  }
+
+  input:focus, textarea:focus, select:focus { outline: none; border-color: #534ab7; }
+  textarea { resize: vertical; min-height: 72px; }
+
+  .tag-preview {
+    display: inline-block;
+    background: #eeedfe;
+    color: #3c3489;
+    border-radius: 4px;
+    padding: 1px 7px;
+    font-size: 12px;
+    font-family: monospace;
+    margin-top: 4px;
+  }
+
+  .fila-botones { display: flex; gap: 10px; margin-top: 2rem; flex-wrap: wrap; }
+
+  button {
+    padding: 9px 20px;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0.5px solid #b4b2a9;
+    background: #fff;
+    color: #1a1a18;
+    transition: background 0.12s, border-color 0.12s;
+  }
+
+  button:hover { background: #f1efe8; border-color: #888780; }
+  button:active { transform: scale(0.98); }
+
+  button.primario { background: #534ab7; color: #fff; border-color: #534ab7; }
+  button.primario:hover { background: #3c3489; border-color: #3c3489; }
+
+  .error-box {
+    display: none;
+    background: #fcebeb;
+    border: 0.5px solid #f09595;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 13px;
+    color: #a32d2d;
+    margin-top: 1rem;
+  }
+
+  .resultado { margin-top: 2rem; display: none; }
+  .resultado.visible { display: block; }
+
+  .resultado-cabecera {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem; flex-wrap: wrap; gap: 8px;
+  }
+
+  .resultado-cabecera span { font-size: 13px; color: #5f5e5a; }
+
+  .codigo {
+    background: #1a1a18;
+    color: #d3d1c7;
+    border-radius: 8px;
+    padding: 1.25rem;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.65;
+    overflow-x: auto;
+    white-space: pre;
+    max-height: 480px;
+    overflow-y: auto;
+  }
+
+  .nota { font-size: 12px; color: #888780; margin-top: 0.5rem; }
+
+  @media (max-width: 600px) {
+    .campo { grid-template-columns: 1fr; }
+    label { padding-top: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="contenedor">
+
+  <header>
+    <div class="sello">Destilería Osmancito</div>
+    <h1>Generador de lotes</h1>
+  </header>
+
+  <h2>1 — Cargar YAML del lote</h2>
+
+  <div class="zona-yaml" id="zona-yaml">
+    <input type="file" id="archivo-yaml" accept=".yaml,.yml">
+    <div class="zona-icono">&#8615;</div>
+    <div class="zona-texto"><strong>Arrastra el archivo .yaml aquí</strong><br>o haz clic para buscarlo</div>
+    <div class="zona-archivo" id="nombre-yaml"></div>
+  </div>
+
+  <div class="error-box" id="error-box"></div>
+
+  <h2>2 — Verificar y ajustar</h2>
+
+  <div class="campo">
+    <label>Número de lote <small>3 dígitos</small></label>
+    <input type="text" id="lote" placeholder="005" maxlength="3">
+  </div>
+
+  <div class="campo">
+    <label>Mes</label>
+    <select id="mes">
+      <option value="">— seleccionar —</option>
+      <option>Ene</option><option>Feb</option><option>Mar</option>
+      <option>Abr</option><option>May</option><option>Jun</option>
+      <option>Jul</option><option>Ago</option><option>Sep</option>
+      <option>Oct</option><option>Nov</option><option>Dic</option>
+    </select>
+  </div>
+
+  <div class="campo">
+    <label>Año</label>
+    <input type="text" id="anio" placeholder="2026" maxlength="4">
+  </div>
+
+  <div class="campo">
+    <label>Título</label>
+    <input type="text" id="titulo" placeholder="">
+  </div>
+
+  <div class="campo">
+    <label>Slug <small>2–3 palabras clave, minúsculas, separadas por guión bajo</small></label>
+    <div>
+      <input type="text" id="slug" placeholder="ej. cosmere_sanderson">
+      <div style="margin-top:4px;font-size:12px;color:#888780;">
+        Archivo: <span class="tag-preview" id="preview-archivo">—</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="campo">
+    <label>Título OG <small>Para redes sociales</small></label>
+    <input type="text" id="titulo-og" placeholder="">
+  </div>
+
+  <div class="campo">
+    <label>Autor</label>
+    <input type="text" id="autor" placeholder="">
+  </div>
+
+  <div class="campo">
+    <label>Año(s) de publicación</label>
+    <input type="text" id="anios-pub" placeholder="ej. 2006 o 2006-2020">
+  </div>
+
+  <div class="campo">
+    <label>Idioma original</label>
+    <input type="text" id="idioma" placeholder="ej. inglés">
+  </div>
+
+  <div class="campo">
+    <label>Género</label>
+    <input type="text" id="genero" placeholder="ej. Fantasía épica">
+  </div>
+
+  <div class="campo">
+    <label>Extensión del corpus <small>en palabras — se convierte a páginas</small></label>
+    <input type="number" id="palabras" placeholder="ej. 80000" min="0">
+  </div>
+
+  <div class="campo">
+    <label>Palabra(s) más frecuente(s)</label>
+    <input type="text" id="palabra-freq" placeholder="ej. poder · puede haber varias">
+  </div>
+
+  <div class="campo">
+    <label>Descripción <small>~20 palabras, concentrado de la sinopsis</small></label>
+    <textarea id="descripcion" placeholder=""></textarea>
+  </div>
+
+  <div class="campo">
+    <label>Nota de cata</label>
+    <input type="text" id="cata" placeholder="">
+  </div>
+
+  <div class="campo">
+    <label>Tipo de nave</label>
+    <select id="nave">
+      <option value="">— seleccionar —</option>
+      <option>El Galeón</option><option>La Carabela</option>
+      <option>El Velero</option><option>El Bote Salvavidas</option>
+      <option>El Barco de Investigación</option><option>La Nave Hospital</option>
+      <option>El Barco Pirata</option><option>El Barco Fantasma</option>
+      <option>El Submarino</option><option>La Balsa</option>
+      <option>El Barco Encallado</option><option>El Crucero Turístico</option>
+      <option>La Nave Museo</option><option>El Galeón Hundido</option>
+      <option>El Barco Cargado de Pólvora</option>
+      <option>El Naufragio Flotante</option><option>El Iceberg</option>
+    </select>
+  </div>
+
+  <div class="campo">
+    <label>Veredicto de zarpe</label>
+    <select id="veredicto">
+      <option value="">— seleccionar —</option>
+      <option value="Zarpe autorizado">Zarpe autorizado</option>
+      <option value="Zarpe autorizado con advertencias">Zarpe autorizado con advertencias</option>
+      <option value="Zarpe parcial recomendado">Zarpe parcial recomendado</option>
+      <option value="Embargo preventivo">Embargo preventivo</option>
+      <option value="Hundimiento recomendado">Hundimiento recomendado</option>
+    </select>
+  </div>
+
+  <h2>3 — Generar</h2>
+
+  <div class="fila-botones">
+    <button class="primario" onclick="generar()">Generar HTML del lote</button>
+    <button onclick="copiar()">Copiar</button>
+    <button onclick="descargar()">Descargar .html</button>
+  </div>
+
+  <div class="resultado" id="resultado">
+    <div class="resultado-cabecera">
+      <span id="nombre-archivo-label"></span>
+    </div>
+    <div class="codigo" id="codigo"></div>
+    <p class="nota">El bloque &lt;main&gt; espera el contenido completo del análisis.</p>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script>
+var ultimoHTML = '';
+var ultimoNombreBase = '';
+
+function paginas(palabras) {
+  if (!palabras || isNaN(palabras) || palabras <= 0) return null;
+  var p = Math.round(Number(palabras) / 400);
+  return p.toLocaleString('es-MX') + ' pp. aprox.';
+}
+
+function actualizarPreview() {
+  var lote = (document.getElementById('lote').value || '').padStart(3,'0');
+  var sl   = document.getElementById('slug').value || '';
+  document.getElementById('preview-archivo').textContent = sl ? lote + '_' + sl + '.html' : '\u2014';
+}
+
+['lote','slug'].forEach(function(id) {
+  document.getElementById(id).addEventListener('input', actualizarPreview);
+});
+
+var zona = document.getElementById('zona-yaml');
+
+zona.addEventListener('dragover', function(e) { e.preventDefault(); zona.classList.add('sobre'); });
+zona.addEventListener('dragleave', function() { zona.classList.remove('sobre'); });
+zona.addEventListener('drop', function(e) {
+  e.preventDefault(); zona.classList.remove('sobre');
+  if (e.dataTransfer.files[0]) leerYAML(e.dataTransfer.files[0]);
+});
+
+document.getElementById('archivo-yaml').addEventListener('change', function(e) {
+  if (e.target.files[0]) leerYAML(e.target.files[0]);
+});
+
+function leerYAML(archivo) {
+  ocultarError();
+  var ext = archivo.name.split('.').pop().toLowerCase();
+  if (ext !== 'yaml' && ext !== 'yml') { mostrarError('El archivo debe ser .yaml o .yml'); return; }
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      var datos = jsyaml.load(e.target.result);
+      llenarCampos(datos);
+      zona.classList.add('cargado');
+      document.getElementById('nombre-yaml').textContent = '\u2713 ' + archivo.name;
+    } catch(err) {
+      mostrarError('Error al leer el YAML: ' + err.message);
+    }
+  };
+  reader.readAsText(archivo, 'UTF-8');
+}
+
+function llenarCampos(d) {
+  function set(id, val) {
+    var el = document.getElementById(id);
+    if (el && val !== undefined && val !== null && val !== '') el.value = String(val);
+  }
+
+  set('lote',        String(d.lote || '').padStart(3,'0'));
+  set('anio',        d.anio || d.año || '');
+  set('titulo',      d.titulo || d.título || '');
+  set('slug',        d.slug || '');
+  set('titulo-og',   d.titulo_og || d['titulo-og'] || '');
+  set('autor',       d.autor || '');
+  set('anios-pub',   d.anios_pub || d.años_publicacion || d.anios_publicacion || '');
+  set('idioma',      d.idioma || d.idioma_original || '');
+  set('genero',      d.genero || d.género || '');
+  set('palabras',    d.palabras || d.extension || d.extensión || '');
+  set('palabra-freq', d.palabra_frecuente || d.palabras_frecuentes || d.palabra_freq || '');
+  set('descripcion', d.descripcion || '');
+  set('cata',        d.cata || '');
+
+  if (d.mes) {
+    var selMes = document.getElementById('mes');
+    for (var i = 0; i < selMes.options.length; i++) {
+      if (selMes.options[i].text === d.mes) { selMes.selectedIndex = i; break; }
+    }
+  }
+
+  if (d.nave) {
+    var selNave = document.getElementById('nave');
+    var naveMin = String(d.nave).toLowerCase();
+    for (var j = 0; j < selNave.options.length; j++) {
+      if (selNave.options[j].text.toLowerCase().includes(naveMin) ||
+          selNave.options[j].value === d.nave) { selNave.selectedIndex = j; break; }
+    }
+  }
+
+  if (d.veredicto) {
+    var selV = document.getElementById('veredicto');
+    var vMin = String(d.veredicto).toLowerCase();
+    for (var k = 0; k < selV.options.length; k++) {
+      if (selV.options[k].value.toLowerCase().includes(vMin) ||
+          selV.options[k].text.toLowerCase().includes(vMin)) { selV.selectedIndex = k; break; }
+    }
+  }
+
+  actualizarPreview();
+}
+
+function v(id) { return document.getElementById(id).value.trim(); }
+
+function mostrarError(msg) {
+  var eb = document.getElementById('error-box');
+  eb.textContent = msg; eb.style.display = 'block';
+}
+
+function ocultarError() {
+  document.getElementById('error-box').style.display = 'none';
+}
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+function generar() {
+  ocultarError();
+  var lote       = v('lote').padStart(3,'0');
+  var mes        = v('mes');
+  var anio       = v('anio');
+  var titulo     = v('titulo');
+  var sl         = v('slug');
+  var tituloOG   = v('titulo-og') || titulo;
+  var autor      = v('autor');
+  var aniosPub   = v('anios-pub');
+  var idioma     = v('idioma');
+  var genero     = v('genero');
+  var palabrasRaw= v('palabras');
+  var paginasStr = paginas(palabrasRaw);
+  var palabraF   = v('palabra-freq');
+  var desc       = v('descripcion');
+  var cata       = v('cata');
+  var nave       = document.getElementById('nave').value;
+  var veredicto  = v('veredicto');
+
+  if (!sl) { mostrarError('El slug no puede estar vacío.'); return; }
+
+  var base    = 'https://osmancitov.github.io/destilaciones/';
+  var imgBase = base + 'img/' + lote + '_' + sl;
+  var urlDoc  = base + lote + '_' + sl + '.html';
+  ultimoNombreBase = lote + '_' + sl;
+
+  /* Filas opcionales de la ficha — solo se incluyen si tienen valor */
+  function fichaFila(nombre, valor) {
+    if (!valor) return '';
+    return '\n  <div class="ficha-campo">'
+      + '\n    <span class="ficha-campo-nombre">' + esc(nombre) + '</span>'
+      + '\n    <span class="ficha-campo-valor">' + esc(valor) + '</span>'
+      + '\n  </div>';
+  }
+
+  var filasExtra = ''
+    + fichaFila('Idioma original', idioma)
+    + fichaFila('Género', genero)
+    + (paginasStr ? fichaFila('Extensión', paginasStr) : '')
+    + fichaFila('Palabra frecuente', palabraF);
+
+  var h = '<!DOCTYPE html>\n<html lang="es">\n<head>\n'
+    + '<meta charset="UTF-8">\n'
+    + '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\n'
+    + '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osmancitov/osmancitov.github.io@main/destilaciones/stl/260411b.css">\n\n'
+    + '<title>' + esc(titulo) + ' \u2014 Destilería Osmancito</title>\n\n'
+    + '<link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">\n'
+    + '<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">\n'
+    + '<link rel="apple-touch-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">\n\n'
+    + '<!-- Meta General -->\n'
+    + '<meta name="title" content="' + esc(tituloOG) + '">\n'
+    + '<meta name="description" content="' + esc(desc) + '">\n'
+    + '<meta name="author" content="Osmancito">\n\n'
+    + '<!-- OGMT -->\n'
+    + '<meta property="og:type" content="website" />\n'
+    + '<meta property="og:title" content="' + esc(tituloOG) + '" />\n'
+    + '<meta property="og:description" content="' + esc(desc) + '" />\n'
+    + '<meta property="og:url" content="' + urlDoc + '" />\n'
+    + '<meta property="og:site_name" content="Destilería Osmancito" />\n'
+    + '<meta property="og:image" content="' + imgBase + '_1_presentacion.jpg" />\n'
+    + '<meta property="og:image:type" content="image/jpeg" />\n'
+    + '<meta property="og:image:width" content="1024" />\n'
+    + '<meta property="og:image:height" content="1536" />\n\n'
+    + '<!-- Twitter Card -->\n'
+    + '<meta name="twitter:card" content="summary_large_image">\n'
+    + '<meta name="twitter:title" content="' + esc(tituloOG) + '">\n'
+    + '<meta name="twitter:description" content="' + esc(desc) + '">\n'
+    + '<meta name="twitter:image" content="' + imgBase + '_1_presentacion.jpg">\n\n'
+    + '</head>\n<body>\n\n'
+
+    + '<!-- CABECERA -->\n'
+    + '<header class="cabecera-documento">\n'
+    + '  <div class="sello">Destilería Osmancito \u00b7 An\u00e1lisis completo</div>\n'
+    + '  <h1 class="titulo-obra">' + esc(titulo) + '</h1>\n'
+    + '  <div class="autor">' + esc(autor) + '</div>\n'
+    + '  <div class="meta">' + ' Lote ' + lote + ' \u00b7 ' + esc(mes) + ' ' + esc(anio) + '</div>\n'
+    + '</header>\n\n'
+
+    + '<!-- IMAGEN PRESENTACI\u00d3N -->\n'
+    + '<div class="prompt-imagen prompt-imagen-presentacion">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Presentaci\u00f3n</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_1_presentacion.jpg" alt="presentacion">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<!-- FICHA DE LOTE -->\n'
+    + '<div class="ficha-recepcion" id="lote-' + lote + '">\n'
+    + '  <div class="ficha-seccion-titulo">Lote ' + lote + ' \u00b7 ' + esc(mes) + ' ' + esc(anio) + '</div>\n'
+    + '  <h3><a href="' + urlDoc + '">' + esc(titulo) + '</a></h3>\n'
+    + '  <div class="transicion-nota">' + esc(autor) + ' \u00b7 ' + esc(aniosPub) + '</div>\n'
+    + '  <figure class="img-container img-ficha">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_1_presentacion_half.jpg" alt="' + esc(titulo) + '" loading="lazy">\n'
+    + '  </figure>\n'
+    + '  <div class="extracto"><p>' + esc(desc) + '</p></div>\n'
+    + filasExtra
+    + '\n  <div class="ficha-campo">\n'
+    + '    <span class="ficha-campo-nombre">Cata</span>\n'
+    + '    <span class="ficha-campo-valor italic">' + esc(cata) + '</span>\n'
+    + '  </div>\n\n'
+    + '  <div class="ficha-campo">\n'
+    + '    <span class="ficha-campo-nombre">Nave / Veredicto</span>\n'
+    + '    <span class="ficha-campo-valor">' + esc(nave) + ' \u00b7 <span class="c-oro">' + esc(veredicto) + '</span></span>\n'
+    + '  </div>\n\n'
+    + '  <div class="ficha-campo">\n'
+    + '    <span class="ficha-campo-nombre"></span>\n'
+    + '    <span class="ficha-campo-valor"><a href="' + urlDoc + '">Ver destilado \u2192</a></span>\n'
+    + '  </div>\n'
+    + '</div>\n\n'
+
+    + '<!-- IMAGEN RECEPCI\u00d3N -->\n'
+    + '<div class="prompt-imagen prompt-imagen-recepcion">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Recepci\u00f3n</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_2_recepcion.jpg" alt="recepcion">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<!-- IMAGEN DESTILACI\u00d3N -->\n'
+    + '<div class="prompt-imagen prompt-imagen-alambique">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Destilaci\u00f3n</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_3_destilacion.jpg" alt="destilacion">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<!-- IMAGEN INSPECCI\u00d3N -->\n'
+    + '<div class="prompt-imagen prompt-imagen-inspeccion">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Inspecci\u00f3n</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_4_inspeccion.jpg" alt="inspeccion">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<!-- IMAGEN LABORATORIO -->\n'
+    + '<div class="prompt-imagen prompt-imagen-laboratorio">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Laboratorio</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_5_laboratorio.jpg" alt="laboratorio">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<!-- IMAGEN TOPOLOG\u00cdA -->\n'
+    + '<div class="prompt-imagen prompt-imagen-etiquetado">\n'
+    + '  <div class="prompt-imagen-cabecera">Imagen de Topolog\u00eda y Firma</div>\n'
+    + '  <figure class="img-container">\n'
+    + '    <img src="img/' + lote + '_' + sl + '_6_topologia.jpg" alt="topologia">\n'
+    + '  </figure>\n'
+    + '  <div class="prompt-cuerpo">[prompt aqu\u00ed]</div>\n'
+    + '</div>\n\n'
+
+    + '<main>\n  <!-- Contenido del an\u00e1lisis aqu\u00ed -->\n</main>\n\n'
+
+    + '<footer class="pie-documento">\n'
+    + '  <div class="pie-sello">Destilería Osmancito \u00b7 ' + esc(titulo) + ' \u00b7 ' + esc(autor) + '<br>' + esc(mes) + ' ' + esc(anio) + '</div>\n'
+    + '</footer>\n\n</body>\n</html>';
+
+  ultimoHTML = h;
+  var nombreMostrar = lote + '_' + sl + '_yaml.html';
+  document.getElementById('nombre-archivo-label').textContent = nombreMostrar;
+  document.getElementById('codigo').textContent = h;
+  document.getElementById('resultado').className = 'resultado visible';
+  document.getElementById('resultado').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function copiar() {
+  if (!ultimoHTML) { generar(); return; }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(ultimoHTML).then(function() { alert('Copiado.'); });
+  } else {
+    var ta = document.createElement('textarea');
+    ta.value = ultimoHTML; ta.style.position = 'fixed'; ta.style.top = '-9999px';
+    document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+    document.body.removeChild(ta); alert('Copiado.');
+  }
+}
+
+function descargar() {
+  if (!ultimoHTML) { generar(); return; }
+  var nombre = ultimoNombreBase + '_yaml.html';
+  var blob = new Blob([ultimoHTML], { type: 'text/html;charset=utf-8' });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url; a.download = nombre; a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
