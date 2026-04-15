@@ -1,0 +1,9 @@
+/* ==========================================================================
+   Pequeño martillo para index.html
+   DESTILERÍA OSMANCITO — HOJA DE ESTILO
+   ========================================================================== */
+	 
+ .extracto p {
+	font-size: var(--sz-sm);
+	text-align: left;
+}
