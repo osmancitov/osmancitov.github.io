@@ -160,7 +160,7 @@ Cada análisis se entrega en Markdown estructurado. El nombre del archivo sigue 
 Cuando se solicita versión HTML, el documento usa dos CSS externos y un JS externo — nunca estilos embebidos. Los tres recursos se declaran en este orden:
 
 ```html
-<link id="hoja-estilo" rel="stylesheet" href="stl/260415a.css">
+<link id="hoja-estilo" rel="stylesheet" href="stl/260417a.css">
 <link rel="stylesheet" href="stl/260415d.css">
 <script src="js/260415b.js"></script>
 ```

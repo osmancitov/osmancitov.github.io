@@ -577,7 +577,7 @@ Cuando el usuario solicite una copia en `.html`, generar con las siguientes regl
 El HTML generado **nunca lleva estilos embebidos** (`<style>`) ni estilos inline. Siempre usa enlace externo:
 
 ```html
-<link id="hoja-estilo" rel="stylesheet" href="stl/260415a.css">
+<link id="hoja-estilo" rel="stylesheet" href="stl/260417a.css">
 <link rel="stylesheet" href="stl/260415d.css">
 <script src="js/260415b.js"></script>
 ```
@@ -655,7 +655,7 @@ El número de lote siempre con tres cifras. Si el usuario no especifica, asumir 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link id="hoja-estilo" rel="stylesheet" href="stl/260415a.css">
+  <link id="hoja-estilo" rel="stylesheet" href="stl/260417a.css">
   <link rel="stylesheet" href="stl/260415d.css">
   <script src="js/260415b.js"></script>
 
