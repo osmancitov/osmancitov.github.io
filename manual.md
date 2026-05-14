@@ -1,4 +1,4 @@
-# Manual de operaciones — Destilería v12
+# Manual de operaciones — Destilería v13
 
 Este documento describe cada instrumento del ecosistema: qué hace, cuándo aplicarlo, y cómo se relaciona con los demás. Es un documento operativo — para usarlo antes de trabajar con un corpus, no después.
 
@@ -30,29 +30,16 @@ Precede a todos los instrumentos excepto M1, que requiere ventana vacía. Cuando
 
 ---
 
-## M03 — Objeto
+## M03 — Recepción
 
 **Qué hace**
-Recibe el corpus antes de leerlo. Lo trata como cosa física en el mundo: su peso, su superficie, su historia material, lo que comunica antes de que empiece la primera página.
+Recibe el corpus en dos tiempos. Primero como objeto físico en el mundo — su peso, su superficie, lo que comunica antes de la primera página — produciendo prompts de imagen que encarnan esa presencia material y la atmósfera del corpus. Luego como texto: ficha técnica, sinopsis, mapa de hechos según el tipo de corpus, y las tensiones que lo mueven en silencio — no los temas declarados, sino los que trabaja sin nombrarlos.
 
 **Cuándo aplicarlo**
-Cuando el corpus tiene dimensión material significativa — ediciones especiales, libros de artista, objetos que comunican antes de abrirse. Para corpus digitales su alcance es limitado: lo que produce es reconstrucción imaginativa, no recepción real. Útil como ritual de entrada cuando la presencia física del libro importa.
+Como entrada a cualquier análisis. La dimensión de objeto es plena cuando el corpus tiene materialidad significativa; para corpus digitales produce reconstrucción imaginativa, no recepción real. La orientación textual es siempre aplicable: cuando alguien necesita saber qué tiene enfrente antes de operar.
 
 **Relación con los demás**
-Puede preceder a cualquier instrumento de análisis. No es obligatorio — depende del corpus y de lo que el usuario quiera registrar antes de operar.
-
----
-
-## M04 — Recepción
-
-**Qué hace**
-Orienta al lector antes del análisis. Produce ficha técnica, sinopsis, mapa de hechos según el tipo de corpus, y las tensiones que mueven el texto — no los temas declarados sino los que el corpus trabaja en silencio.
-
-**Cuándo aplicarlo**
-Cuando se necesita orientación antes de entrar al análisis. Cuando alguien va a leer el corpus y necesita saber qué tiene enfrente. Como entrada a cualquier instrumento de análisis posterior — propio o de otra persona.
-
-**Relación con los demás**
-El instrumento más transferible del ecosistema. Complementa a cualquier otro sin competir con ninguno. Lo que M2 produce como diagnóstico de profundidad, M4 lo complementa con orientación concreta: qué ocurre, quién es quién, cuáles son las tensiones centrales.
+El instrumento más transferible del ecosistema. Puede preceder a cualquier otro sin competir con ninguno. Complementa a M02 como entrada operativa — donde M02 establece el marco y el diagnóstico de profundidad, M03 orienta con datos concretos: qué ocurre, quién es quién, cuáles son las tensiones centrales.
 
 ---
 
@@ -105,19 +92,6 @@ Al final de un ciclo de análisis, cuando ya se conoce bien el corpus. Cuando la
 
 **Relación con los demás**
 Es el instrumento de cierre por excelencia. Puede ejecutarse solo sobre un corpus bien conocido, o al final de una secuencia que incluya M4, M5 y M7. El palimpsesto que produce aquí es provisional — solo M9 puede declararlo o negarlo con autoridad total.
-
----
-
-## M09 — Síntesis
-
-**Qué hace**
-Recibe el análisis completo — de una o varias sesiones — y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Solo aquí se declara o niega el palimpsesto con autoridad total.
-
-**Cuándo aplicarlo**
-Siempre al final de un análisis fragmentado en varias sesiones. Cuando se tienen múltiples análisis parciales y se necesita ver el todo. Cuando la pregunta es si algo emerge en el espacio entre todos los instrumentos que ninguno pudo ver desde adentro.
-
-**Relación con los demás**
-Recibe el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — los integra. Es el único instrumento que tiene autoridad para declarar o negar el palimpsesto de forma definitiva.
 
 ---
 
@@ -252,6 +226,19 @@ No compite con ningún otro instrumento — opera en un registro que ninguno alc
 
 ---
 
+## M99 — Síntesis
+
+**Qué hace**
+Recibe el análisis completo — de una o varias sesiones — y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Solo aquí se declara o niega el palimpsesto con autoridad total.
+
+**Cuándo aplicarlo**
+Siempre al final de un análisis fragmentado en varias sesiones. Cuando se tienen múltiples análisis parciales y se necesita ver el todo. Cuando la pregunta es si algo emerge en el espacio entre todos los instrumentos que ninguno pudo ver desde adentro.
+
+**Relación con los demás**
+Recibe el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — los integra. Es el único instrumento que tiene autoridad para declarar o negar el palimpsesto de forma definitiva.
+
+---
+
 ## Notas de uso
 
 **Sobre la selección de instrumentos**
@@ -260,3 +247,4 @@ No existe una secuencia obligatoria. Cada corpus exige su propia combinación. M
 **Sobre la escala**
 Todos los instrumentos operan sobre cualquier escala: un párrafo, un capítulo, un libro, una obra completa. Lo que cambia es la duración y la granularidad, no el principio de operación.
 
+---
