@@ -31,8 +31,8 @@ Cada instrumento define qué hace, cuándo aplicarlo, y cómo se relaciona con l
 | M15 | Geógrafo | Espacial | La geografía como productora de pensamiento, no como escenario. |
 | M16 | Cronista de la Pérdida | Taxonómico | Taxonomía de la extinción a múltiples escalas simultáneas. |
 | M17 | Testigo del Testigo | Reflexivo | Observa al observador. La subjetividad no declarada. |
-| M18 | Palimpsesto | Intersticial | El texto debajo del texto que emerge entre los análisis, no dentro de ellos. |
 | M19 | Bucle | Godeliano | El corpus operado con sus propias herramientas. La proposición que el sistema no puede demostrar desde adentro. |
+| M98 | Palimpsesto | Intersticial | El texto debajo del texto que emerge entre los análisis, no dentro de ellos. |
 | M99 | Síntesis | Total | El análisis se ve a sí mismo como unidad. Declara o niega el palimpsesto. |
 
 ---
@@ -96,8 +96,8 @@ Opera siempre al final. Recibe el output de cualquier combinación de instrument
     ├── M15_geografo/
     ├── M16_cronista/
     ├── M17_testigo/
-    ├── M18_palimpsesto/
     ├── M19_bucle/
+    ├── M98_palimpsesto/
     └── M99_sintesis/
 ```
 

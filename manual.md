@@ -199,19 +199,6 @@ Complementa a M13 — Dioniso busca lo que el corpus carga sin saberlo; M17 busc
 
 ---
 
-## M18 — Palimpsesto
-
-**Qué hace**
-Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis — no dentro de ninguno sino entre ellos. Si existe, se nombra. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.
-
-**Cuándo aplicarlo**
-Solo cuando el análisis está completo o sustancialmente avanzado. No en medio del proceso — cuando ya se han agotado las miradas disponibles.
-
-**Relación con los demás**
-Requiere el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — opera después de todos.
-
----
-
 ## M19 — Bucle
 
 **Qué hace**
@@ -223,6 +210,19 @@ Solo sobre corpus que son sistemas que describen sistemas: textos que construyen
 **Relación con los demás**
 No compite con ningún otro instrumento — opera en un registro que ninguno alcanza. Donde M7 busca lo que el corpus no sabe que contiene y M17 observa al observador, M19 pregunta qué le sucede al corpus cuando sus propias reglas se vuelven sobre él. Puede ejecutarse solo, o después de M5 y M7 cuando el corpus ya es conocido en profundidad — en ese caso la aplicación es más precisa porque el inventario de mecanismos puede construirse con mayor rigor. La proposición godeliana que produce puede alimentar a M9 como material para la síntesis final.
 
+
+---
+
+## M98 — Palimpsesto
+
+**Qué hace**
+Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis — no dentro de ninguno sino entre ellos. Si existe, se nombra. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.
+
+**Cuándo aplicarlo**
+Solo cuando el análisis está completo o sustancialmente avanzado. No en medio del proceso — cuando ya se han agotado las miradas disponibles.
+
+**Relación con los demás**
+Requiere el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — opera después de todos.
 
 ---
 
