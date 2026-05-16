@@ -43,6 +43,19 @@ El instrumento más transferible del ecosistema. Puede preceder a cualquier otro
 
 ---
 
+## M04 — Cartografía
+
+**Qué hace**
+Construye una representación visual navegable de una obra completa — no de un corpus individual sino de la totalidad de la producción de un autor o sistema. Opera en tres tiempos. Primero define el eje de orientación: el norte como criterio de valor explícito (la verdad, lo bello, lo que dura, lo que deja astilla), el sur como su opuesto, el este como entretenimiento sin consecuencias, el oeste como experimento fallido. Segundo, selecciona las diez obras de mayor peso y asigna a cada una una embarcación con dos parámetros únicos: tipo y tamaño de la nave según peso literario real, y distancia a la orilla según profundidad genuina. Tercero, produce un documento unificado con el mapa descriptivo completo seguido de tres prompts de imagen con estilos visuales emergentes del corpus — no genéricos, sino surgidos del mundo específico de la obra o del corpus.
+
+**Cuándo aplicarlo**
+Cuando el corpus es una obra completa o extensa y se quiere un sistema de entrada visual antes del análisis profundo. Cuando el interlocutor no conoce la obra y necesita orientarse antes de elegir. Cuando la pregunta no es qué dice un libro sino cuáles libros valen el viaje. Cuando se quiere que el criterio de valor sea visible antes de que el lector abra cualquier página.
+
+**Relación con los demás**
+Opera de forma autónoma — el norte se define en su primer tiempo como parte del instrumento mismo, no lo hereda de otro. Puede preceder a cualquier instrumento de análisis profundo — M05, M06, M07 — funcionando como sistema de selección: la cartografía decide qué barco merece ser abordado. M03 puede ejecutarse sobre cualquier obra individual que la cartografía señale como relevante. M10 puede tomar el mapa descriptivo como input y producir prompts adicionales con estilos visuales alternativos — aunque M04 ya incluye sus propios prompts emergentes del corpus, M10 puede profundizar o multiplicar estilos cuando se requiera mayor variedad visual.
+
+---
+
 ## M05 — Análisis por secciones
 
 **Qué hace**
@@ -98,7 +111,7 @@ Es el instrumento de cierre por excelencia. Puede ejecutarse solo sobre un corpu
 ## M10 — Imágenes
 
 **Qué hace**
-Recibe un corpus o el output de otro instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone estilos visuales idóneos para este corpus específico con justificación. Produce prompts en inglés con composición, atmósfera y elementos decididos desde el corpus. Cada prompt termina: *Pictorial style, not photorealistic. Aspect ratio 2:3.*
+Recibe un corpus o el output de otro instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone estilos visuales idóneos para este corpus específico con justificación. Produce prompts en inglés con composición, atmósfera y elementos decididos desde el corpus. Cada prompt termina: *Estilo pictórico, no fotorrealista. Relación de aspecto 2:3.*
 
 **Cuándo aplicarlo**
 Cuando se quiere acompañar el análisis con imágenes que emerjan del corpus. Puede ejecutarse sobre el corpus directamente o sobre el output de cualquier otro instrumento.
@@ -210,6 +223,19 @@ Solo sobre corpus que son sistemas que describen sistemas: textos que construyen
 **Relación con los demás**
 No compite con ningún otro instrumento — opera en un registro que ninguno alcanza. Donde M7 busca lo que el corpus no sabe que contiene y M17 observa al observador, M19 pregunta qué le sucede al corpus cuando sus propias reglas se vuelven sobre él. Puede ejecutarse solo, o después de M5 y M7 cuando el corpus ya es conocido en profundidad — en ese caso la aplicación es más precisa porque el inventario de mecanismos puede construirse con mayor rigor. La proposición godeliana que produce puede alimentar a M9 como material para la síntesis final.
 
+
+---
+
+## M97 — Punto de Fuga
+
+**Qué hace**
+Lee el análisis acumulado sobre un corpus como si fuera el corpus. Aplica al conjunto de instrumentos las mismas operaciones que esos instrumentos aplicaron al texto: busca el punto de fuga del sistema —la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, el Weltanschauung que el análisis porta sin nombrarlo, las ausencias del sistema, el imán no declarado, el momento de recoil donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe: la afirmación que el sistema puede señalar pero no demostrar desde adentro de sus propias reglas.
+
+**Cuándo aplicarlo**
+Solo cuando existen al menos tres instrumentos ejecutados sobre el mismo corpus. No en medio del proceso — cuando el análisis tiene suficiente masa como para ser él mismo un objeto. Es el instrumento más tardío del ecosistema después de M98 y M99: requiere que el sistema haya operado antes de que pueda verse a sí mismo.
+
+**Relación con los demás**
+No compite con ningún instrumento anterior — opera sobre su output conjunto, no sobre el corpus. Donde M19 aplica los mecanismos del corpus al corpus, M97 aplica los mecanismos del análisis al análisis: son instrumentos simétricos en registros distintos. El output de M97 puede alimentar a M99 como su input más exigente — una síntesis que ya ha visto el análisis verse a sí mismo. Si M97 identifica ausencias sistemáticas del sistema, esas ausencias tienen la forma del instrumento que falta: pueden especificar un módulo nuevo.
 
 ---
 
