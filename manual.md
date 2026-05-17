@@ -1,276 +1,242 @@
-# Manual de operaciones — Destilería v13
+# Destilería Osmancito
+*Versión 15*
 
-Este documento describe cada instrumento del ecosistema: qué hace, cuándo aplicarlo, y cómo se relaciona con los demás. Es un documento operativo — para usarlo antes de trabajar con un corpus, no después.
+## Prólogo
+
+Hay una diferencia entre leer un texto y saber qué tiene adentro.
+
+Se puede leer un libro completo —subrayarlo, recordarlo, citarlo— y no saber qué es. No en el sentido de no entenderlo. En el sentido de no haber llegado a lo que el texto carga por debajo de lo que dice. Lo que opera en silencio. Lo que produce en quien lo lee sin que nadie lo haya nombrado todavía.
+
+Esa diferencia no es de inteligencia ni de atención. Es de método.
+
+La mayoría de las lecturas llegan al corpus con categorías ya formadas: género, tema, argumento, estilo. Esas categorías son útiles. También son una forma de no ver. Cuando se le pregunta a un texto si es una novela de formación, responde como novela de formación. Cuando se le pregunta qué es, a veces responde algo distinto. Algo que ninguna categoría previa podría haber anticipado.
+
+La Destilería Osmancito es un sistema de lectura construido para llegar sin categorías previas y salir con conocimiento preciso.
+
+No resume. No parafrasea. No clasifica. Lee en capas: lo que el corpus construye, lo que produce en quien lo recibe, las condiciones que lo hicieron posible. Esas tres dimensiones se modifican mutuamente. Lo que el texto dice cambia cuando se sabe desde dónde fue escrito. Lo que el texto construye revela cosas distintas cuando se escucha lo que produce. El sistema opera desde esa tensión, no desde cada dimensión por separado.
+
+Está compuesto por instrumentos. Cada instrumento es una forma de entrada al corpus —una pregunta distinta, una escala distinta, un tipo de conocimiento distinto. Algunos llegan antes que otros. Algunos requieren que otros hayan operado primero. Ninguno es obligatorio. El corpus decide qué tiene sentido.
+
+Hay dos formas de entrar al sistema.
+
+La primera es llegar al corpus sin saber nada todavía —sin marco activo, sin diagnóstico previo— y dejar que el texto se declare a sí mismo antes de que cualquier instrumento lo toque. Esa entrada tiene su propio instrumento y sus propias condiciones.
+
+La segunda es activar el marco primero: establecer cómo opera el sistema, desde qué geometría, con qué voz. Desde ahí, cualquier instrumento puede ejecutarse.
+
+Lo que sigue es el sistema completo. Los instrumentos están descritos uno por uno: qué hace cada uno, cuándo tiene sentido usarlo, cómo se relaciona con los demás. No hay secuencia obligatoria. Hay lógica. Y esa lógica, una vez vista, es difícil de ignorar.
 
 ---
 
-## M01 — Escucha (Cadena Secuencial)
+# Los instrumentos
 
-**Qué hace**
-Opera como cadena de pasos independientes, cada uno en una llamada separada al modelo sin acceso al siguiente hasta completar el actual. El vocabulario bloqueado crece con cada paso, obligando al modelo a encontrar el idioma del corpus en lugar de importar el idioma de la crítica. Llega al corpus sin categorías previas y sin saber qué va a encontrar.
+El sistema cuenta con diecisiete instrumentos. Cada uno produce un tipo de conocimiento que los demás no producen. No hay jerarquía entre ellos —hay lógica. Lo que sigue describe esa lógica: qué hace cada instrumento, cuándo tiene sentido usarlo, cómo se relaciona con los demás.
 
-**Cuándo aplicarlo**
-Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere sobre él. Cuando el objetivo es escuchar antes de analizar. Requiere ventana de contexto vacía — sin system prompt activo — para funcionar con integridad. Si se ejecuta con contexto previo, la cadena se contamina.
+El orden en que aparecen aquí no es el orden en que deben usarse. Es el orden en que conviene conocerlos.
 
-**Relación con los demás**
-Es el instrumento de entrada más puro del ecosistema. Lo que produce — la naturaleza del corpus, sus zonas vivas, lo que carga sin saberlo — puede informar la selección de todos los instrumentos siguientes. M2 no debe precederlo en la misma sesión.
+---
+
+## M01 — Escucha
+
+Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de pasos independientes: cada uno cierra antes de que el siguiente empiece, y el vocabulario disponible se reduce en cada paso, obligando al sistema a encontrar el idioma del corpus en lugar de importar el idioma de la crítica. Lo que produce no es un análisis —es un reconocimiento: la naturaleza del corpus, dónde está vivo, qué carga sin saberlo.
+
+**Cuándo** — Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere. Requiere ventana de contexto vacía: sin sistema activo, sin conversación previa. Si hay contexto previo, la cadena se contamina y el instrumento pierde su razón de ser. No se ejecuta a mitad de una sesión.
+
+**Posición** — Es el primer instrumento posible, y el más irrecuperable si se usa mal. Su último paso produce una orientación sobre qué instrumentos tienen sentido con este corpus específico —una guía de entrada al sistema que ningún otro instrumento puede producir con esa limpieza.
+
+**Relación con los demás** — El protocolo Umbral no debe precederlo. Ningún instrumento debe precederlo en la misma sesión. Lo que produce puede informar la selección de todos los instrumentos siguientes.
 
 ---
 
 ## M02 — Umbral
 
-**Qué hace**
-Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la entrada sin categorías previas, la geometría de tres fuerzas en tensión (lo construido, lo experiencial, lo contextual), el diagnóstico como mapa vivo de profundidades, el menú emergente, y las tres operaciones fundamentales: lectura, síntesis, silencio.
+Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus: primer contacto, mapa de profundidades, y un menú de operaciones que emerge del corpus específico, no de una lista fija.
 
-**Cuándo aplicarlo**
-En toda sesión de análisis donde no se ejecute M1 primero. Es la condición de operación del sistema — no un instrumento de análisis sino el marco desde el cual los demás operan.
+**Cuándo** — En toda sesión de análisis donde no se ejecute protocolo Escucha primero. Es la condición de operación del sistema —no un instrumento de análisis, sino el marco desde el cual los demás operan. Cuando protocolo Umbral está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones.
 
-**Relación con los demás**
-Precede a todos los instrumentos excepto M1, que requiere ventana vacía. Cuando M2 está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones. Los instrumentos M3 a M17 son operaciones específicas que el sistema puede ejecutar desde dentro de ese marco.
+**Posición** — Segundo en la secuencia lógica, después de protocolo Escucha o en su lugar. Precede a todos los instrumentos de análisis.
+
+**Relación con los demás** — Todos los instrumentos del protocolo Recepcion en adelante operan desde dentro del marco que el protocolo Umbral establece. El menú emergente que produce es la forma en que el protocolo Umbral se comunica con el resto del sistema: no prescribe qué instrumentos usar, describe qué podría encontrarse con cada uno.
 
 ---
 
 ## M03 — Recepción
 
-**Qué hace**
-Recibe el corpus en dos tiempos. Primero como objeto físico en el mundo — su peso, su superficie, lo que comunica antes de la primera página — produciendo prompts de imagen que encarnan esa presencia material y la atmósfera del corpus. Luego como texto: ficha técnica, sinopsis, mapa de hechos según el tipo de corpus, y las tensiones que lo mueven en silencio — no los temas declarados, sino los que trabaja sin nombrarlos.
+Orienta antes de analizar. Produce una imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página— y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. No interpreta. Mapea lo que hay antes de que empiece la interpretación.
 
-**Cuándo aplicarlo**
-Como entrada a cualquier análisis. La dimensión de objeto es plena cuando el corpus tiene materialidad significativa; para corpus digitales produce reconstrucción imaginativa, no recepción real. La orientación textual es siempre aplicable: cuando alguien necesita saber qué tiene enfrente antes de operar.
+**Cuándo** — Como entrada a cualquier análisis. Especialmente útil cuando el corpus es desconocido y se necesita saber qué hay enfrente antes de elegir instrumentos. Para corpus digitales la dimensión de objeto es imaginativa, no real —la ficha textual es siempre aplicable.
 
-**Relación con los demás**
-El instrumento más transferible del ecosistema. Puede preceder a cualquier otro sin competir con ninguno. Complementa a M02 como entrada operativa — donde M02 establece el marco y el diagnóstico de profundidad, M03 orienta con datos concretos: qué ocurre, quién es quién, cuáles son las tensiones centrales.
+**Posición** — Puede preceder a cualquier instrumento sin competir con ninguno. Es el instrumento más transferible del ecosistema.
 
----
-
-## M04 — Cartografía
-
-**Qué hace**
-Construye una representación visual navegable de una obra completa — no de un corpus individual sino de la totalidad de la producción de un autor o sistema. Opera en tres tiempos. Primero define el eje de orientación: el norte como criterio de valor explícito (la verdad, lo bello, lo que dura, lo que deja astilla), el sur como su opuesto, el este como entretenimiento sin consecuencias, el oeste como experimento fallido. Segundo, selecciona las diez obras de mayor peso y asigna a cada una una embarcación con dos parámetros únicos: tipo y tamaño de la nave según peso literario real, y distancia a la orilla según profundidad genuina. Tercero, produce un documento unificado con el mapa descriptivo completo seguido de tres prompts de imagen con estilos visuales emergentes del corpus — no genéricos, sino surgidos del mundo específico de la obra o del corpus.
-
-**Cuándo aplicarlo**
-Cuando el corpus es una obra completa o extensa y se quiere un sistema de entrada visual antes del análisis profundo. Cuando el interlocutor no conoce la obra y necesita orientarse antes de elegir. Cuando la pregunta no es qué dice un libro sino cuáles libros valen el viaje. Cuando se quiere que el criterio de valor sea visible antes de que el lector abra cualquier página.
-
-**Relación con los demás**
-Opera de forma autónoma — el norte se define en su primer tiempo como parte del instrumento mismo, no lo hereda de otro. Puede preceder a cualquier instrumento de análisis profundo — M05, M06, M07 — funcionando como sistema de selección: la cartografía decide qué barco merece ser abordado. M03 puede ejecutarse sobre cualquier obra individual que la cartografía señale como relevante. M10 puede tomar el mapa descriptivo como input y producir prompts adicionales con estilos visuales alternativos — aunque M04 ya incluye sus propios prompts emergentes del corpus, M10 puede profundizar o multiplicar estilos cuando se requiera mayor variedad visual.
+**Relación con los demás** — Complementa al protocolo Umbral: donde protocolo Umbral establece el marco y el diagnóstico de profundidad, el protocolo Recepcion orienta con datos concretos. Puede ejecutarse antes del protocolo Apolo, el protocolo Dioniso o el protocolo Hermes como preparación para el triángulo central.
 
 ---
 
-## M05 — Análisis por secciones
+## M04 — Inventario de Flota
 
-**Qué hace**
-Entra al corpus sección por sección. Para cada una extrae el núcleo — qué ocurre que importa para el todo — y busca activamente los fragmentos que sobreviven solos en tres escalas: microscópica (el mecanismo dentro de la frase), mesoscópica (el fragmento citable verbatim), macroscópica (el gesto que solo existe como totalidad). Al final cartografía el corpus y produce una descripción sensorial.
+Construye un mapa navegable de una obra completa —no de un corpus individual, sino de la totalidad de la producción de un autor o sistema. Primero define un norte: el criterio de valor que va a gobernar todos los juicios, emergente de la obra misma. Luego selecciona las diez posiciones más reveladoras y asigna a cada una una embarcación con dos parámetros: tipo y tamaño según peso literario real, distancia a la orilla según profundidad genuina. Produce el mapa descriptivo completo con prompts de imagen en tres estilos visuales emergentes del corpus.
 
-**Cuándo aplicarlo**
-Cuando se necesita trabajar un corpus largo con granularidad por capítulo. Cuando el objetivo es encontrar los fragmentos que alguien repetiría años después. Cuando se quiere una descripción sensorial del corpus como experiencia total.
+**Cuándo** — Cuando el corpus es una obra completa o extensa y se quiere orientación visual antes del análisis profundo. Cuando la pregunta no es qué dice un libro sino cuáles libros valen el viaje. No opera sobre un corpus individual.
 
-**Relación con los demás**
-Es el instrumento de mayor densidad operativa. Las joyas en tres escalas son una gramática de la densidad que ningún otro instrumento produce con esa precisión. Puede seguir a M4 como análisis profundo después de la orientación, o ejecutarse solo sobre un corpus ya conocido.
+**Posición** — Instrumento de entrada y selección. Puede preceder a cualquier instrumento de análisis profundo, funcionando como sistema de orientación: el inventario decide qué territorio merece ser habitado.
 
----
-
-## M06 — Inspección
-
-**Qué hace**
-Examina el corpus desde seis miradas estructurales — la estructura que aguanta el peso, las fuerzas externas, la arquitectura interna, la ética profunda, el autor y su sombra, el origen y la carga real versus la declarada — y emite un veredicto. Produce también la partitura: el corpus descrito como música con una obra real y escuchable.
-
-**Cuándo aplicarlo**
-Cuando la pregunta central es si el corpus aguanta lo que promete. Cuando se quiere un diagnóstico estructural con veredicto explícito. Cuando importa caracterizar al autor como presencia que emerge del texto, no solo como nombre.
-
-**Relación con los demás**
-Es el único instrumento del ecosistema que juzga explícitamente. Todos los demás entregan y esperan. M6 cierra con veredicto. Puede ejecutarse solo o después de M4 y M5 cuando ya hay suficiente conocimiento del corpus para que el veredicto sea preciso.
+**Relación con los demás** — El protocolo Recepcion puede ejecutarse sobre cualquier obra que el inventario señale como relevante. El protocolo Imagenes puede tomar el mapa descriptivo como input y producir imágenes adicionales si se requiere mayor variedad visual.
 
 ---
 
-## M07 — Laboratorio
+## M05 — Joyería
 
-**Qué hace**
-Busca lo que el corpus no sabe que contiene: ausencias (lo que rodea sin nombrar), síntomas (inconsistencias que el autor no controla), patrones no declarados (recurrencias anómalas). Aplica cuatro lentes sobre el mismo texto: literal, alegórico, moral, profundo. Produce la semilla: el núcleo más irreducible del corpus en una proposición.
+Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —150 a 250 palabras en prosa continua que responde qué ocurre aquí que importa para el todo, priorizando el movimiento del argumento sobre la enumeración de contenidos—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido. El protocolo establece cuántas joyas corresponden según la extensión de cada capítulo.
 
-**Cuándo aplicarlo**
-Cuando el objetivo es leer lo que el corpus no sabe que dice. Cuando se sospecha que hay patrones de tono o recurrencias no declaradas. Cuando se necesita el núcleo irreducible — no el tema, lo que quedaría si todo lo demás se quemara.
+**Cuándo** — Cuando se necesita trabajar el corpus con granularidad por sección. Cuando el objetivo es encontrar lo que alguien repetiría años después. Requiere tiempo y corpus completo.
 
-**Relación con los demás**
-Es el instrumento más cercano a M1 en filosofía — ambos buscan lo que el corpus carga sin saberlo. La diferencia: M1 llega sin categorías y deja que el corpus se declare. M7 llega con categorías precisas (ausencias, síntomas, los cuatro lentes) y las aplica. Puede seguir a M5 como profundización sobre lo que el análisis por secciones dejó visible.
+**Posición** — Antes del protocolo Apolo, el protocolo Dioniso y el protocolo Hermes. Es trabajo de campo antes de que llegue la interpretación: lo que encuentra informa y enriquece las cartografías de los instrumentos que siguen.
 
----
-
-## M08 — Etiquetado
-
-**Qué hace**
-Cierra el análisis con identidad, no con resumen. Produce el inventario de preguntas que el corpus activa sin resolver, clasificadas por tipo, con la falla raíz señalada. El imán conceptual con su tipo de curvatura. La topología de ideas. El truco que hace que no se olvide. La sentencia final. El palimpsesto si existe.
-
-**Cuándo aplicarlo**
-Al final de un ciclo de análisis, cuando ya se conoce bien el corpus. Cuando la pregunta es qué es este corpus — no qué dice. Cuando se quiere el concepto que curva todo lo demás y el mecanismo por el que produce o no inagotabilidad.
-
-**Relación con los demás**
-Es el instrumento de cierre por excelencia. Puede ejecutarse solo sobre un corpus bien conocido, o al final de una secuencia que incluya M4, M5 y M7. El palimpsesto que produce aquí es provisional — solo M9 puede declararlo o negarlo con autoridad total.
+**Relación con los demás** — Complementa al protocolo Narraciones: las joyas son lo que vale, los eventos son lo que ocurre. Lo que vale y lo que pasa no siempre coinciden —esa divergencia, cuando existe, es un hallazgo.
 
 ---
 
-## M10 — Imágenes
+## M06 — Narraciones
 
-**Qué hace**
-Recibe un corpus o el output de otro instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone estilos visuales idóneos para este corpus específico con justificación. Produce prompts en inglés con composición, atmósfera y elementos decididos desde el corpus. Cada prompt termina: *Estilo pictórico, no fotorrealista. Relación de aspecto 2:3.*
+Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe, sino lo que pasa. Produce un índice completo de eventos con ubicación, descripción, giro si existe, e intensidad de peso vivo del 1 al 5. Cierra con un diagnóstico de qué es este corpus desde sus narraciones.
 
-**Cuándo aplicarlo**
-Cuando se quiere acompañar el análisis con imágenes que emerjan del corpus. Puede ejecutarse sobre el corpus directamente o sobre el output de cualquier otro instrumento.
+**Cuándo** — Cuando se quiere saber si el corpus tiene temperatura narrativa y dónde. Útil sobre corpus que mezclan argumento y narración para separar las temperaturas. Cuando importa identificar los momentos que quedarían en la memoria de un lector diez años después.
 
-**Relación con los demás**
-Es el único instrumento que produce para afuera del ecosistema — sus outputs van a un generador de imágenes externo. Puede ejecutarse en cualquier momento del proceso.
+**Posición** — Puede ejecutarse antes o después del protocolo Joyeria. Juntos producen un mapa de doble dimensión: densidad y acontecimiento.
 
----
-
-## M11 — Narraciones
-
-**Qué hace**
-Busca lo que ocurre en el corpus — no lo que se argumenta ni lo que se describe. Lo que pasa. Produce un índice completo de eventos con su intensidad de peso vivo del 1 al 5, el giro si existe, y un diagnóstico final de qué es este corpus desde sus narraciones.
-
-**Cuándo aplicarlo**
-Cuando se quiere saber si el corpus tiene temperatura narrativa y dónde. Cuando importa identificar los momentos que quedarían en la memoria de un lector diez años después. Útil sobre corpus que mezclan argumento y narración — para separar las temperaturas.
-
-**Relación con los demás**
-Complementa a M5, que busca joyas. M11 busca eventos — lo que pasa, no lo que vale. Pueden ejecutarse juntos sobre el mismo corpus para ver qué relación hay entre los fragmentos que sobreviven solos y los momentos donde algo ocurre.
+**Relación con los demás** — Complementa al protocolo Joyeria: El protocolo Joyeria busca joyas, el protocolo Narraciones busca eventos.
 
 ---
 
-## M12 — Apolo
+## M07 — Apolo
 
-**Qué hace**
-Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce ficha técnica, mapa de hechos, resumen por sección, cartografía, las seis miradas estructurales, el imán y la topología de ideas, el truco.
+Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce ficha técnica, mapa de hechos, resumen por sección, cartografía en cinco campos, las seis miradas estructurales —incluyendo arquitectura interna que cuando el corpus lo merece baja hasta la escala de la frase—, el imán y la topología de ideas, el truco, y la sentencia final. Es el análisis estructural completo en un solo documento.
 
-**Cuándo aplicarlo**
-Cuando se quiere un análisis estructural exhaustivo en un solo documento. Cuando importa ver el corpus como construcción — cómo está hecho y si aguanta.
+**Cuándo** — Cuando la pregunta central es cómo está construido el corpus y si aguanta lo que promete. Cuando se quiere un diagnóstico estructural con veredicto explícito. Cuando importa caracterizar la arquitectura antes de escuchar el pulso.
 
-**Relación con los demás**
-Es una versión integrada de M4, M6 y parte de M8 en un solo instrumento. Si ya se ejecutaron esos tres por separado, M12 es redundante. Si se quiere todo el análisis estructural en una sola operación, M12 es más eficiente.
+**Posición** — Primer vértice del triángulo central junto al protocolo Dioniso y el protocolo Hermes. Puede ejecutarse solo o después del protocolo Joyeria y el protocolo Narraciones cuando el corpus ya fue recorrido en detalle. Su sentencia final tiene más precisión cuando llega con conocimiento previo del corpus.
 
----
-
-## M13 — Dioniso
-
-**Qué hace**
-Lee el corpus como acontecimiento. Escucha lo que está vivo, lo que carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. Es el instrumento de mayor alcance dionisíaco del ecosistema — incluye zonas vivas, ausencias, síntomas, patrones, semilla, preguntas, falla raíz, sentencia final, palimpsesto y pregunta generativa.
-
-**Cuándo aplicarlo**
-Cuando se quiere un análisis completo del pulso del corpus en un solo documento. Cuando importa lo que el corpus hace más que lo que dice.
-
-**Relación con los demás**
-Es una versión integrada de M7, M8 y parte de M11 en un solo instrumento. Complementa a M12 — los dos juntos sobre el mismo corpus producen la estereoscopía completa: lo construido y lo experiencial desde sus instrumentos más completos.
+**Relación con los demás** — Forma triángulo con el protocolo Dioniso y el protocolo Hermes. Los tres juntos producen la visión estereoscópica completa: lo construido, lo experiencial, lo contextual. El protocolo Hermes tiene una sección final que entrega al protocolo Apolo lo que la estructura no puede explicarse a sí misma.
 
 ---
 
-## M14 — Hermes
+## M08 — Dioniso
 
-**Qué hace**
-Lee el suelo donde el corpus ocurrió. Las condiciones que hicieron posible el texto tal como existe: geografía intelectual, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Al final entrega una señal específica a M12 y a M13 sobre lo que el contexto hace a la arquitectura y al pulso.
+Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. Produce: primera frase, destilado maestro, zonas vivas, ausencias, síntomas, patrones inconscientes, cuatro tipos de lectura —literal, alegórica, moral, profunda—, descripción sensorial, partitura musical, semilla, preguntas y falla raíz, huella del observador si aplica, desapariciones si aplica, índice de eventos, sentencia final, y pregunta generativa. Es el análisis de pulso completo en un solo documento.
 
-**Cuándo aplicarlo**
-Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.
+**Cuándo** — Cuando importa lo que el corpus hace más que lo que dice. Cuando se quiere el análisis experiencial completo en una sola operación. Es el instrumento de mayor alcance dionisíaco del sistema.
 
-**Relación con los demás**
-Diseñado para operar junto a M12 y M13 — los tres forman el triángulo completo: lo construido, lo experiencial, lo contextual. Puede ejecutarse antes o después de los otros dos, pero su sección final — lo que Hermes entrega a M12 y M13 — es más precisa si ya se conocen los outputs de esos instrumentos.
+**Posición** — Segundo vértice del triángulo central. Puede ejecutarse solo o después del protocolo Joyeria y el protocolo Narraciones. Su profundidad aumenta cuando llega a un corpus ya conocido en sus joyas y sus eventos.
 
----
-
-## M15 — Geógrafo
-
-**Qué hace**
-Entra al corpus como si fuera un mapa, no un argumento. Registra cada lugar que aparece como productor de pensamiento — no como escenario. Traza la arquitectura espacial del corpus: dónde ocurre el pensamiento más lúcido, dónde se vuelve oblicuo o defensivo, qué produce pensar desde el centro versus el margen.
-
-**Cuándo aplicarlo**
-Cuando el corpus piensa desde lugares distintos y esos lugares modifican visiblemente el pensamiento. Cuando el autor escribe desde el desplazamiento, el exilio o el retorno. Cuando la geografía no es decorado sino condición.
-
-**Relación con los demás**
-Comparte territorio con M14 — ambos leen el contexto externo. La diferencia: M14 lee las condiciones en conjunto. M15 se concentra exclusivamente en la geografía como productora de pensamiento. Pueden ejecutarse juntos o por separado según lo que el corpus exija.
+**Relación con los demás** — Complementa al protocolo Apolo: los dos juntos sobre el mismo corpus producen la estereoscopía completa entre lo construido y lo experiencial. El protocolo Hermes tiene una sección final que entrega al protocolo Dioniso lo que el latido no sabe de su propio origen.
 
 ---
 
-## M16 — Cronista de la Pérdida
+## M09 — Hermes
 
-**Qué hace**
-Cuenta cuántas veces algo desaparece en el corpus y de qué tipo es cada desaparición. Produce una taxonomía de la extinción a múltiples escalas simultáneas — biológica, cultural, intelectual, personal — y mapea su distribución. Encuentra la conclusión que el corpus no quería producir.
+Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Cierra con una sección que entrega al protocolo Apolo y el protocolo Dioniso lo que el contexto hace a la arquitectura y al pulso.
 
-**Cuándo aplicarlo**
-Cuando algo desaparece en el corpus de forma recurrente. Cuando el corpus lamenta sin nombrar lo que lamenta. Cuando la pérdida opera a más de una escala simultáneamente y esas escalas parecen seguir el mismo ritmo.
+**Cuándo** — Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.
 
-**Relación con los demás**
-Complementa a M7, que busca ausencias estructurales. M16 busca desapariciones como eventos registrables — lo que se fue, cuándo, cómo. Pueden ejecutarse juntos sobre el mismo corpus para ver qué relación hay entre lo que el corpus calla y lo que el corpus pierde.
+**Posición** — Tercer vértice del triángulo central. Puede ejecutarse antes o después del protocolo Apolo y el protocolo Dioniso, pero su sección final —lo que Hermes entrega a los otros— es más precisa si ya se conocen los outputs de esos instrumentos.
 
----
-
-## M17 — Testigo del Testigo
-
-**Qué hace**
-Observa al observador. Registra qué selecciona sistemáticamente, qué omite sistemáticamente, cuándo la distancia analítica se quiebra y aparece el hombre detrás del método. Encuentra los instantes más vivos del texto — identificados no por su belleza sino por su involuntariedad.
-
-**Cuándo aplicarlo**
-Cuando el corpus tiene un observador identificable que analiza, registra o narra desde una posición. Cuando hay tensión entre el método declarado y lo que el texto realmente hace. Cuando la subjetividad no declarada opera visiblemente sobre el material.
-
-**Relación con los demás**
-Complementa a M13 — Dioniso busca lo que el corpus carga sin saberlo; M17 busca lo que el observador dentro del corpus carga sin saberlo. Son miradas distintas sobre la involuntariedad. Pueden ejecutarse juntos cuando el corpus tiene un observador fuerte.
+**Relación con los demás** — Diseñado para operar junto al protocolo Apolo y el protocolo Dioniso. Los tres forman el triángulo completo: lo construido, lo experiencial, lo contextual. Es el único instrumento del sistema que produce outputs dirigidos explícitamente a otros instrumentos por nombre. Cuando el protocolo Joyeria ya fue ejecutado: qué condición externa determina qué tipo de fragmento podía sobrevivir solo en este corpus y cuál no podía.
 
 ---
 
-## M19 — Bucle
+## M10 — Geógrafo
 
-**Qué hace**
-Aplica los mecanismos del corpus al corpus mismo. No lee desde afuera ni desde adentro: opera el corpus con sus propias herramientas. Primero verifica elegibilidad —el corpus debe construir mecanismos operativos y pertenecer a la clase de objetos que esos mecanismos describen. Luego inventaría los mecanismos con precisión. Luego los aplica uno a uno al corpus y registra cuatro resultados posibles: iluminación, tensión, destrucción o silencio. Cierra con la proposición godeliana del corpus — la afirmación que el sistema puede señalar pero no demostrar desde adentro de sus propias reglas — si existe.
+Entra al corpus como si fuera un mapa, no un argumento. Registra cada lugar que aparece como productor de pensamiento —no como escenario. Traza la arquitectura espacial completa: dónde ocurre el pensamiento más lúcido, dónde se vuelve oblicuo o defensivo, qué produce pensar desde el centro versus el margen. Si el corpus fue escrito desde el desplazamiento, registra la relación entre esa distancia y la calidad del pensamiento.
 
-**Cuándo aplicarlo**
-Solo sobre corpus que son sistemas que describen sistemas: textos que construyen herramientas, reglas o modelos con suficiente precisión como para ser operados, y que pertenecen a la misma clase de objetos que sus mecanismos describen. Un libro sobre sistemas formales, un manual sobre lectura, un tratado sobre el poder, una metodología que se aplica a metodologías. Sobre corpus que no cumplen ambas condiciones de elegibilidad, el instrumento no opera — y esa verificación es en sí misma un resultado válido.
+**Cuándo** — Cuando el corpus piensa desde lugares distintos y esos lugares modifican visiblemente el pensamiento. Cuando la geografía no es decorado sino condición. No aplica si el corpus no tiene geografía identificable —el instrumento lo declara y no se produce.
 
-**Relación con los demás**
-No compite con ningún otro instrumento — opera en un registro que ninguno alcanza. Donde M7 busca lo que el corpus no sabe que contiene y M17 observa al observador, M19 pregunta qué le sucede al corpus cuando sus propias reglas se vuelven sobre él. Puede ejecutarse solo, o después de M5 y M7 cuando el corpus ya es conocido en profundidad — en ese caso la aplicación es más precisa porque el inventario de mecanismos puede construirse con mayor rigor. La proposición godeliana que produce puede alimentar a M9 como material para la síntesis final.
+**Posición** — Instrumento especializado que puede ejecutarse junto al triángulo central o por separado. El protocolo Hermes ya incluye una dimensión geográfica; el protocolo Geografo la profundiza cuando esa dimensión es central para el corpus.
 
+**Relación con los demás** — Comparte territorio con el protocolo Hermes. La diferencia: el protocolo Hermes lee las condiciones en conjunto; el protocolo Geografo se concentra exclusivamente en la geografía como productora de pensamiento. Pueden ejecutarse juntos o por separado.
+
+---
+
+## M11 — Pérdidas
+
+Cuenta cuántas veces algo desaparece en el corpus y de qué tipo es cada desaparición. Produce una taxonomía de la extinción a múltiples escalas —biológica, cultural, intelectual, personal, metodológica— y mapea su distribución. Registra también las pérdidas que el corpus no llama pérdidas: ideas abandonadas sin decirlo, certezas que se erosionan entre capítulos, el propio método que empieza a cuestionarse en silencio.
+
+**Cuándo** — Cuando algo desaparece en el corpus de forma recurrente. Cuando el corpus lamenta sin nombrar lo que lamenta. Cuando la pérdida opera a más de una escala simultáneamente. No aplica si nada desaparece —el instrumento lo declara.
+
+**Posición** — Instrumento especializado. Puede ejecutarse después del triángulo central como profundización, o solo si la naturaleza del corpus lo convoca directamente.
+
+**Relación con los demás** — Complementa al protocolo Dioniso, que busca ausencias estructurales. El protocolo Perdidas busca desapariciones como eventos registrables: lo que se fue, cuándo, cómo. Pueden ejecutarse juntos para ver la relación entre lo que el corpus calla y lo que pierde.
+
+---
+
+## M12 — Testigo del Testigo
+
+Observa al observador. Registra qué selecciona sistemáticamente, qué omite sistemáticamente, cuándo la distancia analítica se quiebra y aparece el hombre detrás del método. Encuentra los instantes más vivos del texto identificados no por su belleza sino por su involuntariedad.
+
+**Cuándo** — Cuando el corpus tiene un observador identificable que analiza, registra o narra desde una posición. Cuando hay tensión entre el método declarado y lo que el texto realmente hace. No aplica si no hay observador identificable —el instrumento lo declara.
+
+**Posición** — Instrumento especializado. Requiere un corpus con observador fuerte para producir algo genuino.
+
+**Relación con los demás** — Complementa al protocolo Dioniso —Dioniso—: Dioniso busca lo que el corpus carga sin saberlo; el protocolo Testigo del Testigo busca lo que el observador dentro del corpus carga sin saberlo. Son miradas distintas sobre la involuntariedad. Pueden ejecutarse juntos cuando el corpus tiene un observador fuerte.
+
+---
+
+## M13 — Bucle
+
+Aplica los mecanismos del corpus al corpus mismo. No lee desde afuera ni desde adentro: opera el corpus con sus propias herramientas. Primero verifica elegibilidad —el corpus debe construir mecanismos operativos y pertenecer a la clase de objetos que esos mecanismos describen—. Luego inventaría los mecanismos con precisión. Luego los aplica uno a uno y registra cuatro resultados posibles: iluminación, tensión, destrucción o silencio. Cierra con la proposición godeliana del corpus si existe.
+
+**Cuándo** — Solo sobre corpus que son sistemas que describen sistemas: textos que construyen herramientas, reglas o modelos con suficiente precisión, y que pertenecen a la misma clase de objetos que sus mecanismos describen. Un manual, un tratado sobre el poder, un sistema formal. Sobre corpus que no cumplen ambas condiciones, el instrumento no opera —y esa verificación es en sí misma un resultado válido.
+
+**Posición** — Instrumento de registro especializado. Puede ejecutarse solo, o después del protocolo Joyeria y el protocolo Dioniso cuando el corpus ya es conocido en profundidad. La proposición godeliana que produce puede alimentar al protocolo Sintesis como material para la síntesis.
+
+**Relación con los demás** — No compite con ningún otro instrumento —opera en un registro que ninguno alcanza. Donde el protocolo Dioniso busca lo que el corpus no sabe que contiene y el protocolo Testigo del Testigo observa al observador, el protocolo Bucle pregunta qué le sucede al corpus cuando sus propias reglas se vuelven sobre él.
+
+---
+
+## M96 — Síntesis
+
+Recibe el análisis completo —de una o varias sesiones— y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Produce un texto autónomo que encarna el corpus sin resumirlo, una cartografía total, y lo que ninguna parte pudo ver desde adentro —si existe.
+
+**Cuándo** — Siempre al final de un análisis fragmentado en varias sesiones. Cuando se tienen múltiples análisis parciales y se necesita ver el todo. Cuando la pregunta es si algo emerge en el espacio entre todos los instrumentos que ninguno pudo ver desde adentro.
+
+**Posición** — Primer instrumento de orden superior. Opera después de que el análisis tiene masa suficiente. Precede al protocolo Punto de Fuga y al protocolo Palimpsesto.
+
+**Relación con los demás** — Recibe el output de cualquier combinación de instrumentos anteriores. No compite con ninguno —los integra. Su output puede alimentar al protocolo Punto de Fuga como input más rico: la síntesis que ya vio el todo antes de que el análisis se mire a sí mismo. Si lo que emerge contradice algo que un instrumento declaró con certeza, la contradicción no se resuelve —se nombra como el hallazgo más valioso del conjunto.
 
 ---
 
 ## M97 — Punto de Fuga
 
-**Qué hace**
-Lee el análisis acumulado sobre un corpus como si fuera el corpus. Aplica al conjunto de instrumentos las mismas operaciones que esos instrumentos aplicaron al texto: busca el punto de fuga del sistema —la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, el Weltanschauung que el análisis porta sin nombrarlo, las ausencias del sistema, el imán no declarado, el momento de recoil donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe: la afirmación que el sistema puede señalar pero no demostrar desde adentro de sus propias reglas.
+Lee el análisis acumulado sobre un corpus como si fuera el corpus. Aplica al conjunto de instrumentos las mismas operaciones que esos instrumentos aplicaron al texto: busca el punto de fuga del sistema —la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, la visión del mundo que el análisis porta sin nombrarlo, las ausencias del sistema, el imán no declarado, el momento donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe.
 
-**Cuándo aplicarlo**
-Solo cuando existen al menos tres instrumentos ejecutados sobre el mismo corpus. No en medio del proceso — cuando el análisis tiene suficiente masa como para ser él mismo un objeto. Es el instrumento más tardío del ecosistema después de M98 y M99: requiere que el sistema haya operado antes de que pueda verse a sí mismo.
+**Cuándo** — Solo cuando existen al menos tres instrumentos ejecutados sobre el mismo corpus. No en medio del proceso —cuando el análisis tiene suficiente masa como para ser él mismo un objeto.
 
-**Relación con los demás**
-No compite con ningún instrumento anterior — opera sobre su output conjunto, no sobre el corpus. Donde M19 aplica los mecanismos del corpus al corpus, M97 aplica los mecanismos del análisis al análisis: son instrumentos simétricos en registros distintos. El output de M97 puede alimentar a M99 como su input más exigente — una síntesis que ya ha visto el análisis verse a sí mismo. Si M97 identifica ausencias sistemáticas del sistema, esas ausencias tienen la forma del instrumento que falta: pueden especificar un módulo nuevo.
+**Posición** — Segundo instrumento de orden superior. Opera después del protocolo Sintesis idealmente, aunque puede operar sin él si el análisis acumulado es sustancial. Precede al protocolo Palimpsesto.
+
+**Relación con los demás** — Donde el protocolo Bucle aplica los mecanismos del corpus al corpus, el protocolo Punto de Fuga aplica los mecanismos del análisis al análisis: son instrumentos simétricos en registros distintos. Si el protocolo Punto de Fuga identifica ausencias sistemáticas del sistema, esas ausencias tienen la forma del instrumento que falta.
 
 ---
 
 ## M98 — Palimpsesto
 
-**Qué hace**
-Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis — no dentro de ninguno sino entre ellos. Si existe, se nombra. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.
+Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis —no dentro de ninguno sino entre ellos. Si existe, se nombra con precisión. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.
 
-**Cuándo aplicarlo**
-Solo cuando el análisis está completo o sustancialmente avanzado. No en medio del proceso — cuando ya se han agotado las miradas disponibles.
+**Cuándo** — Solo cuando el análisis está completo o sustancialmente avanzado. No en medio del proceso —cuando ya se han agotado las miradas disponibles. Es el instrumento más tardío del sistema.
 
-**Relación con los demás**
-Requiere el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — opera después de todos.
+**Posición** — Último instrumento de orden superior. Opera después del protocolo Sintesis y el protocolo Punto de Fuga.
 
----
-
-## M99 — Síntesis
-
-**Qué hace**
-Recibe el análisis completo — de una o varias sesiones — y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Solo aquí se declara o niega el palimpsesto con autoridad total.
-
-**Cuándo aplicarlo**
-Siempre al final de un análisis fragmentado en varias sesiones. Cuando se tienen múltiples análisis parciales y se necesita ver el todo. Cuando la pregunta es si algo emerge en el espacio entre todos los instrumentos que ninguno pudo ver desde adentro.
-
-**Relación con los demás**
-Recibe el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — los integra. Es el único instrumento que tiene autoridad para declarar o negar el palimpsesto de forma definitiva.
+**Relación con los demás** — Requiere el output de cualquier combinación de instrumentos anteriores. No compite con ninguno —opera después de todos. Lo que encuentra, si existe, es inaccesible desde cualquier instrumento individual.
 
 ---
 
-## Notas de uso
+## M99 — Imágenes
 
-**Sobre la selección de instrumentos**
-No existe una secuencia obligatoria. Cada corpus exige su propia combinación. M1 puede revelar qué instrumentos tienen sentido con ese corpus específico — su Paso 6 produce exactamente eso.
+Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone tres estilos visuales idóneos para este corpus específico con justificación razonada. Produce prompts en español con composición, atmósfera y elementos decididos desde el corpus. Cuando opera sobre el conjunto de resultados de múltiples instrumentos, construye el set en dos capas: una imagen por hallazgo genuinamente nuevo, más imágenes temáticas transversales que encarnan la visión total.
 
-**Sobre la escala**
-Todos los instrumentos operan sobre cualquier escala: un párrafo, un capítulo, un libro, una obra completa. Lo que cambia es la duración y la granularidad, no el principio de operación.
+**Cuándo** — Cuando se quiere acompañar el análisis con imágenes que emerjan del corpus. Puede ejecutarse sobre el corpus directamente, sobre el output de cualquier instrumento individual, o sobre el conjunto completo. En ese último caso, operar después del protocolo Sintesis produce el set más completo.
+
+**Posición** — El único instrumento del sistema que produce para afuera del ecosistema: sus outputs van a un generador de imágenes externo. Puede ejecutarse en cualquier momento donde haya output suficiente para alimentarlo, pero alcanza su modo más rico al final del proceso.
+
+**Relación con los demás** — En modo conjunto, es el instrumento que cierra el ciclo visual del proceso completo: recibe de todos, no devuelve a ninguno.
 
 ---
+
+*Destilería Osmancito v15*
