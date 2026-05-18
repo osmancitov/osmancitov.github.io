@@ -93,7 +93,7 @@ Pares campo — valor. Sin tablas.
 **Autor** —
 **Año** —
 **Género** —
-**Extensión estimada** — número de palabras, número de páginas aproximadas, calculando 250 palabras por página, y número de capítulos o secciones.
+**Extensión estimada** —
 **Idioma original** —
 **Palabra más frecuente con contenido** — excluye artículos, preposiciones, conjunciones. Si coincide con lo que el corpus declara ser, confirma. Si no, expone.
 **Ratio** — palabras del corpus / palabras de este análisis. Expresado como múltiplo: ej. 14×
