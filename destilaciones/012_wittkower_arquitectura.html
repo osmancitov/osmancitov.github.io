@@ -7,9 +7,10 @@
   <title>La Iglesia de Planta Centralizada y el
 Renacimiento — Destilería Osmancito</title>
 
-  <link rel="stylesheet" href="stl/260513d.css" />
-  <link rel="stylesheet" href="stl/260513b.css" />
-  <script src="js/260501.js" defer></script>
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260518a.css">
+  <link id="complemento" rel="stylesheet" href="stl/260518b.css">
+  <script src="js/260501.js"></script>	
+  <script src="js/260518.js"></script>	
 
   <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
   <link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
@@ -818,6 +819,12 @@ la explora. Pero es la única frase del capítulo donde el argumento sobre
 la arquitectura toca algo que no tiene planta ni proporción ni tratado:
 la imagen de un hombre con heridas que una geometría perfecta no puede
 contener.</p>
+
+  <!-- Módulo para LightBox, manejador de imágenes -->
+	<dialog id="lightbox" onclick="cerrarLightbox(event)">
+		<span class="cerrar-lightbox">&times;</span>
+		<img id="imagen-lightbox" src="" alt="Vista ampliada">
+	</dialog>
 
 </body>
 </html>

@@ -1,0 +1,43 @@
+<!-- IMAGEN 5 -->
+<div class="prompt-imagen">
+	<div class="prompt-imagen-cabecera"><strong>Un eterno y grácil bucle</strong></div>
+	<figure class="img-container">
+		<img src="img/009_godel_escher_bach_5_sintesis.jpg" alt="Gödel,
+Escher, Bach: un eterno y grácil bucle">
+	</figure>
+</div>
+	
+<!-- IMAGEN 6 -->
+<div class="prompt-imagen">
+	<div class="prompt-imagen-cabecera"><strong>El sistema y su sombra</strong></div>
+	<figure class="img-container">
+		<img src="img/009_godel_escher_bach_6_sintesis.jpg" alt="Gödel,
+Escher, Bach: un eterno y grácil bucle">
+	</figure>
+</div>
+
+--- Pre Pandoc ---
+
+::: {.prompt-imagen}
+::: {.prompt-imagen-cabecera}
+**Imagen 1**
+:::
+
+![ ](img/011_lista_juez_1.jpg){.img-container}
+:::
+
+--- End Pandoc ---
+
+<figure class="img-container">
+  <img src="destilaciones/img/000_destileria_260518_12.jpg"
+       alt="Destilería Osmancito"
+       class="imagen-con-lightbox"
+       onclick="abrirLightbox(this)">
+</figure>
+
+<dialog id="lightbox" onclick="cerrarLightbox(event)">
+  <span class="cerrar-lightbox">&times;</span>
+  <img id="imagen-lightbox" src="" alt="Vista ampliada">
+</dialog>
+
+

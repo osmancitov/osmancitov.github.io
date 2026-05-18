@@ -6,9 +6,10 @@
 
   <title>La Lista del Juez — Destilería Osmancito</title>
 
-  <link rel="stylesheet" href="stl/260513d.css" />
-  <link rel="stylesheet" href="stl/260513b.css" />
-  <script src="js/260501.js" defer></script>
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260518a.css">
+  <link id="complemento" rel="stylesheet" href="stl/260518b.css">
+  <script src="js/260501.js"></script>	
+  <script src="js/260518.js"></script>	
 
   <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
   <link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
@@ -140,11 +141,10 @@ obsesionada persiguen a un juez asesino en serie en Florida.">
 
   <!-- IMAGEN DE PRESENTACIÓN -->
   <div class="prompt-imagen prompt-imagen-presentacion">
-    <div class="prompt-imagen-cabecera"><strong>La Lista del
-Juez</strong></div>
+    <div class="prompt-imagen-cabecera">
+		<strong>La Lista del Juez</strong></div>
     <figure class="img-container">
-      <img src="img/011_lista_juez_1_presentacion.jpg" alt="La Lista del
-Juez">
+      <img src="img/011_lista_juez_1_presentacion.jpg" alt="La Lista del Juez" class="imagen-con-lightbox" onclick="abrirLightbox(this)">
     </figure>
   </div>
 
@@ -1697,6 +1697,12 @@ su propio pie.</p>
 ajena. No es un final: es la descripción de alguien que ha aprendido a
 vivir sin saber lo que sigue.</p>
 <hr />
+
+  <!-- Módulo para LightBox, manejador de imágenes -->
+	<dialog id="lightbox" onclick="cerrarLightbox(event)">
+		<span class="cerrar-lightbox">&times;</span>
+		<img id="imagen-lightbox" src="" alt="Vista ampliada">
+	</dialog>
 
 </body>
 </html>

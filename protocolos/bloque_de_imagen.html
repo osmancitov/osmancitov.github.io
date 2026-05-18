@@ -1,29 +1,56 @@
-<!-- IMAGEN 5 -->
-<div class="prompt-imagen">
-	<div class="prompt-imagen-cabecera"><strong>Un eterno y grácil bucle</strong></div>
-	<figure class="img-container">
-		<img src="img/009_godel_escher_bach_5_sintesis.jpg" alt="Gödel,
-Escher, Bach: un eterno y grácil bucle">
-	</figure>
-</div>
-	
-<!-- IMAGEN 6 -->
-<div class="prompt-imagen">
-	<div class="prompt-imagen-cabecera"><strong>El sistema y su sombra</strong></div>
-	<figure class="img-container">
-		<img src="img/009_godel_escher_bach_6_sintesis.jpg" alt="Gödel,
-Escher, Bach: un eterno y grácil bucle">
-	</figure>
-</div>
-
---- Pre Pandoc ---
+--- Start Pandoc ---
 
 ::: {.prompt-imagen}
 ::: {.prompt-imagen-cabecera}
 **Imagen 1**
 :::
 
-![ ](img/011_lista_juez_1.jpg){.img-container}
+<figure class="img-container">
+  <img src="img/011_lista_juez_1.jpg" alt="Imagen 1" class="imagen-con-lightbox" onclick="abrirLightbox(this)">
+</figure>
+
 :::
 
+--- End Pandoc ---
 
+Notas:
+Con el bloque <dialog id="lightbox">...</dialog> al final del archivo .html (justo antes de cerrar la etiqueta </body>, la función de JavaScript se encargará de capturar dinámicamente cualquier imagen que reciba un tap e inyectarla dentro de ese único contenedor flotante.
+El .js leerá el atributo alt="Imagen 1" dentro de la etiqueta, y lo asignará al visor cuando se expanda.
+
+---
+
+Con container quedaría así:
+
+  <!-- Imagen Con Container -->
+  <div class="prompt-imagen prompt-imagen-presentacion">
+    <div class="prompt-imagen-cabecera"><strong>Titulo</strong></div>
+    <figure class="img-container">
+      <img src="img/011_imagen.jpg" alt="Descripción" class="imagen-con-lightbox" onclick="abrirLightbox(this)">
+    </figure>
+  </div>
+	
+
+
+--- otros bloques ---
+
+  <!-- Módulo para LightBox, manejador de imágenes -->
+	<dialog id="lightbox" onclick="cerrarLightbox(event)">
+		<span class="cerrar-lightbox">&times;</span>
+		<img id="imagen-lightbox" src="" alt="Vista ampliada">
+	</dialog>
+	
+	
+	--- root head ---
+	
+	<link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260518a.css">
+  <link id="complemento" rel="stylesheet" href="destilaciones/stl/260518b.css">
+  <script src="destilaciones/js/260501.js"></script>	
+  <script src="destilaciones/js/260518.js"></script>	
+	
+	
+	--- destilado head ---
+	
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260518a.css">
+  <link id="complemento" rel="stylesheet" href="stl/260518b.css">
+  <script src="js/260501.js"></script>	
+  <script src="js/260518.js"></script>	
