@@ -34,19 +34,7 @@ El orden en que aparecen aquí no es el orden en que deben usarse. Es el orden e
 
 ---
 
-## M01 — Umbral
-
-Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus, el primer contacto.
-
-**Cuándo** — En toda sesión de análisis donde no se ejecute Escucha primero. Es la condición de operación del sistema —no un instrumento de análisis, sino el marco desde el cual los demás operan. Cuando Umbral está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones.
-
-**Posición** — Precede a todos los instrumentos de análisis.
-
-**Relación con los demás** — Todos los instrumentos desde Recepcion en adelante operan desde dentro del marco que Umbral establece. 
-
----
-
-## M02 — Recepción
+## M01 — Recepción
 
 Orienta antes de analizar. Produce una imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página— y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. También genera un mapa de las condiciones de acceso a lo que contiene, y las miradas que tienen sentido aplicarle. No interpreta. Mapea lo que hay antes de que empiece la interpretación.
 
@@ -59,7 +47,7 @@ Orienta antes de analizar. Produce una imagen del corpus como objeto físico en 
 
 ---
 
-## M03 — Joyería
+## M02 — Joyería
 
 Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —150 a 250 palabras en prosa continua que responde qué ocurre aquí que importa para el todo, priorizando el movimiento del argumento sobre la enumeración de contenidos—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido. Joyería establece cuántas joyas corresponden según la extensión de cada capítulo.
 
@@ -71,7 +59,7 @@ Recorre el corpus sección por sección. Cada sección es un estuche: primero el
 
 ---
 
-## M04 — Narraciones
+## M03 — Narraciones
 
 Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe, sino lo que pasa. Produce un índice completo de eventos con ubicación, descripción, giro si existe, e intensidad de peso vivo del 1 al 5. Cierra con un diagnóstico de qué es este corpus desde sus narraciones.
 
@@ -82,6 +70,19 @@ Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe
 **Relación con los demás** — Complementa a Joyeria: Joyeria busca joyas, Narraciones busca eventos.
 
 ---
+
+## M04 — Umbral
+
+Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus, el primer contacto.
+
+**Cuándo** — En toda sesión de análisis donde no se ejecute Escucha primero. Es la condición de operación del sistema —no un instrumento de análisis, sino el marco desde el cual los demás operan. Cuando Umbral está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones.
+
+**Posición** — Precede a todos los instrumentos de análisis.
+
+**Relación con los demás** — Todos los instrumentos desde Recepcion en adelante operan desde dentro del marco que Umbral establece. 
+
+---
+
 
 ## M05 — Apolo
 
