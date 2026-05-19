@@ -4,13 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-  <title>La Iglesia de Planta Centralizada y el
-Renacimiento — Destilería Osmancito</title>
+  <title>La Iglesia de Planta Centralizada y el Renacimiento — Destilería Osmancito</title>
 
-	<link id="hoja-estilo" rel="stylesheet" href="stl/260518a.css">
-  <link id="complemento" rel="stylesheet" href="stl/260518b.css">
-  <script src="js/260501.js"></script>	
-  <script src="js/260518.js"></script>	
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260519.css">
+	<link id="complemento" rel="stylesheet" href="stl/260415.css">
+	<script src="js/260519.js"></script>	
+	<script src="js/260501.js"></script>	
 
   <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
   <link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
@@ -820,11 +819,10 @@ la arquitectura toca algo que no tiene planta ni proporción ni tratado:
 la imagen de un hombre con heridas que una geometría perfecta no puede
 contener.</p>
 
-  <!-- Módulo para LightBox, manejador de imágenes -->
-	<dialog id="lightbox" onclick="cerrarLightbox(event)">
-		<span class="cerrar-lightbox">&times;</span>
-		<img id="imagen-lightbox" src="" alt="Vista ampliada">
-	</dialog>
+  <!-- Módulo LightBox -->
+	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+		<img id="lb-img" src="" alt="">
+	</div>
 
 </body>
 </html>

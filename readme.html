@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260518a.css">
-  <link id="complemento" rel="stylesheet" href="destilaciones/stl/260518b.css">
-  <script src="destilaciones/js/260501.js"></script>	
-  <script src="destilaciones/js/260518.js"></script>	
+	<link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260519.css">
+	<link id="complemento" rel="stylesheet" href="destilaciones/stl/260415.css">
+	<script src="destilaciones/js/260519.js"></script>	
+	<script src="destilaciones/js/260501.js"></script>
 
   <title>Documentación del sistema — Destilería Osmancito</title>
 
@@ -574,11 +574,10 @@
 		<div class="pie-sello">Destilería Osmancito<br>v16 · 2026</div>
 	</footer>
 
-  <!-- Módulo para LightBox, manejador de imágenes -->
-	<dialog id="lightbox" onclick="cerrarLightbox(event)">
-		<span class="cerrar-lightbox">&times;</span>
-		<img id="imagen-lightbox" src="" alt="Vista ampliada">
-	</dialog>
+  <!-- Módulo LightBox -->
+	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+		<img id="lb-img" src="" alt="">
+	</div>
 
 </body>
 </html>
