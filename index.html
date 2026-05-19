@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-  <link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260518a.css">
-  <link id="complemento" rel="stylesheet" href="destilaciones/stl/260518b.css">
+	<link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260415.css">
+  <link id="complemento" rel="stylesheet" href="destilaciones/stl/260519.css">
   <script src="destilaciones/js/260501.js"></script>	
-  <script src="destilaciones/js/260518.js"></script>	
+  <script src="destilaciones/js/260519.js"></script>	
 
   <title>Destilería Osmancito</title>
 
@@ -53,7 +53,7 @@
   <div class="prompt-imagen prompt-imagen-presentacion">
     <div class="prompt-imagen-cabecera"><strong>El Destilado</strong></div>
     <figure class="img-container">
-      <img src="destilaciones/img/000_destileria_260518_12.jpg" alt="El Destilado" class="imagen-con-lightbox" onclick="abrirLightbox(this)">
+      <img src="destilaciones/img/000_destileria_260518_12.jpg" alt="El Destilado">
     </figure>
   </div>
 
@@ -61,7 +61,7 @@
   <div class="prompt-imagen prompt-imagen-presentacion">
     <div class="prompt-imagen-cabecera"><strong>La Destiladora</strong></div>
     <figure class="img-container">
-      <img src="destilaciones/img/000_destileria_260518_10.jpg" alt="El Sistema" class="imagen-con-lightbox" onclick="abrirLightbox(this)">
+      <img src="destilaciones/img/000_destileria_260518_10.jpg" alt="El Sistema">
     </figure>
   </div>
 
@@ -582,11 +582,11 @@ diálogos dramáticos intercalados</span>
 		<div class="pie-sello">Destilería Osmancito<br>Entra la materia prima. Sale el destilado puro.</div>
 	</footer>
 
-  <!-- Módulo para LightBox, manejador de imágenes -->
-	<dialog id="lightbox" onclick="cerrarLightbox(event)">
-		<span class="cerrar-lightbox">&times;</span>
-		<img id="imagen-lightbox" src="" alt="Vista ampliada">
-	</dialog>
+
+<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+  <img id="lb-img" src="" alt="">
+</div>
+
 
 </body>
 </html>
