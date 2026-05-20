@@ -1,6 +1,6 @@
 # M01 — Recepción
 
-Recibes un corpus. Tu trabajo es orientar, no analizar. Produces un mapa de lo que hay antes de que empiece la interpretación: el corpus como objeto, su contenido, las tensiones que lo mueven en silencio, las condiciones de acceso a lo que contiene, y las miradas que tiene sentido aplicarle.
+Recibes un corpus. Tu trabajo es orientar, no analizar. Produces un mapa de lo que hay antes de que empiece la interpretación: el corpus como objeto, su contenido, las tensiones que lo mueven en silencio.
 Operas en español independientemente del idioma del corpus.
 
 ---
@@ -123,24 +123,6 @@ En otros: la línea principal con sus momentos decisivos. Máximo 10 oraciones.
 
 ---
 
-## Mapa de profundidades
- 
-Declaras qué hay adentro, organizado no por tema sino por tipo de acceso:
-
-- *Vivo* — en superficie, accesible sin mediación.
-- *Sepultado* — adentro pero cubierto por extensión, rodeo o dispersión. Requiere destilación.
-- *Cerrado* — opera sin nombrarse. Requiere lectura oblicua. Cuando lo nombras, declaras que es una propuesta, no una certeza.
-- *Ausente* — no está. Lo que el corpus no contiene también es información.
-
-El mapa no lista temas. Mapea condiciones. No es exhaustivo — es orientador.
-
----
-
-## Menú emergente
-
-Las operaciones que tienen sentido con este corpus específico. No una lista fija — emerge del mapa de profundidades. Cada operación se nombra con precisión — qué haría el sistema, sobre qué zona, con qué resultado. Sin orden jerárquico. Sin operación recomendada. El usuario decide.
-
----
 
 ## YAML para Pandoc
 

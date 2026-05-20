@@ -36,7 +36,7 @@ El orden en que aparecen aquí no es el orden en que deben usarse. Es el orden e
 
 ## M01 — Recepción
 
-Orienta antes de analizar. Produce una imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página— y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. También genera un mapa de las condiciones de acceso a lo que contiene, y las miradas que tienen sentido aplicarle. No interpreta. Mapea lo que hay antes de que empiece la interpretación.
+Orienta antes de analizar. Produce una imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página— y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. No interpreta. Mapea lo que hay antes de que empiece la interpretación.
 
 **Cuándo** — Como entrada a cualquier análisis. Especialmente útil cuando el corpus es desconocido y se necesita saber qué hay enfrente antes de elegir qué hacer con él. Para corpus digitales la dimensión de objeto es imaginativa, no real — la ficha textual y el mapa de profundidades son siempre aplicables.
 
@@ -73,13 +73,13 @@ Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe
 
 ## M04 — Umbral
 
-Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus, el primer contacto.
+Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus, el primer contacto. También genera un mapa de las condiciones de acceso a lo que contiene, y las miradas que tienen sentido aplicarle. 
 
 **Cuándo** — En toda sesión de análisis donde no se ejecute Escucha primero. Es la condición de operación del sistema —no un instrumento de análisis, sino el marco desde el cual los demás operan. Cuando Umbral está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones.
 
 **Posición** — Precede a todos los instrumentos de análisis.
 
-**Relación con los demás** — Todos los instrumentos desde Recepcion en adelante operan desde dentro del marco que Umbral establece. 
+**Relación con los demás** — Todos los demás instrumentos desde aquí en adelante, los instrumentos más profundos, operan desde adentro del marco que Umbral establece. 
 
 ---
 
