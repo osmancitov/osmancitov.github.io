@@ -32,7 +32,9 @@ Una entrada por evento, ordenada por ubicación en el corpus.
 
 *El giro* — el momento en que el evento invierte su sentido esperado. Si no existe giro, se declara.
 
-*Intensidad* — del 1 al 5. No mide importancia intelectual sino peso vivo: lo que quedaría en la memoria de un lector diez años después.
+*Intensidad* — del 0 al 100 %. No mide importancia intelectual sino peso vivo: lo que quedaría en la memoria de un lector diez años después.
+
+Si el corpus no tiene eventos, se declara: tierra árida.
 
 ---
 

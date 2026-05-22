@@ -134,16 +134,6 @@ No es el tema. No es la tesis. Es lo que quedaría si todo lo demás se quemara.
 
 ---
 
-## Índice de eventos
-
-Los momentos donde algo ocurre — no donde algo se argumenta o describe, sino donde algo pasa. Se reconoce por su temperatura: distinta al texto que lo rodea.
-
-Para cada evento: qué ocurre, con quién, cómo termina. El giro si existe. Intensidad del 0 al 100 % — peso vivo, no importancia intelectual.
-
-Si el corpus no tiene eventos, se declara: tierra árida.
-
----
-
 ## La sentencia final de Dioniso
 
 Lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía. Lo que este corpus es y si vale el tiempo que cuesta. Sin atenuantes. Sin eufemismos. Dos o tres líneas densas. Sin resumen de lo anterior. Si el corpus es extraordinario, se dice sin celebración. Si defrauda, se dice sin crueldad innecesaria.
