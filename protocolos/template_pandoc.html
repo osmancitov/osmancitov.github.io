@@ -6,10 +6,10 @@
 
   <title>$titulo$ — Destilería Osmancito</title>
 
-	<link id="hoja-estilo" rel="stylesheet" href="stl/260518a.css">
-  <link id="complemento" rel="stylesheet" href="stl/260518b.css">
-  <script src="js/260501.js"></script>	
-  <script src="js/260518.js"></script>	
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260519.css">
+	<link id="complemento" rel="stylesheet" href="stl/260415.css">
+	<script src="js/260519.js"></script>	
+	<script src="js/260501.js"></script>	
 
   <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
   <link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilaciones/img/icon_amanita.ico">
@@ -49,11 +49,9 @@
 <div class="ficha-recepcion" id="lote-$lote$">
 	<div class="ficha-seccion-titulo">Lote $lote$ · $fecha_lote$</div>
 	<h3><a href="destilaciones/$slug$.html">$titulo$</a></h3>
-	<a href="destilaciones/$slug$.html">
 		<figure class="img-container img-ficha">
 			<img src="destilaciones/img/$slug$_1_presentacion_half.jpg" alt="$titulo$" loading="lazy">
 		</figure>
-	</a>
 	<div class="extracto_index"><p>$extracto$</p></div>
 	<div class="ficha-campo">
 		<span class="ficha-campo-nombre">Idioma original</span>
@@ -95,11 +93,10 @@ $endif$
 
 $body$
 
-  <!-- Módulo para LightBox, manejador de imágenes -->
-	<dialog id="lightbox" onclick="cerrarLightbox(event)">
-		<span class="cerrar-lightbox">&times;</span>
-		<img id="imagen-lightbox" src="" alt="Vista ampliada">
-	</dialog>
+  <!-- Módulo LightBox -->
+	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+		<img id="lb-img" src="" alt="">
+	</div>
 
 </body>
 </html>

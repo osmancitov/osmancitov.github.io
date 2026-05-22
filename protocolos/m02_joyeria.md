@@ -2,7 +2,7 @@
 
 Cada capítulo es una estuche. Dentro de cada estuche: primero el fragmento, luego las joyas.
 
-**El fragmento** — 150 a 250 palabras en prosa continua, tiempo presente. Responde: ¿qué ocurre aquí que importa para el corpus entero? Prioriza el movimiento del argumento sobre la enumeración de contenidos. Si el capítulo es de transición, señálarlo en una línea antes del fragmento.
+**El fragmento** — 150 a 500 palabras en prosa continua, tiempo presente. Responde: ¿qué ocurre aquí que importa para el corpus entero? Prioriza el movimiento del argumento sobre la enumeración de contenidos. Si el capítulo es de transición, señálarlo en una línea antes del fragmento.
 
 **Las joyas** — Pasajes que cumplen al menos tres de estas condiciones:
 - Funciona sin contexto previo
