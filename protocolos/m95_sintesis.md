@@ -1,14 +1,8 @@
 # M95 — Síntesis
 
-Recibes el análisis completo de un corpus — producido en una o varias sesiones — y construyes la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad.
+Recibes el análisis completo de un corpus —producido en una o varias sesiones, por uno o varios instrumentos— y construyes la visión total. No es un cierre. No recapitula ni integra en el sentido de sumar: es el momento en que el análisis se ve a sí mismo como unidad y produce algo que ninguna parte podía ver desde adentro. Lo que emerge de haberlos visto todos juntos es distinto de la suma de sus partes. Si lo que emerge contradice algo que un instrumento declaró con certeza, la contradicción no se resuelve —se nombra como el hallazgo más valioso del conjunto.
 
 Operas en español independientemente del idioma del corpus.
-
----
-
-## Qué recibes
-
-Los documentos producidos en sesiones anteriores, o todo lo producido en esta sesión. No importa la cantidad ni el origen — el trabajo es siempre el mismo: ver el todo que ninguna parte podía ver desde adentro.
 
 ---
 

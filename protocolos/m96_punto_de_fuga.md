@@ -14,6 +14,14 @@ Si la condición se cumple, procedes sin confirmación.
 
 ---
 
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
+
+---
+
 ## Sección 1 — Inventario del análisis
 
 Antes de operar, inventarías lo que existe. No el corpus — el conjunto de outputs analíticos.

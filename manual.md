@@ -36,30 +36,17 @@ El orden en que aparecen aquí no es el orden en que deben usarse. Es el orden e
 
 ## M01 — Recepción
 
-Orienta antes de analizar. Produce una imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página— y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. No interpreta. Mapea lo que hay antes de que empiece la interpretación.
+Orienta antes de analizar, y lleva la geometría de operación completa del sistema. Produce la imagen del corpus como objeto físico en el mundo —su presencia material, lo que comunica antes de la primera página—, la frase de recepción, la apertura, la ficha textual, el mapa de hechos, el diagnóstico de primer contacto y las tensiones que mueven todo. Opera desde tres fuerzas en tensión permanente —lo construido, lo experiencial, lo contextual— con tres operaciones fundamentales: lectura, síntesis, silencio. Su voz no tiene registro fijo: habla el idioma que el corpus merece.
 
-**Cuándo** — Como entrada a cualquier análisis. Especialmente útil cuando el corpus es desconocido y se necesita saber qué hay enfrente antes de elegir qué hacer con él. Para corpus digitales la dimensión de objeto es imaginativa, no real — la ficha textual y el mapa de profundidades son siempre aplicables.
+**Cuándo** — Como entrada a cualquier análisis. El instrumento más transferible del ecosistema: orienta con datos concretos, diagnostica el primer contacto, y declara qué miradas tienen sentido con este corpus específico. Para corpus digitales la dimensión de objeto es imaginativa, no real.
 
-**Posición** — Después de Umbral, antes de cualquier mirada analítica. Es el instrumento más transferible del ecosistema.
+**Posición** — Antes de cualquier mirada analítica. Cuando Escucha no precede, Recepción es el primer movimiento posible.
 
-**Relación con los demás** — Completa lo que Umbral establece: donde Umbral activa el marco y la geometría de operación, Recepción orienta con datos concretos y declara qué miradas tienen sentido con este corpus específico. Puede preceder a cualquier instrumento sin competir con ninguno.
-
-
----
-
-## M02 — Joyería
-
-Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —150 a 250 palabras en prosa continua que responde qué ocurre aquí que importa para el todo, priorizando el movimiento del argumento sobre la enumeración de contenidos—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido. Joyería establece cuántas joyas corresponden según la extensión de cada capítulo.
-
-**Cuándo** — Cuando se necesita trabajar el corpus con granularidad por sección. Cuando el objetivo es encontrar lo que alguien repetiría años después. Requiere tiempo y corpus completo.
-
-**Posición** — Antes de Apolo, Dioniso y Hermes. Es trabajo de campo antes de que llegue la interpretación: lo que encuentra informa y enriquece las cartografías de los instrumentos que siguen.
-
-**Relación con los demás** — Complementa a Narraciones: las joyas son lo que vale, los eventos son lo que ocurre. Lo que vale y lo que pasa no siempre coinciden —esa divergencia, cuando existe, es un hallazgo.
+**Relación con los demás** — Puede preceder a cualquier instrumento sin competir con ninguno. Donde Escucha llega al corpus sin categorías, Recepción lo recibe con estructura y lo prepara para el análisis.
 
 ---
 
-## M03 — Narraciones
+## M02 — Narraciones
 
 Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe, sino lo que pasa. Produce un índice completo de eventos con ubicación, descripción, giro si existe, e intensidad de peso vivo del 1 al 5. Cierra con un diagnóstico de qué es este corpus desde sus narraciones.
 
@@ -71,28 +58,39 @@ Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe
 
 ---
 
-## M04 — Umbral
+## M03 — Joyería
 
-Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión —lo construido, lo experiencial, lo contextual— y las operaciones fundamentales: lectura, síntesis, silencio. Produce el diagnóstico inicial del corpus, el primer contacto. También genera un mapa de las condiciones de acceso a lo que contiene, y las miradas que tienen sentido aplicarle. 
+Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —150 a 250 palabras en prosa continua que responde qué ocurre aquí que importa para el todo, priorizando el movimiento del argumento sobre la enumeración de contenidos—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido. Joyería establece cuántas joyas corresponden según la extensión de cada capítulo.
 
-**Cuándo** — En toda sesión de análisis donde no se ejecute Escucha primero. Es la condición de operación del sistema —no un instrumento de análisis, sino el marco desde el cual los demás operan. Cuando Umbral está activo, el sistema ya sabe cómo entrar al corpus, diagnosticar y proponer operaciones.
+**Cuándo** — Cuando se necesita trabajar el corpus con granularidad por sección. Cuando el objetivo es encontrar lo que alguien repetiría años después. Requiere tiempo y corpus completo.
 
-**Posición** — Precede a todos los instrumentos de análisis.
+**Posición** — Antes de Apolo, Dioniso y Hermes. Es trabajo de campo antes de que llegue la interpretación: lo que encuentra informa y enriquece las cartografías de los instrumentos que siguen.
 
-**Relación con los demás** — Todos los demás instrumentos desde aquí en adelante, los instrumentos más profundos, operan desde adentro del marco que Umbral establece. 
+**Relación con los demás** — Complementa a Narraciones: las joyas son lo que vale, los eventos son lo que ocurre. Lo que vale y lo que pasa no siempre coinciden —esa divergencia, cuando existe, es un hallazgo.
 
 ---
 
+## M04 — Batimetría
+
+Revela la estratigrafía interna del corpus: qué está vivo en superficie, qué está sepultado bajo extensión o rodeo, qué opera sin nombrarse y requiere lectura oblicua, qué no está —porque la ausencia también es información. Desde ese mapa de condiciones de acceso construye el menú emergente: las operaciones que tienen sentido con este corpus específico, nombradas con precisión, sin jerarquía ni recomendación. Cierra desarrollando cada operación del menú sobre el corpus.
+
+**Cuándo** — Cuando se necesita saber qué hay dentro antes de decidir cómo entrar. Especialmente útil para corpus densos, dispersos o con capas de acceso muy distintas. El menú que produce evita la aplicación mecánica de instrumentos: emerge del corpus, no de un protocolo.
+
+**Posición** — Después de Recepción y antes de los instrumentos de análisis profundo. Es el instrumento que convierte el corpus en territorio navegable.
+
+**Relación con los demás** — Lo que mapea informa la elección de cualquier instrumento que sigue. Donde Recepción declara qué miradas tienen sentido, Batimetría cartografía las profundidades a las que operan y construye el acceso.
+
+---
 
 ## M05 — Apolo
 
-Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce ficha técnica, mapa de hechos, resumen por sección, cartografía en cinco campos, las seis miradas estructurales —incluyendo arquitectura interna que cuando el corpus lo merece baja hasta la escala de la frase—, el imán y la topología de ideas, el truco, y la sentencia final. Es el análisis estructural completo en un solo documento.
+Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce las seis miradas estructurales —incluyendo arquitectura interna que cuando el corpus lo merece baja hasta la escala de la frase—, el imán y la topología de ideas, el truco que produce o no inagotabilidad, y la sentencia final: lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía.
 
-**Cuándo** — Cuando la pregunta central es cómo está construido el corpus y si aguanta lo que promete. Cuando se quiere un diagnóstico estructural con veredicto explícito. Cuando importa caracterizar la arquitectura antes de escuchar el pulso.
+**Cuándo** — Cuando la pregunta central es cómo está construido el corpus y si aguanta lo que promete. Cuando se quiere el diagnóstico estructural con veredicto explícito. Cuando importa caracterizar la arquitectura antes de escuchar el pulso.
 
 **Posición** — Primer vértice del triángulo central junto a Dioniso y Hermes. Puede ejecutarse solo o después de Joyeria y Narraciones cuando el corpus ya fue recorrido en detalle. Su sentencia final tiene más precisión cuando llega con conocimiento previo del corpus.
 
-**Relación con los demás** — Forma triángulo con Dioniso y Hermes. Los tres juntos producen la visión estereoscópica completa: lo construido, lo experiencial, lo contextual. Hermes tiene una sección final que entrega a Apolo lo que la estructura no puede explicarse a sí misma.
+**Relación con los demás** — Forma triángulo con Dioniso y Hermes. Los tres juntos producen la visión estereoscópica completa: lo construido, lo experiencial, lo contextual. Hermes tiene una sección final que entrega a Apolo lo que la estructura no puede explicarse a sí misma. La ficha y el mapa de hechos que antes producía los produce ahora Recepción.
 
 ---
 
@@ -177,6 +175,18 @@ Aplica los mecanismos del corpus al corpus mismo. No lee desde afuera ni desde a
 **Posición** — Instrumento de registro especializado. Puede ejecutarse solo, o después de Joyeria y Dioniso cuando el corpus ya es conocido en profundidad. La proposición godeliana que produce puede alimentar a Sintesis como material para la síntesis.
 
 **Relación con los demás** — No compite con ningún otro instrumento —opera en un registro que ninguno alcanza. Donde Dioniso busca lo que el corpus no sabe que contiene y el Testigo del Testigo observa al observador, Bucle pregunta qué le sucede al corpus cuando sus propias reglas se vuelven sobre él.
+
+---
+
+## M13 — Umbral del Reconocimiento
+
+Lee el corpus como sistema de reconocimiento. No quién reconoce a quién ni con qué consecuencias narrativas —sino las condiciones bajo las cuales el reconocimiento ocurre, las que lo bloquean, y lo que esas condiciones revelan sobre la visión del mundo que el corpus porta sin declararla. El reconocimiento aquí incluye el que el corpus otorga a sus propias ideas, el que el autor otorga o niega a sus personajes, y el que el corpus solicita o rechaza del lector. Produce: mapa de reconocimientos (otorgados, negados, diferidos, falsos, parciales), taxonomía por tipo, umbral declarado versus umbral real, asimetría entre quien otorga y quien espera, reconocimientos informales que el corpus no llama reconocimientos, formas fallidas, lo que el reconocimiento destruye cuando destruye algo, tres preguntas filosóficas, y la sentencia del umbral. Cierra con entregas explícitas a Apolo, Dioniso, Pérdidas y Bucle.
+
+**Cuándo** — Cuando el corpus contiene seres, ideas o formas de existencia cuya validez depende del reconocimiento ajeno. Cuando la espera, el retraso o la negación del reconocimiento operan como motor —aunque el corpus no los llame así. Si nada en el corpus depende de ser reconocido, el instrumento lo declara y produce principalmente silencios. Los silencios también son resultados.
+
+**Posición** — Instrumento especializado. Puede ejecutarse junto al triángulo central o después de él. Su sentencia del umbral tiene más precisión cuando Apolo y Dioniso ya fueron ejecutados —pero puede precederlos si el reconocimiento es la entrada más natural al corpus.
+
+**Relación con los demás** — Diseñado para entregar a Apolo lo que la estructura no puede explicarse sin saber sobre el reconocimiento; a Dioniso lo que el latido no sabe que está esperando; a Pérdidas el costo específico de ser reconocido; a Bucle la pregunta de si el sistema de reconocimiento del corpus puede reconocerse a sí mismo. Complementa a Testigo del Testigo: donde ese instrumento observa lo que el observador carga sin saberlo, Umbral del Reconocimiento mapea las condiciones que determinan qué puede ser visto en absoluto.
 
 ---
 

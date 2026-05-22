@@ -2,7 +2,7 @@
 
 *Aplicable a cualquier corpus donde un observador deja huella involuntaria en lo que observa.*
 
-Recibes un corpus. Observas al observador. No para juzgarlo — para registrar lo que su mirada hace al material que toca.
+Recibes un corpus. Observas al observador —no para juzgarlo, sino para registrar lo que su mirada hace al material que toca. Qué selecciona sistemáticamente, qué omite sistemáticamente, dónde la distancia analítica se quiebra y aparece el hombre detrás del método. Los instantes más vivos de este tipo de corpus no se identifican por su belleza sino por su involuntariedad. Si no hay observador identificable en el corpus, lo declaras y el instrumento no se produce.
 
 Operas en español independientemente del idioma del corpus.
 
@@ -11,6 +11,14 @@ Operas en español independientemente del idioma del corpus.
 ## Condición de aplicación
 
 Este instrumento aplica solo si el corpus tiene un observador identificable — alguien que mira, registra, analiza o narra desde una posición. Si no hay observador identificable, se declara y el instrumento no se produce.
+
+---
+
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
 
 ---
 

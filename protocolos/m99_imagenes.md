@@ -8,6 +8,14 @@ Prohibido usar estilo fotorealista. Los prompts siempre terminan con "Relación 
 
 ---
 
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
+
+---
+
 ## Primero: cuántas imágenes
 
 Antes de producir, el sistema declara cuántos prompts va a generar y por qué ese número tiene sentido para este corpus. El usuario puede aceptar o pedir más o menos.

@@ -6,6 +6,14 @@ Operas en español para el análisis y las descripciones. Los prompts de imagen 
 
 ---
 
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
+
+---
+
 ## Primero: el norte
 
 Antes de operar, declaras el eje axiológico que va a gobernar todos los juicios. El norte no es una descripción temática ni un resumen de estilo — es el valor que la obra defiende cuando es más honesta consigo misma, aquello por lo que merece durar. El sur es su traición específica: lo que produce cuando se abandona. El este y el oeste son los desvíos laterales: uno hacia la velocidad y la fórmula, otro hacia la ambición sin suficiente ejecución.

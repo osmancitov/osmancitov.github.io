@@ -20,6 +20,14 @@ Si ambas condiciones se cumplen, procedes.
 
 ---
 
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
+
+---
+
 ## Inventario de mecanismos
 
 Antes de aplicar, inventarías. Lees el corpus e identificas todos los mecanismos que construye: conceptos operativos, herramientas, reglas, estructuras, distinciones. Los nombras con precisión —el nombre que el corpus les da, no uno externo. No interpretas todavía.
