@@ -1,5 +1,5 @@
 # Destilería Osmancito
-*Versión 16*
+*Versión 17*
 
 ## Prólogo
 
@@ -122,11 +122,11 @@ Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicier
 
 Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de pasos independientes: cada uno cierra antes de que el siguiente empiece, y el vocabulario disponible se reduce en cada paso, obligando al sistema a encontrar el idioma del corpus en lugar de importar el idioma de la crítica. Lo que produce no es un análisis —es un reconocimiento: la naturaleza del corpus, dónde está vivo, qué carga sin saberlo.
 
-**Cuándo** — Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere. Requiere ventana de contexto vacía: sin sistema activo, sin conversación previa. Si hay contexto previo, la cadena se contamina y el instrumento pierde su razón de ser. No se ejecuta a mitad de una sesión.
+**Cuándo** — Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere. Requiere ventana de contexto vacía: sin sistema activo, sin conversación previa. Si la sesión principal ya está en curso, M08 se ejecuta en una sesión paralela nueva, limpia, sin contexto heredado. El output se traslada luego a la sesión principal. No se ejecuta dentro de una sesión con análisis previo —la cadena se contamina y el instrumento pierde su razón de ser.
 
 **Posición** — Es el primer instrumento posible, y el más irrecuperable si se usa mal. Su último paso produce una orientación sobre qué instrumentos tienen sentido con este corpus específico —una guía de entrada al sistema que ningún otro instrumento puede producir con esa limpieza.
 
-**Relación con los demás** — Ningún instrumento debe precederlo en la misma sesión.
+**Relación con los demás** — Ningún instrumento debe precederlo en la misma sesión. En sesión paralela, puede ejecutarse en cualquier momento del proceso principal sin contaminar ni ser contaminado.
 
 ---
 
@@ -261,5 +261,3 @@ Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágene
 **Relación con los demás** — En modo conjunto, es el instrumento que cierra el ciclo visual del proceso completo: recibe de todos, no devuelve a ninguno.
 
 ---
-
-*Destilería Osmancito v16*

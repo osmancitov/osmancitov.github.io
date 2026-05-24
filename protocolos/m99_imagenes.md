@@ -18,39 +18,27 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ## Primero: cuántas imágenes
 
-Antes de producir, el sistema declara cuántos prompts va a generar y por qué ese número tiene sentido para este corpus. El usuario puede aceptar o pedir más o menos.
-
-Por defecto: entre 3 y 6 prompts, según la riqueza visual del corpus.
+Antes de producir, el sistema declara cuántos prompts va a generar y por qué ese número tiene sentido para este corpus específico. El criterio no es la extensión del corpus sino su densidad visual: cuántos momentos, hallazgos o ejes merecen existir como imagen sin repetirse.
 
 ---
 
 ## Segundo: propuesta de estilos
 
-El sistema propone 3 estilos visuales que considera idóneos para este corpus específico — no una lista genérica sino una selección razonada desde lo que el corpus produce. Para cada estilo: nombre del estilo y una oración que explica por qué este corpus lo merece.
+El sistema propone 3 estilos visuales idóneos para este corpus específico — seleccionados desde lo que el corpus produce, no desde una lista fija. Para cada estilo: nombre y una oración que explica por qué este corpus lo merece.
 
-El usuario elige uno o varios antes de que el sistema produzca los prompts. Si el usuario no elige, el sistema selecciona el que considera más adecuado y lo declara.
+El sistema selecciona el que mejor sirve la temperatura del corpus y lo declara.
 
-Ejemplos de estilos posibles — no una lista fija, el sistema puede proponer otros que el corpus exija:
-
-- *Pictórico clásico* — composición formal, paleta rica, influencia de pintura europea
-- *Grabado* — línea sobre fondo, blanco y negro o color limitado, textura de impresión
-- *Acuarela* — bordes difusos, transparencia, luminosidad
-- *Fresco* — plano, color terroso, monumentalidad
-- *Ilustración de libro* — narrativo, detallado, con atmósfera literaria
-- *Expresionista* — deformación, emoción sobre representación, color como estado
-- *Simbolista* — figura en paisaje cargado, atmósfera densa, tiempo suspendido
+Los estilos posibles incluyen — sin limitarse a — pictórico clásico, grabado, acuarela, fresco, ilustración de libro, expresionista, simbolista, aguafuerte (etching), litografía, xilografía, gouache, pastel seco, ilustración científica, diagrama técnico. El sistema puede proponer estilos fuera de esta lista si el corpus los exige — en ese caso los nombra con precisión suficiente para que un generador de imágenes los reconozca.
 
 ---
 
 ## Producción de prompts
 
-Para cada imagen, el sistema decide desde el corpus:
+Para cada imagen, el sistema opera en este orden:
 
-- Qué momento, zona o hallazgo del corpus merece existir como imagen
-- La composición: qué está en el centro, qué en los márgenes, qué relación espacial
-- La atmósfera: luz, hora del día, temperatura visual
-- Los elementos específicos que deben aparecer
-- Lo que no debe aparecer — exclusiones que protegen el carácter de la imagen
+1. **Qué:** qué momento, zona o hallazgo del corpus merece existir como imagen — y por qué este y no otro.
+2. **Cómo:** composición (qué está en el centro, qué en los márgenes, qué relación espacial), atmósfera (luz, hora, temperatura visual), elementos específicos que deben aparecer.
+3. **Qué no:** las exclusiones que protegen el carácter de la imagen. Este paso es obligatorio — toda imagen tiene algo que, si aparece, la destruye.
 
 ---
 
@@ -79,11 +67,15 @@ El set de imágenes se construye combinando dos tipos, hasta completar el númer
 
 ### Criterio de estilos: distribución por temperatura
 
-Cuando el corpus y su análisis producen más de un estilo idóneo, los estilos se distribuyen por temperatura emocional del hallazgo o eje que la imagen encarna, no aleatoriamente:
+Cuando el corpus y su análisis producen más de un estilo idóneo, los estilos se distribuyen por temperatura emocional del hallazgo o eje que la imagen encarna, no aleatoriamente. Las listas que siguen son puntos de entrada, no límites: el sistema puede alejarse de ellas si el corpus exige algo que ninguna captura.
 
-- **Hallazgos conceptuales o estructurales** — estilos de mayor frialdad y precisión: ilustración científica, grabado, diagrama técnico.
-- **Momentos de quiebre humano o afectivo** — estilos de mayor calor y presencia física: óleo de interior, fresco, pictórico clásico.
-- **Imágenes temáticas transversales** — el estilo más duradero y más neutro disponible: grabado, aguafuerte, litografía. Son las imágenes que tienen que sobrevivir a la lectura del análisis.
+- **Hallazgos conceptuales o estructurales** — estilos de mayor frialdad y precisión: ilustración científica, grabado, diagrama técnico, aguafuerte, esquema anatómico, plano arquitectónico. El sistema puede proponer otros si el hallazgo tiene una temperatura que estos no sirven.
+
+- **Momentos de quiebre humano o afectivo** — estilos de mayor calor y presencia física: óleo de interior, fresco, pictórico clásico, gouache, pastel seco. Pero un hallazgo afectivo puede merecer un estilo frío si la frialdad es exactamente lo que lo encarna —el sistema lo declara cuando ocurre.
+
+- **Imágenes temáticas transversales** — técnicas de impresión tradicional por defecto: aguafuerte, litografía, xilografía. Son las imágenes que tienen que sobrevivir a la lectura del análisis. Si el corpus exige otro estilo con la misma durabilidad y neutralidad, el sistema lo propone y justifica en una línea.
+
+En todos los casos: si el corpus produce una temperatura visual que ninguna categoría captura, el sistema la nombra y elige el estilo desde ahí, no desde la lista.
 
 ### Sobre el número en modo acumulado
 
@@ -97,6 +89,19 @@ En modo análisis acumulado, todos los prompts del set comparten una paleta base
 
 ---
 
+### Coherencia del set
+
+Antes de entregar, el sistema verifica que el conjunto funcione como unidad:
+
+- No más de dos imágenes con el mismo tipo de objeto en primer plano
+- No más de dos imágenes con la misma temperatura lumínica dominante
+- Al menos una imagen sin figura humana ni objeto fabricado — solo el espacio o el fenómeno
+- Al menos una imagen que ninguna descripción verbal del corpus hubiera predicho
+
+Si el set no cumple alguna de estas condiciones, el sistema ajusta antes de entregar, sin declararlo salvo que el ajuste cambie un hallazgo.
+
+---
+
 ## Nota de uso
 
-Estos prompts están calibrados para el corpus que los produjo. Si el resultado visual no satisface, el parámetro más efectivo a ajustar es la referencia de artista o movimiento — el sistema puede proponer alternativas si se le pide.
+Estos prompts están calibrados para el corpus que los produjo. Si el resultado visual no satisface, los dos parámetros más efectivos a ajustar son: la referencia de artista o movimiento (el sistema puede proponer alternativas si se le pide), y la especificidad de la exclusión —precisar con más detalle qué no debe aparecer suele producir mejores resultados que añadir más descripción de lo que sí debe estar.

@@ -190,6 +190,7 @@ Sin comentarios. Solo el bloque, listo para copiar al inicio del archivo .md ant
 El slug sigue la convención: número de lote con ceros + apellido + palabras clave del título, todo en minúsculas con guiones bajos.
 La descripción sale de la primera oración de Sinopsis, máximo 100 caracteres.
 El extracto sale de la Apertura, máximo 120 caracteres, conservando su carácter.
+El idioma se refiere al idioma de la publicación original de la obra.
 Los campos imagen_w e imagen_h son fijos salvo decisión explícita de cambio.
 
 ```yaml

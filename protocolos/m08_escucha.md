@@ -148,6 +148,14 @@ El destello va al inicio del output de cada instrumento, no al final. El documen
 
 ## Nota de implementación
 
-La cadena puede ejecutarse con cualquier modelo que soporte llamadas independientes con contexto acumulado. El principio de diseño es que **cada paso cierra una puerta antes de abrir la siguiente**. Si se implementa como un solo prompt largo, se pierde el efecto: el modelo anticipará y contaminará.
+El principio de diseño es que **cada paso cierra una puerta antes de abrir la siguiente**. Si se implementa como un solo prompt largo, se pierde el efecto: el modelo anticipará y contaminará.
 
 El vocabulario bloqueado en cada paso no es censura temática sino presión formal: obliga al modelo a encontrar el idioma del corpus en lugar de importar el idioma de la crítica.
+
+---
+
+## Destello
+
+El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.
+
+*[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]*
