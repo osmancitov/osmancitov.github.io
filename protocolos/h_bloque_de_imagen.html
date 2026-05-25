@@ -1,0 +1,71 @@
+
+--- Bloque de imagen ---
+
+<!-- IMAGEN 1 -->
+	<div class="prompt-imagen">
+		<div class="prompt-imagen-cabecera"><strong>El primer reconocimiento</strong></div>
+		<figure class="img-container">
+			<img src="img/013_asimov_hombre_bicentenario_1_sintesis.jpg"
+				 alt="El primer reconocimiento"
+				 width="848"
+				 height="1264"
+				 loading="lazy">
+		</figure>
+	</div>
+
+
+--- Bloque Overlay — Body ---
+
+  <!-- Módulo LightBox -->
+	<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+		<img id="lb-img" src="" alt="">
+	</div>
+
+
+--- Pandoc — .md ---
+
+<!-- IMAGEN 1 -->
+::: {.prompt-imagen}
+::: {.prompt-imagen-cabecera}
+**Imagen 1**
+:::
+
+![Imagen 1](img/imagen_1.jpg){.img-container}
+:::
+
+
+--- Head — Root ---
+
+	<link id="hoja-estilo" rel="stylesheet" href="destilaciones/stl/260519.css">
+	<link id="complemento" rel="stylesheet" href="destilaciones/stl/260415.css">
+	<script src="destilaciones/js/260519.js"></script>	
+	<script src="destilaciones/js/260501.js"></script>	
+
+--- Head — Destilado ---
+
+	<link id="hoja-estilo" rel="stylesheet" href="stl/260519.css">
+	<link id="complemento" rel="stylesheet" href="stl/260415.css">
+	<script src="js/260519.js"></script>	
+	<script src="js/260501.js"></script>	
+	
+
+--- Bloque Fichas Index ---
+
+		<figure class="img-container img-ficha">
+			<img src="destilaciones/img/014_asimov_silverberg_anochecer_1_presentacion_half.jpg"
+				 alt="Anochecer"
+				 width="512"
+				 height="768"
+				 loading="lazy">
+		</figure>
+
+
+--- Antiguo Bloque ---
+
+	<!-- IMAGEN 1 -->
+	<div class="prompt-imagen">
+		<div class="prompt-imagen-cabecera"><strong>Imagen 1</strong></div>
+		<figure class="img-container">
+			<img src="img/imagen_1.jpg" alt="Imagen 1">
+		</figure>
+	</div>
