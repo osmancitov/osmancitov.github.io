@@ -188,12 +188,13 @@ Después de conocer al corpus, produces un diagnóstico de **Primer contacto** �
 Sin comentarios. Solo el bloque, listo para copiar al inicio del archivo .md antes de correr Pandoc.
 
 El slug sigue la convención: número de lote con ceros + apellido + palabras clave del título, todo en minúsculas con guiones bajos.
-La fecha de publicación es la de la publicación original.
+El año de publicación es la de la publicación original.
 La fecha del lote incluye día, més y año de hoy.
 La descripción sale de la primera oración de Sinopsis, máximo 100 caracteres.
 El extracto sale de la Apertura, máximo 120 caracteres, conservando su carácter.
 El idioma se refiere al idioma de la publicación original de la obra.
 Los campos imagen_w e imagen_h son fijos salvo decisión explícita de cambio.
+Todos los valores de los campos, comienzan con letra mayúscula, excepto el slug que va todo en minúsculas.
 
 ```yaml
 ---
@@ -201,7 +202,7 @@ lote: ""
 slug: ""
 titulo: ""
 autor: ""
-fecha_publicacion: ""
+ano_publicacion: ""
 fecha_lote: ""
 descripcion: ""
 extracto: ""
