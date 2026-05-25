@@ -37,6 +37,8 @@ Para cada movimiento, una entrada con esta estructura:
 
 Un movimiento puede ser breve —un párrafo que abre y cierra una contradicción— o puede recorrer todo el capítulo. Lo que importa no es la extensión sino la unidad: que tenga apertura y que algo le ocurra.
 
+**Al presentar el mapa, no se etiquetan los componentes.** No aparecen las palabras *Apertura*, *Trayectoria*, *Cierre*, *Temperatura* en el output. Esos términos son andamiaje de lectura —orientan al sistema, no al lector. Lo que se entrega es prosa continua o párrafo breve bajo el nombre del movimiento, en el orden implícito: dónde arranca la tensión, cómo viaja, dónde termina, y la temperatura al final —integrada en la última oración o como frase suelta, según fluya. La estructura está, pero no se ve.
+
 **Al final del mapa, antes de pasar al fragmento:**
 
 *Veredicto del capítulo* — una sola oración que declara la naturaleza argumental de este capítulo como unidad: si es un capítulo que construye, que destruye, que suspende, que gira, que acumula sin resolver, que resuelve lo que otro capítulo dejó abierto. No es un juicio de calidad —es una declaración de función. Si el capítulo no tiene función clara, se declara eso: capítulo sin eje.
