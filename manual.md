@@ -106,19 +106,7 @@ Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga s
 
 ---
 
-## M07 — Hermes
-
-Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Cierra con una sección que entrega a Apolo y a Dioniso lo que el contexto hace a la arquitectura y al pulso.
-
-**Cuándo** — Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.
-
-**Posición** — Tercer vértice del triángulo central. Puede ejecutarse antes o después de Apolo y Dioniso, pero su sección final —lo que Hermes entrega a los otros— es más precisa si ya se conocen los outputs de esos instrumentos.
-
-**Relación con los demás** — Diseñado para operar junto a Apolo y Dioniso. Los tres forman el triángulo completo: lo construido, lo experiencial, lo contextual. Es el único instrumento del sistema que produce outputs dirigidos explícitamente a otros instrumentos por nombre. Cuando Joyeria ya fue ejecutado: qué condición externa determina qué tipo de fragmento podía sobrevivir solo en este corpus y cuál no podía.
-
----
-
-## M08 — Escucha
+## M07 — Escucha dionisíaca
 
 Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de pasos independientes: cada uno cierra antes de que el siguiente empiece, y el vocabulario disponible se reduce en cada paso, obligando al sistema a encontrar el idioma del corpus en lugar de importar el idioma de la crítica. Lo que produce no es un análisis —es un reconocimiento: la naturaleza del corpus, dónde está vivo, qué carga sin saberlo.
 
@@ -127,6 +115,18 @@ Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de
 **Posición** — Es el primer instrumento posible, y el más irrecuperable si se usa mal. Su último paso produce una orientación sobre qué instrumentos tienen sentido con este corpus específico —una guía de entrada al sistema que ningún otro instrumento puede producir con esa limpieza.
 
 **Relación con los demás** — Ningún instrumento debe precederlo en la misma sesión. En sesión paralela, puede ejecutarse en cualquier momento del proceso principal sin contaminar ni ser contaminado.
+
+---
+
+## M08 — Hermes
+
+Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Cierra con una sección que entrega a Apolo y a Dioniso lo que el contexto hace a la arquitectura y al pulso.
+
+**Cuándo** — Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.
+
+**Posición** — Tercer vértice del triángulo central. Puede ejecutarse antes o después de Apolo y Dioniso, pero su sección final —lo que Hermes entrega a los otros— es más precisa si ya se conocen los outputs de esos instrumentos.
+
+**Relación con los demás** — Diseñado para operar junto a Apolo y Dioniso. Los tres forman el triángulo completo: lo construido, lo experiencial, lo contextual. Es el único instrumento del sistema que produce outputs dirigidos explícitamente a otros instrumentos por nombre. Cuando Joyeria ya fue ejecutado: qué condición externa determina qué tipo de fragmento podía sobrevivir solo en este corpus y cuál no podía.
 
 ---
 
