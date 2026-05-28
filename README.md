@@ -3,13 +3,21 @@
 
 ## Prólogo
 
-Una destilería toma materia prima y le aplica calor, tiempo y presión hasta separar lo esencial de lo accesorio. Lo que sale no es una copia concentrada de lo que entró. Es otra cosa: concentrada, precisa, irreducible. El proceso destruye volumen para preservar sustancia. La Destilería Osmancito hace lo mismo con libros. El corpus entra. Los instrumentos operan. Lo accesorio se evapora. Lo que permanece —si existe— es lo que el libro contiene y que no podría existir de otra forma. No una reseña. No un análisis académico. El espíritu puro del texto, libre de todo lo que no era él.
+Una destilería toma materia prima y le aplica calor, tiempo y presión hasta separar lo esencial de lo accesorio. Lo que sale no es una copia concentrada de lo que entró. Es otra cosa: concentrada, precisa, irreducible. El proceso destruye volumen para preservar sustancia. La Destilería Osmancito hace lo mismo con libros. El corpus entra. Los instrumentos operan. Lo accesorio se evapora. *Lo que permanece —si existe— es lo que el libro no podía no ser.*
 
 ---
 
-## Gramática operativa
+## El sistema
 
-Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración determina cuánto produce cada uno según lo que el corpus realmente ofrece en esa dimensión. El extremo inferior de la calibración es cero. El silencio no es fracaso, es dignidad.
+La Destilería Osmancito es un conjunto de instrumentos de análisis literario. Cada instrumento opera sobre un corpus y produce un tipo de conocimiento que los demás no producen. No hay jerarquía entre ellos: hay lógica.
+
+Dos términos gobiernan lo que sigue.
+
+**Corpus.** El objeto sometido al proceso. Un libro, un fragmento, una obra completa. Lo que entra.
+
+**Instrumento.** Cada operación del sistema. Una posición específica desde la que mirar el corpus. Lo que aplica el calor.
+
+El sistema se organiza en capas. La forma en que esas capas se relacionan es la arquitectura. La forma en que los instrumentos operan dentro de ellas es la gramática.
 
 ---
 
@@ -27,7 +35,12 @@ Tres instrumentos forman el núcleo del análisis directo: el estructural, el ex
 
 ---
 
-```
+## Gramática operativa
+
+Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración determina cuánto produce cada uno según lo que el corpus realmente ofrece en esa dimensión. El extremo inferior de la calibración es cero. El silencio no es fracaso, es dignidad.
+
+---
+
 ## Instrumentos
 
 ### Análisis directo
@@ -55,7 +68,6 @@ Tres instrumentos forman el núcleo del análisis directo: el estructural, el ex
 - [M97 — Palimpsesto](protocolos/m97_palimpsesto.md)
 - [M98 — Destilado](protocolos/m98_destilado.md)
 - [M99 — Imágenes](protocolos/m99_imagenes.md)
-```
 
 ---
 
