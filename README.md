@@ -3,7 +3,11 @@
 
 ## Prólogo
 
-Una destilería toma materia prima y le aplica calor, tiempo y presión hasta separar lo esencial de lo accesorio. Lo que sale no es una copia concentrada de lo que entró. Es otra cosa: concentrada, precisa, irreducible. El proceso destruye volumen para preservar sustancia. La Destilería Osmancito hace lo mismo con libros. El corpus entra. Los instrumentos operan. Lo accesorio se evapora. *Lo que permanece —si existe— es lo que el libro no podía no ser.*
+Una destilería toma materia prima y le aplica calor, tiempo y presión hasta separar lo esencial de lo accesorio. Lo que sale no es una copia concentrada de lo que entró. Es otra cosa: precisa, irreducible. El proceso destruye volumen para preservar sustancia.
+
+La Destilería Osmancito hace lo mismo con libros.
+
+Lo que permanece —si existe— es lo que el libro no podía no ser.
 
 ---
 
