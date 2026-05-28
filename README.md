@@ -50,8 +50,8 @@ Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración deter
 - [M04 — Joyería](protocolos/m04_joyeria.md)
 - [M05 — Batimetría](protocolos/m05_batimetria.md)
 - [M06 — Apolo](protocolos/m06_apolo.md)
-- [M07 I — Escucha dionisíaca](protocolos/m07_I_escucha_dionisiaca_manual.md)
-- [M07 II — Dioniso](protocolos/m07_II_dioniso.md)
+- [M07 I — Escucha dionisíaca](protocolos/m07_i_escucha_dionisiaca_manual.md)
+- [M07 II — Dioniso](protocolos/m07_ii_dioniso.md)
 - [M08 — Hermes](protocolos/m08_hermes.md)
 
 ### Instrumentos extendidos
@@ -60,15 +60,15 @@ Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración deter
 - [M23 — Testigo del testigo](protocolos/m23_testigo_del_testigo.md)
 - [M24 — Bucle](protocolos/m24_bucle.md)
 - [M25 — Umbral del reconocimiento](protocolos/m25_umbral_del_reconocimiento.md)
-- [M26 — Wirkungsgeschichte](protocolos/m26_wirkungsgeschichte.md)
+- [M26 — Historia de los efectos.md](protocolos/m26_historia_de_los_efectos.md)
 - [M51 — Inventario de flota](protocolos/m51_inventario_de_flota.md)
 
 ### Orden superior
-- [M95 — Síntesis](protocolos/m95_sintesis.md)
-- [M96 — Punto de Fuga](protocolos/m96_punto_de_fuga.md)
-- [M97 — Palimpsesto](protocolos/m97_palimpsesto.md)
-- [M98 — Destilado](protocolos/m98_destilado.md)
-- [M99 — Imágenes](protocolos/m99_imagenes.md)
+- [M96 — Síntesis](protocolos/m96_sintesis.md)
+- [M97 — Punto de Fuga](protocolos/m97_punto_de_fuga.md)
+- [M98 — Palimpsesto](protocolos/m98_palimpsesto.md)
+- [M99 I — Destilado](protocolos/m99_i_destilado.md)
+- [M99 II — Destilado de imágenes](protocolos/m99_ii_destilado_imagenes.md)
 
 ---
 
@@ -232,7 +232,9 @@ Lee el corpus como sistema de reconocimiento. No quién reconoce a quién ni con
 
 ---
 
-## M26 — Wirkungsgeschichte
+## M26 — Historia de los Efectos
+
+(Inpirado en el concepto de Wirkungsgeschichte.)
 
 Lee el corpus a través del tiempo que vino después de él. Identifica los momentos de inflexión genuina —instantes en que algo externo cambió la lente con que se lee— y registra en cada uno qué reveló y qué cegó. El corpus no se mueve: lo que cambia es la historia que lo rodea. Produce el mapa de cómo el corpus ha sido iluminado y tapado por distintas épocas, y declara lo que ningún momento ha podido leer todavía.
 
@@ -254,7 +256,7 @@ Construye un mapa navegable de una obra completa —no de un corpus individual, 
 
 ---
 
-## M95 — Síntesis
+## M96 — Síntesis
 
 Recibe el análisis completo —de una o varias sesiones— y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Produce un texto autónomo que encarna el corpus sin resumirlo, una cartografía total, y lo que ninguna parte pudo ver desde adentro —si existe.
 
@@ -264,7 +266,7 @@ Recibe el análisis completo —de una o varias sesiones— y construye la visi�
 
 ---
 
-## M96 — Punto de Fuga
+## M97 — Punto de Fuga
 
 Lee el análisis acumulado sobre un corpus como si fuera el corpus. Aplica al conjunto de instrumentos las mismas operaciones que esos instrumentos aplicaron al texto: busca el punto de fuga del sistema —la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, la visión del mundo que el análisis porta sin nombrarlo, las ausencias del sistema, el imán no declarado, el momento donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe.
 
@@ -276,7 +278,7 @@ Lee el análisis acumulado sobre un corpus como si fuera el corpus. Aplica al co
 
 ---
 
-## M97 — Palimpsesto
+## M98 — Palimpsesto
 
 Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis —no dentro de ninguno sino entre ellos. Si existe, se nombra con precisión. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.
 
@@ -286,7 +288,7 @@ Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge e
 
 ---
 
-## M98 — Destilado
+## M99 I — Destilado
 
 Recibe el análisis completo y aplica presión hasta encontrar lo que el corpus contiene y que no podría existir de otra forma. No integra ni recapitula — destila. Evapora todo lo accesorio hasta que lo que queda no se puede quitar sin destruir algo. No sabe de antemano qué forma va a tomar lo que produce: lo descubre en el proceso. Lo que sí sabe es lo que debe cumplir: ser bello, ser verdadero, no poder abreviarse sin destruirse.
 
@@ -296,7 +298,7 @@ Recibe el análisis completo y aplica presión hasta encontrar lo que el corpus 
 
 ---
 
-## M99 — Imágenes
+# M99 II — Destilado de imágenes
 
 Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone tres estilos visuales idóneos para este corpus específico con justificación razonada. Produce prompts en español con composición, atmósfera y elementos decididos desde el corpus. Cuando opera sobre el conjunto de resultados de múltiples instrumentos, construye el set en dos capas: una imagen por hallazgo genuinamente nuevo, más imágenes temáticas transversales que encarnan la visión total.
 
