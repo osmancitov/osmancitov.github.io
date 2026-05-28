@@ -56,10 +56,11 @@ Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración deter
 
 ### Instrumentos extendidos
 - [M21 — Menú emergente](protocolos/m21_menu_emergente.md)
-- [M22 — Pérdidas](protocolos/m22_perdidas.md)
+- [M22 — Márgenes](protocolos/m22_margenes.md)
 - [M23 — Testigo del testigo](protocolos/m23_testigo_del_testigo.md)
 - [M24 — Bucle](protocolos/m24_bucle.md)
 - [M25 — Umbral del reconocimiento](protocolos/m25_umbral_del_reconocimiento.md)
+- [M26 — Wirkungsgeschichte](protocolos/m26_wirkungsgeschichte.md)
 - [M51 — Inventario de flota](protocolos/m51_inventario_de_flota.md)
 
 ### Orden superior
@@ -185,15 +186,15 @@ Recibe el análisis acumulado hasta el momento y construye desde él las operaci
 
 ---
 
-## M22 — Pérdidas
+## M22 — Márgenes
 
-Cuenta cuántas veces algo desaparece en el corpus y de qué tipo es cada desaparición. Produce una taxonomía de la extinción a múltiples escalas —biológica, cultural, intelectual, personal, metodológica— y mapea su distribución. Registra también las pérdidas que el corpus no llama pérdidas: ideas abandonadas sin decirlo, certezas que se erosionan entre capítulos, el propio método que empieza a cuestionarse en silencio.
+Opera en dos movimientos sobre los bordes del corpus. El primero mira hacia adentro: qué desaparece, qué se sacrifica, qué el corpus carga sin nombrarlo. El segundo mira hacia afuera: qué genera el corpus más allá de sí mismo, qué hace posible que sin él no existiría, qué deja en el tiempo. Los dos juntos describen la relación del corpus con sus propios límites, vista desde ambos lados.
 
-**Cuándo** — Cuando algo desaparece en el corpus de forma recurrente. Cuando el corpus lamenta sin nombrar lo que lamenta. Cuando la pérdida opera a más de una escala simultáneamente. No aplica si nada desaparece —el instrumento lo declara.
+**Cuándo** — Sobre cualquier corpus. El primer movimiento requiere que algo desaparezca o sea sacrificado. El segundo funciona mejor sobre corpus con distancia histórica, aunque puede operar sobre cualquiera con masa suficiente.
 
-**Calibración** — El inventario crece según lo que el corpus realmente contiene. Un corpus sin desapariciones lo declara en una línea. Eso es un resultado completo.
+**Calibración** — Cada movimiento calibra de forma independiente. Un movimiento en silencio y el otro activo es un resultado completo.
 
-**Distinción** — Hay instrumentos que buscan ausencias estructurales. Pérdidas busca desapariciones como eventos registrables: lo que se fue, cuándo, cómo.
+**Distinción** — Hay instrumentos que buscan lo que el corpus carga sin saber. Este busca lo que el corpus no pudo contener y lo que no pudo retener. Son los bordes, no el interior.
 
 ---
 
@@ -228,6 +229,18 @@ Lee el corpus como sistema de reconocimiento. No quién reconoce a quién ni con
 **Cuándo** — Cuando el corpus contiene seres, ideas o formas de existencia cuya validez depende del reconocimiento ajeno. Cuando la espera, el retraso o la negación del reconocimiento operan como motor —aunque el corpus no los llame así. Si nada en el corpus depende de ser reconocido, el instrumento lo declara y produce principalmente silencios. Los silencios también son resultados.
 
 **Calibración** — El mapa de reconocimientos crece según lo que el corpus contiene. Las secciones que el corpus no activa —reconocimiento diferido, formas fallidas, lo que el reconocimiento destruye— lo declaran en una línea. La sentencia final es una proposición o silencio declarado. Nunca ambos.
+
+---
+
+## M26 — Wirkungsgeschichte
+
+Lee el corpus a través del tiempo que vino después de él. Identifica los momentos de inflexión genuina —instantes en que algo externo cambió la lente con que se lee— y registra en cada uno qué reveló y qué cegó. El corpus no se mueve: lo que cambia es la historia que lo rodea. Produce el mapa de cómo el corpus ha sido iluminado y tapado por distintas épocas, y declara lo que ningún momento ha podido leer todavía.
+
+**Cuándo** — Sobre corpus con distancia histórica suficiente y recepción documentada. No opera sobre corpus recientes sin historia de lectura. La distancia mínima no es fija —depende de si han ocurrido inflexiones reales desde la publicación.
+
+**Calibración** — El número de momentos de inflexión emerge de lo que la historia del corpus realmente contiene. Un corpus con una sola inflexión produce un análisis breve y preciso. Si no hay inflexiones documentables, el instrumento lo declara y cierra.
+
+**Distinción** — Hermes mira las condiciones en que el corpus fue producido. Este mira las condiciones en que ha sido recibido. Son el mismo eje temporal en direcciones opuestas. Márgenes registra la estela que el corpus generó; este registra cómo el tiempo cambió lo que el corpus significa. No es lo mismo lo que un corpus produjo que lo que el tiempo hizo con él.
 
 ---
 
