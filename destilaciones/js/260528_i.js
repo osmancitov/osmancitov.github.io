@@ -1,5 +1,5 @@
 /* Destilería Osmancito v18 */
-/* 260528.js */
+/* 260528_i.js */
 /* Drawer unificado: ⚙ flotante, panel con herramientas y TOC dinámico desde h1 */
 
 (function () {
