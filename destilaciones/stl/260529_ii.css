@@ -128,8 +128,8 @@
 
 @media (max-width: 640px) {
   #do-drawer {
-    width: 88vw;
-    right: -92vw;
+    width: 50vw;
+    right: -54vw;
   }
 }
 
