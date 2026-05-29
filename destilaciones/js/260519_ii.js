@@ -1,4 +1,4 @@
-/* Destilería Osmancito — 260519.js */
+/* Destilería Osmancito v17 — 260519_ii.js */
 /* Sistema Lightbox */
 
 document.addEventListener('DOMContentLoaded', function(){
