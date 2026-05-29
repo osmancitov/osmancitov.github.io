@@ -41,12 +41,12 @@
     var modoClaro = false;
     var btnTema = document.createElement('button');
     btnTema.className = 'do-btn';
-    btnTema.textContent = 'Modo claro';
+    btnTema.textContent = '☀';
 
     btnTema.addEventListener('click', function () {
       modoClaro = !modoClaro;
       document.body.classList.toggle('modo-claro', modoClaro);
-      btnTema.textContent = modoClaro ? 'Modo oscuro' : 'Modo claro';
+      btnTema.textContent = modoClaro ? '☽' : '☀';
       try { localStorage.setItem('do-tema', modoClaro ? 'claro' : 'oscuro'); } catch(e) {}
     });
 
@@ -54,7 +54,7 @@
       if (localStorage.getItem('do-tema') === 'claro') {
         modoClaro = true;
         document.body.classList.add('modo-claro');
-        btnTema.textContent = 'Modo oscuro';
+        btnTema.textContent = '☽';
       }
     } catch(e) {}
 
@@ -63,7 +63,7 @@
     var fuenteIdx = 0;
     var btnFuente = document.createElement('button');
     btnFuente.className = 'do-btn';
-    btnFuente.textContent = 'Fuente';
+    btnFuente.textContent = 'Aa';
 
     btnFuente.addEventListener('click', function () {
       document.body.classList.remove(fuentes[fuenteIdx]);
