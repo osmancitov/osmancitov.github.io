@@ -30,18 +30,6 @@ Si la frase no llega, espera. Si llegan dos, descarta la segunda.
 
 ---
 
-### Destilado Maestro
-
-300 a 500 palabras. Encarna el libro sin resumirlo. Va primero — da la imagen completa antes de entrar al detalle.
-
-- Prosa literaria, no expositiva
-- Autónomo: funciona sin haber leído el libro
-- No menciona capítulos ni estructura interna
-- Captura el tono, la tensión central y la imagen más duradera
-- Si el libro tiene una contradicción irresuelta, el destilado maestro la contiene sin resolverla
-
----
-
 ## Zonas vivas
 
 Dónde late algo en el corpus. No dónde algo es importante. Dónde algo está vivo.

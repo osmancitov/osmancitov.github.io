@@ -1,13 +1,25 @@
 # Destilería Osmancito
-*Versión 18*
+*Versión 19*
 
-## Prólogo
+*Una destilería es un lugar donde una materia prima entra cruda y sale transformada.* 
 
-Una destilería toma materia prima y le aplica calor, tiempo y presión hasta separar lo esencial de lo accesorio. Lo que sale no es una copia concentrada de lo que entró. Es otra cosa: precisa, irreducible. El proceso destruye volumen para preservar sustancia.
+*El proceso tiene cinco etapas.*
 
-La Destilería Osmancito hace lo mismo con libros.
+*Primero el malteado: la cáscara se abre. El grano que llegó cerrado, duro, impenetrable, se prepara para recibir lo que viene.*
 
-Lo que permanece —si existe— es lo que el libro no podía no ser.
+*Luego la maceración: el grano abierto se sumerge en agua caliente. Los almidones se disuelven. El interior se entrega. Es un proceso lento, sin drama, y en él los azúcares aparecen.*
+
+*Después la fermentación: las levaduras entran en contacto con el líquido y algo nuevo nace. Del contacto entre los tres —grano, agua, levadura— del tiempo que se les da, de las condiciones en que ocurre. La fermentación es el único paso verdaderamente vivo del proceso.*
+
+*Luego la destilación: el líquido fermentado se somete a calor. Lo que puede evaporarse, se evapora. Lo que resiste, permanece. Lo que sube y vuelve a caer —gota a gota— es otra cosa distinta a lo que entró. Más concentrada. Más precisa. Con peso propio.*
+
+*Finalmente el añejamiento: el destilado reposa. El tiempo hace su último trabajo. Lo que era áspero se redondea. Lo que era disperso se unifica. El barril cede algo. El líquido cede algo.*
+
+*Cinco etapas. Una sola dirección.*
+
+*Pero ¿qué ocurriría si usáramos texto como materia prima?*
+
+*La Destilería Osmancito es el intento de responder esa pregunta.*
 
 ---
 
@@ -25,6 +37,14 @@ El sistema se organiza en capas. La forma en que esas capas se relacionan es la 
 
 ---
 
+## Filosofía
+
+La Destilería opera en dos movimientos. Primero abre: separa, expone, revela lo que el corpus contiene sin saberlo. Luego transforma: de lo que se abrió emerge algo que no existía antes —no en el corpus, no en los instrumentos, sino en el contacto entre los dos sometido a presión suficiente.
+
+El resultado puede iluminar. Puede embriagar. Puede, si el corpus no aguanta o el proceso falla, quemar. Ninguno de esos resultados es accidental. Todos son consecuencias legítimas del mismo acto.
+
+---
+
 ## Arquitectura
 
 El sistema tiene tres capas.
@@ -39,13 +59,44 @@ Tres instrumentos forman el núcleo del análisis directo: el estructural, el ex
 
 ---
 
+## Flujo operativo
+
+El sistema opera en cinco pasos, siempre en este orden.
+
+**Paso 1 — Inicialización.** El operador presenta este documento al sistema. El sistema lo lee completo y se convierte en experto del proceso antes de que comience cualquier análisis. Todo lo que el sistema necesita saber para operar está aquí. Si algo no está aquí, no está.
+
+**Paso 2 — Corpus.** El operador presenta el corpus: un libro, un fragmento, una obra completa.
+
+**Paso 3 — Ejecución.** Los instrumentos operan en secuencia según su numeración. Cada uno decide su propia extensión: desde silencio hasta un producto extenso. El silencio no es fracaso.
+
+**Paso 4 — Producto.** Cada instrumento entrega su output en un archivo `.md` independiente.
+
+**Paso 5 — Ensamblaje.** El operador concatena manualmente los archivos `.md` en un documento maestro único, en el orden en que fueron producidos.
+
+---
+
 ## Gramática operativa
 
 Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración determina cuánto produce cada uno según lo que el corpus realmente ofrece en esa dimensión. El extremo inferior de la calibración es cero. El silencio no es fracaso, es dignidad.
 
 ---
 
-## Instrumentos
+## Los instrumentos
+
+El sistema cuenta con múltiples instrumentos. Cada uno produce un tipo de conocimiento que los demás no producen. No hay jerarquía entre ellos —hay lógica. Lo que sigue describe esa lógica: qué hace cada instrumento, cuándo tiene sentido usarlo, en qué se distingue.
+
+La numeración es la arquitectura. El orden en que aparecen es el orden en que operan.
+
+Los instrumentos K son preparatorios. Operan antes de que el proceso principal comience —preparan la materia prima, seleccionan qué entra, sumergen al lector. Son la bodega donde el grano llega, se examina y se prepara antes de entrar al alambique. El operador decide si tienen sentido para cada sesión.
+
+---
+
+## Listado de instrumentos
+
+### Preparatorios
+- [K51 — Granero](protocolos/k51_granero.md)
+- [K52 — Tamizado](protocolos/k52_tamizado.md)
+- [K53 — Macerado](protocolos/k53_macerado.md)
 
 ### Análisis directo
 - [M01 — Víspera](protocolos/m01_vispera.md)
@@ -58,14 +109,13 @@ Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración deter
 - [M07 II — Dioniso](protocolos/m07_ii_dioniso.md)
 - [M08 — Hermes](protocolos/m08_hermes.md)
 
-### Instrumentos extendidos
+### Extendidos
 - [M21 — Menú emergente](protocolos/m21_menu_emergente.md)
 - [M22 — Márgenes](protocolos/m22_margenes.md)
 - [M23 — Testigo del testigo](protocolos/m23_testigo_del_testigo.md)
 - [M24 — Bucle](protocolos/m24_bucle.md)
 - [M25 — Umbral del reconocimiento](protocolos/m25_umbral_del_reconocimiento.md)
-- [M26 — Historia de los efectos.md](protocolos/m26_historia_de_los_efectos.md)
-- [M51 — Inventario de flota](protocolos/m51_inventario_de_flota.md)
+- [M26 — Historia de los efectos](protocolos/m26_historia_de_los_efectos.md)
 
 ### Orden superior
 - [M96 — Síntesis](protocolos/m96_sintesis.md)
@@ -76,11 +126,33 @@ Todos los instrumentos se ejecutan sobre cualquier corpus. La calibración deter
 
 ---
 
-# Los instrumentos
+## K51 — Granero
 
-El sistema cuenta con múltiples instrumentos. Cada uno produce un tipo de conocimiento que los demás no producen. No hay jerarquía entre ellos —hay lógica. Lo que sigue describe esa lógica: qué hace cada instrumento, cuándo tiene sentido usarlo, en qué se distingue.
+Recibe una lista de libros de cualquier tipo y procedencia. Produce un inventario: cada libro situado en su territorio, nombrado en su naturaleza, observado en su potencial latente. No evalúa ni jerarquiza. Al final, una lectura del conjunto que revela la forma de una biblioteca antes de que nadie la haya pensado como forma.
 
-La numeración es la arquitectura. El orden en que aparecen es el orden en que operan.
+**Cuándo** — Cuando el conjunto de libros no tiene eje común y la pregunta no es cuál es mejor sino qué hay y cómo se relaciona. Alimenta al K52 si el operador decide cribarlo después.
+
+**Calibración** — Una entrada por libro. La lectura final no supera cinco líneas.
+
+---
+
+## K52 — Tamizado
+
+Recibe la obra completa de un autor. Declara primero el norte: el valor que el autor defiende cuando es más honesto consigo mismo. Luego cata cada obra desde ese eje y produce una sentencia por entrada. Al final, una lectura del conjunto que dice lo que ninguna obra individual podría decir sola. El documento incluye tres prompts de imagen para visualizar la cata.
+
+**Cuándo** — Cuando el corpus no es un libro sino una obra completa y la pregunta es cuál merece entrar al alambique. No opera sobre un corpus individual.
+
+**Calibración** — Una entrada por obra. La lectura final no supera cinco líneas. Los prompts de imagen son siempre tres.
+
+---
+
+## K53 — Macerado
+
+Recibe el corpus y una instrucción de extensión: *macera este corpus en un mosto de [N] palabras.* Produce una inmersión en prosa que prepara al lector para entrar al análisis con la temperatura correcta. No resume, no analiza, no evalúa. Habita las zonas más densas del corpus e ignora o atraviesa rápido lo que existe solo para sostener lo que importa. El mosto es autónomo: funciona sin haber leído el corpus ni el análisis que vendrá después.
+
+**Cuándo** — Antes de cualquier instrumento, inmediatamente después de que el corpus entra al sistema. Opcional. El operador decide si la inmersión previa tiene sentido para la sesión que está a punto de comenzar.
+
+**Calibración** — La extensión la decide el operador. Si no la especifica, el instrumento la solicita antes de comenzar. Es la única pregunta que hace.
 
 ---
 
@@ -250,16 +322,6 @@ Lee el corpus a través del tiempo que vino después de él. Identifica los mome
 
 ---
 
-## M51 — Inventario de Flota
-
-Construye un mapa navegable de una obra completa —no de un corpus individual, sino de la totalidad de la producción de un autor o sistema. Primero define un norte: el criterio de valor que va a gobernar todos los juicios, emergente de la obra misma. Luego selecciona las diez posiciones más reveladoras y asigna a cada una una embarcación con dos parámetros: tipo y tamaño según peso literario real, distancia a la orilla según profundidad genuina. Produce el mapa descriptivo completo con prompts de imagen en tres estilos visuales emergentes del corpus.
-
-**Cuándo** — Cuando el corpus es una obra completa o extensa y se quiere orientación visual antes del análisis profundo. Cuando la pregunta no es qué dice un libro sino cuáles libros valen el viaje. No opera sobre un corpus individual.
-
-**Calibración** — El número de posiciones en el mapa emerge de la extensión y diversidad de la obra completa. La nota de lectura final nunca supera cinco líneas. Los prompts de imagen son siempre tres.
-
----
-
 ## M96 — Síntesis
 
 Recibe el análisis completo —de una o varias sesiones— y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Produce un texto autónomo que encarna el corpus sin resumirlo, una cartografía total, y lo que ninguna parte pudo ver desde adentro —si existe.
@@ -302,7 +364,7 @@ Opera en dos movimientos consecutivos y opuestos. El primero abre: inventaría l
 
 ---
 
-# M99 II — Destilado de imágenes
+## M99 II — Destilado de imágenes
 
 Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone tres estilos visuales idóneos para este corpus específico con justificación razonada. Produce prompts en español con composición, atmósfera y elementos decididos desde el corpus. Cuando opera sobre el conjunto de resultados de múltiples instrumentos, construye el set en dos capas: una imagen por hallazgo genuinamente nuevo, más imágenes temáticas transversales que encarnan la visión total.
 
