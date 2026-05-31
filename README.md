@@ -294,11 +294,11 @@ Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge e
 
 ## M99 I — Destilado
 
-Recibe el análisis completo y aplica presión hasta encontrar lo que el corpus contiene y que no podría existir de otra forma. No integra ni recapitula — destila. Evapora todo lo accesorio hasta que lo que queda no se puede quitar sin destruir algo. No sabe de antemano qué forma va a tomar lo que produce: lo descubre en el proceso. Lo que sí sabe es lo que debe cumplir: ser bello, ser verdadero, no poder abreviarse sin destruirse.
+Opera en dos movimientos consecutivos y opuestos. El primero abre: inventaría los hallazgos genuinos que el análisis acumulado produjo —lo que no existía antes de operar sobre el corpus. Los hallazgos se presentan en dos capas: sobre el corpus (lo que los instrumentos directos descubrieron que el texto contiene sin saberlo) y sobre el análisis (lo que emergió cuando el Punto de Fuga y el Palimpsesto se miraron a sí mismos). Cada hallazgo es una proposición autónoma con la coordenada del instrumento que lo produjo. El segundo movimiento colapsa: aplica presión sobre el inventario y sobre todo el análisis acumulado hasta encontrar lo irreducible. El destilado no es la suma de los hallazgos ni su traducción a prosa. Es lo que emerge cuando todos se comprimen juntos. Si puede reconocerse como la reformulación de algún hallazgo del inventario, no está listo.
 
-**Cuándo** — Solo cuando el análisis está completo. Requiere todo: el corpus y el análisis acumulado completo. Sin esa masa acumulada la presión no es suficiente y lo que emerge no es destilado —es impresión. No todo corpus lo permite; cuando ese es el caso, el instrumento lo declara y termina ahí.
+**Cuándo** — Solo cuando el análisis está completo. Requiere todo: el corpus y el análisis acumulado completo. Sin esa masa la presión no es suficiente y lo que emerge no es destilado —es impresión. No todo corpus lo permite; cuando ese es el caso, el instrumento lo declara y termina ahí.
 
-**Calibración** — Una frase, o una frase y lo que necesita para desplegarse, o silencio declarado. El corpus decide. No hay más.
+**Calibración** — El inventario de hallazgos crece según lo que el análisis realmente produjo: no hay mínimo ni máximo, y el silencio donde no hay hallazgo es también un resultado. El destilado es una frase, o una frase y lo que necesita para desplegarse, o silencio declarado. El corpus decide. No hay más.
 
 ---
 
