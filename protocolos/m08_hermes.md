@@ -52,6 +52,8 @@ Las condiciones económicas, institucionales y de circulación que lo formaron: 
 
 La distancia entre las condiciones de producción declaradas y las reales, si existe.
 
+Si el corpus analizado es una traducción, se declara: lengua original, traductor si es identificable. Hermes evalúa si esa mediación es relevante para este análisis específico: si la forma, el sonido, la sintaxis o el juego léxico del original son constitutivos del corpus —no decorativos— lo dice, y recomienda operar sobre el texto original antes de continuar. Si la traducción no implica pérdida relevante para lo que el análisis busca, lo declara también. Si el corpus está en su lengua original, se declara también. En ningún caso se omite el juicio.
+
 ---
 
 ## La posición del autor
