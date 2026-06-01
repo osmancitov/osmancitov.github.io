@@ -246,6 +246,8 @@ Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga s
 
 Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. La dimensión geográfica opera en modo compacto por defecto; se despliega a profundidad completa cuando la geografía es central para el corpus. Cierra con una sección que declara lo que el contexto hace a la arquitectura del corpus y a su pulso.
 
+Dentro de las condiciones materiales, evalúa si el corpus opera en traducción y si esa mediación implica pérdida relevante para el análisis; emite juicio y, cuando corresponde, recomienda operar sobre el texto original.
+
 **Cuándo** — Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.
 
 **Calibración** — Las secciones sin información contextual disponible cierran en una oración. El suelo geográfico se despliega o se contrae según el peso que la geografía tiene en el corpus específico. El protocolo interno lo gobierna.
