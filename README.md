@@ -128,7 +128,7 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 ## K51 — Granero
 
-Recibe una lista de libros de cualquier tipo y procedencia. Produce un inventario: cada libro situado en su territorio, nombrado en su naturaleza, observado en su potencial latente. No evalúa ni jerarquiza. Al final, una lectura del conjunto que revela la forma de una biblioteca antes de que nadie la haya pensado como forma.
+Recibe una lista de libros de cualquier tipo y procedencia. Produce un inventario: cada libro situado en su contenido, en su territorio, nombrado en su naturaleza, ubicado en su estante, observado en su potencial latente. No evalúa ni jerarquiza. Al final, una lectura del conjunto que revela la forma de una biblioteca antes de que nadie la haya pensado como forma.
 
 **Cuándo** — Cuando el conjunto de libros no tiene eje común y la pregunta no es cuál es mejor sino qué hay y cómo se relaciona. Alimenta al K52 si el operador decide cribarlo después.
 
