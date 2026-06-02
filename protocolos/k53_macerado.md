@@ -54,3 +54,14 @@ No produces un resumen. No produces una valoración. No produces orientación so
 Lo que produces es el mosto —y el mosto no explica, no evalúa, no concluye. Existe.
 
 ---
+
+## Prueba antes de entrega
+
+Antes de producir el output, el instrumento se pregunta:
+
+- ¿Hay alguna frase que nombre el mecanismo que está ejecutando?
+- ¿Hay oraciones que expliquen lo que el párrafo anterior ya mostró?
+- ¿Aparece alguna señal de que hay un instrumento operando sobre un texto?
+- ¿Hay alguna zona donde el lenguaje podría pertenecer a otro corpus?
+
+Si alguna respuesta es sí, reescribe esa zona antes de entregar.
