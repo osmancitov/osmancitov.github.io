@@ -1,0 +1,98 @@
+/* Destilería Osmancito — Hoja complementaria */
+
+/* ─── Barra flotante ────────────────────────────────────────── */
+#barra-flotante {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.btn-flotante {
+  font-family: var(--f-mono); /* Usando variable de la hoja maestra */
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-texto-suave);
+  background: var(--c-fondo-bloque);
+  border: 1px solid var(--c-humo-claro);
+  padding: 0.5rem 0.85rem;
+  cursor: pointer;
+  transition: all var(--t-rapida);
+  backdrop-filter: blur(4px);
+  white-space: nowrap;
+}
+
+.btn-flotante:hover {
+  color: var(--c-oro-palido);
+  border-color: var(--c-oro-suave);
+  background: var(--c-fondo-elevado);
+}
+
+/* ─── Modo claro (Mapeo de Variables Maestras) ──────────────── */
+body.modo-claro {
+  /* Re-definición de la paleta maestra para el estado de luz */
+  --c-fondo:            #f5f0e8;    /* Papel antiguo */
+  --c-fondo-bloque:     #ede6d4;    /* Pergamino saturado */
+  --c-fondo-elevado:    #e4dbbf;    /* Elevación cálida */
+  --c-fondo-sunken:     #faf6ee;    /* Claridad máxima */
+
+  --c-texto:            #2a1f12;    /* Tinta sepia profunda */
+  --c-texto-suave:      #5c442a;    /* Cuero gastado */
+  --c-texto-tenue:      #8b6f50;    /* Sombra de bronce */
+  --c-texto-fantasma:   #d1c4ac;    /* Marca de agua */
+
+  --c-oro:              #7a4e1c;    /* Oro quemado */
+  --c-oro-suave:        #946835;
+  --c-oro-palido:       #4d3111;
+  
+  --c-humo:             #dcd0b9;
+  --c-humo-medio:       #c8b99d;
+  --c-humo-claro:       #b0a080;
+
+  --c-mono:             #5c3810;
+  --c-mono-tenue:       #8b6f50;
+
+  /* Reajuste de sombras para fondo claro */
+  --c-sombra:           rgba(42, 31, 18, 0.15);
+  --c-sombra-suave:     rgba(42, 31, 18, 0.08);
+  --c-brillo-oro:       rgba(122, 78, 28, 0.05);
+
+  background-image:
+    radial-gradient(ellipse at 20% 0%, rgba(122,78,28,0.04) 0%, transparent 60%);
+		
+	/* Suavizamos la sombra para que no parezca un error de renderizado */
+	box-shadow: 0 0 50px rgba(42, 31, 18, 0.05);
+
+}
+
+/* Esta regla obliga al html a adoptar el color de fondo 'hundido' del modo claro */
+html:has(body.modo-claro) {
+  background-color: #f5f0e8;
+}
+
+/* Ajustes de legibilidad para elementos específicos en modo claro */
+body.modo-claro .prompt-imagen {
+  background: var(--c-fondo-sunken);
+}
+
+body.modo-claro blockquote, 
+body.modo-claro .destilado-maestro {
+	box-shadow: inset 4px 0 20px rgba(122, 78, 28, 0.05); 
+}
+
+/* ─── Barra de progreso ───────────────────────────────────── */
+#barra-progreso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--c-oro-suave), var(--c-oro));
+  z-index: 200;
+  transition: width 0.1s;
+}

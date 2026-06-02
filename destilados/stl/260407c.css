@@ -1,0 +1,995 @@
+/* ==========================================================================
+   Estilo-Maestro-v260407b.css
+   DESTILERÍA OSMANCITO — HOJA DE ESTILO
+   Arquitectura de variables puras. Todo deriva de :root.
+   Para modificar la presentación visual: editar solo las variables de :root.
+   El resto del archivo es estructura permanente.
+   Sin media queries. Diseño fluido por clamp(). Un solo estilo, todos los dispositivos.
+   ========================================================================== */
+
+/* --- 0. IMPORTACIONES --------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Cinzel:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+/* --- 1. VARIABLES MAESTRAS (:root) --------------------------------------- */
+/*
+   INSTRUCCIONES DE MODIFICACIÓN:
+   · Para cambiar tamaños: editar --base y --ratio. Todo lo demás se recalcula.
+   · Para cambiar paleta: editar las variables de color. Nada más tocar.
+   · Para cambiar tipografía: editar las variables --f-*. Luego ajustar --base si es necesario.
+   · NUNCA editar nada fuera de este bloque para cambios visuales globales.
+*/
+
+:root {
+
+  /* -- TIPOGRAFÍA -- */
+  --f-cuerpo:     'Cormorant Garamond', Georgia, serif;
+  --f-titulo:     'Cinzel', 'Trajan Pro', serif;
+  --f-mono:       'IBM Plex Mono', 'Courier New', monospace;
+
+  /* -- ESCALA (modificar aquí para escalar todo) -- */
+  --base:         clamp(1.5rem, 1.5rem + .833vw, 2.5rem);
+/*--base:         1.75rem; */   /* Tamaño del cuerpo de texto. Recomendado: 1.1rem – 1.4rem */
+  --ratio:        1.250;        /* Razón de escala entre niveles. Perfect Fourth = 1.333 · aquí: 1.250 fluido */
+
+  /* Escala derivada — no tocar */
+  --sz-xs:        calc(var(--base) * 0.64);
+  --sz-sm:        calc(var(--base) * 0.8);
+  --sz-body:      var(--base);
+  --sz-md:        calc(var(--base) * var(--ratio));
+  --sz-lg:        calc(var(--base) * var(--ratio) * var(--ratio));
+  --sz-xl:        calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio));
+  --sz-xxl:       calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+  --sz-display:   calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+
+  /* -- ESPACIADO (derivado de --base) -- */
+  --sp-1:         calc(var(--base) * 0.5);
+  --sp-2:         var(--base);
+  --sp-3:         calc(var(--base) * 2);
+  --sp-4:         calc(var(--base) * 3.5);
+  --sp-5:         calc(var(--base) * 4.5);  /* Fluido: entre 4 y 6× base según viewport */
+
+  /* -- RITMO TIPOGRÁFICO -- */
+  --lh-cuerpo:    1.75;
+  --lh-titulo:    1.15;
+  --lh-mono:      1.6;
+  --ls-titulo:    0.18em;
+  --ls-etiqueta:  0.28em;
+  --ls-mono:      0.02em;
+
+  /* -- PALETA (modificar aquí para cambiar colores) -- */
+  --c-fondo:            #050403;    /* Negro profundo — fondo de página */
+  --c-fondo-bloque:     #0c0a08;    /* Negro cálido — fondos de componentes */
+  --c-fondo-elevado:    #141008;    /* Fondo ligeramente elevado */
+
+  --c-texto:            #d4c9b0;    /* Pergamino — texto principal */
+  --c-texto-suave:      #a39074;    /* Bronce Envejecido */
+/*--c-texto-suave:      #8a7a63; */ /* Ceniza dorada — texto secundario */
+  --c-texto-tenue:      #635645;    /* Tierra de Sombra */
+/*--c-texto-tenue:      #4a3f30; /* /* Humo — texto decorativo, deshabilitado */
+
+  --c-oro:              #c9944a;    /* Ámbar/oro — acento principal */
+  --c-oro-suave:        #a07838;    /* Oro antiguo — acento secundario */
+  --c-oxido:            #8b3a2a;    /* Óxido — acento de alerta/énfasis fuerte */
+  --c-fosforo:          #7aab7a;    /* Fósforo verde — texto de código */
+  --c-humo:             #1e1810;    /* Borde y divisor */
+  --c-humo-medio:       #2e2418;    /* Borde visible */
+
+  /* -- BORDES -- */
+  --b-fino:       1px;
+  --b-medio:      2px;
+  --b-grueso:     4px;
+  --b-acento:     6px;
+
+  /* -- GEOMETRÍA -- */
+  --ancho-max:    72rem;
+  --ancho-texto:  62rem;
+  --radio:        2px;
+
+  /* -- TRANSICIONES -- */
+  --t-rapida:     0.15s ease;
+  --t-normal:     0.3s ease;
+}
+
+
+/* --- 2. RESET Y BASE ----------------------------------------------------- */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word; /* :) */
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  background-color: var(--c-fondo);
+}
+
+body {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-body);
+  line-height: var(--lh-cuerpo);
+  color: var(--c-texto);
+  background-color: var(--c-fondo);
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+  padding: var(--sp-4) clamp(var(--sp-2), 4vw, var(--sp-3));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--c-oxido);
+  color: var(--c-fondo);
+}
+
+
+/* --- 3. TIPOGRAFÍA BASE -------------------------------------------------- */
+
+p {
+  margin-bottom: var(--sp-2);
+  font-weight: 300;
+}
+
+p + p {
+  margin-top: 0;
+}
+
+strong {
+  color: var(--c-oro);
+  font-weight: 600;
+}
+
+em {
+  color: var(--c-oro-suave);
+  font-style: italic;
+}
+
+a {
+  color: var(--c-oro);
+  text-decoration: none;
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  transition: color var(--t-rapida), border-color var(--t-rapida);
+}
+
+a:hover {
+  color: var(--c-texto);
+  border-bottom-color: var(--c-oro-suave);
+}
+
+hr {
+  border: none;
+  border-top: var(--b-fino) solid var(--c-humo);
+  margin: var(--sp-4) 0;
+}
+
+blockquote {
+  border-left: var(--b-medio) solid var(--c-oro-suave);
+  padding-left: var(--sp-3);
+  margin: var(--sp-3) 0;
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-size: calc(var(--sz-body) * 1.05);
+}
+
+code {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  color: var(--c-fosforo);
+  background: var(--c-fondo-bloque);
+  padding: 0.1em 0.4em;
+  letter-spacing: var(--ls-mono);
+}
+
+pre {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  color: var(--c-fosforo);
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-3);
+  margin: var(--sp-3) 0;
+  line-height: var(--lh-mono);
+  overflow-x: auto;
+  letter-spacing: var(--ls-mono);
+  white-space: pre-wrap;
+}
+
+
+/* --- 4. JERARQUÍA DE TÍTULOS --------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--f-titulo);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  line-height: var(--lh-titulo);
+  color: var(--c-texto);
+  /* Agregado para romper palabras*/
+  display: block;
+}
+
+/* H1 — Título de módulo principal (DESTILERÍA OSMANCITO) */
+h1 {
+  font-size: var(--sz-display);
+  color: var(--c-oro-suave);
+  text-align: center;
+  padding: var(--sp-4) 0 var(--sp-3);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  margin-bottom: var(--sp-4);
+  letter-spacing: calc(var(--ls-titulo) * 1.5);
+}
+
+/* H2 — Nombre de la obra / módulos principales */
+h2 {
+  font-size: var(--sz-xl);
+  color: var(--c-oro);
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-1);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  position: relative;
+}
+
+h2::before {
+  content: '';
+  display: block;
+  width: var(--b-acento);
+  height: 100%;
+  background: var(--c-oxido);
+  position: absolute;
+  left: calc(-1 * clamp(var(--sp-2), 4vw, var(--sp-3)));
+  top: 0;
+  opacity: 0.7;
+}
+
+/* H3 — Secciones dentro de módulos */
+h3 {
+  font-size: var(--sz-lg);
+  color: var(--c-texto);
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-2);
+  padding-left: var(--sp-2);
+  border-left: var(--b-grueso) solid var(--c-oro-suave);
+}
+
+/* H4 — Capítulos / barricas */
+h4 {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-md);
+  color: var(--c-oro-suave);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-1);
+  font-weight: 400;
+}
+
+/* H5 — Subtítulos anzuelo de fracciones nobles */
+h5 {
+  font-family: var(--f-cuerpo);
+  font-size: calc(var(--sz-body) * 1.1);
+  color: var(--c-texto-suave);
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: var(--sp-3);
+  margin-bottom: var(--sp-1);
+}
+
+/* H6 — Etiquetas y campos */
+h6 {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-etiqueta);
+  font-weight: 400;
+  margin-bottom: var(--sp-1);
+}
+
+
+/* --- 5. CABECERA DEL DOCUMENTO ------------------------------------------- */
+
+.cabecera-documento {
+  text-align: center;
+  padding: var(--sp-5) 0 var(--sp-4);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  margin-bottom: var(--sp-5);
+}
+
+.cabecera-documento .sello {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-2);
+}
+
+.cabecera-documento .titulo-obra {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-xxl);
+  color: var(--c-texto);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  line-height: 1.1;
+  margin-bottom: var(--sp-2);
+  font-weight: 400;
+}
+
+.cabecera-documento .autor {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-md);
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: var(--sp-3);
+}
+
+.cabecera-documento .meta {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+}
+
+
+/* --- 6. ÍNDICE DE CONTENIDOS (TOC) --------------------------------------- */
+
+#toc {
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-2);
+  margin: 0 0 var(--sp-5);
+}
+
+.toc-titulo {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-2);
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+#toc ul {
+  list-style: none;
+}
+
+#toc > ul > li {
+  margin-bottom: var(--sp-2);
+}
+
+#toc ul ul {
+  padding-left: var(--sp-2);
+  margin-top: calc(var(--sp-1) * 0.5);
+}
+
+#toc a {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-suave);
+  border: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color var(--t-rapida);
+}
+
+#toc a:hover {
+  color: var(--c-oro);
+}
+
+#toc ul ul a {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-sm);
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+  color: var(--c-texto-tenue);
+}
+
+#toc ul ul a:hover {
+  color: var(--c-oro-suave);
+}
+
+
+/* --- 7. MÓDULOS PRINCIPALES ---------------------------------------------- */
+
+.modulo {
+  margin: var(--sp-5) 0;
+  padding-top: var(--sp-3);
+}
+
+.modulo-cabecera {
+  /* display: flex;
+  align-items: baseline;
+  gap: var(--sp-2); */
+  margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: var(--b-medio) solid var(--c-humo-medio);
+}
+
+.modulo-numero {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xl);
+  color: var(--c-texto-tenue);
+  font-weight: 300;
+  flex-shrink: 0;
+}
+
+.bitacora {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-tenue);
+  font-style: italic;
+  line-height: var(--lh-mono);
+  margin: var(--sp-2) 0 var(--sp-3);
+  padding-left: var(--sp-2);
+  border-left: var(--b-fino) solid var(--c-humo-medio);
+  letter-spacing: var(--ls-mono);
+}
+
+.bitacora p {
+  margin-bottom: calc(var(--sp-1) * 0.5);
+  color: var(--c-texto-tenue);
+}
+
+
+/* --- 8. FICHA DE RECEPCIÓN ----------------------------------------------- */
+
+.ficha-recepcion {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-2);
+  margin: var(--sp-3) 0;
+  line-height: var(--lh-mono);
+}
+
+.ficha-campo {
+  display: grid;
+  padding: calc(var(--sp-1)) 0;
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+.ficha-campo:last-child {
+  border-bottom: none;
+}
+
+.ficha-campo-nombre {
+  color: var(--c-texto-tenue);
+  font-weight: 300;
+  letter-spacing: var(--ls-mono);
+  text-transform: uppercase;
+  font-size: var(--sz-xs);
+}
+
+.ficha-campo-valor {
+  color: var(--c-texto);
+  font-weight: 400;
+}
+
+.ficha-campo-valor.destacado {
+  color: var(--c-oro);
+}
+
+.ficha-seccion-titulo {
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  padding: var(--sp-2) 0 var(--sp-1);
+  margin-top: var(--sp-2);
+  border-top: var(--b-fino) solid var(--c-humo-medio);
+}
+
+.ficha-seccion-titulo:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+/* --- 9. DESTILADO MAESTRO ------------------------------------------------ */
+
+.destilado-maestro {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-3) clamp(var(--sp-2), 4vw, var(--sp-4));
+  border-left: var(--b-acento) solid var(--c-oro);
+  background: var(--c-fondo-elevado);
+}
+
+.destilado-maestro p {
+  font-size: calc(var(--sz-body) * 1.08);
+  line-height: 1.9;
+  color: var(--c-texto);
+  font-weight: 300;
+}
+
+.destilado-maestro p:first-child::first-letter {
+  font-family: var(--f-titulo);
+  font-size: clamp(calc(var(--sz-body) * 2.4), 10vw, calc(var(--sz-body) * 3.2));
+  float: left;
+  line-height: 0.75;
+  padding-right: 0.12em;
+  padding-top: 0.1em;
+  color: var(--c-oro);
+  font-weight: 400;
+}
+
+
+/* --- 10. BARRICAS (capítulos) -------------------------------------------- */
+
+.barrica {
+  margin: var(--sp-4) 0;
+  padding-top: var(--sp-3);
+  border-top: var(--b-fino) dashed var(--c-humo-medio);
+}
+
+.barrica:first-of-type {
+  border-top: none;
+}
+
+.barrica-numero {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: calc(var(--sp-1) * 0.5);
+}
+
+.barrica-subtitulo {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: var(--sp-2);
+}
+
+.extracto {
+  margin: var(--sp-2) 0;
+  padding: var(--sp-2) var(--sp-2);
+  background: var(--c-fondo-bloque);
+  border-left: var(--b-grueso) solid var(--c-humo-medio);
+  font-weight: 300;
+}
+
+.extracto p {
+  font-size: calc(var(--sz-body) * 0.97);
+  color: var(--c-texto);
+}
+
+
+/* --- 11. FRACCIONES NOBLES ----------------------------------------------- */
+
+.fraccion-noble {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-2) 0;
+  border-top: var(--b-fino) solid var(--c-humo);
+}
+
+.fraccion-anzuelo {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-tenue);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  margin-bottom: var(--sp-2);
+  display: block;
+}
+
+.fraccion-noble p {
+  font-size: calc(var(--sz-body) * 1.05);
+  line-height: 1.85;
+  color: var(--c-texto);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.fraccion-noble p + p {
+  margin-top: var(--sp-1);
+}
+
+
+/* --- 12. NOTA DE CATA ---------------------------------------------------- */
+
+.nota-de-cata {
+  margin: var(--sp-4) 0;
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-2);
+}
+
+.nota-de-cata .cata-titulo {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-2);
+  padding-bottom: var(--sp-1);
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+.nota-de-cata .campo-cata {
+  display: grid;
+  margin-bottom: var(--sp-3);
+  font-size: var(--sz-body);
+}
+
+.nota-de-cata .campo-cata-nombre {
+  font-family: var(--f-mono);
+  color: var(--c-texto-tenue);
+  font-size: var(--sz-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-mono);
+  padding-top: 0.15em;
+}
+
+.nota-de-cata .campo-cata-valor {
+  color: var(--c-texto);
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+/* --- 13. PROMPTS DE IMAGEN ----------------------------------------------- */
+
+.prompt-imagen {
+  margin: var(--sp-3) 0;
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  border-top: var(--b-medio) solid var(--c-oxido);
+}
+
+.prompt-imagen-cabecera {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  padding: var(--sp-1) var(--sp-2);
+  background: var(--c-fondo-bloque);
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+.prompt-imagen pre,
+.prompt-imagen .prompt-cuerpo {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-fosforo);
+  padding: var(--sp-2) var(--sp-2);
+  line-height: var(--lh-mono);
+  background: transparent;
+  border: none;
+  margin: 0;
+}
+
+
+/* --- 14. INSPECCIÓN / NAVE ----------------------------------------------- */
+
+.clasificacion-nave {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-2);
+  border: var(--b-medio) solid var(--c-humo-medio);
+  background: var(--c-fondo-elevado);
+  text-align: center;
+}
+
+.nave-arquetipo {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-xl);
+  color: var(--c-oro);
+  letter-spacing: var(--ls-titulo);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-1);
+}
+
+.nave-registro {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+}
+
+.estrato {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-2) var(--sp-2);
+  border-left: var(--b-grueso) solid var(--c-humo-medio);
+}
+
+.estrato-numero {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: calc(var(--sp-1) * 0.5);
+}
+
+.veredicto {
+  margin: var(--sp-4) 0;
+  padding: var(--sp-3) var(--sp-2);
+  border: var(--b-medio) solid var(--c-oro);
+  background: var(--c-fondo-bloque);
+  text-align: center;
+}
+
+.veredicto-categoria {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-lg);
+  color: var(--c-oro);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  margin-bottom: var(--sp-1);
+}
+
+.veredicto-justificacion {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.nota-naval {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-3) var(--sp-2);
+  border-left: var(--b-fino) solid var(--c-oro-suave);
+  font-style: italic;
+  font-size: calc(var(--sz-body) * 1.05);
+  color: var(--c-texto-suave);
+  line-height: 1.9;
+}
+
+/* Colores de veredicto por estado */
+.veredicto.zarpe-autorizado { border-color: var(--c-fosforo); }
+.veredicto.zarpe-autorizado .veredicto-categoria { color: var(--c-fosforo); }
+.veredicto.zarpe-advertencias { border-color: var(--c-oro); }
+.veredicto.zarpe-parcial { border-color: var(--c-oro-suave); }
+.veredicto.embargo { border-color: var(--c-oxido); }
+.veredicto.embargo .veredicto-categoria { color: var(--c-oxido); }
+.veredicto.hundimiento { border-color: var(--c-oxido); background: #110500; }
+.veredicto.hundimiento .veredicto-categoria { color: var(--c-oxido); }
+
+
+/* --- 15. LABORATORIO ----------------------------------------------------- */
+
+.laboratorio-seccion {
+  margin: var(--sp-3) 0;
+}
+
+.lente {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-2) var(--sp-2);
+  border-left: var(--b-grueso) solid var(--c-humo-medio);
+}
+
+.lente-numero {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: calc(var(--sp-1) * 0.5);
+}
+
+.compuesto-base {
+  margin: var(--sp-4) 0;
+  padding: var(--sp-3) var(--sp-2);
+  background: var(--c-fondo-bloque);
+  border: var(--b-medio) solid var(--c-humo-medio);
+  border-left: var(--b-acento) solid var(--c-oxido);
+  text-align: center;
+}
+
+.compuesto-base-etiqueta {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-2);
+}
+
+.compuesto-base-texto {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-lg);
+  color: var(--c-texto);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+/* --- 16. ETIQUETADO / TOPOLOGÍA ------------------------------------------ */
+
+.fallas-cierre {
+  margin: var(--sp-2) 0;
+}
+
+.falla {
+  padding: var(--sp-1) 0;
+  border-bottom: var(--b-fino) solid var(--c-humo);
+  display: grid;
+  align-items: baseline;
+}
+
+.falla:last-child {
+  border-bottom: none;
+}
+
+.falla-pregunta {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-body);
+  color: var(--c-texto);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.falla-tipo {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-mono);
+  text-transform: uppercase;
+  /* white-space: nowrap; */
+}
+
+.falla.abierta .falla-tipo { color: var(--c-fosforo); }
+.falla.abierta .falla-pregunta { color: var(--c-texto); }
+.falla.raiz .falla-tipo { color: var(--c-oro); }
+.falla.cerrada .falla-pregunta { color: var(--c-texto-suave); }
+.falla.abandonada .falla-pregunta { color: var(--c-texto-tenue); text-decoration: line-through; }
+
+.apertura-total {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: var(--sp-2);
+  padding-top: var(--sp-1);
+  border-top: var(--b-fino) solid var(--c-humo-medio);
+}
+
+.apertura-total span {
+  color: var(--c-fosforo);
+  font-size: var(--sz-md);
+  display: block;
+  margin-top: calc(var(--sp-1) * 0.5);
+}
+
+.nucleo-curvatura,
+.red-conceptual,
+.estrategia-grandeza {
+  margin: var(--sp-2) 0;
+  display: grid;
+  font-size: var(--sz-sm);
+}
+
+.campo-nombre {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-mono);
+  padding-top: 0.2em;
+}
+
+.campo-valor {
+  color: var(--c-texto);
+  font-weight: 300;
+}
+
+.estrategia-grandeza-texto {
+  margin: var(--sp-3) 0;
+  padding: var(--sp-2) var(--sp-2);
+  border-left: var(--b-acento) solid var(--c-oro-suave);
+  font-size: calc(var(--sz-body) * 1.1);
+  font-style: italic;
+  color: var(--c-texto);
+  font-weight: 300;
+}
+
+
+/* --- 17. CARTOGRAFÍA ----------------------------------------------------- */
+
+.cartografia {
+  margin: var(--sp-3) 0;
+}
+
+.cartografia-seccion {
+  margin: var(--sp-2) 0;
+  padding: var(--sp-2) var(--sp-2);
+  border-left: var(--b-fino) solid var(--c-humo-medio);
+}
+
+.cartografia-seccion-titulo {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-1);
+}
+
+
+/* --- 18. PIE DE DOCUMENTO ------------------------------------------------ */
+
+footer,
+.pie-documento {
+  margin-top: var(--sp-5);
+  padding-top: var(--sp-3);
+  border-top: var(--b-fino) solid var(--c-humo-medio);
+  text-align: center;
+}
+
+.pie-sello {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+
+/* --- 19. UTILIDADES ------------------------------------------------------ */
+
+.etiqueta {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: var(--sp-1);
+}
+
+.separador-modulo {
+  border: none;
+  border-top: var(--b-medio) solid var(--c-humo);
+  margin: var(--sp-5) 0;
+}
+
+.transicion-nota {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  font-style: italic;
+  margin-bottom: var(--sp-2);
+}
+
+
+/* --- 20. IMÁGENES RESPONSIVAS -------------------------------------------- */
+
+/* Contenedor para imágenes responsivas */
+.img-container {
+  max-width: 100%;
+  margin: var(--sp-4) auto;
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   FIN DE DESTILERÍA OSMANCITO — HOJA DE ESTILO MAESTRA
+   Para modificar la apariencia global: editar solo las variables en :root
+   ========================================================================== */

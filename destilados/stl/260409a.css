@@ -1,0 +1,792 @@
+/* ==========================================================================
+   osmancito-pandoc.css
+   DESTILERÍA OSMANCITO — ADAPTACIÓN PARA ESTRUCTURA PANDOC
+   Derivado de Estilo-Maestro-v260407b.css
+   Aplicado sobre HTML plano sin clases: h1–h4, p, hr, code, blockquote, ul.
+   Arquitectura de variables puras. Todo deriva de :root.
+   Sin media queries. Diseño fluido por clamp().
+   ========================================================================== */
+
+/* --- 0. IMPORTACIONES ----------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Cinzel:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+/* --- 1. VARIABLES MAESTRAS (:root) ---------------------------------------- */
+:root {
+
+  /* -- TIPOGRAFÍA -- */
+  --f-cuerpo:     'Cormorant Garamond', Georgia, serif;
+  --f-titulo:     'Cinzel', 'Trajan Pro', serif;
+  --f-mono:       'IBM Plex Mono', 'Courier New', monospace;
+
+  /* -- ESCALA -- */
+  --base:         clamp(1.5rem, 1.5rem + .833vw, 2.5rem);
+  --ratio:        1.05;
+
+  /* Escala derivada */
+  --sz-xs:        calc(var(--base) * 0.64);
+  --sz-sm:        calc(var(--base) * 0.8);
+  --sz-body:      var(--base);
+  --sz-md:        calc(var(--base) * var(--ratio));
+  --sz-lg:        calc(var(--base) * var(--ratio) * var(--ratio));
+  --sz-xl:        calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio));
+  --sz-xxl:       calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+  --sz-display:   calc(var(--base) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+
+  /* -- ESPACIADO -- */
+  --sp-1:         calc(var(--base) * 0.5);
+  --sp-2:         var(--base);
+  --sp-3:         calc(var(--base) * 2);
+  --sp-4:         calc(var(--base) * 3.5);
+  --sp-5:         calc(var(--base) * 4.5);
+
+  /* -- RITMO TIPOGRÁFICO -- */
+  --lh-cuerpo:    1.75;
+  --lh-titulo:    1.15;
+  --lh-mono:      1.6;
+  --ls-titulo:    0.18em;
+  --ls-etiqueta:  0.28em;
+  --ls-mono:      0.02em;
+
+  /* -- PALETA -- */
+  --c-fondo:            #050403;
+  --c-fondo-bloque:     #0c0a08;
+  --c-fondo-elevado:    #141008;
+
+  --c-texto:            #d4c9b0;
+  --c-texto-suave:      #a39074;
+  --c-texto-tenue:      #635645;
+
+  --c-oro:              #c9944a;
+  --c-oro-suave:        #a07838;
+  --c-oxido:            #8b3a2a;
+  --c-fosforo:          #7aab7a;
+  --c-humo:             #1e1810;
+  --c-humo-medio:       #2e2418;
+
+  /* -- BORDES -- */
+  --b-fino:       1px;
+  --b-medio:      2px;
+  --b-grueso:     4px;
+  --b-acento:     6px;
+
+  /* -- GEOMETRÍA -- */
+  --ancho-max:    72rem;
+  --ancho-texto:  62rem;
+  --radio:        2px;
+
+  /* -- TRANSICIONES -- */
+  --t-rapida:     0.15s ease;
+  --t-normal:     0.3s ease;
+}
+
+
+/* --- 2. RESET Y BASE ------------------------------------------------------ */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  background-color: var(--c-fondo);
+}
+
+body {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-body);
+  line-height: var(--lh-cuerpo);
+  color: var(--c-texto);
+  background-color: var(--c-fondo);
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+  padding: var(--sp-4) clamp(var(--sp-2), 4vw, var(--sp-3));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--c-oxido);
+  color: var(--c-fondo);
+}
+
+
+/* --- 3. TIPOGRAFÍA BASE --------------------------------------------------- */
+
+p {
+  margin-bottom: var(--sp-2);
+  font-weight: 300;
+}
+
+p + p {
+  margin-top: 0;
+}
+
+strong {
+  color: var(--c-oro);
+  font-weight: 600;
+}
+
+em {
+  color: var(--c-oro-suave);
+  font-style: italic;
+}
+
+a {
+  color: var(--c-oro);
+  text-decoration: none;
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  transition: color var(--t-rapida), border-color var(--t-rapida);
+}
+
+a:hover {
+  color: var(--c-texto);
+  border-bottom-color: var(--c-oro-suave);
+}
+
+a:visited {
+  color: var(--c-oro-suave);
+}
+
+hr {
+  border: none;
+  border-top: var(--b-fino) solid var(--c-humo);
+  margin: var(--sp-4) 0;
+}
+
+blockquote {
+  border-left: var(--b-medio) solid var(--c-oro-suave);
+  padding-left: var(--sp-3);
+  margin: var(--sp-3) 0;
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-size: calc(var(--sz-body) * 1.05);
+}
+
+code {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-fosforo);
+  background: var(--c-fondo-bloque);
+  padding: 0.1em 0.4em;
+  letter-spacing: var(--ls-mono);
+  /* Pandoc code inline puede contener texto largo de prompts */
+  white-space: pre-wrap;
+  display: block;
+  border: var(--b-fino) solid var(--c-humo-medio);
+  border-top: var(--b-medio) solid var(--c-oxido);
+  padding: var(--sp-2);
+  line-height: var(--lh-mono);
+  margin: var(--sp-3) 0;
+}
+
+/* Si code está dentro de pre, revertir el display block */
+pre code {
+  display: inline;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-top: none;
+  white-space: pre-wrap;
+}
+
+pre {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  color: var(--c-fosforo);
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-3);
+  margin: var(--sp-3) 0;
+  line-height: var(--lh-mono);
+  overflow-x: auto;
+  letter-spacing: var(--ls-mono);
+  white-space: pre-wrap;
+}
+
+ul, ol {
+  padding-left: var(--sp-3);
+  margin: var(--sp-2) 0 var(--sp-3);
+  font-weight: 300;
+}
+
+li {
+  margin-bottom: calc(var(--sp-1) * 0.5);
+  line-height: var(--lh-cuerpo);
+}
+
+li > ul, li > ol {
+  margin-top: calc(var(--sp-1) * 0.5);
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  margin: var(--sp-3) 0;
+  color: var(--c-texto);
+}
+
+thead {
+  border-bottom: var(--b-medio) solid var(--c-humo-medio);
+}
+
+th {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-etiqueta);
+  font-weight: 400;
+  padding: var(--sp-1) var(--sp-2);
+  text-align: left;
+}
+
+td {
+  padding: var(--sp-1) var(--sp-2);
+  border-bottom: var(--b-fino) solid var(--c-humo);
+  font-weight: 300;
+  vertical-align: top;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--sp-4) auto;
+}
+
+svg {
+  height: auto;
+  max-width: 100%;
+}
+
+
+/* --- 4. JERARQUÍA DE TÍTULOS ---------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--f-titulo);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  line-height: var(--lh-titulo);
+  color: var(--c-texto);
+  display: block;
+}
+
+/*
+ * H1 en el HTML pandoc aparece en tres posiciones con roles distintos:
+ * — Título principal del documento ("Destilería Osmancito")
+ * — Títulos de módulo ("REGISTRO DE ENTRADA", "MÓDULO ALAMBIQUE", etc.)
+ * Se estiliza con el registro de módulo principal: Cinzel en oro-suave,
+ * centrado, con border-bottom y margen generoso.
+ */
+h1 {
+  font-size: var(--sz-display);
+  color: var(--c-oro-suave);
+  text-align: center;
+  padding: var(--sp-4) 0 var(--sp-3);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  margin-bottom: var(--sp-4);
+  letter-spacing: calc(var(--ls-titulo) * 1.5);
+}
+
+/*
+ * H2 — Nombre de sección / obra / módulo secundario
+ * El primero ("Brandon Sanderson — Cosmere") funciona como subtítulo del doc.
+ * Los siguientes como títulos de sección dentro de módulos.
+ */
+h2 {
+  font-size: var(--sz-xl);
+  color: var(--c-oro);
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-1);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  position: relative;
+}
+
+h2::before {
+  content: '';
+  display: block;
+  width: var(--b-acento);
+  height: 100%;
+  background: var(--c-oxido);
+  position: absolute;
+  left: calc(-1 * clamp(var(--sp-2), 4vw, var(--sp-3)));
+  top: 0;
+  opacity: 0.7;
+}
+
+/*
+ * H3 — Barricas y estratos (secciones dentro de secciones)
+ * En pandoc el patrón es: h3 "Barrica N — Título (Obra)"
+ */
+h3 {
+  font-size: var(--sz-lg);
+  color: var(--c-texto);
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-2);
+  padding-left: var(--sp-2);
+  border-left: var(--b-grueso) solid var(--c-oro-suave);
+}
+
+/*
+ * H4 — Subsecciones dentro de barricas (fracciones nobles, capítulos)
+ * Patrón: h4 "La geometría del martirio", "Lo que queda cuando se quema todo"
+ */
+h4 {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-md);
+  color: var(--c-oro-suave);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-titulo);
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-1);
+  font-weight: 400;
+}
+
+/*
+ * H5 — Subtítulo anzuelo (usado con poca frecuencia en este HTML)
+ */
+h5 {
+  font-family: var(--f-cuerpo);
+  font-size: calc(var(--sz-body) * 1.1);
+  color: var(--c-texto-suave);
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: var(--sp-3);
+  margin-bottom: var(--sp-1);
+}
+
+/*
+ * H6 — Etiquetas y campos (poco frecuente en este HTML)
+ */
+h6 {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-etiqueta);
+  font-weight: 400;
+  margin-bottom: var(--sp-1);
+}
+
+
+/* --- 5. CABECERA DEL DOCUMENTO (header pandoc) ---------------------------- */
+
+/*
+ * Pandoc genera un <header> vacío en algunos configs. Si existe, lo ocultamos
+ * para no romper el flujo. El H1 inicial hace de cabecera real.
+ */
+header {
+  display: none;
+}
+
+/*
+ * El bloque inicial del documento —H1 "Destilería Osmancito" seguido de
+ * H2 "Brandon Sanderson — Cosmere"— actúa como cabecera compuesta.
+ * Se refuerza el H1 inicial con padding extra para que respire como portada.
+ */
+body > h1:first-of-type {
+  padding-top: var(--sp-5);
+  margin-bottom: var(--sp-2);
+  border-bottom: none;
+}
+
+body > h1:first-of-type + h2 {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: var(--sp-3);
+  border-bottom: var(--b-fino) solid var(--c-humo-medio);
+  margin-bottom: var(--sp-5);
+  font-size: var(--sz-lg);
+  color: var(--c-texto-suave);
+  letter-spacing: var(--ls-titulo);
+}
+
+body > h1:first-of-type + h2::before {
+  display: none;
+}
+
+
+/* --- 6. TOC (índice pandoc: id="TOC") ------------------------------------- */
+
+#TOC {
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  padding: var(--sp-2);
+  margin: 0 0 var(--sp-5);
+}
+
+#TOC > nav > h2,
+#TOC > h2 {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-2);
+  border-bottom: var(--b-fino) solid var(--c-humo);
+  margin-top: 0;
+  border-left: none;
+  padding-left: 0;
+  font-weight: 400;
+}
+
+#TOC > nav > h2::before,
+#TOC > h2::before {
+  display: none;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#TOC > ul > li,
+#TOC > nav > ul > li {
+  margin-bottom: var(--sp-2);
+}
+
+#TOC ul ul {
+  padding-left: var(--sp-2);
+  margin-top: calc(var(--sp-1) * 0.5);
+}
+
+#TOC a {
+  font-family: var(--f-titulo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-suave);
+  border: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color var(--t-rapida);
+}
+
+#TOC a:hover {
+  color: var(--c-oro);
+  border: none;
+}
+
+#TOC ul ul a {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-sm);
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+  color: var(--c-texto-tenue);
+}
+
+#TOC ul ul a:hover {
+  color: var(--c-oro-suave);
+}
+
+
+/* --- 7. PÁRRAFOS ESPECIALES (por posición y contexto) --------------------- */
+
+/*
+ * El párrafo con <code> de bloque largo (prompts de imagen) ya recibe el
+ * estilo de code arriba. Para párrafos que solo contienen <em> cursiva
+ * y actúan como bitácora/transitorio (p.ej. "Materia prima en el alambique…")
+ * aplicamos un tono de bitácora cuando el párrafo empieza con <em>.
+ */
+p:has(> em:first-child:last-child),
+p:has(> em:only-child) {
+  font-family: var(--f-mono);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-tenue);
+  font-style: italic;
+  line-height: var(--lh-mono);
+  padding-left: var(--sp-2);
+  border-left: var(--b-fino) solid var(--c-humo-medio);
+  letter-spacing: var(--ls-mono);
+  margin: var(--sp-2) 0 var(--sp-3);
+}
+
+/* Override: em dentro de párrafos normales no hereda el estilo de bitácora */
+p:has(> em:first-child:last-child) em,
+p:has(> em:only-child) em {
+  color: inherit;
+  font-style: italic;
+}
+
+/*
+ * Párrafos que comienzan con <strong> seguido de " —" funcionan como
+ * campos de ficha (Título del corpus, Modo de entrada, Autor, etc.)
+ * Se les aplica una leve diferenciación visual.
+ */
+p:has(> strong:first-child) {
+  padding: calc(var(--sp-1) * 0.75) 0;
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+p:has(> strong:first-child):last-of-type {
+  border-bottom: none;
+}
+
+
+/* --- 8. DESTILADO MAESTRO (primer bloque de texto largo post-H2) ---------- */
+
+/*
+ * El "Destilado Maestro" aparece como serie de párrafos después del H2
+ * "Destilado Maestro". No podemos targetear por clase, pero sí podemos
+ * enriquecer el primer párrafo siguiente a ese h2 con drop-cap.
+ * Se aplica a todos los primeros párrafos de texto largo después de h2.
+ */
+h2 + p {
+  font-size: calc(var(--sz-body) * 1.04);
+  line-height: 1.85;
+  color: var(--c-texto);
+  font-weight: 300;
+}
+
+h2 + p::first-letter {
+  font-family: var(--f-titulo);
+  font-size: clamp(calc(var(--sz-body) * 2.2), 8vw, calc(var(--sz-body) * 3.0));
+  float: left;
+  line-height: 0.75;
+  padding-right: 0.12em;
+  padding-top: 0.1em;
+  color: var(--c-oro);
+  font-weight: 400;
+}
+
+/*
+ * Excepción: párrafos post-H2 que son bitácora (solo em) o ficha (strong)
+ * no deben tener drop cap.
+ */
+h2 + p:has(> em:only-child)::first-letter,
+h2 + p:has(> strong:first-child)::first-letter {
+  font-family: inherit;
+  font-size: inherit;
+  float: none;
+  line-height: inherit;
+  padding: 0;
+  color: inherit;
+  font-weight: inherit;
+}
+
+
+/* --- 9. BARRICAS (H3 + contexto) ----------------------------------------- */
+
+/*
+ * Cada h3 "Barrica N — Título" actúa como cabecera de barrica.
+ * El párrafo em italico inmediatamente después es el subtítulo-anzuelo.
+ */
+h3 + p:has(> em:only-child) {
+  font-family: var(--f-cuerpo);
+  font-size: var(--sz-sm);
+  color: var(--c-texto-suave);
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: var(--sp-2);
+  /* Quitar el estilo de bitácora para que sea subtítulo */
+  border-left: none;
+  padding-left: 0;
+  letter-spacing: 0;
+  font-family: var(--f-cuerpo);
+}
+
+/*
+ * El párrafo "El extracto" + siguiente es la barrica del extracto.
+ * strong "El extracto" introduce el bloque. Tratado como extracto.
+ */
+h3 ~ p:has(> strong:first-child) + p,
+h4 ~ p {
+  font-size: calc(var(--sz-body) * 0.97);
+  color: var(--c-texto);
+  padding: var(--sp-2);
+  background: var(--c-fondo-bloque);
+  border-left: var(--b-grueso) solid var(--c-humo-medio);
+  margin: var(--sp-2) 0;
+}
+
+/* Evitar que párrafos de ficha hereden el extracto */
+p:has(> strong:first-child) {
+  background: transparent;
+  padding: calc(var(--sp-1) * 0.75) 0;
+  border-left: none;
+  border-bottom: var(--b-fino) solid var(--c-humo);
+}
+
+
+/* --- 10. H4 FRACCIONES NOBLES (subsecciones poéticas) --------------------- */
+
+/*
+ * Los h4 introducen pequeñas unidades de análisis poético.
+ * El primer párrafo después de h4 es la fracción noble: cursiva, línea amplia.
+ */
+h4 + p {
+  font-size: calc(var(--sz-body) * 1.04);
+  line-height: 1.85;
+  color: var(--c-texto);
+  font-style: italic;
+  font-weight: 300;
+  border-top: var(--b-fino) solid var(--c-humo);
+  padding-top: var(--sp-2);
+  margin-top: 0;
+}
+
+h4 + p + p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: calc(var(--sz-body) * 1.02);
+  line-height: 1.85;
+  margin-top: var(--sp-1);
+}
+
+
+/* --- 11. HR COMO SEPARADORES DE MÓDULO ------------------------------------ */
+
+/*
+ * Los <hr> en pandoc separan secciones con distinta densidad semántica.
+ * Los que aparecen entre h1/h2 y el siguiente bloque son separadores de módulo
+ * (más prominentes). Los que están entre h3/h4 son más sutiles.
+ * No podemos distinguir por posición sin JS, así que usamos un único estilo
+ * intermedio que funcione en ambos contextos.
+ */
+hr {
+  border: none;
+  border-top: var(--b-fino) solid var(--c-humo-medio);
+  margin: var(--sp-4) 0;
+}
+
+/* HR inmediatamente después de h1 o h2: más prominente */
+h1 + hr,
+h2 + hr {
+  border-top-width: var(--b-medio);
+  border-top-color: var(--c-humo-medio);
+  margin: var(--sp-3) 0 var(--sp-4);
+}
+
+
+/* --- 12. CÓDIGO INLINE EN PÁRRAFOS (prompts de imagen) -------------------- */
+
+/*
+ * Los párrafos que solo contienen un <code> largo son prompts de imagen.
+ * El code ya está estilizado arriba con display:block. Aquí aseguramos
+ * que el párrafo contenedor no añada padding extra.
+ */
+p:has(> code:only-child) {
+  padding: 0;
+  border-bottom: none;
+  margin: var(--sp-3) 0;
+  background: transparent;
+}
+
+p:has(> code:only-child) code {
+  /* Ya definido arriba; aquí forzamos que se vea como bloque limpio */
+  display: block;
+  margin: 0;
+}
+
+
+/* --- 13. PIE DE DOCUMENTO ------------------------------------------------- */
+
+/*
+ * El final del documento tiene párrafos em que actúan como pie/cierre.
+ * "Destilería Osmancito completa. Cuatro módulos…"
+ */
+body > p:last-of-type,
+body > p:nth-last-of-type(2) {
+  font-family: var(--f-mono);
+  font-size: var(--sz-xs);
+  color: var(--c-texto-tenue);
+  letter-spacing: var(--ls-etiqueta);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
+  margin-top: var(--sp-5);
+  padding-top: var(--sp-3);
+  border-top: var(--b-fino) solid var(--c-humo-medio);
+  border-bottom: none;
+  background: transparent;
+  padding-left: 0;
+}
+
+body > p:last-of-type em,
+body > p:nth-last-of-type(2) em {
+  color: var(--c-texto-tenue);
+  font-style: normal;
+}
+
+
+/* --- 14. UTILIDADES Y AJUSTES FINALES ------------------------------------- */
+
+/* Smallcaps pandoc */
+span.smallcaps {
+  font-variant: small-caps;
+  color: var(--c-texto-suave);
+}
+
+/* Columns pandoc */
+div.columns {
+  display: flex;
+  gap: min(4vw, 1.5em);
+}
+
+div.column {
+  flex: auto;
+  overflow-x: auto;
+}
+
+/* Hanging indent pandoc */
+div.hanging-indent {
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+/* Task list pandoc */
+ul.task-list[class] {
+  list-style: none;
+}
+
+ul.task-list li input[type="checkbox"] {
+  font-size: inherit;
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+  accent-color: var(--c-oro);
+}
+
+/* Math pandoc */
+.display.math {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+  color: var(--c-texto-suave);
+}
+
+/* Source code blocks pandoc */
+div.sourceCode {
+  background: var(--c-fondo-bloque);
+  border: var(--b-fino) solid var(--c-humo-medio);
+  margin: var(--sp-3) 0;
+}
+
+div.sourceCode pre {
+  border: none;
+  margin: 0;
+}
+
+/* ==========================================================================
+   FIN — osmancito-pandoc.css
+   Para modificar la apariencia global: editar solo las variables en :root
+   ========================================================================== */

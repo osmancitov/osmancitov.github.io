@@ -1,0 +1,29 @@
+
+/* ==========================================================================
+   Estilo del botón de cambiar de modo (dark / light)
+   DESTILERÍA OSMANCITO — HOJA DE ESTILO
+   ========================================================================== */
+
+#btn-tema {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: 1px solid var(--c-humo-medio);
+  color: var(--c-texto-tenue);
+  font-size: 1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-tema:hover {
+  color: var(--c-oro);
+  border-color: var(--c-oro-suave);
+}
