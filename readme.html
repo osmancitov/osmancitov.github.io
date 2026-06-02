@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link id="hoja-estilo" rel="stylesheet" href="destilados/stl/260519.css">
-	<link id="complemento" rel="stylesheet" href="destilados/stl/260415.css">
-	<script src="destilados/js/260519.js"></script>	
-	<script src="destilados/js/260501.js"></script>
+	<link id="maestro" rel="stylesheet" href="destilaciones/stl/260529_i.css">
+	<link id="complemento" rel="stylesheet" href="destilaciones/stl/260529_ii.css">
+	<script src="destilaciones/js/260528_i.js"></script>	
+	<script src="destilaciones/js/260519_ii.js"></script>
 
   <title>Documentación del sistema — Destilería Osmancito</title>
 
@@ -32,7 +32,7 @@
   <div class="sello">Destilería Osmancito · Documentación del sistema</div>
   <h1 class="titulo-obra">Desti<em>lería</em> Osmancito</h1>
   <div class="autor">Múltiples instrumentos para leer corpora.</div>
-  <div class="meta">v16 · 2026</div>
+  <div class="meta">v19 · 2026</div>
 </header>
 
 <!-- TOC -->
@@ -42,24 +42,45 @@
     <li><a href="#que-es">Qué es</a></li>
     <li><a href="#instrumentos">Instrumentos</a>
       <ul>
-        <li><a href="#m01">M01 — Recepción</a></li>
-        <li><a href="#m02">M02 — Joyería</a></li>
-        <li><a href="#m03">M03 — Narraciones</a></li>
-        <li><a href="#m04">M04 — Umbral</a></li>
-        <li><a href="#m05">M05 — Apolo</a></li>
-        <li><a href="#m06">M06 — Hermes</a></li>
-        <li><a href="#m07">M07 — Dioniso</a></li>
-        <li><a href="#m08">M08 — Escucha</a></li>
-        <li><a href="#m09">M09 — Geógrafo</a></li>
-        <li><a href="#m10">M10 — Pérdidas</a></li>
-        <li><a href="#m11">M11 — Testigo del Testigo</a></li>
-        <li><a href="#m12">M12 — Bucle</a></li>
-        <li><a href="#m51">M51 — Inventario de Flota</a></li>
-        <li><a href="#m95">M95 — Síntesis</a></li>
-        <li><a href="#m96">M96 — Punto de Fuga</a></li>
-        <li><a href="#m97">M97 — Palimpsesto</a></li>
-        <li><a href="#m98">M98 — Destilado</a></li>
-        <li><a href="#m99">M99 — Imágenes</a></li>
+        <li><a href="#preparatorios">Preparatorios</a>
+          <ul>
+            <li><a href="#k51">K51 — Granero</a></li>
+            <li><a href="#k52">K52 — Tamizado</a></li>
+            <li><a href="#k53">K53 — Macerado</a></li>
+          </ul>
+        </li>
+        <li><a href="#analisis-directo">Análisis directo</a>
+          <ul>
+            <li><a href="#m01">M01 — Víspera</a></li>
+            <li><a href="#m02">M02 — Recepción</a></li>
+            <li><a href="#m03">M03 — Narraciones</a></li>
+            <li><a href="#m04">M04 — Joyería</a></li>
+            <li><a href="#m05">M05 — Batimetría</a></li>
+            <li><a href="#m06">M06 — Apolo</a></li>
+            <li><a href="#m07i">M07 I — Escucha dionisíaca</a></li>
+            <li><a href="#m07ii">M07 II — Dioniso</a></li>
+            <li><a href="#m08">M08 — Hermes</a></li>
+          </ul>
+        </li>
+        <li><a href="#extendidos">Extendidos</a>
+          <ul>
+            <li><a href="#m21">M21 — Menú Emergente</a></li>
+            <li><a href="#m22">M22 — Márgenes</a></li>
+            <li><a href="#m23">M23 — Testigo del Testigo</a></li>
+            <li><a href="#m24">M24 — Bucle</a></li>
+            <li><a href="#m25">M25 — Umbral del Reconocimiento</a></li>
+            <li><a href="#m26">M26 — Historia de los Efectos</a></li>
+          </ul>
+        </li>
+        <li><a href="#orden-superior-instrumentos">Orden superior</a>
+          <ul>
+            <li><a href="#m96">M96 — Síntesis</a></li>
+            <li><a href="#m97">M97 — Punto de Fuga</a></li>
+            <li><a href="#m98">M98 — Palimpsesto</a></li>
+            <li><a href="#m99i">M99 I — Destilado</a></li>
+            <li><a href="#m99ii">M99 II — Destilado de imágenes</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#triangulo">El triángulo central</a></li>
@@ -73,14 +94,14 @@
 <!-- QUÉ ES -->
 <section class="modulo recepcion" id="que-es">
   <div class="modulo-cabecera">
-    <h2>Qué es</h2>
+    <h1>Qué es</h1>
   </div>
   <div class="bitacora">
-    <p>No un framework. Un ecosistema.</p>
+    <p>No un framework. Una destilería.</p>
   </div>
-  <p class="estrategia-grandeza-texto">La Destilería Osmancito no impone categorías sobre el corpus — obliga al modelo a encontrar el idioma del texto en lugar de importar el idioma de la crítica. Cada instrumento define su posición, su momento, y cómo se relaciona con los demás. La selección es siempre situacional.</p>
+  <p class="estrategia-grandeza-texto">Una destilería es un lugar donde una materia prima entra cruda y sale transformada. El proceso tiene cinco etapas: malteado, maceración, fermentación, destilación, añejamiento. La Destilería Osmancito aplica esa lógica al texto. El corpus entra. Los instrumentos aplican el calor. Lo que sale no es lo mismo que lo que entró.</p>
   <div class="umbral">
-    Algunos instrumentos llegan sin saber qué van a encontrar. Otros llegan con lentes precisas. Uno juzga. Uno opera el corpus con sus propias herramientas. Tres forman un triángulo que produce la estereoscopía completa. Tres leen el análisis como si fuera el corpus.
+    El sistema opera en dos movimientos. Primero abre: separa, expone, revela lo que el corpus contiene sin saberlo. Luego transforma: de lo que se abrió emerge algo que no existía antes —no en el corpus, no en los instrumentos, sino en el contacto entre los dos sometido a presión suficiente.
   </div>
 </section>
 
@@ -88,47 +109,168 @@
 <!-- INSTRUMENTOS -->
 <section class="modulo etiquetado" id="instrumentos">
   <div class="modulo-cabecera">
-    <h2>Instrumentos</h2>
+    <h1>Instrumentos</h1>
   </div>
   <div class="bitacora">
-    <p>Mútiples posiciones sobre el material.</p>
+    <p>Múltiples posiciones sobre el material.</p>
+  </div>
+
+  <!-- PREPARATORIOS -->
+  <div class="modulo-cabecera" id="preparatorios">
+    <h2>Preparatorios</h2>
+  </div>
+  <div class="bitacora">
+    <p>La bodega. El grano se examina antes de entrar al alambique.</p>
+  </div>
+
+  <div class="ficha-recepcion" id="k51">
+    <div class="ficha-seccion-titulo">K51</div>
+    <h2>Granero</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Preparatorio · Inventario de biblioteca</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Recibe una lista de libros de cualquier tipo y procedencia. Produce un inventario: cada libro situado en su territorio, nombrado en su naturaleza, observado en su potencial latente. No evalúa ni jerarquiza. Al final, una lectura del conjunto que revela la forma de una biblioteca antes de que nadie la haya pensado como forma.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Cuando el conjunto de libros no tiene eje común y la pregunta no es cuál es mejor sino qué hay y cómo se relaciona. Alimenta al K52 si el operador decide cribarlo después.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Primer instrumento preparatorio. Orienta antes de que ningún análisis comience. Puede anteceder a K52 cuando la selección requiere cribado posterior.</span>
+    </div>
+  </div>
+
+  <div class="ficha-recepcion" id="k52">
+    <div class="ficha-seccion-titulo">K52</div>
+    <h2>Tamizado</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Preparatorio · La obra completa bajo un eje</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Recibe la obra completa de un autor. Declara primero el norte: el valor que el autor defiende cuando es más honesto consigo mismo. Luego cata cada obra desde ese eje y produce una sentencia por entrada. Al final, una lectura del conjunto que dice lo que ninguna obra individual podría decir sola. El documento incluye tres prompts de imagen para visualizar la cata.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Cuando el corpus no es un libro sino una obra completa y la pregunta es cuál merece entrar al alambique. No opera sobre un corpus individual.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Instrumento de selección. Decide qué territorio merece ser habitado antes de que el análisis profundo comience.</span>
+    </div>
+  </div>
+
+  <div class="ficha-recepcion" id="k53">
+    <div class="ficha-seccion-titulo">K53</div>
+    <h2>Macerado</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Preparatorio · Inmersión antes del análisis</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Recibe el corpus y una instrucción de extensión. Produce una inmersión en prosa que prepara al lector para entrar al análisis con la temperatura correcta. No resume, no analiza, no evalúa. Habita las zonas más densas del corpus e ignora o atraviesa rápido lo que existe solo para sostener lo que importa. El mosto es autónomo: funciona sin haber leído el corpus ni el análisis que vendrá después.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Antes de cualquier instrumento, inmediatamente después de que el corpus entra al sistema. Opcional. El operador decide si la inmersión previa tiene sentido para la sesión que está a punto de comenzar.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">El único instrumento preparatorio que opera sobre el corpus directamente. Sumerge al lector —no lo orienta ni lo diagnostica.</span>
+    </div>
+  </div>
+
+  <!-- ANÁLISIS DIRECTO -->
+  <div class="modulo-cabecera" id="analisis-directo">
+    <h2>Análisis directo</h2>
+  </div>
+  <div class="bitacora">
+    <p>Instrumentos que operan sobre el corpus desde posiciones específicas.</p>
   </div>
 
   <div class="ficha-recepcion" id="m01">
     <div class="ficha-seccion-titulo">M01</div>
-    <h3>Recepción</h3>
+    <h2>Víspera</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Marco · El esqueleto visual</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Lee el README y el corpus —nada más. No analiza, no orienta, no diagnostica. Escucha la atmósfera del corpus en estado puro y desde ahí genera el conjunto completo de imágenes que habitará el documento maestro: la imagen de Presentación, la imagen de Atmósfera, y una imagen por cada instrumento encontrado en el README. El output es el esqueleto visual del documento maestro: secciones nombradas, bloques HTML listos para Pandoc, placeholders esperando el análisis que llegará después.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Antes de cualquier instrumento. Es el primer movimiento posible sobre cualquier corpus.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Instrumento de marco. Prepara la operación antes de que comience. Su output no es análisis —es estructura que aguarda el análisis.</span>
+    </div>
+  </div>
+
+  <div class="ficha-recepcion" id="m02">
+    <div class="ficha-seccion-titulo">M02</div>
+    <h2>Recepción</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Orientación · El más transferible</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Produce una imagen del corpus como objeto físico en el mundo y una ficha textual: de qué trata, quién es quién, qué tensiones lo mueven en silencio. No interpreta. Mapea lo que hay antes de que empiece la interpretación.</span>
+      <span class="ficha-campo-valor">Orienta antes de analizar. Produce la imagen del corpus como objeto en el mundo, la frase de recepción, la apertura, la ficha textual, el mapa de hechos, el diagnóstico de primer contacto y las tensiones que mueven todo. Opera desde tres fuerzas en tensión permanente —lo construido, lo experiencial, lo contextual— con tres operaciones fundamentales: lectura, síntesis, silencio.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Como entrada a cualquier análisis. Especialmente útil cuando el corpus es desconocido y se necesita saber qué hay enfrente antes de elegir instrumentos.</span>
+      <span class="ficha-campo-valor">Como entrada a cualquier análisis. El instrumento más transferible del ecosistema: orienta con datos concretos, diagnostica el primer contacto, y declara qué miradas tienen sentido con este corpus específico.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">El instrumento más transferible del ecosistema. Complementa a Umbral: donde Umbral establece el marco y el diagnóstico de profundidad, Recepción orienta con datos concretos.</span>
+      <span class="ficha-campo-valor">Complementa a Batimetría: donde Batimetría cartografía las condiciones de acceso al corpus, Recepción orienta con datos concretos antes de que el análisis comience.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m02">
-    <div class="ficha-seccion-titulo">M02</div>
-    <h3>Joyería</h3>
+  <div class="ficha-recepcion" id="m03">
+    <div class="ficha-seccion-titulo">M03</div>
+    <h2>Narraciones</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Narrativo · Temperatura del corpus</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Busca lo que ocurre en el corpus —no lo que se argumenta ni lo que se describe, sino lo que pasa. Produce un índice completo de eventos con ubicación, descripción, giro si existe, e intensidad de peso vivo del 1 al 5. Cierra con un diagnóstico de qué es este corpus desde sus narraciones.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Cuando se quiere saber si el corpus tiene temperatura narrativa y dónde. Útil sobre corpus que mezclan argumento y narración para separar las temperaturas. Cuando importa identificar los momentos que quedarían en la memoria de un lector diez años después.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Complementa a Joyería: lo que vale y lo que pasa no siempre coinciden —esa divergencia, cuando existe, es un hallazgo.</span>
+    </div>
+  </div>
+
+  <div class="ficha-recepcion" id="m04">
+    <div class="ficha-seccion-titulo">M04</div>
+    <h2>Joyería</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Granular · Lo que sobrevive solo</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —qué ocurre aquí que importa para el todo, priorizando el movimiento del argumento sobre la enumeración de contenidos—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta.</span>
+      <span class="ficha-campo-valor">Recorre el corpus sección por sección. Cada sección es un estuche: primero el fragmento —150 a 250 palabras en prosa continua que responde qué ocurre aquí que importa para el todo—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en imagen o acción concreta, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando el objetivo es encontrar lo que alguien repetiría años después. Cuando se necesita trabajar el corpus con granularidad por sección. Requiere tiempo y corpus completo.</span>
+      <span class="ficha-campo-valor">Cuando se necesita trabajar el corpus con granularidad por sección. Cuando el objetivo es encontrar lo que alguien repetiría años después. Requiere tiempo y corpus completo.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
@@ -136,62 +278,41 @@
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m03">
-    <div class="ficha-seccion-titulo">M03</div>
-    <h3>Narraciones</h3>
+  <div class="ficha-recepcion" id="m05">
+    <div class="ficha-seccion-titulo">M05</div>
+    <h2>Batimetría</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Narrativo · Temperatura del corpus</span>
+      <span class="ficha-campo-valor">Estratigráfico · Mapa de profundidades</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Busca lo que ocurre en el corpus — no lo que se argumenta ni lo que se describe, sino lo que pasa. Produce un índice completo de eventos con ubicación, descripción, giro si existe, e intensidad de peso vivo del 1 al 5. Cierra con un diagnóstico de qué es este corpus desde sus narraciones.</span>
+      <span class="ficha-campo-valor">Revela la estratigrafía interna del corpus: qué está vivo en superficie, qué está sepultado bajo extensión o rodeo, qué opera sin nombrarse y requiere lectura oblicua, qué dejó huella sin quedarse, qué no está —porque la ausencia también es información. Produce el mapa de profundidades organizado por condiciones de acceso, no por tema.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando se quiere saber si el corpus tiene temperatura narrativa y dónde. Útil sobre corpus que mezclan argumento y narración para separar las temperaturas.</span>
+      <span class="ficha-campo-valor">Cuando se necesita saber qué hay dentro antes de decidir cómo entrar. Especialmente útil para corpus densos, dispersos o con capas de acceso muy distintas. Evita la aplicación mecánica de instrumentos: cartografía el territorio antes de habitarlo.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Complementa a Joyería: lo que vale y lo que pasa no siempre coinciden — esa divergencia, cuando existe, es un hallazgo.</span>
-    </div>
-  </div>
-	
-  <div class="ficha-recepcion" id="m04">
-    <div class="ficha-seccion-titulo">M04</div>
-    <h3>Umbral</h3>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Marco · Condición de operación</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Define cómo opera el sistema en cualquier sesión donde esté activo. Establece la geometría de tres fuerzas en tensión: lo construido, lo experiencial, lo contextual. Produce diagnóstico inicial del corpus: primer contacto, mapa de profundidades, menú emergente de operaciones.</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">En toda sesión de análisis donde no se ejecute Escucha primero. Es la condición de operación del sistema, no un instrumento de análisis.</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Precede a todos los instrumentos excepto Escucha. El menú emergente que produce no prescribe instrumentos — describe qué podría encontrarse con cada uno.</span>
+      <span class="ficha-campo-valor">Antecede a Menú Emergente con mayor precisión cuando ambos operan en secuencia. La batimetría decide el territorio; el menú decide cómo habitarlo.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m05">
-    <div class="ficha-seccion-titulo">M05</div>
-    <h3>Apolo</h3>
+  <div class="ficha-recepcion" id="m06">
+    <div class="ficha-seccion-titulo">M06</div>
+    <h2>Apolo</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Estructural · Lo construido</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce ficha técnica, mapa de hechos, resumen por sección, cartografía en cinco campos, las seis miradas estructurales —incluyendo arquitectura interna que cuando el corpus lo merece baja hasta la escala de la frase—, el imán y la topología de ideas, el truco, y la sentencia final.</span>
+      <span class="ficha-campo-valor">Lee el corpus como arquitectura. Mide, cartografía e identifica las fuerzas que lo sostienen o lo quiebran. Produce las seis miradas estructurales —incluyendo arquitectura interna que cuando el corpus lo merece baja hasta la escala de la frase—, el imán y la topología de ideas, el truco que produce o no inagotabilidad, y la sentencia final: lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando la pregunta central es cómo está construido el corpus y si aguanta lo que promete. Cuando importa caracterizar la arquitectura antes de escuchar el pulso.</span>
+      <span class="ficha-campo-valor">Cuando la pregunta central es cómo está construido el corpus y si aguanta lo que promete. Cuando se quiere el diagnóstico estructural con veredicto explícito. Cuando importa caracterizar la arquitectura antes de escuchar el pulso.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
@@ -199,37 +320,37 @@
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m06">
-    <div class="ficha-seccion-titulo">M06</div>
-    <h3>Hermes</h3>
+  <div class="ficha-recepcion" id="m07i">
+    <div class="ficha-seccion-titulo">M07 I</div>
+    <h2>Escucha dionisíaca</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Contextual · El suelo</span>
+      <span class="ficha-campo-valor">Fundacional · Entrada sin categorías</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Lee el suelo donde el corpus ocurrió. No el texto — las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Cierra con una sección que entrega a Apolo, Dioniso y Joyería lo que el contexto hace a cada uno.</span>
+      <span class="ficha-campo-valor">Llega al corpus antes de que cualquier categoría lo toque. Opera como cadena de pasos independientes: cada uno cierra antes de que el siguiente empiece, y el vocabulario disponible se reduce en cada paso, obligando al sistema a encontrar el idioma del corpus en lugar de importar el idioma de la crítica. Lo que produce no es un análisis —es un reconocimiento: la naturaleza del corpus, dónde está vivo, qué carga sin saberlo.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto.</span>
+      <span class="ficha-campo-valor">Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere. Requiere ventana de contexto vacía: sin sistema activo, sin conversación previa. Si la sesión principal ya está en curso, se ejecuta en una sesión paralela nueva, limpia, sin contexto heredado.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Tercer vértice del triángulo central. El único instrumento del sistema que produce outputs dirigidos explícitamente a otros instrumentos por nombre.</span>
+      <span class="ficha-campo-valor">El instrumento de entrada más puro del ecosistema. Antecede a M07 II cuando se quiere que la escucha preceda al análisis experiencial completo. Ningún instrumento debe precederlo en la misma sesión.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m07">
-    <div class="ficha-seccion-titulo">M07</div>
-    <h3>Dioniso</h3>
+  <div class="ficha-recepcion" id="m07ii">
+    <div class="ficha-seccion-titulo">M07 II</div>
+    <h2>Dioniso</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Experiencial · Lo que late</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. Produce: primera frase, destilado maestro, zonas vivas, ausencias, síntomas, patrones inconscientes, cuatro tipos de lectura, descripción sensorial, partitura, semilla, preguntas y falla raíz, sentencia final y pregunta generativa.</span>
+      <span class="ficha-campo-valor">Lee el corpus como acontecimiento. Escucha lo que late, lo que el corpus carga sin saberlo, lo que se mueve debajo de lo que el texto cree estar diciendo. Produce: primera frase, destilado maestro, zonas vivas, ausencias, síntomas, patrones inconscientes, cuatro tipos de lectura, descripción sensorial, partitura, semilla, preguntas y falla raíz, huella del observador si aplica, desapariciones si aplica, índice de eventos, sentencia final y pregunta generativa.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
@@ -237,76 +358,84 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Segundo vértice del triángulo central. Complementa a Apolo: los dos juntos producen la estereoscopía completa entre lo construido y lo experiencial. Hermes entrega a Dioniso lo que el latido no sabe de su propio origen.</span>
+      <span class="ficha-campo-valor">Segundo vértice del triángulo central. Ejecutado sobre el mismo corpus que Apolo, produce la estereoscopía completa entre lo construido y lo experiencial. Hermes entrega a Dioniso lo que el latido no sabe de su propio origen.</span>
     </div>
   </div>
-	
+
   <div class="ficha-recepcion" id="m08">
     <div class="ficha-seccion-titulo">M08</div>
-    <h3>Escucha</h3>
+    <h2>Hermes</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Fundacional · Entrada sin categorías</span>
+      <span class="ficha-campo-valor">Contextual · El suelo</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Opera como cadena de pasos independientes sin acceso al siguiente hasta completar el actual. El vocabulario bloqueado crece con cada paso, obligando al modelo a encontrar el idioma del corpus. Produce un reconocimiento: la naturaleza del corpus, dónde está vivo, qué carga sin saberlo.</span>
+      <span class="ficha-campo-valor">Lee el suelo donde el corpus ocurrió. No el texto —las condiciones que hicieron posible que ese texto exista tal como existe: geografía como productora de pensamiento, condiciones históricas, condiciones materiales de producción, posición del autor en el campo de fuerzas. Evalúa si el corpus opera en traducción y si esa mediación implica pérdida relevante. Cierra con una sección que declara lo que el contexto hace a la arquitectura del corpus y a su pulso.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando se quiere que el corpus se declare a sí mismo antes de que cualquier instrumento opere. Requiere ventana de contexto vacía — sin system prompt activo. No se ejecuta a mitad de una sesión.</span>
+      <span class="ficha-campo-valor">Cuando el corpus no puede entenderse sin el mundo donde ocurrió. Cuando la posición del autor, el momento histórico o el lugar de escritura operan visiblemente sobre el texto. Cuando se quiere ver lo que ni la arquitectura ni el pulso pueden explicarse solos.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">El instrumento de entrada más puro del ecosistema. Su último paso produce una orientación sobre qué instrumentos tienen sentido con este corpus específico. Ningún instrumento debe precederlo en la misma sesión.</span>
-    </div>
-  </div>	
-
-  <div class="ficha-recepcion" id="m09">
-    <div class="ficha-seccion-titulo">M09</div>
-    <h3>Geógrafo</h3>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Espacial · El lugar como pensamiento</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Entra al corpus como si fuera un mapa. Registra cada lugar que aparece como productor de pensamiento — no como escenario. Traza la arquitectura espacial completa: dónde ocurre el pensamiento más lúcido, dónde se vuelve oblicuo o defensivo, qué produce pensar desde el centro versus el margen.</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando el corpus piensa desde lugares distintos y esos lugares modifican visiblemente el pensamiento. Cuando la geografía no es decorado sino condición. No aplica si el corpus no tiene geografía identificable.</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Comparte territorio con Hermes. La diferencia: Hermes lee las condiciones en conjunto; Geógrafo se concentra exclusivamente en la geografía como productora de pensamiento.</span>
+      <span class="ficha-campo-valor">Tercer vértice del triángulo central. El único instrumento del sistema que produce outputs dirigidos explícitamente a otros instrumentos por nombre.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m10">
-    <div class="ficha-seccion-titulo">M10</div>
-    <h3>Pérdidas</h3>
+  <!-- EXTENDIDOS -->
+  <div class="modulo-cabecera" id="extendidos">
+    <h2>Extendidos</h2>
+  </div>
+  <div class="bitacora">
+    <p>Instrumentos que amplían el análisis desde posiciones especializadas.</p>
+  </div>
+
+  <div class="ficha-recepcion" id="m21">
+    <div class="ficha-seccion-titulo">M21</div>
+    <h2>Menú Emergente</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Taxonómico · La extinción</span>
+      <span class="ficha-campo-valor">Operativo · Lo que el corpus solicita</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Cuenta cuántas veces algo desaparece en el corpus y de qué tipo es cada desaparición. Produce una taxonomía de la extinción a múltiples escalas simultáneas. Registra también las pérdidas que el corpus no llama pérdidas: ideas abandonadas, certezas que se erosionan, el propio método que empieza a cuestionarse en silencio.</span>
+      <span class="ficha-campo-valor">Recibe el análisis acumulado hasta el momento y construye desde él las operaciones que tienen sentido con este corpus específico. No una lista fija: emerge del estado del análisis —lo que los instrumentos anteriores revelaron y lo que dejaron sin tocar. Cada operación se nombra con precisión. Cierra ejecutando y desarrollando cada operación sobre el corpus.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando algo desaparece en el corpus de forma recurrente. Cuando el corpus lamenta sin nombrar lo que lamenta. No aplica si nada desaparece — el instrumento lo declara.</span>
+      <span class="ficha-campo-valor">Cuando el mapa de profundidades del corpus ya existe. También puede ejecutarse solo si el corpus ya fue suficientemente leído. El resultado más fino ocurre cuando Batimetría y Menú Emergente operan en secuencia.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Complementa a Dioniso, que busca ausencias estructurales. Pérdidas busca desapariciones como eventos registrables: lo que se fue, cuándo, cómo.</span>
+      <span class="ficha-campo-valor">Opera sobre el análisis acumulado, no sobre el corpus directamente. Complementa a Batimetría: la batimetría cartografía; el menú decide cómo habitar lo cartografiado.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m11">
-    <div class="ficha-seccion-titulo">M11</div>
-    <h3>Testigo del Testigo</h3>
+  <div class="ficha-recepcion" id="m22">
+    <div class="ficha-seccion-titulo">M22</div>
+    <h2>Márgenes</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Liminal · Los bordes del corpus</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Opera en dos movimientos sobre los bordes del corpus. El primero mira hacia adentro: qué desaparece, qué se sacrifica, qué el corpus carga sin nombrarlo. El segundo mira hacia afuera: qué genera el corpus más allá de sí mismo, qué hace posible que sin él no existiría, qué deja en el tiempo. Los dos juntos describen la relación del corpus con sus propios límites, vista desde ambos lados.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Sobre cualquier corpus. El primer movimiento requiere que algo desaparezca o sea sacrificado. El segundo funciona mejor sobre corpus con distancia histórica, aunque puede operar sobre cualquiera con masa suficiente.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Busca lo que el corpus no pudo contener y lo que no pudo retener. Son los bordes, no el interior. Distinto de Dioniso, que busca lo que el corpus carga sin saber —esto es lo que no cupo y lo que se fue.</span>
+    </div>
+  </div>
+
+  <div class="ficha-recepcion" id="m23">
+    <div class="ficha-seccion-titulo">M23</div>
+    <h2>Testigo del Testigo</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Reflexivo · La involuntariedad</span>
@@ -317,7 +446,7 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando el corpus tiene un observador identificable que analiza desde una posición. Cuando hay tensión entre el método declarado y lo que el texto realmente hace. No aplica si no hay observador identificable.</span>
+      <span class="ficha-campo-valor">Cuando el corpus tiene un observador identificable que analiza, registra o narra desde una posición. Cuando hay tensión entre el método declarado y lo que el texto realmente hace. No aplica si no hay observador identificable —el instrumento lo declara.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
@@ -325,9 +454,9 @@
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m12">
-    <div class="ficha-seccion-titulo">M12</div>
-    <h3>Bucle</h3>
+  <div class="ficha-recepcion" id="m24">
+    <div class="ficha-seccion-titulo">M24</div>
+    <h2>Bucle</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Godeliano · El corpus sobre sí mismo</span>
@@ -342,41 +471,70 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">No compite con ningún otro instrumento — opera en un registro que ninguno alcanza. La proposición godeliana que produce puede alimentar a Síntesis como material para la visión total.</span>
+      <span class="ficha-campo-valor">Opera en un registro que ningún otro instrumento alcanza. La proposición godeliana que produce puede alimentar a Síntesis como material para la visión total.</span>
     </div>
   </div>
-	
-  <div class="ficha-recepcion" id="m51">
-    <div class="ficha-seccion-titulo">M51</div>
-    <h3>Inventario de Flota</h3>
+
+  <div class="ficha-recepcion" id="m25">
+    <div class="ficha-seccion-titulo">M25</div>
+    <h2>Umbral del Reconocimiento</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
-      <span class="ficha-campo-valor">Cartografía · La obra completa</span>
+      <span class="ficha-campo-valor">Epistemológico · Las condiciones del reconocimiento</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Construye un mapa navegable de una obra completa. Define un norte emergente de la obra misma. Selecciona las posiciones más reveladoras y asigna a cada una una embarcación con tipo, tamaño y distancia a la orilla según profundidad genuina. Produce prompts de imagen en tres estilos visuales emergentes del corpus.</span>
+      <span class="ficha-campo-valor">Lee el corpus como sistema de reconocimiento. No quién reconoce a quién —sino las condiciones bajo las cuales el reconocimiento ocurre, las que lo bloquean, y lo que esas condiciones revelan sobre la visión del mundo que el corpus porta sin declararla. Produce: mapa de reconocimientos, taxonomía por tipo, umbral declarado versus umbral real, asimetría entre quien otorga y quien espera, formas fallidas, lo que el reconocimiento destruye, tres preguntas filosóficas, y la sentencia del umbral.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando el corpus es una obra completa o extensa y se quiere orientación visual antes del análisis profundo. Cuando la pregunta no es qué dice un libro sino cuáles libros valen el viaje. No opera sobre un corpus individual.</span>
+      <span class="ficha-campo-valor">Cuando el corpus contiene seres, ideas o formas de existencia cuya validez depende del reconocimiento ajeno. Cuando la espera, el retraso o la negación del reconocimiento operan como motor —aunque el corpus no los llame así.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Instrumento de entrada y selección. El inventario decide qué territorio merece ser habitado — los demás instrumentos operan sobre lo que el inventario señala.</span>
+      <span class="ficha-campo-valor">Hay instrumentos que buscan lo que el corpus carga sin saber. Este busca lo que el corpus exige que los demás le devuelvan. Son formas distintas de la involuntariedad.</span>
     </div>
   </div>
-	
-  <div class="ficha-recepcion" id="m95">
-    <div class="ficha-seccion-titulo">M95</div>
-    <h3>Síntesis</h3>
+
+  <div class="ficha-recepcion" id="m26">
+    <div class="ficha-seccion-titulo">M26</div>
+    <h2>Historia de los Efectos</h2>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Registro</span>
+      <span class="ficha-campo-valor">Diacrónico · El corpus a través del tiempo</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Qué hace</span>
+      <span class="ficha-campo-valor">Lee el corpus a través del tiempo que vino después de él. Identifica los momentos de inflexión genuina —instantes en que algo externo cambió la lente con que se lee— y registra en cada uno qué reveló y qué cegó. El corpus no se mueve: lo que cambia es la historia que lo rodea. Produce el mapa de cómo el corpus ha sido iluminado y tapado por distintas épocas, y declara lo que ningún momento ha podido leer todavía.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Cuándo</span>
+      <span class="ficha-campo-valor">Sobre corpus con distancia histórica suficiente y recepción documentada. No opera sobre corpus recientes sin historia de lectura.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Relación</span>
+      <span class="ficha-campo-valor">Hermes mira las condiciones en que el corpus fue producido. Este mira las condiciones en que ha sido recibido. Son el mismo eje temporal en direcciones opuestas. Márgenes registra la estela que el corpus generó; este registra cómo el tiempo cambió lo que el corpus significa.</span>
+    </div>
+  </div>
+
+  <!-- ORDEN SUPERIOR -->
+  <div class="modulo-cabecera" id="orden-superior-instrumentos">
+    <h2>Orden superior</h2>
+  </div>
+  <div class="bitacora">
+    <p>Operan sobre el análisis acumulado, no sobre el corpus.</p>
+  </div>
+
+  <div class="ficha-recepcion" id="m96">
+    <div class="ficha-seccion-titulo">M96</div>
+    <h2>Síntesis</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Total · El análisis como unidad</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Recibe el análisis completo y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Produce un texto autónomo que encarna el corpus sin resumirlo, una cartografía total, y lo que ninguna parte pudo ver desde adentro — si existe. Si lo que emerge contradice algo que un instrumento declaró con certeza, la contradicción no se resuelve: se nombra como el hallazgo más valioso del conjunto.</span>
+      <span class="ficha-campo-valor">Recibe el análisis completo y construye la visión total. No es un cierre: es el momento en que el análisis se ve a sí mismo como unidad. Produce un texto autónomo que encarna el corpus sin resumirlo, una cartografía total, y lo que ninguna parte pudo ver desde adentro — si existe.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
@@ -388,37 +546,37 @@
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m96">
-    <div class="ficha-seccion-titulo">M96</div>
-    <h3>Punto de Fuga</h3>
+  <div class="ficha-recepcion" id="m97">
+    <div class="ficha-seccion-titulo">M97</div>
+    <h2>Punto de Fuga</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Meta-analítico · El análisis como corpus</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Lee el análisis acumulado sobre un corpus como si fuera el corpus. Busca el punto de fuga del sistema — la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, las ausencias del sistema, el momento donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe.</span>
+      <span class="ficha-campo-valor">Lee el análisis acumulado sobre un corpus como si fuera el corpus. Busca el punto de fuga del sistema —la suposición no declarada hacia la que todas las miradas convergen—, sus suposiciones tácitas, las ausencias del sistema, el momento donde los instrumentos empezaron a confirmar en lugar de descubrir. Cierra con la proposición godeliana del análisis, si existe.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Solo cuando existen al menos tres instrumentos ejecutados sobre el mismo corpus. No en medio del proceso — cuando el análisis tiene suficiente masa como para ser él mismo un objeto.</span>
+      <span class="ficha-campo-valor">Solo cuando existen al menos tres instrumentos ejecutados sobre el mismo corpus. No en medio del proceso —cuando el análisis tiene suficiente masa como para ser él mismo un objeto.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Segundo instrumento de orden superior. Opera idealmente después de Síntesis. Donde Bucle aplica los mecanismos del corpus al corpus, Punto de Fuga aplica los mecanismos del análisis al análisis — instrumentos simétricos en registros distintos.</span>
+      <span class="ficha-campo-valor">Segundo instrumento de orden superior. Donde Bucle aplica los mecanismos del corpus al corpus, Punto de Fuga aplica los mecanismos del análisis al análisis —instrumentos simétricos en registros distintos.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m97">
-    <div class="ficha-seccion-titulo">M97</div>
-    <h3>Palimpsesto</h3>
+  <div class="ficha-recepcion" id="m98">
+    <div class="ficha-seccion-titulo">M98</div>
+    <h2>Palimpsesto</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Intersticial · Entre los análisis</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis — no dentro de ninguno sino entre ellos. Si existe, se nombra con precisión. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.</span>
+      <span class="ficha-campo-valor">Busca lo que ningún instrumento buscaba. El texto debajo del texto que emerge en el espacio entre todos los análisis —no dentro de ninguno sino entre ellos. Si existe, se nombra con precisión. Si no existe, se declara sin disculpa. La ausencia tiene el mismo valor que el hallazgo.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
@@ -426,45 +584,45 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">Último instrumento de orden superior. Requiere el output de cualquier combinación de instrumentos anteriores. No compite con ninguno — opera después de todos. Lo que encuentra es inaccesible desde cualquier instrumento individual.</span>
+      <span class="ficha-campo-valor">Tercer instrumento de orden superior. No compite con ninguno —opera después de todos. Lo que encuentra es inaccesible desde cualquier instrumento individual.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m98">
-    <div class="ficha-seccion-titulo">M98</div>
-    <h3>Destilado</h3>
+  <div class="ficha-recepcion" id="m99i">
+    <div class="ficha-seccion-titulo">M99 I</div>
+    <h2>Destilado</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Axiológico · Lo irreducible</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Recibe el análisis completo y aplica presión hasta encontrar lo que el corpus contiene y que no podría existir de otra forma. No integra ni recapitula — destila. Evapora todo lo accesorio hasta que lo que queda no se puede quitar sin destruir algo. No sabe de antemano qué forma va a tomar lo que produce: lo descubre en el proceso.</span>
+      <span class="ficha-campo-valor">Opera en dos movimientos consecutivos y opuestos. El primero abre: inventaría los hallazgos genuinos que el análisis acumulado produjo en dos capas —sobre el corpus y sobre el análisis. El segundo colapsa: aplica presión sobre el inventario y sobre todo el análisis acumulado hasta encontrar lo irreducible. El destilado no es la suma de los hallazgos ni su traducción a prosa. Es lo que emerge cuando todos se comprimen juntos.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Solo cuando el análisis está completo. Requiere todo: el corpus, los instrumentos ejecutados, Síntesis, Punto de Fuga, Palimpsesto. No todo corpus lo permite; cuando ese es el caso, lo declara sin disculpa.</span>
+      <span class="ficha-campo-valor">Solo cuando el análisis está completo. Requiere todo: el corpus y el análisis acumulado completo. Sin esa masa la presión no es suficiente. No todo corpus lo permite; cuando ese es el caso, el instrumento lo declara y termina ahí.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
-      <span class="ficha-campo-valor">El último instrumento del sistema. Donde Síntesis encarna el corpus como visión total, Destilado extrae lo irreducible de esa visión. Donde Joyería encuentra los pasajes que sobreviven solos dentro del corpus, Destilado encuentra lo que el corpus entero es cuando se comprime hasta no poder comprimirse más.</span>
+      <span class="ficha-campo-valor">El último instrumento analítico del sistema. Donde Síntesis encarna el corpus como visión total, Destilado extrae lo irreducible de esa visión. Donde Joyería encuentra los pasajes que sobreviven solos, Destilado encuentra lo que el corpus entero es cuando se comprime hasta no poder comprimirse más.</span>
     </div>
   </div>
 
-  <div class="ficha-recepcion" id="m99">
-    <div class="ficha-seccion-titulo">M99</div>
-    <h3>Imágenes</h3>
+  <div class="ficha-recepcion" id="m99ii">
+    <div class="ficha-seccion-titulo">M99 II</div>
+    <h2>Destilado de imágenes</h2>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Registro</span>
       <span class="ficha-campo-valor">Externo · El único que produce afuera</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Qué hace</span>
-      <span class="ficha-campo-valor">Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone tres estilos visuales idóneos para este corpus específico con justificación razonada. Produce prompts en español con composición, atmósfera y elementos decididos desde el corpus.</span>
+      <span class="ficha-campo-valor">Recibe un corpus o el output de cualquier instrumento. Propone cuántas imágenes tienen sentido y por qué. Propone tres estilos visuales idóneos para este corpus específico con justificación razonada. Produce prompts en español con composición, atmósfera y elementos decididos desde el corpus. Cuando opera sobre el conjunto de resultados de múltiples instrumentos, construye el set en dos capas: una imagen por hallazgo genuinamente nuevo, más imágenes temáticas transversales.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Cuándo</span>
-      <span class="ficha-campo-valor">Cuando se quiere acompañar el análisis con imágenes que emerjan del corpus. Puede ejecutarse en cualquier momento donde haya output suficiente, pero alcanza su modo más rico al final del proceso.</span>
+      <span class="ficha-campo-valor">Cuando se quiere acompañar el análisis con imágenes que emerjan del corpus. Puede ejecutarse sobre el corpus directamente, sobre el output de cualquier instrumento individual, o sobre el conjunto completo.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Relación</span>
@@ -478,25 +636,25 @@
 <!-- TRIÁNGULO CENTRAL -->
 <section class="modulo laboratorio" id="triangulo">
   <div class="modulo-cabecera">
-    <h2>El triángulo central</h2>
+    <h1>El triángulo central</h1>
   </div>
   <div class="bitacora">
     <p>Lo construido, lo experiencial, lo contextual.</p>
   </div>
-  <p class="estrategia-grandeza-texto">Apolo, Dioniso y Hermes forman la tríada de análisis exhaustivo. Juntos producen la estereoscopía completa — lo que ni la arquitectura ni el pulso pueden explicarse solos. Hermes cierra con una sección que entrega a cada uno lo que no puede explicarse a sí mismo.</p>
+  <p class="estrategia-grandeza-texto">Apolo, Dioniso y Hermes forman la tríada de análisis exhaustivo. Juntos producen la estereoscopía completa —lo que ni la arquitectura ni el pulso pueden explicarse solos. Hermes cierra con una sección que declara lo que el suelo hace a la arquitectura y al pulso: lo que ninguno de los otros dos puede explicarse a sí mismo.</p>
 
   <div class="ficha-recepcion">
     <div class="ficha-campo">
       <span class="ficha-campo-nombre destacado">Apolo</span>
-      <span class="ficha-campo-valor">Lo construido. Cómo está hecho. Si aguanta.</span>
-    </div>
-    <div class="ficha-campo">
-      <span class="ficha-campo-nombre destacado">Hermes</span>
-      <span class="ficha-campo-valor">Lo contextual. El suelo. Las condiciones que hicieron posible el texto.</span>
+      <span class="ficha-campo-valor">Lo construido. Cómo está hecho. Si aguanta. El veredicto explícito.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre destacado">Dioniso</span>
-      <span class="ficha-campo-valor">Lo experiencial. El pulso. Lo que carga sin saberlo.</span>
+      <span class="ficha-campo-valor">Lo experiencial. El pulso. Lo que el corpus carga sin saberlo.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre destacado">Hermes</span>
+      <span class="ficha-campo-valor">Lo contextual. El suelo. Las condiciones que hicieron posible que ese texto exista tal como existe.</span>
     </div>
   </div>
 </section>
@@ -505,12 +663,12 @@
 <!-- ORDEN SUPERIOR -->
 <section class="modulo sintesis" id="orden-superior">
   <div class="modulo-cabecera">
-    <h2>Instrumentos de orden superior</h2>
+    <h1>Instrumentos de orden superior</h1>
   </div>
   <div class="bitacora">
     <p>El análisis leído como corpus.</p>
   </div>
-  <p class="estrategia-grandeza-texto">Síntesis, Punto de Fuga, Palimpsesto y Destilado no operan sobre el corpus directamente — operan sobre el análisis acumulado. El orden es siempre el mismo: Síntesis construye la visión total, Punto de Fuga la mira a los ojos, Palimpsesto busca lo que ninguno de los dos buscaba, Destilado extrae lo irreducible de todo lo anterior.</p>
+  <p class="estrategia-grandeza-texto">Síntesis, Punto de Fuga, Palimpsesto, Destilado y Destilado de imágenes no operan sobre el corpus directamente —operan sobre el análisis acumulado. El orden es siempre el mismo: Síntesis construye la visión total, Punto de Fuga la mira a los ojos, Palimpsesto busca lo que ninguno de los dos buscaba, Destilado extrae lo irreducible de todo lo anterior, Destilado de imágenes cierra el ciclo hacia afuera.</p>
 
   <div class="ficha-recepcion">
     <div class="ficha-campo">
@@ -527,11 +685,11 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre destacado">Destilado</span>
-      <span class="ficha-campo-valor">Lo irreducible del corpus. Aplica presión sobre todo lo anterior hasta encontrar lo que no se puede quitar sin destruir algo. No sabe qué forma va a tomar hasta que la encuentra.</span>
+      <span class="ficha-campo-valor">Lo irreducible del corpus. Aplica presión sobre todo lo anterior hasta encontrar lo que no se puede quitar sin destruir algo.</span>
     </div>
     <div class="ficha-campo">
-      <span class="ficha-campo-nombre destacado">Imágenes</span>
-      <span class="ficha-campo-valor">Imágenes que emerjen del corpus.</span>
+      <span class="ficha-campo-nombre destacado">Destilado de imágenes</span>
+      <span class="ficha-campo-valor">Imágenes que emergen del corpus hacia afuera del ecosistema. El único instrumento cuyos outputs van a un generador externo.</span>
     </div>
   </div>
 </section>
@@ -540,21 +698,25 @@
 <!-- NOTAS DE USO -->
 <section class="modulo recepcion" id="notas">
   <div class="modulo-cabecera">
-    <h2>Notas de uso</h2>
+    <h1>Notas de uso</h1>
   </div>
 
   <div class="ficha-recepcion">
     <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Flujo operativo</span>
+      <span class="ficha-campo-valor">El sistema opera en cinco pasos: inicialización (presentar el README), corpus (presentar el material), ejecución (los instrumentos operan en secuencia según su numeración), producto (cada instrumento entrega su output en un archivo .md independiente), ensamblaje (el operador concatena manualmente los archivos en un documento maestro).</span>
+    </div>
+    <div class="ficha-campo">
       <span class="ficha-campo-nombre">Selección</span>
-      <span class="ficha-campo-valor">No existe secuencia obligatoria. Cada corpus exige su propia combinación. Escucha puede revelar qué instrumentos tienen sentido con ese corpus específico — su último paso produce exactamente eso. Para un corpus desconocido, Escucha o Recepción son entradas naturales.</span>
+      <span class="ficha-campo-valor">No existe secuencia obligatoria entre instrumentos de análisis directo. Cada corpus exige su propia combinación. Batimetría puede revelar qué instrumentos tienen sentido con ese corpus específico. Para un corpus desconocido, Recepción o Escucha dionisíaca son entradas naturales.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Escala</span>
       <span class="ficha-campo-valor">Todos los instrumentos operan sobre cualquier escala: un párrafo, un capítulo, un libro, una obra completa. Lo que cambia es la duración y la granularidad, no el principio de operación.</span>
     </div>
     <div class="ficha-campo">
-      <span class="ficha-campo-nombre">Escucha</span>
-      <span class="ficha-campo-valor">Requiere ventana de contexto vacía — sin system prompt activo. Si se ejecuta con contexto previo, la cadena se contamina. Es la única restricción técnica obligatoria del ecosistema.</span>
+      <span class="ficha-campo-nombre">Escucha dionisíaca</span>
+      <span class="ficha-campo-valor">Requiere ventana de contexto vacía. Si la sesión principal ya está en curso, se ejecuta en una sesión paralela nueva y el output se traslada luego. Es la única restricción técnica obligatoria del ecosistema.</span>
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Bucle</span>
@@ -562,7 +724,11 @@
     </div>
     <div class="ficha-campo">
       <span class="ficha-campo-nombre">Orden superior</span>
-      <span class="ficha-campo-valor">Síntesis, Punto de Fuga, Palimpsesto, Destilado e Imágenes operan siempre al final, cuando el análisis tiene masa suficiente para ser él mismo un objeto. No en medio del proceso.</span>
+      <span class="ficha-campo-valor">Síntesis, Punto de Fuga, Palimpsesto, Destilado y Destilado de imágenes operan siempre al final, cuando el análisis tiene masa suficiente para ser él mismo un objeto. No en medio del proceso.</span>
+    </div>
+    <div class="ficha-campo">
+      <span class="ficha-campo-nombre">Calibración</span>
+      <span class="ficha-campo-valor">Todos los instrumentos se calibran según lo que el corpus realmente ofrece en esa dimensión. El extremo inferior de la calibración es cero. El silencio no es fracaso —es dignidad.</span>
     </div>
   </div>
 </section>
@@ -571,7 +737,7 @@
 
 	<!-- PIE -->
 	<footer class="pie-documento">
-		<div class="pie-sello">Destilería Osmancito<br>v16 · 2026</div>
+		<div class="pie-sello">Destilería Osmancito<br>v19 · 2026</div>
 	</footer>
 
   <!-- Módulo LightBox -->
