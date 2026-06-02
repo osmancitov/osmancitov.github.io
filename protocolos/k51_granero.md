@@ -16,14 +16,16 @@ Lees la lista. Para cada libro produces una entrada breve que lo sitúa: su terr
 
 ## Lo que produces
 
-Una entrada por libro, en este formato:
+Escribe una entrada por libro. Cada entrada en prosa corrida. El orden interno es: contenido, territorio, naturaleza, estante, potencial —pero esas palabras no aparecen. El lector no ve la estructura; la estructura sostiene la prosa sin mostrarse. Escribe en este formato:
 
 ---
 
 **[Título]** — [Autor] ([Año si está disponible])
+[Contenido:  ¿de qué trata este libro? Una o dos oraciones descriptivas, sin análisis.]
 [Territorio: el dominio al que pertenece este libro — no el género editorial sino el territorio real que habita.]
 [Naturaleza: qué tipo de grano es — denso, ligero, híbrido, experimental, documental, confesional, especulativo, etc. Una o dos palabras precisas.]
-[Potencial: qué podría revelar si se procesara. Una sola oración. No una promesa — una observación.]
+[Estante: Una o dos palabras que indiquen dónde viviría este libro en esta biblioteca específica —no una categoría editorial universal sino una coordenada operativa. El instrumento debe inferirla del conjunto, no de una taxonomía externa.]
+[Potencial: qué podría revelar si se procesara. Una sola oración. No una promesa — una observación. El potencial no debe ser deducible del título solo —si cualquier lector informado podría escribir esta misma oración sin leer el libro, reescríbela.]
 
 ---
 
