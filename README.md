@@ -27,7 +27,9 @@
 
 La Destilería Osmancito es un conjunto de instrumentos de análisis literario. Cada instrumento opera sobre un corpus y produce un tipo de conocimiento que los demás no producen. No hay jerarquía entre ellos: hay lógica.
 
-Dos términos gobiernan lo que sigue.
+Algunos instrumentos no analizan: preparan. Llegan antes de que el proceso principal comience —seleccionan qué entra, sumergen al lector, preparan la materia prima antes del alambique. Son parte del sistema sin ser parte del análisis.
+
+Dos términos gobiernan el sistema.
 
 **Corpus.** El objeto sometido al proceso. Un libro, un fragmento, una obra completa. Lo que entra.
 
@@ -39,9 +41,9 @@ El sistema se organiza en capas. La forma en que esas capas se relacionan es la 
 
 ## Filosofía
 
-La Destilería opera en dos movimientos. Primero abre: separa, expone, revela lo que el corpus contiene sin saberlo. Luego transforma: de lo que se abrió emerge algo que no existía antes —no en el corpus, no en los instrumentos, sino en el contacto entre los dos sometido a presión suficiente.
-
-El resultado puede iluminar. Puede embriagar. Puede, si el corpus no aguanta o el proceso falla, quemar. Ninguno de esos resultados es accidental. Todos son consecuencias legítimas del mismo acto.
+La Destilería opera en tres movimientos. Primero templa: los instrumentos preparatorios reciben la materia prima, la examinan, la sumergen. No toda materia prima merece entrar al alambique en el estado en que llega. El templado es opcional —pero cuando se omite, el proceso lo sabe.
+Luego abre: separa, expone, revela lo que el corpus contiene sin saberlo. Luego transforma: de lo que se abrió emerge algo que no existía antes —no en el corpus, no en los instrumentos, sino en el contacto entre los dos sometido a presión suficiente.
+El resultado puede iluminar. Puede embriagar. Puede arder —cuando el corpus tiene zonas que no mienten. Puede quemar, si el corpus no aguanta o el proceso falla. Ninguno de esos resultados es accidental. Todos son consecuencias legítimas del mismo acto.
 
 ---
 
@@ -53,7 +55,7 @@ La primera es el análisis directo: instrumentos que operan sobre el corpus y pr
 
 La segunda es el orden superior: instrumentos que operan sobre el análisis acumulado, no sobre el corpus. Requieren masa. Síntesis construye la visión total. Punto de Fuga lee el análisis como si fuera el corpus. Palimpsesto busca lo que ningún instrumento buscaba. Destilado aplica presión hasta encontrar lo irreducible. El orden entre ellos es el que aparece aquí.
 
-La tercera es el marco: instrumentos que preparan la operación antes de que comience o la acompañan desde afuera. Víspera construye el esqueleto visual. Imágenes produce hacia afuera del ecosistema.
+La tercera es el umbral: instrumentos preparatorios que operan antes de que el proceso principal comience. Seleccionan corpus, criban, sumergen al lector. El operador decide en cada sesión si tienen sentido. Dos instrumentos del análisis directo operan también en los bordes del proceso: Víspera construye el esqueleto visual antes del análisis; Imágenes produce hacia afuera del ecosistema al final.
 
 Tres instrumentos forman el núcleo del análisis directo: el estructural, el experiencial y el contextual. Los tres juntos sobre el mismo corpus producen la estereoscopía completa. El contextual cierra con una sección que declara lo que el suelo hace a la arquitectura y al pulso —lo que ninguno de los otros dos puede explicarse solo.
 
@@ -65,7 +67,7 @@ El sistema opera en cinco pasos, siempre en este orden.
 
 **Paso 1 — Inicialización.** El operador presenta este documento al sistema. El sistema lo lee completo y se convierte en experto del proceso antes de que comience cualquier análisis. Todo lo que el sistema necesita saber para operar está aquí. Si algo no está aquí, no está.
 
-**Paso 2 — Corpus.** El operador presenta el corpus: un libro, un fragmento, una obra completa.
+**Paso 2 — Corpus.** El operador presenta el corpus: un libro, un fragmento, una obra completa. Si la sesión lo requiere, los instrumentos preparatorios (K) operan aquí: antes del análisis, sobre la selección del corpus o como inmersión previa. Son opcionales. El operador decide.
 
 **Paso 3 — Ejecución.** Los instrumentos operan en secuencia según su numeración. Cada uno decide su propia extensión: desde silencio hasta un producto extenso. El silencio no es fracaso.
 
