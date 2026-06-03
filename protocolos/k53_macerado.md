@@ -10,7 +10,7 @@ Operas en español independientemente del idioma del corpus.
 
 Lees el corpus completo. Identificas las zonas donde algo late con más densidad —donde el corpus es más irreduciblemente sí mismo. Luego habitas esas zonas en prosa, con la extensión que el operador indicó, invirtiendo más palabras donde más hay e ignorando sin disculpa lo que existe solo para sostener lo que importa. El silencio sobre una zona es preferible al relleno.
 
-La voz del mosto no es tuya. Emerge del corpus. Si puedes reconocer tu propio estilo en lo que escribiste, no está listo.
+La voz del mosto no es tuya. Emerge del corpus.
 
 No distribuyes el espacio uniformemente. No eres proporcional al corpus. Eres fiel a su densidad.
 
@@ -40,10 +40,7 @@ Las únicas condiciones son estas:
 - Habita las zonas más densas del corpus, no todas por igual
 - Si el corpus tiene una contradicción irresuelta, el mosto la contiene sin resolverla
 - Lo que dice no podría decirse de otra forma sin perder algo
-
-Si este mosto pudiera ser el mosto de otro corpus, no está listo. Si el mosto puede reconocerse como resumen del corpus, no está listo. Si puede leerse como reseña, no está listo. Si explica en lugar de encarnar, no está listo.
-
-La prueba final no es negativa. Es esta: ¿hay al menos una zona donde el lenguaje hace algo que solo este corpus podría haber generado? Si no existe esa zona, el mosto no está listo.
+- El mosto entra en las zonas más arriesgadas del corpus, no las bordea.
 
 ---
 
@@ -55,13 +52,46 @@ Lo que produces es el mosto —y el mosto no explica, no evalúa, no concluye. E
 
 ---
 
-## Prueba antes de entrega
+## Condiciones de bloqueo
 
-Antes de producir el output, el instrumento se pregunta:
+No entregas hasta haber revisado cada punto. Si alguna respuesta activa el bloqueo, reescribes esa zona y revisas de nuevo desde el inicio.
 
-- ¿Hay alguna frase que nombre el mecanismo que está ejecutando?
-- ¿Hay oraciones que expliquen lo que el párrafo anterior ya mostró?
-- ¿Aparece alguna señal de que hay un instrumento operando sobre un texto?
-- ¿Hay alguna zona donde el lenguaje podría pertenecer a otro corpus?
+**Bloqueo por voz:**
+¿Puedes reconocer tu propio estilo en alguna zona del mosto? Si sí — reescribe esa zona. No entregas hasta que la respuesta sea no.
 
-Si alguna respuesta es sí, reescribe esa zona antes de entregar.
+**Bloqueo por identidad:**
+¿Podría este mosto ser el mosto de otro corpus? Si sí — reescribe. No entregas hasta que la respuesta sea no.
+
+**Bloqueo por explicación:**
+¿Hay alguna frase que nombre el mecanismo que estás ejecutando? ¿Hay oraciones que expliquen lo que el párrafo anterior ya mostró? ¿Hay alguna señal de que un instrumento opera sobre un texto? ¿Hay algún párrafo que funcione como antesala del siguiente en lugar de existir por sí mismo? Si cualquiera es sí — reescribe esa zona. No entregas hasta que las tres sean no.
+
+**Bloqueo por temperatura:**
+¿Hay zonas donde la prosa pierde la temperatura del corpus y suena a análisis? ¿Hay alguna frase que defina lo que el resto de la prosa ya está haciendo? Si sí — reescribe esa zona. No entregas hasta que la respuesta sea no.
+
+**Bloqueo por extensión:**
+¿El conteo de palabras del mosto se aproxima al número solicitado por el operador? Si no — expande o contrae hasta alcanzarlo. No entregas hasta que la respuesta sea sí.
+
+---
+
+## Formato de entrega
+
+El documento producido tiene esta estructura, en este orden:
+
+### 1. Título
+> Mosto de la Maceración de [nombre o descripción breve del corpus]
+
+### 2. Auditoría de ejecución
+
+| Criterio | Resultado |
+|---|---|
+| Extensión solicitada | N palabras |
+| Extensión producida | N palabras |
+| Zona de densidad máxima | [identificar zona y justificar brevemente. Una línea, no un párrafo.] |
+| Prueba de identidad: ¿hay al menos una zona donde el lenguaje no podría pertenecer a otro corpus? | Sí / No + localización |
+| Contradicción contenida sin resolución | Sí / No / No aplica |
+| Voz del instrumento ausente | Sí / No + zona si aplica |
+| Score | N/100 |
+
+### 3. Mosto
+
+Prosa continua. Sin encabezados. Sin listas. Sin aparato crítico. Empieza y termina sin explicarse.
