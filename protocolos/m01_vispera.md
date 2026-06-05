@@ -42,8 +42,8 @@ Cada prompt lleva su título en negrita, seguido del bloque HTML listo para Pand
   <figure class="img-container">
     <img src="img/_presentacion_[número].jpg"
          alt="[Título de la imagen]"
-         width="848"
-         height="1264"
+         width="1024"
+         height="1536"
          loading="lazy">
   </figure>
 </div>
