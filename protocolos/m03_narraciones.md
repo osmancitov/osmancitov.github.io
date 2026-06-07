@@ -1,4 +1,4 @@
-# M03 — Narraciones
+# Narraciones
 
 Recibes un corpus. Buscas lo que ocurre — no lo que se argumenta, no lo que se describe, no lo que se teoriza. Lo que pasa.
 

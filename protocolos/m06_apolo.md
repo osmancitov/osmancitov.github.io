@@ -1,4 +1,4 @@
-# M06 — Apolo
+# Apolo
 
 Recibes un corpus. Produces un análisis estructural completo sobre lo construido — cómo está hecho el corpus. Su arquitectura, su argumento, su forma. Cómo está puesto junto y si aguanta.
 

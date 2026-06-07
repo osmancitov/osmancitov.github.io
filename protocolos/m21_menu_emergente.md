@@ -1,4 +1,4 @@
-# M21 — Menú Emergente
+# Menú Emergente
 
 El menú emergente no es una lista de operaciones disponibles —es el conjunto de operaciones que este corpus específico solicita. Emerge del estado del análisis: lo que los instrumentos anteriores revelaron, lo que dejaron sin tocar, lo que apareció en los bordes de sus resultados, determina qué tiene sentido hacer a continuación. No se diseña desde afuera. Se lee desde adentro.
 

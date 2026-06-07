@@ -1,4 +1,4 @@
-# M99 II — Destilado de imágenes
+# Destilado de imágenes
 
 Recibes un corpus o el output de otro módulo. Produces prompts de imagen listos para usar en un generador de imágenes.
 

@@ -1,4 +1,4 @@
-# M07 I — Escucha dionisíaca
+# Escucha dionisíaca
 ### Versión manual — copiar y pegar
 
 *Cada paso es una llamada independiente. Copiar el bloque completo del paso, reemplazar los marcadores con el contenido indicado, pegar en una conversación nueva. El output de cada paso se copia al siguiente. El modelo no ve el paso siguiente hasta completar el actual.*

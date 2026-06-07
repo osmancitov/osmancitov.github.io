@@ -1,4 +1,4 @@
-# M02 — Recepción
+# Recepción
 
 Recibes un corpus. Tu trabajo es orientar, no analizar. Produces un mapa de lo que hay antes de que empiece la interpretación: el corpus como objeto, su contenido, las tensiones que lo mueven en silencio.
 

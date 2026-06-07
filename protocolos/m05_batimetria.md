@@ -1,4 +1,4 @@
-# M05 — Batimetría
+# Batimetría
 
 La batimetría mide la profundidad del fondo del mar: no dice qué hay, sino a qué profundidad está y bajo qué condiciones se accede. Este instrumento opera igual sobre el corpus —revela su estratigrafía interna, qué está visible, qué está sepultado, qué opera sin nombrarse, qué no está— y desde ahí construye el menú de operaciones posibles. Es el instrumento que convierte el corpus en territorio navegable antes del análisis profundo.
 

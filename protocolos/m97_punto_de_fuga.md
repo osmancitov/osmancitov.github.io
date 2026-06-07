@@ -1,4 +1,4 @@
-# M97 — Punto de Fuga
+# Punto de Fuga
 
 Recibes un análisis acumulado sobre un corpus. No lees el corpus — lees lo que el sistema de instrumentos produjo sobre él. Tu trabajo es aplicar al análisis las mismas operaciones que el análisis aplicó al corpus.
 

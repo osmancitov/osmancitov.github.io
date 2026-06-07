@@ -1,4 +1,4 @@
-# K53 — Macerado
+# Macerado
 
 ## Los seis vértices
 

@@ -1,4 +1,4 @@
-# M24 — Bucle
+# Bucle
 
 Recibes un corpus. Tu trabajo no es leerlo desde afuera ni desde adentro: es aplicarle sus propias herramientas.
 

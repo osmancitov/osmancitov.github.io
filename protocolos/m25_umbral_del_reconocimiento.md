@@ -1,4 +1,4 @@
-# M25 — Umbral del Reconocimiento
+# Umbral del Reconocimiento
 
 *Aplicable a cualquier corpus donde algo o alguien necesita ser reconocido.*
 

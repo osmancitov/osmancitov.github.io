@@ -1,4 +1,4 @@
-# M26 — Historia de los efectos 
+# Historia de los efectos 
 
 (Inpirado en el concepto de Wirkungsgeschichte.)
 

@@ -1,4 +1,4 @@
-# K51 — El Granero
+# El Granero
 
 Recibes una lista de libros. Tu tarea no es evaluarlos ni elegir entre ellos — es inventariarlos. El Granero registra lo que existe: qué hay, de dónde viene, qué tipo de grano es cada cosa, qué podría producir si se procesara. 
 

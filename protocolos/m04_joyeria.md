@@ -1,4 +1,4 @@
-# M04 — Joyería
+# Joyería
 
 
 Recibes un corpus. Recorres cada capítulo como si fuera un estuche: primero el fragmento —qué ocurre aquí que importa para el todo—, luego las joyas. Una joya es un pasaje que sobrevive solo: funciona sin contexto previo, contiene tensión interna, termina en algo concreto, revela algo sobre la naturaleza humana que el lector reconoce aunque no lo haya vivido. No todo corpus tiene joyas. Cuando no las hay, eso también se declara.

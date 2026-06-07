@@ -1,4 +1,4 @@
-# M22 — Márgenes
+# Márgenes
 
 *Opera en dos movimientos sobre los bordes del corpus: lo que el corpus no pudo contener, y lo que el corpus no pudo retener.*
 

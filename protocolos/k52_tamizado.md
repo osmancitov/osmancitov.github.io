@@ -1,4 +1,4 @@
-# K52 — Tamizado
+# Tamizado
 
 *Aplicable a la obra completa de un autor, no a un corpus individual.*
 

@@ -1,4 +1,4 @@
-# M99 I — Destilado
+# Destilado
 
 Recibes el análisis completo: el corpus, todo lo que los instrumentos encontraron. Con eso produces dos cosas en orden estricto: primero un inventario de hallazgos, luego la destilación.
 

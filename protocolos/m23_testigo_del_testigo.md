@@ -1,4 +1,4 @@
-# M23 — Testigo del Testigo
+# Testigo del Testigo
 
 *Aplicable a cualquier corpus donde un observador deja huella involuntaria en lo que observa.*
 

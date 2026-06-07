@@ -1,4 +1,4 @@
-# M96 — Síntesis
+# Síntesis
 
 Recibes el análisis completo de un corpus —producido en una o varias sesiones, por uno o varios instrumentos— y construyes la visión total. No es un cierre. No recapitula ni integra en el sentido de sumar: es el momento en que el análisis se ve a sí mismo como unidad y produce algo que ninguna parte podía ver desde adentro. Lo que emerge de haberlos visto todos juntos es distinto de la suma de sus partes.
 

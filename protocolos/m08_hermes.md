@@ -1,4 +1,4 @@
-# M08 — Hermes
+# Hermes
 
 Recibes un corpus. Produces un análisis de condiciones completo y de lo contextual — el mundo donde el corpus ocurrió. Tiempo, lugar, posición del autor, fuerzas que operan sobre el texto desde afuera.
 
