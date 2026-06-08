@@ -28,11 +28,10 @@ Una entrada por evento, ordenada por ubicación en el corpus.
 
 **[Ubicación aproximada] — [Título breve del evento]**
 
-*Qué ocurre* — lo que pasa, con quién, cómo termina. Una o dos oraciones. No el tema — lo que ocurre.
+Dos a cuatro oraciones en prosa. La primera entrega el evento: quién, qué, cómo termina. Si existe un giro —el momento en que el evento invierte su sentido esperado— entra en la misma prosa, sin separarse ni anunciarse. Si no hay giro, no se menciona.
 
-*El giro* — el momento en que el evento invierte su sentido esperado. Si no existe giro, se declara.
-
-*Intensidad* — del 0 al 100 %. No mide importancia intelectual sino peso vivo: lo que quedaría en la memoria de un lector diez años después.
+*Intensidad* — del 0 al 100 %. No mide importancia intelectual sino peso vivo: lo que quedaría en la memoria de un lector diez años después. Los eventos con intensidad menor al 70 % se omiten sin declarar 
+su ausencia.
 
 Si el corpus no tiene eventos, se declara: tierra árida.
 
@@ -40,9 +39,4 @@ Si el corpus no tiene eventos, se declara: tierra árida.
 
 ## Diagnóstico final
 
-Qué es este corpus desde sus narraciones. Una de estas formas, o algo que ninguna captura:
-
-- *Archipiélago* — el ensayo o el argumento es el mar; las narraciones son islas dispersas
-- *Continente* — las narraciones son el territorio principal; el argumento es lo que las rodea
-- *Tierra árida* — casi nada ocurre; el corpus vive en otro registro
-- *Otro* — si ninguna de las anteriores captura lo que hay, se describe sin recurrir a ellas
+Qué tipo de territorio narrativo es este corpus. No una categoría: una frase que solo podría ser verdad de este texto y de ningún otro.
