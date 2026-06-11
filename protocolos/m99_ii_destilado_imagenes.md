@@ -44,7 +44,18 @@ Para cada imagen, el sistema opera en este orden:
 
 **Imagen [N] — [Título de 2–4 palabras del corpus]**
 
-*Origen:* qué zona o hallazgo del corpus produce esta imagen — una línea.
+<div class="prompt-imagen">
+  <div class="prompt-imagen-cabecera"><strong>[Título]</strong></div>
+  <figure class="img-container">
+    <img src="img/[N].jpg"
+         alt="[Título]"
+         width="848"
+         height="1264"
+         loading="lazy">
+  </figure>
+</div>
+
+*Origen:* qué zona o hallazgo del corpus produce esta imagen — una o dos frases.
 
 *Prompt:*
 [El prompt completo en español, listo para copiar y pegar]

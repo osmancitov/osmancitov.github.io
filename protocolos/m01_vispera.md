@@ -37,11 +37,10 @@ El sistema genera tantos prompts como perspectivas genuinamente distintas admita
 
 Cada prompt es prosa continua, no formulario. Describe el objeto con la misma temperatura que el objeto merece. Debe estar presente: el objeto editorial visto desde la perspectiva específica de este prompt / cubierta con el título del corpus en posición dominante, DESTILERÍA OSMANCITO como sello, subtítulo de edición crítica / el símbolo visual de la tensión central del corpus / superficie y contexto derivados de la temperatura emocional del corpus / paleta coherente entre todos los prompts de esta sección —específica, nunca genérica / ilustración editorial de alta factura / sin fotorrealismo / relación de aspecto 2:3.
 
-Cada prompt lleva su título en negrita, seguido del bloque HTML listo para Pandoc:
+Cada prompt lleva su título en negrita, seguido del bloque HTML:
 
 **[Título de 2–4 palabras extraído del carácter del producto]**
 
-```html
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
@@ -52,7 +51,6 @@ Cada prompt lleva su título en negrita, seguido del bloque HTML listo para Pand
          loading="lazy">
   </figure>
 </div>
-```
 
 El número incrementa por prompt dentro de esta sección: `_presentacion_1.jpg`, `_presentacion_2.jpg`.
 
@@ -72,11 +70,10 @@ El sistema genera tantos prompts como estrategias genuinamente distintas soporte
 
 Cada prompt es prosa continua. Debe estar presente: la estrategia desarrollada en imagen concreta y sorprendente / detalles de época, textura o material que anclan la atmósfera / una sola tensión visual que el ojo no puede ignorar / paleta determinada por el tono emocional del corpus —específica / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [TÍTULO EN MAYÚSCULAS] · [APELLIDO EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 2:3.
 
-Cada prompt lleva su título en negrita, seguido del bloque HTML listo para Pandoc:
+Cada prompt lleva su título en negrita, seguido del bloque HTML:
 
 **[Título de 2–4 palabras extraído del corpus]**
 
-```html
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
@@ -87,7 +84,6 @@ Cada prompt lleva su título en negrita, seguido del bloque HTML listo para Pand
          loading="lazy">
   </figure>
 </div>
-```
 
 El número incrementa por prompt dentro de esta sección: `_atmosfera_1.jpg`, `_atmosfera_2.jpg`.
 
@@ -107,11 +103,10 @@ Un prompt por instrumento. Si un instrumento admite genuinamente dos perspectiva
 
 Cada prompt es prosa continua. Debe estar presente: el acto del instrumento desarrollado en imagen concreta / la atmósfera del corpus presente en textura, luz, material o clima / una sola tensión visual dominante / paleta coherente con el conjunto / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [NOMBRE DEL INSTRUMENTO EN MAYÚSCULAS] · [TÍTULO DEL CORPUS EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 2:3.
 
-Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML listo para Pandoc:
+Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML:
 
 **[Nombre del instrumento]**
 
-```html
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
@@ -122,6 +117,5 @@ Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML 
          loading="lazy">
   </figure>
 </div>
-```
 
 El nombre sigue la convención: minúsculas, sin acentos, guiones bajos en lugar de espacios. El número incrementa si el instrumento genera más de un prompt: `_batimetria_1.jpg`, `_batimetria_2.jpg`.
