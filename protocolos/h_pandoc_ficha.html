@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <title>$titulo$ — Destilería Osmancito</title>
+
+	<link id="maestro" rel="stylesheet" href="stl/260529_i.css">
+	<link id="complemento" rel="stylesheet" href="stl/260529_ii.css">
+	<script src="js/260528_i.js"></script>	
+	<script src="js/260519_ii.js"></script>	
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://osmancitov.github.io/destilados/img/icon_amanita.ico">
+  <link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/destilados/img/icon_amanita.ico">
+  <link rel="apple-touch-icon" href="https://osmancitov.github.io/destilados/img/icon_amanita.ico">
+
+  <meta name="title" content="$titulo$ — Destilería Osmancito">
+  <meta name="description" content="$descripcion$">
+  <meta name="author" content="Osmancito">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="$titulo$ — Destilería Osmancito" />
+  <meta property="og:description" content="$descripcion$" />
+  <meta property="og:url" content="https://osmancitov.github.io/destilados/$slug$.html" />
+  <meta property="og:site_name" content="Destilería Osmancito" />
+  <meta property="og:image" content="https://osmancitov.github.io/destilados/img/$slug$_presentacion_1.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="$imagen_w$" />
+  <meta property="og:image:height" content="$imagen_h$" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="$titulo$ — Destilería Osmancito">
+  <meta name="twitter:description" content="$descripcion$">
+  <meta name="twitter:image" content="https://osmancitov.github.io/destilados/img/$slug$_presentacion_1.jpg">
+
+</head>
+<body>
+
+<!-- CABECERA -->
+<header class="cabecera-documento">
+	<div class="sello">Destilería Osmancito · Análisis completo</div>
+	<h1 class="titulo-obra">$titulo$</h1>
+	<div class="autor">$autor$</div>
+	<div class="meta">Lote $lote$ · $fecha_lote$</div>
+</header>
+
+<!-- FICHA DE LOTE $lote$ -->
+<div class="ficha-recepcion" id="lote-$lote$">
+	<div class="ficha-seccion-titulo">Lote $lote$ · $fecha_lote$</div>
+	<h3><a href="destilados/$slug$.html">$titulo$ ($ano_publicacion$)</a></h3>
+		<figure class="img-container img-ficha">
+			<img src="destilados/img/$slug$_presentacion_1_half.jpg"
+				 alt="$titulo$"
+				 width="512"
+				 height="768"
+				 loading="lazy">
+		</figure>
+	<div class="extracto_index"><p>$extracto$</p></div>
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Autor</span>
+		<span class="ficha-campo-valor">$autor$</span>
+	</div>	
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Publicación</span>
+		<span class="ficha-campo-valor">$ano_publicacion$</span>
+	</div>	
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Idioma original</span>
+		<span class="ficha-campo-valor">$idioma$</span>
+	</div>
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Género</span>
+		<span class="ficha-campo-valor">$genero$</span>
+	</div>
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Extensión</span>
+		<span class="ficha-campo-valor">$extension$</span>
+	</div>
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre">Palabra frecuente</span>
+		<span class="ficha-campo-valor destacado">$palabra_frecuente$</span>
+	</div>
+	<div class="ficha-campo">
+		<span class="ficha-campo-nombre"></span>
+		<span class="ficha-campo-valor"><a href="destilados/$slug$.html">Ver destilado →</a></span>
+	</div>
+</div>
+
+</body>
+</html>

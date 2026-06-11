@@ -116,7 +116,8 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 ### Preparatorios
 - [Granero](protocolos/k51_granero.md)
 - [Tamizado](protocolos/k52_tamizado.md)
-- [Macerado](protocolos/k53_macerado.md)
+- [Prensa](protocolos/k53_prensa.md
+- [Macerado](protocolos/k54_macerado.md)
 
 ### Análisis directo
 - [Víspera](protocolos/m01_vispera.md)
@@ -152,7 +153,9 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 **K52 — Tamizado** — Cata la obra completa de un autor desde su norte declarado. Produce una sentencia por obra y, al final, lo que ninguna pieza individual podría decir sola.
 
-**K53 — Macerado** — Cartografía el corpus en seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— antes de cualquier escritura. No resume ni evalúa: abre el terreno.
+**K53 — Prensa** — Genera el epítome, la versión esquelética del corpus, usando las palabras del autor. El libro mismo, adelgazado.
+
+**K54 — Macerado** — Cartografía el corpus en seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— antes de cualquier escritura. No resume ni evalúa: abre el terreno.
 
 ---
 
