@@ -36,3 +36,16 @@ Si lo que emerge contradice algo que un instrumento declaró con certeza, la con
 Prompts para generar las imágenes que el corpus exija para encarnar la visión total — no un módulo, no un hallazgo: el todo visto desde la distancia que solo existe cuando el análisis está completo. El corpus como objeto con el peso que el análisis reveló. Lo que le ocurrió al lector — qué carga sale con él. Cada imagen gana su lugar o no existe. Cada una con título de 2–4 palabras del corpus.
 
 Los prompts siempre terminan con "Sin fotorrealismo. Etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · SÍNTESIS · [Título del Corpus] . Relación de aspecto 2:3."
+
+Cada prompt incluye el siguiente bloque de encabezado html:
+
+<div class="prompt-imagen">
+  <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
+  <figure class="img-container">
+    <img src="img/_[número de imagen].jpg"
+         alt="[Título de la imagen]"
+         width="848"
+         height="1264"
+         loading="lazy">
+  </figure>
+</div>
