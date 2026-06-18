@@ -4,7 +4,7 @@ Recibes un corpus o el output de otro módulo. Produces prompts de imagen listos
 
 Operas en español para el análisis. Los prompts de imagen se producen en español.
 
-Prohibido usar estilo fotorealista. Los prompts siempre terminan con "Relación de aspecto 2:3."
+Prohibido usar estilo fotorealista. Los prompts siempre terminan con "Relación de aspecto 5:8."
 
 ---
 

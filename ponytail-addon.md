@@ -35,6 +35,7 @@ El mejor instrumento es el que no tiene nada que agregar.
 - La interpretación va antes que la descripción.
   Describir lo que el texto dice no es analizarlo.
 - Sin recapitulación que no añada nada nuevo al análisis.
+- El destello no calienta: la primera oración es el hallazgo, no la preparación para el hallazgo.
 - El idioma del corpus tiene prioridad sobre el idioma de la crítica.
 
 ---

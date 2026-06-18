@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Sparkles, Loader2, Check, Download, RotateCcw, AlertCircle, BookOpen } from 'lucide-react';
+import { useState, useRef, useCallback } from "react";
+import { Sparkles, Loader2, Download, RotateCcw, AlertCircle, BookOpen, Upload, FileText, X } from "lucide-react";
 
 const COLORS = {
   bg: '#15100D',
@@ -32,6 +32,57 @@ const DOC_TITLES = [
   'Paso 6 — La naturaleza',
   'Paso 7 — Las miradas',
 ];
+
+const TEXT_EXTENSIONS = [
+  '.txt', '.md', '.markdown', '.text', '.rst', '.tex',
+  '.html', '.htm', '.xml', '.json', '.csv', '.log',
+  '.js', '.ts', '.py', '.rb', '.java', '.c', '.cpp',
+  '.h', '.css', '.scss', '.sh', '.yaml', '.yml', '.toml',
+];
+
+function isTextFile(name) {
+  const lower = name.toLowerCase();
+  return TEXT_EXTENSIONS.some(ext => lower.endsWith(ext));
+}
+
+async function readFileAsText(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = e => resolve(e.target.result);
+    reader.onerror = () => reject(new Error(`No se pudo leer: ${file.name}`));
+    reader.readAsText(file, 'utf-8');
+  });
+}
+
+async function loadJSZip() {
+  return new Promise((resolve, reject) => {
+    if (window.JSZip) { resolve(window.JSZip); return; }
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
+    s.onload = () => resolve(window.JSZip);
+    s.onerror = () => reject(new Error('No se pudo cargar JSZip'));
+    document.head.appendChild(s);
+  });
+}
+
+async function extractFilesFromZip(file) {
+  const JSZip = await loadJSZip();
+  const zip = await JSZip.loadAsync(file);
+  const results = [];
+  const promises = [];
+  zip.forEach((relativePath, zipEntry) => {
+    if (!zipEntry.dir && isTextFile(relativePath) && !relativePath.startsWith('__MACOSX')) {
+      promises.push(
+        zipEntry.async('string').then(content => {
+          results.push({ name: relativePath, content });
+        })
+      );
+    }
+  });
+  await Promise.all(promises);
+  results.sort((a, b) => a.name.localeCompare(b.name));
+  return results;
+}
 
 function buildPrompt(stepIndex, corpus, outputs) {
   switch (stepIndex) {
@@ -161,13 +212,11 @@ async function callClaude(prompt) {
       messages: [{ role: 'user', content: prompt }],
     }),
   });
-  if (!response.ok) {
-    throw new Error(`La API respondió con un error (${response.status})`);
-  }
+  if (!response.ok) throw new Error(`La API respondió con un error (${response.status})`);
   const data = await response.json();
   const text = (data.content || [])
-    .filter((b) => b.type === 'text')
-    .map((b) => b.text)
+    .filter(b => b.type === 'text')
+    .map(b => b.text)
     .join('\n')
     .trim();
   if (!text) throw new Error('La respuesta llegó vacía.');
@@ -196,9 +245,159 @@ function downloadMarkdown(outputs) {
   URL.revokeObjectURL(url);
 }
 
+// ─── File entry chip ───────────────────────────────────────────────────────
+function FileChip({ name, onRemove }) {
+  return (
+    <div
+      className="flex items-center gap-1.5 rounded px-2 py-1 text-xs"
+      style={{
+        backgroundColor: COLORS.surface,
+        border: `1px solid ${COLORS.borderStrong}`,
+        color: COLORS.muted,
+        fontFamily: "'JetBrains Mono', monospace",
+        maxWidth: '100%',
+      }}
+    >
+      <FileText size={11} style={{ color: COLORS.gold, flexShrink: 0 }} />
+      <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '18rem' }}>
+        {name}
+      </span>
+      <button
+        onClick={onRemove}
+        style={{ color: COLORS.muted, lineHeight: 1, flexShrink: 0, background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+      >
+        <X size={11} />
+      </button>
+    </div>
+  );
+}
+
+// ─── Drop zone ─────────────────────────────────────────────────────────────
+function DropZone({ fileEntries, setFileEntries, setCorpus, setLoadError }) {
+  const [dragging, setDragging] = useState(false);
+  const [processing, setProcessing] = useState(false);
+  const inputRef = useRef(null);
+
+  async function processFiles(fileList) {
+    setProcessing(true);
+    setLoadError('');
+    const incoming = [];
+    for (const file of Array.from(fileList)) {
+      try {
+        if (file.name.toLowerCase().endsWith('.zip')) {
+          const extracted = await extractFilesFromZip(file);
+          if (extracted.length === 0) {
+            setLoadError(`El zip "${file.name}" no contiene archivos de texto reconocibles.`);
+          }
+          incoming.push(...extracted);
+        } else if (isTextFile(file.name)) {
+          const content = await readFileAsText(file);
+          incoming.push({ name: file.name, content });
+        } else {
+          setLoadError(`Tipo no soportado: "${file.name}". Se admiten archivos de texto y .zip.`);
+        }
+      } catch (e) {
+        setLoadError(e.message);
+      }
+    }
+    if (incoming.length > 0) {
+      setFileEntries(prev => {
+        const existingNames = new Set(prev.map(f => f.name));
+        const deduped = incoming.filter(f => !existingNames.has(f.name));
+        const next = [...prev, ...deduped];
+        setCorpus(next.map(f => `=== ${f.name} ===\n\n${f.content}`).join('\n\n\n'));
+        return next;
+      });
+    }
+    setProcessing(false);
+  }
+
+  function removeEntry(name) {
+    setFileEntries(prev => {
+      const next = prev.filter(f => f.name !== name);
+      setCorpus(next.map(f => `=== ${f.name} ===\n\n${f.content}`).join('\n\n\n'));
+      return next;
+    });
+  }
+
+  const onDrop = useCallback(e => {
+    e.preventDefault();
+    setDragging(false);
+    processFiles(e.dataTransfer.files);
+  }, []);
+
+  const onDragOver = useCallback(e => { e.preventDefault(); setDragging(true); }, []);
+  const onDragLeave = useCallback(() => setDragging(false), []);
+
+  const hasFiles = fileEntries.length > 0;
+
+  return (
+    <div className="flex flex-col gap-3">
+      {/* Drop area */}
+      <div
+        onDrop={onDrop}
+        onDragOver={onDragOver}
+        onDragLeave={onDragLeave}
+        onClick={() => !processing && inputRef.current?.click()}
+        style={{
+          backgroundColor: dragging ? COLORS.surfaceAlt : COLORS.surface,
+          border: `1.5px dashed ${dragging ? COLORS.gold : COLORS.borderStrong}`,
+          borderRadius: '0.5rem',
+          padding: '2.5rem 1.5rem',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '0.75rem',
+          cursor: processing ? 'wait' : 'pointer',
+          transition: 'border-color 0.2s, background-color 0.2s',
+          userSelect: 'none',
+        }}
+      >
+        <input
+          ref={inputRef}
+          type="file"
+          multiple
+          accept=".txt,.md,.markdown,.text,.rst,.tex,.html,.htm,.xml,.json,.csv,.log,.js,.ts,.py,.rb,.java,.c,.cpp,.h,.css,.scss,.sh,.yaml,.yml,.toml,.zip"
+          style={{ display: 'none' }}
+          onChange={e => { processFiles(e.target.files); e.target.value = ''; }}
+        />
+        {processing ? (
+          <Loader2 size={28} className="animate-spin" style={{ color: COLORS.gold }} />
+        ) : (
+          <Upload size={28} style={{ color: dragging ? COLORS.gold : COLORS.muted }} />
+        )}
+        <div style={{ textAlign: 'center' }}>
+          <p style={{ color: dragging ? COLORS.cream : COLORS.muted, fontSize: '0.9rem', fontFamily: "'Source Serif 4', Georgia, serif" }}>
+            {processing
+              ? 'Procesando archivos…'
+              : dragging
+              ? 'Suelta aquí'
+              : 'Arrastra archivos o haz clic para seleccionar'}
+          </p>
+          <p style={{ color: `${COLORS.muted}88`, fontSize: '0.78rem', marginTop: '0.3rem', fontFamily: "'JetBrains Mono', monospace" }}>
+            .txt · .md · y otros de texto · .zip con varios
+          </p>
+        </div>
+      </div>
+
+      {/* File chips */}
+      {hasFiles && (
+        <div className="flex flex-wrap gap-2">
+          {fileEntries.map(f => (
+            <FileChip key={f.name} name={f.name} onRemove={() => removeEntry(f.name)} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Main component ─────────────────────────────────────────────────────────
 export default function EscuchaDionisiaca() {
   const [corpus, setCorpus] = useState('');
-  const [status, setStatus] = useState('idle'); // idle | running | done | error
+  const [fileEntries, setFileEntries] = useState([]);
+  const [loadError, setLoadError] = useState('');
+  const [status, setStatus] = useState('idle');
   const [outputs, setOutputs] = useState(Array(8).fill(null));
   const [activeStep, setActiveStep] = useState(-1);
   const [errorMsg, setErrorMsg] = useState('');
@@ -211,7 +410,7 @@ export default function EscuchaDionisiaca() {
     const current = outputs.slice();
 
     for (let i = 0; i < 8; i++) {
-      if (current[i]) continue; // already done (retry resumes)
+      if (current[i]) continue;
       setActiveStep(i);
       try {
         const prompt = buildPrompt(i, corpus, current);
@@ -220,9 +419,7 @@ export default function EscuchaDionisiaca() {
         setOutputs(current.slice());
       } catch (e) {
         setStatus('error');
-        setErrorMsg(
-          `Se interrumpió en ${i < 7 ? DOC_TITLES[i] : 'el Destello'}: ${e.message}`
-        );
+        setErrorMsg(`Se interrumpió en ${i < 7 ? DOC_TITLES[i] : 'el Destello'}: ${e.message}`);
         setActiveStep(-1);
         return;
       }
@@ -233,6 +430,8 @@ export default function EscuchaDionisiaca() {
 
   function reset() {
     setCorpus('');
+    setFileEntries([]);
+    setLoadError('');
     setOutputs(Array(8).fill(null));
     setStatus('idle');
     setActiveStep(-1);
@@ -242,49 +441,26 @@ export default function EscuchaDionisiaca() {
   return (
     <div
       className="min-h-screen w-full flex flex-col items-center px-4 py-10"
-      style={{
-        backgroundColor: COLORS.bg,
-        color: COLORS.cream,
-        fontFamily: "'Source Serif 4', Georgia, serif",
-      }}
+      style={{ backgroundColor: COLORS.bg, color: COLORS.cream, fontFamily: "'Source Serif 4', Georgia, serif" }}
     >
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Source+Serif+4:opsz,wght@8..60,300..600&family=JetBrains+Mono:wght@400;500&display=swap');
-
         @keyframes pulseGlow {
-          0%, 100% { box-shadow: 0 0 0 0 rgba(166, 57, 75, 0.55); }
-          50% { box-shadow: 0 0 0 8px rgba(166, 57, 75, 0); }
+          0%, 100% { box-shadow: 0 0 0 0 rgba(166,57,75,0.55); }
+          50% { box-shadow: 0 0 0 8px rgba(166,57,75,0); }
         }
         @keyframes flashIn {
-          0% { opacity: 0; transform: translateY(-8px) scale(0.985); }
-          60% { opacity: 1; }
-          100% { opacity: 1; transform: translateY(0) scale(1); }
+          0% { opacity:0; transform:translateY(-8px) scale(0.985); }
+          60% { opacity:1; }
+          100% { opacity:1; transform:translateY(0) scale(1); }
         }
         @keyframes shimmer {
-          0% { opacity: 0.35; }
-          50% { opacity: 0.75; }
-          100% { opacity: 0.35; }
+          0% { opacity:0.35; } 50% { opacity:0.75; } 100% { opacity:0.35; }
         }
-        .ed-pulse {
-          animation: pulseGlow 1.8s ease-in-out infinite;
-        }
-        .ed-flash {
-          animation: flashIn 0.9s ease-out;
-        }
-        .ed-shimmer {
-          animation: shimmer 1.6s ease-in-out infinite;
-        }
-        .ed-corpus::placeholder {
-          color: ${COLORS.muted};
-        }
-        .ed-corpus:focus {
-          outline: none;
-          border-color: ${COLORS.gold} !important;
-        }
-        .ed-btn:disabled {
-          opacity: 0.4;
-          cursor: not-allowed;
-        }
+        .ed-pulse { animation: pulseGlow 1.8s ease-in-out infinite; }
+        .ed-flash { animation: flashIn 0.9s ease-out; }
+        .ed-shimmer { animation: shimmer 1.6s ease-in-out infinite; }
+        .ed-btn:disabled { opacity:0.4; cursor:not-allowed; }
       `}</style>
 
       <div className="w-full max-w-2xl flex flex-col gap-10">
@@ -302,7 +478,6 @@ export default function EscuchaDionisiaca() {
               fontFamily: "'Fraunces', serif",
               fontWeight: 600,
               fontSize: '2.5rem',
-              fontOpticalSizing: 'auto',
               color: COLORS.cream,
               letterSpacing: '-0.01em',
             }}
@@ -310,28 +485,32 @@ export default function EscuchaDionisiaca() {
             Escucha dionisíaca
           </h1>
           <p style={{ color: COLORS.muted, fontSize: '0.95rem', maxWidth: '32rem' }}>
-            Pega un corpus. El lector lo recorrerá siete veces, cada vez desde lo que
-            ya vio, hasta que algo se ilumine.
+            Carga un archivo o un .zip con varios. El lector lo recorrerá siete veces,
+            cada vez desde lo que ya vio, hasta que algo se ilumine.
           </p>
         </header>
 
-        {/* Corpus input */}
+        {/* File input zone */}
         {!started && (
-          <div className="flex flex-col gap-3">
-            <textarea
-              className="ed-corpus w-full rounded-md p-4 text-sm leading-relaxed"
-              style={{
-                backgroundColor: COLORS.surface,
-                border: `1px solid ${COLORS.border}`,
-                color: COLORS.cream,
-                minHeight: '16rem',
-                resize: 'vertical',
-                fontFamily: "'Source Serif 4', Georgia, serif",
-              }}
-              placeholder="Pega aquí el corpus completo…"
-              value={corpus}
-              onChange={(e) => setCorpus(e.target.value)}
+          <div className="flex flex-col gap-4">
+            <DropZone
+              fileEntries={fileEntries}
+              setFileEntries={setFileEntries}
+              setCorpus={setCorpus}
+              setLoadError={setLoadError}
             />
+
+            {/* Load error */}
+            {loadError && (
+              <div
+                className="flex items-start gap-2 rounded-md px-3 py-2 text-xs"
+                style={{ backgroundColor: COLORS.surface, border: `1px solid ${COLORS.wine}55`, color: COLORS.muted, fontFamily: "'JetBrains Mono', monospace" }}
+              >
+                <AlertCircle size={13} style={{ color: COLORS.wine, marginTop: '0.1rem', flexShrink: 0 }} />
+                {loadError}
+              </div>
+            )}
+
             <button
               className="ed-btn self-start flex items-center gap-2 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
               style={{
@@ -349,7 +528,7 @@ export default function EscuchaDionisiaca() {
           </div>
         )}
 
-        {/* Destello — flashes in once everything is done */}
+        {/* Destello */}
         {status === 'done' && outputs[7] && (
           <div
             className="ed-flash rounded-md p-6 flex flex-col gap-2"
@@ -366,15 +545,7 @@ export default function EscuchaDionisiaca() {
               <Sparkles size={13} />
               Destello
             </div>
-            <p
-              style={{
-                fontFamily: "'Fraunces', serif",
-                fontWeight: 400,
-                fontSize: '1.25rem',
-                lineHeight: 1.6,
-                color: COLORS.cream,
-              }}
-            >
+            <p style={{ fontFamily: "'Fraunces', serif", fontWeight: 400, fontSize: '1.25rem', lineHeight: 1.6, color: COLORS.cream }}>
               {outputs[7]}
             </p>
           </div>
@@ -389,7 +560,6 @@ export default function EscuchaDionisiaca() {
               const isLast = i === STEP_TITLES.length - 1;
               return (
                 <div key={i} className="flex gap-4">
-                  {/* marker column */}
                   <div className="flex flex-col items-center" style={{ width: '1.5rem' }}>
                     <div
                       className={isActive ? 'ed-pulse' : ''}
@@ -404,40 +574,18 @@ export default function EscuchaDionisiaca() {
                       }}
                     />
                     {!isLast && (
-                      <div
-                        style={{
-                          width: '1px',
-                          flex: 1,
-                          minHeight: '1.5rem',
-                          backgroundColor: isDone ? `${COLORS.gold}55` : COLORS.border,
-                          marginTop: '0.35rem',
-                        }}
-                      />
+                      <div style={{ width: '1px', flex: 1, minHeight: '1.5rem', backgroundColor: isDone ? `${COLORS.gold}55` : COLORS.border, marginTop: '0.35rem' }} />
                     )}
                   </div>
-
-                  {/* content column */}
                   <div className="flex-1 pb-7">
                     <div
                       className="text-xs uppercase tracking-widest mb-1.5"
-                      style={{
-                        fontFamily: "'JetBrains Mono', monospace",
-                        letterSpacing: '0.18em',
-                        color: isDone || isActive ? COLORS.muted : `${COLORS.muted}66`,
-                      }}
+                      style={{ fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.18em', color: isDone || isActive ? COLORS.muted : `${COLORS.muted}66` }}
                     >
                       {DOC_TITLES[i]}
                     </div>
                     {isDone && (
-                      <p
-                        style={{
-                          fontFamily: "'Source Serif 4', Georgia, serif",
-                          fontSize: '0.98rem',
-                          lineHeight: 1.7,
-                          color: COLORS.cream,
-                          whiteSpace: 'pre-wrap',
-                        }}
-                      >
+                      <p style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '0.98rem', lineHeight: 1.7, color: COLORS.cream, whiteSpace: 'pre-wrap' }}>
                         {outputs[i]}
                       </p>
                     )}
@@ -449,16 +597,14 @@ export default function EscuchaDionisiaca() {
                       </div>
                     )}
                     {!isDone && !isActive && (
-                      <div style={{ height: '0.98rem', color: `${COLORS.muted}55`, fontSize: '0.9rem' }}>
-                        en espera
-                      </div>
+                      <div style={{ height: '0.98rem', color: `${COLORS.muted}55`, fontSize: '0.9rem' }}>en espera</div>
                     )}
                   </div>
                 </div>
               );
             })}
 
-            {/* Destello row while still running */}
+            {/* Destello row while running */}
             {status === 'running' && (
               <div className="flex gap-4">
                 <div className="flex flex-col items-center" style={{ width: '1.5rem' }}>
@@ -478,11 +624,7 @@ export default function EscuchaDionisiaca() {
                 <div className="flex-1 pb-2">
                   <div
                     className="text-xs uppercase tracking-widest mb-1.5"
-                    style={{
-                      fontFamily: "'JetBrains Mono', monospace",
-                      letterSpacing: '0.18em',
-                      color: activeStep === 7 ? COLORS.gold : `${COLORS.muted}66`,
-                    }}
+                    style={{ fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.18em', color: activeStep === 7 ? COLORS.gold : `${COLORS.muted}66` }}
                   >
                     Destello
                   </div>
@@ -502,10 +644,7 @@ export default function EscuchaDionisiaca() {
 
         {/* Error */}
         {status === 'error' && (
-          <div
-            className="rounded-md p-4 flex items-start gap-3 text-sm"
-            style={{ backgroundColor: COLORS.surface, border: `1px solid ${COLORS.wine}55`, color: COLORS.cream }}
-          >
+          <div className="rounded-md p-4 flex items-start gap-3 text-sm" style={{ backgroundColor: COLORS.surface, border: `1px solid ${COLORS.wine}55`, color: COLORS.cream }}>
             <AlertCircle size={16} style={{ color: COLORS.wine, marginTop: '0.15rem', flexShrink: 0 }} />
             <div className="flex flex-col gap-2">
               <span>{errorMsg}</span>
@@ -545,10 +684,7 @@ export default function EscuchaDionisiaca() {
 
         {/* Running indicator */}
         {status === 'running' && (
-          <div
-            className="flex items-center gap-2 text-xs pb-6"
-            style={{ color: COLORS.muted, fontFamily: "'JetBrains Mono', monospace" }}
-          >
+          <div className="flex items-center gap-2 text-xs pb-6" style={{ color: COLORS.muted, fontFamily: "'JetBrains Mono', monospace" }}>
             <Loader2 size={13} className="animate-spin" />
             leyendo… {activeStep < 7 ? `paso ${activeStep + 1} de 7` : 'destello'}
           </div>

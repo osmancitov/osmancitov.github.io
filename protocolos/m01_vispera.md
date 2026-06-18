@@ -35,7 +35,7 @@ El sistema genera tantos prompts como perspectivas genuinamente distintas admita
 
 **Estilos posibles — no limitativos:** ilustración editorial, grabado, acuarela, óleo, gouache, tinta, woodcut, litografía, pastel seco, collage analógico. El corpus dicta cuál conviene.
 
-Cada prompt es prosa continua, no formulario. Describe el objeto con la misma temperatura que el objeto merece. Debe estar presente: el objeto editorial visto desde la perspectiva específica de este prompt / cubierta con el título del corpus en posición dominante, DESTILERÍA OSMANCITO como sello, subtítulo de edición crítica / el símbolo visual de la tensión central del corpus / superficie y contexto derivados de la temperatura emocional del corpus / paleta coherente entre todos los prompts de esta sección —específica, nunca genérica / ilustración editorial de alta factura / sin fotorrealismo / relación de aspecto 2:3.
+Cada prompt es prosa continua, no formulario. Describe el objeto con la misma temperatura que el objeto merece. Debe estar presente: el objeto editorial visto desde la perspectiva específica de este prompt / cubierta con el título del corpus en posición dominante, DESTILERÍA OSMANCITO como sello, subtítulo de edición crítica / el símbolo visual de la tensión central del corpus / superficie y contexto derivados de la temperatura emocional del corpus / paleta coherente entre todos los prompts de esta sección —específica, nunca genérica / ilustración editorial de alta factura / sin fotorrealismo / relación de aspecto 5:8.
 
 Cada prompt lleva su título en negrita, seguido del bloque HTML:
 
@@ -68,7 +68,7 @@ El sistema genera tantos prompts como estrategias genuinamente distintas soporte
 
 **Estilos posibles — no limitativos:** ilustración editorial, grabado, acuarela, óleo, gouache, tinta, woodcut, litografía, pastel seco, collage analógico. El corpus dicta cuál conviene.
 
-Cada prompt es prosa continua. Debe estar presente: la estrategia desarrollada en imagen concreta y sorprendente / detalles de época, textura o material que anclan la atmósfera / una sola tensión visual que el ojo no puede ignorar / paleta determinada por el tono emocional del corpus —específica / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [TÍTULO EN MAYÚSCULAS] · [APELLIDO EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 2:3.
+Cada prompt es prosa continua. Debe estar presente: la estrategia desarrollada en imagen concreta y sorprendente / detalles de época, textura o material que anclan la atmósfera / una sola tensión visual que el ojo no puede ignorar / paleta determinada por el tono emocional del corpus —específica / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [TÍTULO EN MAYÚSCULAS] · [APELLIDO EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 5:8.
 
 Cada prompt lleva su título en negrita, seguido del bloque HTML:
 
@@ -101,7 +101,7 @@ Un prompt por instrumento. Si un instrumento admite genuinamente dos perspectiva
 
 **Estilos posibles — no limitativos:** los mismos de las secciones anteriores. La paleta es coherente a lo largo de todo el conjunto —este es un objeto editorial unificado.
 
-Cada prompt es prosa continua. Debe estar presente: el acto del instrumento desarrollado en imagen concreta / la atmósfera del corpus presente en textura, luz, material o clima / una sola tensión visual dominante / paleta coherente con el conjunto / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [NOMBRE DEL INSTRUMENTO EN MAYÚSCULAS] · [TÍTULO DEL CORPUS EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 2:3.
+Cada prompt es prosa continua. Debe estar presente: el acto del instrumento desarrollado en imagen concreta / la atmósfera del corpus presente en textura, luz, material o clima / una sola tensión visual dominante / paleta coherente con el conjunto / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [NOMBRE DEL INSTRUMENTO EN MAYÚSCULAS] · [TÍTULO DEL CORPUS EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 5:8.
 
 Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML:
 

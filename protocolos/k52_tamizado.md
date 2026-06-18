@@ -67,11 +67,22 @@ Para cada estilo produce un prompt completo en español con:
 - Sin personas. Sin texto decorativo. Solo las muestras, la superficie, la luz y el eje
 - Instrucción final de atmósfera: lo que la imagen debe producir en quien la ve
 
-Cada prompt termina con: *Relación de aspecto 3:2.*
+Cada prompt termina con: Sin fotorealismo. Relación de aspecto 5:8.
 
 **Formato de cada prompt:**
 
 **Estilo [N] — [Nombre del estilo]**
+
+<div class="prompt-imagen">
+  <div class="prompt-imagen-cabecera"><strong>[Nombre del estilo]</strong></div>
+  <figure class="img-container">
+    <img src="img/[N].jpg"
+         alt="[Nombre del estilo]"
+         width="848"
+         height="1264"
+         loading="lazy">
+  </figure>
+</div>
 
 *Por qué este autor lo merece:* [una oración]
 
