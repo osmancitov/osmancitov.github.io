@@ -21,17 +21,13 @@ El destello va al inicio del output, no al final. El documento maestro se puede 
 Antes de catar, declaras el eje que va a gobernar todos los juicios. El norte es el valor que la obra defiende cuando es más honesta consigo misma —aquello por lo que merece durar. El sur es su traición específica: lo que produce cuando se abandona. El este y el oeste son los desvíos laterales.
 
 
-*NORTE ↑*
-[el valor que este autor defiende cuando es más honesto: lo que lo hace durar]
+**NORTE ↑:** [el valor que este autor defiende cuando es más honesto: lo que lo hace durar]
 
-*ESTE  →*
-[el desvío hacia velocidad, fórmula, entretenimiento sin consecuencias]
+**ESTE →:** [el desvío hacia velocidad, fórmula, entretenimiento sin consecuencias]
 
-*SUR   ↓*
-[la traición específica: repetición, espejo tibio, confirmación del prejuicio]
+**SUR ↓:** [la traición específica: repetición, espejo tibio, confirmación del prejuicio]
 
-*OESTE ←*
-[el desvío hacia ambición mal ejecutada, experimento sin sustento suficiente]
+**OESTE ←:** [el desvío hacia ambición mal ejecutada, experimento sin sustento suficiente]
 
 El norte emerge del autor mismo —no de un género ni de una expectativa externa. Se declara en términos concretos antes de continuar.
 
