@@ -155,7 +155,9 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 
 **K53 — Prensa** — Genera el epítome, la versión esquelética del corpus, usando las palabras del autor. El libro mismo, adelgazado.
 
-**K54 — Macerado** — Cartografía el corpus en seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— antes de cualquier escritura. No resume ni evalúa: abre el terreno.
+**K54_i — Macerado** — Cartografía el corpus en seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— antes de cualquier escritura. No resume ni evalúa: abre el terreno.
+
+**K54_ii — Reescritura** — Reescribe el corpus tomando en cuenta el análisis de los seis vértices —mythos, ethos, kairos, pathos, lexis, tropos— y el estilo del autor.
 
 ---
 
