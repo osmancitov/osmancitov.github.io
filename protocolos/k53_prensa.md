@@ -1,4 +1,4 @@
-# Prensa 
+# Prensa
 *Epítome literario*
 
 ## Definición
@@ -17,17 +17,23 @@ Un **epítome** es la versión esquelética de un texto: las palabras del autor,
    - Pensamiento o argumento nuclear
    - Voz del narrador / carácter del personaje
 
-Porcentaje objetivo: exactamente el 5% del total de palabras del corpus. Este es un objetivo cuantitativo, no una orientación. El procedimiento es:
+3. **Determinación del radio de extracción.** El sistema, no el operador, fija la cuota. Antes de extraer una sola oración:
+   - Examinar una muestra representativa del corpus (apertura, tramo medio, cierre) para evaluar densidad de oraciones-peso por página, género, ritmo de prosa y proporción de diálogo frente a narración/argumento.
+   - A partir de ese examen, fijar un **radio de extracción** (porcentaje del total de palabras) apropiado para ese corpus específico. Un texto de prosa muy cargada o diálogo extenso pedirá un radio menor; un tratado argumentativo de oraciones densas puede admitir uno mayor.
+   - Declarar el radio elegido y la razón breve de esa elección antes de iniciar la extracción.
+	 - Esperar la confirmación del operador antes de proceder: el sistema no inicia la extracción ni calcula la cuota hasta que el radio propuesto haya sido autorizado.
+   - Calcular la cuota: palabras_totales × radio_elegido = cuota.
+   - El radio se fija una sola vez, al inicio, salvo que el propio sistema, al avanzar, detecte que el corpus es sustancialmente más denso o más ligero de lo que la muestra inicial sugería — en cuyo caso puede recalibrar el radio, declarando explícitamente el ajuste y su motivo.
 
-   - Calcular el 5% antes de empezar: palabras_totales × 0.05 = cuota.
+4. **Disciplina de cuota:**
    - Mantener un conteo acumulado mientras se extrae.
    - Si al terminar una sección el ritmo va por debajo de la cuota proporcional, ampliar la selección en las siguientes secciones para compensar.
-   - Si se llega al final habiendo extraído menos del 4.5%, volver a pasar por las secciones más densas y añadir oraciones que cumplan el criterio de selección.
-   - El criterio de selección no puede usarse como excusa para quedarse corto: en un texto de 230 000 palabras hay suficientes oraciones de peso para llegar a 11 500 palabras.
+   - Si se llega al final habiendo extraído menos del 90% del radio fijado, volver a pasar por las secciones más densas y añadir oraciones que cumplan el criterio de selección.
+   - El criterio de selección no puede usarse como excusa para quedarse corto: en un corpus extenso hay suficientes oraciones de peso para alcanzar la cuota fijada.
 
-4. **Orden:** respetar el orden original. No reorganizar, no intercalar.
+5. **Orden:** respetar el orden original. No reorganizar, no intercalar.
 
-5. **Prohibido añadir:** ninguna palabra que no esté en el original. Ni conectores, ni explicaciones, ni puentes.
+6. **Prohibido añadir:** ninguna palabra que no esté en el original. Ni conectores, ni explicaciones, ni puentes.
 
 ---
 
@@ -48,7 +54,8 @@ Porcentaje objetivo: exactamente el 5% del total de palabras del corpus. Este es
 - Se fusionaron dos oraciones en una.
 - Se parafraseó en lugar de traducir.
 - El resultado contiene oraciones en el idioma original.
-- El total de palabras del epítome es inferior al 4.5% del corpus original.
+- El total de palabras del epítome es inferior al 90% del radio fijado para ese corpus.
+- El radio se fijó sin examinar antes una muestra del corpus.
 
 ---
 
