@@ -116,7 +116,7 @@ Los instrumentos K son preparatorios. Operan antes de que el proceso principal c
 ### Preparatorios
 - [Granero](protocolos/k51_granero.md)
 - [Tamizado](protocolos/k52_tamizado.md)
-- [Prensa](protocolos/k53_prensa.md
+- [Prensa](protocolos/k53_prensa.md)
 - [Macerado](protocolos/k54_macerado.md)
 
 ### Análisis directo
