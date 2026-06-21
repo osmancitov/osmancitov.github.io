@@ -39,6 +39,79 @@
   <meta name="twitter:description" content="Destilación de grandes textos. Lectura profunda operada dentro de Claude.">
   <meta name="twitter:image" content="https://osmancitov.github.io/destilados/img/000_destileria_260518_12.jpg">
 
+	<style>
+	.grilla-portadas {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+		gap: 1.5rem;
+		padding: 1.5rem 0 2rem;
+	}
+	.tarjeta-portada {
+		display: block;
+		position: relative;
+		text-decoration: none;
+		color: inherit;
+		overflow: hidden;
+	}
+	.tarjeta-portada img {
+		width: 100%;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		display: block;
+		transition: filter 0.3s ease;
+	}
+	.tarjeta-portada:hover img {
+		filter: brightness(0.35);
+	}
+	.tarjeta-lote {
+		position: absolute;
+		top: 0.5rem;
+		left: 0.5rem;
+		font-size: 0.65rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		background: rgba(0,0,0,0.55);
+		color: #fff;
+		padding: 0.2em 0.45em;
+		line-height: 1.2;
+		pointer-events: none;
+	}
+	.tarjeta-info {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 1rem 0.75rem 0.75rem;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		pointer-events: none;
+	}
+	.tarjeta-portada:hover .tarjeta-info {
+		opacity: 1;
+	}
+	.tarjeta-titulo {
+		font-size: 0.78rem;
+		font-weight: 700;
+		color: #fff;
+		line-height: 1.3;
+		margin: 0 0 0.4rem;
+	}
+	.tarjeta-extracto {
+		font-size: 0.68rem;
+		color: rgba(255,255,255,0.82);
+		line-height: 1.45;
+		margin: 0;
+	}
+	@media (max-width: 480px) {
+		.grilla-portadas {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.75rem;
+		}
+	}
+	</style>
+
 </head>
 <body>
 
@@ -51,7 +124,7 @@
 
 <!-- IMAGEN 01 -->
 <div class="prompt-imagen prompt-imagen-presentacion">
-	<div class="prompt-imagen-cabecera"><strong>El Destilado</strong></div>
+	<div class="prompt-imagen-cabecera"><strong></strong></div>
 	<figure class="img-container">
 		<img src="destilados/img/000_destileria_260518_12.jpg" 
 		alt="El Destilado"
@@ -59,39 +132,6 @@
 		height="1536">
 	</figure>
 </div>
-
-<!-- TOC -->
-<nav id="toc">
-  <div class="toc-titulo">Contenido</div>
-  <ul>
-    <li><a href="#lotes">Destilados</a>
-      <ul>
-        <li><a href="#lote-022">Lote 022 — Sobre la certeza (1969)</a></li>
-        <li><a href="#lote-021">Lote 021 — Epítome — Investigaciones filosóficas (1953)</a></li>
-        <li><a href="#lote-020">Lote 020 — Neuromancer (1984)</a></li>
-        <li><a href="#lote-019">Lote 019 — Flota Wittgenstein (1921-1980)</a></li>        <li><a href="#lote-018">Lote 018 — Tractatus Logico-Philosophicus (1921)</a></li>
-        <li><a href="#lote-017">Lote 017 — Moby-Dick (1851)</a></li>
-        <li><a href="#lote-016">Lote 016 — Paraíso Perdido (1667)</a></li>
-        <li><a href="#lote-015">Lote 015 — Anochecer (1941)</a></li>
-        <li><a href="#lote-014">Lote 014 — Anochecer (1990)</a></li>
-        <li><a href="#lote-013">Lote 013 — El Hombre del Bicentenario (1976)</a></li>
-        <li><a href="#lote-012">Lote 012 — Wittkower Arquitectura (2021)</a></li>
-        <li><a href="#lote-011">Lote 011 — La Lista del Juez (2021)</a></li>
-        <li><a href="#lote-010">Lote 010 — La Perspectiva como Forma Simbólica (1927)</a></li>
-        <li><a href="#lote-009">Lote 009 — Gödel, Escher, Bach (1979)</a></li>
-        <li><a href="#lote-008">Lote 008 — Isaac Asimov (1939–1996)</a></li>
-        <li><a href="#lote-007">Lote 007 — Alicia en el País de las Maravillas (1865–1876)</a></li>
-        <li><a href="#lote-006">Lote 006 — Anna Karénina (1877)</a></li>
-        <li><a href="#lote-005">Lote 005 — El Puente Sobre el Río Kwai (1952)</a></li>
-        <li><a href="#lote-004">Lote 004 — El Cosmere de Sanderson (2005-2024)</a></li>
-        <li><a href="#lote-003">Lote 003 — El Planeta de los Simios (1963)</a></li>
-        <li><a href="#lote-002">Lote 002 — La Historia de la Filosofía (1926)</a></li>
-        <li><a href="#lote-001">Lote 001 — Nuestra Herencia Oriental (1935)</a></li>
-      </ul>
-    </li>
-    <li><a href="#sistema">El sistema</a></li>
-  </ul>
-</nav>
 
 <!-- CONTENIDO -->
 <main>
@@ -105,6 +145,210 @@
   <p>Inventario de corpus procesados.</p>
 </div>
 
+<div class="grilla-portadas">
+
+  <a class="tarjeta-portada" href="destilados/022_wittgenstein_certeza.html" id="lote-022">
+    <img src="destilados/img/022_wittgenstein_certeza_presentacion_1_half.jpg" alt="Sobre la certeza" loading="lazy">
+    <span class="tarjeta-lote">022</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Sobre la certeza (1969)</p>
+      <p class="tarjeta-extracto">Esto no es un tratado: es un cuaderno de trabajo que se volvió libro porque su autor murió.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/021_wittgenstein_investigaciones_filosoficas.html" id="lote-021">
+    <img src="destilados/img/021_wittgenstein_investigaciones_filosoficas_presentacion_1_half.jpg" alt="Investigaciones filosóficas" loading="lazy">
+    <span class="tarjeta-lote">021</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Investigaciones filosóficas (1953)</p>
+      <p class="tarjeta-extracto">Recibir estas páginas es recibir una advertencia: no un resumen, sino un sedimento.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/020_gibson_neuromancer.html" id="lote-020">
+    <img src="destilados/img/020_gibson_neuromancer_presentacion_1_half.jpg" alt="Neuromancer" loading="lazy">
+    <span class="tarjeta-lote">020</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Neuromancer (1984)</p>
+      <p class="tarjeta-extracto">Llega con la temperatura de una superficie de acero a las tres de la madrugada.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/019_flota_wittgenstein.html" id="lote-019">
+    <img src="destilados/img/019_flota_wittgenstein_presentacion_1_half.jpg" alt="Flota Wittgenstein" loading="lazy">
+    <span class="tarjeta-lote">019</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Flota Wittgenstein (1921–1980)</p>
+      <p class="tarjeta-extracto">El pulido es casi siempre la señal de que algo se ha traicionado.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/018_wittgenstein_tractatus_logico_philosophicus.html" id="lote-018">
+    <img src="destilados/img/018_wittgenstein_tractatus_logico_philosophicus_presentacion_1_half.jpg" alt="Tractatus" loading="lazy">
+    <span class="tarjeta-lote">018</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Tractatus Logico-Philosophicus (1921)</p>
+      <p class="tarjeta-extracto">Llega como un objeto matemático: numerado, frío, con la precisión de quien no tiene prisa.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/017_melville_moby_dick.html" id="lote-017">
+    <img src="destilados/img/017_melville_moby_dick_presentacion_1_half.jpg" alt="Moby-Dick" loading="lazy">
+    <span class="tarjeta-lote">017</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Moby-Dick (1851)</p>
+      <p class="tarjeta-extracto">Un libro que no se puede abrir sin que algo se abra adentro de quien lo abre.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/016_milton_paradise_lost.html" id="lote-016">
+    <img src="destilados/img/016_milton_paradise_lost_presentacion_1_half.jpg" alt="Paradise Lost" loading="lazy">
+    <span class="tarjeta-lote">016</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Paraíso Perdido (1667)</p>
+      <p class="tarjeta-extracto">Un cosmos entero cargado en diez libros: no llega como libro sino como arquitectura.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/015_asimov_anochecer_nightfall.html" id="lote-015">
+    <img src="destilados/img/015_asimov_anochecer_nightfall_1_presentacion_half.jpg" alt="Anochecer 1941" loading="lazy">
+    <span class="tarjeta-lote">015</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Anochecer (1941)</p>
+      <p class="tarjeta-extracto">Un corpus que llega como cuenta regresiva: ya desde la primera frase el tiempo se está acabando.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/014_asimov_silverberg_anochecer.html" id="lote-014">
+    <img src="destilados/img/014_asimov_silverberg_anochecer_1_presentacion_half.jpg" alt="Anochecer 1990" loading="lazy">
+    <span class="tarjeta-lote">014</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Anochecer (1990)</p>
+      <p class="tarjeta-extracto">Un mundo que nunca conoció la noche descubre que la oscuridad no es ausencia: es la verdad que destruye.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/013_asimov_hombre_bicentenario.html" id="lote-013">
+    <img src="destilados/img/013_asimov_hombre_bicentenario_1_presentacion_half.jpg" alt="El hombre del Bicentenario" loading="lazy">
+    <span class="tarjeta-lote">013</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">El hombre del Bicentenario (1976)</p>
+      <p class="tarjeta-extracto">Algo en este corpus espera. Lleva doscientos años esperando. Y la espera tiene nombre propio.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/012_wittkower_arquitectura.html" id="lote-012">
+    <img src="destilados/img/012_wittkower_arquitectura_1_presentacion_half.jpg" alt="Wittkower Arquitectura" loading="lazy">
+    <span class="tarjeta-lote">012</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">La Iglesia de Planta Centralizada y el Renacimiento (2021)</p>
+      <p class="tarjeta-extracto">Un texto que no tiembla. Frío, luminoso, geométrico — y debajo, algo que arde.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/011_lista_juez.html" id="lote-011">
+    <img src="destilados/img/011_lista_juez_1_presentacion_half.jpg" alt="La Lista del Juez" loading="lazy">
+    <span class="tarjeta-lote">011</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">La Lista del Juez (2021)</p>
+      <p class="tarjeta-extracto">Lacy Stoltz e investigadora de conducta judicial. Jeri Crosby, veinte años acechando al asesino de su padre.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/010_panofsky_perspective.html" id="lote-010">
+    <img src="destilados/img/010_panofsky_perspective_1_presentacion_half.jpg" alt="La Perspectiva como Forma Simbólica" loading="lazy">
+    <span class="tarjeta-lote">010</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">La Perspectiva como Forma Simbólica (1927)</p>
+      <p class="tarjeta-extracto">Un libro que pesa más de lo que mide, con el tacto frío de algo construido para durar.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/009_godel_escher_bach.html" id="lote-009">
+    <img src="destilados/img/009_godel_escher_bach_1_presentacion_half.jpg" alt="Gödel, Escher, Bach" loading="lazy">
+    <span class="tarjeta-lote">009</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Gödel, Escher, Bach (1979)</p>
+      <p class="tarjeta-extracto">Llega como un sistema que se describe a sí mismo mientras se construye.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/008_asimov_obra_completa.html" id="lote-008">
+    <img src="destilados/img/008_asimov_obra_completa_1_presentacion_half.jpg" alt="Isaac Asimov obra completa" loading="lazy">
+    <span class="tarjeta-lote">008</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Isaac Asimov — Obra completa (1939–1996)</p>
+      <p class="tarjeta-extracto">El sistema más grande de la ciencia ficción del siglo XX y la pregunta que no se atrevió a formular.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/007_alicia_espejo_snark.html" id="lote-007">
+    <img src="destilados/img/007_alicia_espejo_snark_1_presentacion_half.jpg" alt="Alicia" loading="lazy">
+    <span class="tarjeta-lote">007</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Alicia · Espejo · Snark (1865–1876)</p>
+      <p class="tarjeta-extracto">El corpus que descubrió que el lenguaje nunca es neutral y lo dijo con la voz de una niña de siete años.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/006_anna_karenina.html" id="lote-006">
+    <img src="destilados/img/006_anna_karenina_1_presentacion_half.jpg" alt="Anna Karénina" loading="lazy">
+    <span class="tarjeta-lote">006</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Anna Karénina (1877)</p>
+      <p class="tarjeta-extracto">Dos vidas paralelas: una que se destruye por amor y otra que aprende a vivir sin teoría.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/005_puente_kwai.html" id="lote-005">
+    <img src="destilados/img/005_puente_kwai_1_presentacion_half.jpg" alt="El Puente Sobre el Río Kwai" loading="lazy">
+    <span class="tarjeta-lote">005</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">El Puente Sobre el Río Kwai (1952)</p>
+      <p class="tarjeta-extracto">El ingenio humano floreciendo en el horror más absoluto. Prisioneros que construyen su propia trampa de dignidad.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/004_cosmere_sanderson.html" id="lote-004">
+    <img src="destilados/img/004_cosmere_sanderson_1_presentacion_half.jpg" alt="El Cosmere" loading="lazy">
+    <span class="tarjeta-lote">004</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">El Cosmere (2005–2024)</p>
+      <p class="tarjeta-extracto">Sistemas de magia lógica y mundos entrelazados en una arquitectura épica donde el honor forja leyendas.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/003_planeta_simios.html" id="lote-003">
+    <img src="destilados/img/003_planeta_simios_1_presentacion_half.jpg" alt="El Planeta de los Simios" loading="lazy">
+    <span class="tarjeta-lote">003</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">El Planeta de los Simios (1963)</p>
+      <p class="tarjeta-extracto">La razón clasificada como bestialidad por quien tiene el poder de clasificar.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/002_story_philosophy.html" id="lote-002">
+    <img src="destilados/img/002_story_philosophy_1_presentacion_half.jpg" alt="La Historia de la Filosofía" loading="lazy">
+    <span class="tarjeta-lote">002</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">La Historia de la Filosofía (1926)</p>
+      <p class="tarjeta-extracto">Once retratos de pensadores que buscaron la sabiduría como forma de vida.</p>
+    </div>
+  </a>
+
+  <a class="tarjeta-portada" href="destilados/001_oriental_heritage.html" id="lote-001">
+    <img src="destilados/img/001_oriental_heritage_1_presentacion_half.jpg" alt="Nuestra Herencia Oriental" loading="lazy">
+    <span class="tarjeta-lote">001</span>
+    <div class="tarjeta-info">
+      <p class="tarjeta-titulo">Nuestra Herencia Oriental (1935)</p>
+      <p class="tarjeta-extracto">Monumental crónica del inicio de la civilización: desde el Cercano Oriente hasta Extremo Oriente.</p>
+    </div>
+  </a>
+
+</div>
+
+<!-- FICHAS INDIVIDUALES (ocultas, mantenidas para compatibilidad de anclajes) -->
+<div style="display:none">
 <!-- FICHA DE LOTE 022 -->
 <div class="ficha-recepcion" id="lote-022">
 	<div class="ficha-seccion-titulo">Lote 022 · 20 de junio de 2026</div>
@@ -1023,6 +1267,7 @@ geométrico — y debajo, algo que arde.</p></div>
 		<span class="ficha-campo-valor"><a href="destilados/001_oriental_heritage.html">Ver destilado →</a></span>
 	</div>
 </div>
+</div><!-- /fichas ocultas -->
 
 </section>
 
@@ -1052,7 +1297,7 @@ geométrico — y debajo, algo que arde.</p></div>
 
 <div class="ficha-campo">
   <span class="ficha-campo-nombre">Instrumentos</span>
-  <span class="ficha-campo-valor">K51 Granero · K52 Tamizado · K53 Macerado · M01 Vísper · M02 Recepción · M03 Narraciones ·  M04 Joyería · M05 Batimetría · M06 Apolo · M07 I Escucha Dionisíaca · M07 II Dioniso · M08 Hermes · M21 Menú Emergente · M22 Márgenes · M23 Testigo del Testigo · M24 Bucle · M25 Umbral del Reconocimiento · M26 Historia de los Efectos · M96 Síntesis · M97 Punto de Fuga · M98 Palimpsesto · M99 I Destilado · M99 II Destilado de Imágenes
+  <span class="ficha-campo-valor">K51 Granero · K52 Tamizado · K53 Prensa · K54 Macerado · M01 Vísper · M02 Recepción · M03 Narraciones ·  M04 Joyería · M05 Batimetría · M06 Apolo · M07 I Escucha Dionisíaca · M07 II Dioniso · M08 Hermes · M21 Menú Emergente · M22 Márgenes · M23 Testigo del Testigo · M24 Bucle · M25 Umbral del Reconocimiento · M26 Historia de los Efectos · M96 Síntesis · M97 Punto de Fuga · M98 Palimpsesto · M99 I Destilado · M99 II Destilado de Imágenes
 	</span>
 </div>
 
