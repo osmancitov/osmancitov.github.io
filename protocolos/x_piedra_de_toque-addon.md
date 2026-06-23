@@ -1,5 +1,4 @@
 # Piedra de toque 
-### Metaprompt para un asistente de estudio, lectura y aprendizaje
 
 ---
 
