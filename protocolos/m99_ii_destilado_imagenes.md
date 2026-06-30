@@ -47,7 +47,7 @@ Para cada imagen, el sistema opera en este orden:
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título]</strong></div>
   <figure class="img-container">
-    <img src="img/[N].jpg"
+    <img src="img/$slug$_destilado_de_imagen_[N].jpg"
          alt="[Título]"
          width="816"
          height="1312"

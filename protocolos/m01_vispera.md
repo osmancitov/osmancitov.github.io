@@ -46,7 +46,7 @@ Cada prompt lleva su título en negrita, seguido del bloque HTML:
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
-    <img src="img/_presentacion_[número].jpg"
+    <img src="img/$slug$_presentacion_[número].jpg"
          alt="[Título de la imagen]"
          width="992"
          height="1586"
@@ -79,7 +79,7 @@ Cada prompt lleva su título en negrita, seguido del bloque HTML:
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
-    <img src="img/_atmosfera_[número].jpg"
+    <img src="img/$slug$_atmosfera_[número].jpg"
          alt="[Título de la imagen]"
          width="816"
          height="1312"
@@ -112,7 +112,7 @@ Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML:
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
-    <img src="img/_[nombre-del-instrumento-en-minúsculas-sin-acentos]_[número].jpg"
+    <img src="img/$slug$_[nombre-del-instrumento-en-minúsculas-sin-acentos]_[número].jpg"
          alt="[Título de la imagen]"
          width="816"
          height="1312"

@@ -42,7 +42,7 @@ Cada prompt incluye el siguiente bloque de encabezado html:
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
   <figure class="img-container">
-    <img src="img/_[número de imagen].jpg"
+    <img src="img/$slug$_[N+1].jpg"
          alt="[Título de la imagen]"
          width="816"
          height="1312"
