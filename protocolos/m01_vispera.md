@@ -91,7 +91,7 @@ El número incrementa por prompt dentro de esta sección: `_atmosfera_1.jpg`, `_
 
 ---
 
-## Imágenes de los instrumentos
+## Imágenes de todos los instrumentos
 
 Por cada instrumento que encontraste en el manual generas una imagen. El instrumento es el sujeto. La atmósfera del corpus es el mundo donde ocurre. Las secciones llevan el nombre del instrumento directamente —no "Imagen de X", sino "X".
 
@@ -105,9 +105,11 @@ Un prompt por instrumento. Si un instrumento admite genuinamente dos perspectiva
 
 Cada prompt es prosa continua. Debe estar presente: el acto del instrumento desarrollado en imagen concreta / la atmósfera del corpus presente en textura, luz, material o clima / una sola tensión visual dominante / paleta coherente con el conjunto / etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [NOMBRE DEL INSTRUMENTO EN MAYÚSCULAS] · [TÍTULO DEL CORPUS EN MAYÚSCULAS] / estilo pictórico / sin fotorrealismo / relación de aspecto 5:8.
 
-Cada prompt lleva el nombre del instrumento en negrita, seguido del bloque HTML:
+Esta sección no se limita a los instrumentos de análisis directo. Recorres el manual completo — preparatorios, análisis directo, extendidos, orden superior — y generas un prompt por cada instrumento listado en "Listado de instrumentos", sin excepción. El esqueleto que produces es el del documento maestro completo: un hueco por cada pieza que eventualmente hable, sin importar en qué capa del sistema opere.
 
-**[Nombre del instrumento]**
+Cada prompt lleva el nombre del instrumento en h1, seguido del bloque HTML:
+
+# [Nombre del instrumento]
 
 <div class="prompt-imagen">
   <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
