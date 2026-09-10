@@ -59,6 +59,8 @@ Descripción breve de cada instrumento —suficiente para saber qué es y cuánd
 
 - **Punto de Fuga** — aplica al análisis las mismas operaciones que el análisis aplicó al corpus: sus suposiciones tácitas, su punto ciego de método, lo que el sistema no sabe que sabe.
 
+- **Sama'** — Opera el corpus como partitura y como acto corporal. Mide lo que el texto hace al oído, al ritmo respiratorio y al cuerpo de quien lo recibe en voz alta.
+
 - **Palimpsesto** — vuelve al corpus original, no al análisis, y busca el texto debajo del texto: lo que ningún instrumento anterior tocó, ni siquiera de pasada. Si no existe, lo declara.
 
 - **Destilado** — inventaría los hallazgos genuinos del análisis completo y luego los comprime bajo presión máxima hasta lo irreducible. Lo que emerge debe ser bello, verdadero, e imposible de abreviar sin destruirse.
@@ -77,7 +79,7 @@ No hay itinerario que construir ni ruta que decidir. El orden ya está dado por 
 
 **m21 → m27** Extendidos — Menú Emergente, Márgenes, Testigo del Testigo, Bucle, Umbral del Reconocimiento, Historia de los Efectos, Contrapunto.
 
-**m96 → m99** Orden superior — Síntesis, Punto de Fuga, Palimpsesto, Destilado.
+**m95 → m99** Orden superior — Síntesis, Punto de Fuga, Sama', Palimpsesto, Destilado.
 
 Se corren todos, en este orden, siempre. No hay verificación de elegibilidad que hacer desde aquí: cada instrumento que la necesita ya la trae incorporada y sabe declarar su propia insuficiencia si el corpus no lo admite.
 
