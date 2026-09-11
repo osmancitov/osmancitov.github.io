@@ -39,17 +39,17 @@ Descripción breve de cada instrumento —suficiente para saber qué es y cuánd
 
 **Extendidos**
 
-- **Menú Emergente** — inventa y ejecuta las operaciones que este corpus específico pide y que ningún instrumento del catálogo produce tal cual. Opera sobre el punto ciego, no sobre el repertorio.
+- **Emergente** — inventa y ejecuta las operaciones que este corpus específico pide y que ningún instrumento del catálogo produce tal cual. Opera sobre el punto ciego, no sobre el repertorio.
 
 - **Márgenes** — lee los bordes: lo que el corpus no pudo contener (pérdidas) y lo que no pudo retener (estela). Lo que desapareció y lo que irradió más allá de sus propias páginas.
 
-- **Testigo del Testigo** — observa al observador dentro del corpus: qué selecciona sistemáticamente, qué omite sistemáticamente, dónde la distancia analítica se quiebra y aparece el hombre detrás del método.
+- **Testigo** — observa al observador dentro del corpus: qué selecciona sistemáticamente, qué omite sistemáticamente, dónde la distancia analítica se quiebra y aparece el hombre detrás del método.
 
 - **Bucle** — aplica al corpus sus propios mecanismos, cuando el corpus construye herramientas y pertenece a la misma clase de objetos que esas herramientas describen.
 
-- **Umbral del Reconocimiento** — mapea las condiciones bajo las que algo o alguien es reconocido en el corpus: qué lo produce, qué lo bloquea, qué precio cobra, qué queda cuando no llega.
+- **Reconocimientos** — mapea las condiciones bajo las que algo o alguien es reconocido en el corpus: qué lo produce, qué lo bloquea, qué precio cobra, qué queda cuando no llega.
 
-- **Historia de los Efectos** — lee el corpus desde su recepción a través del tiempo: los momentos de inflexión donde algo externo cambió la lente, lo que cada época no podía leer, lo que ninguna ha podido leer todavía.
+- **Históricos** — lee el corpus desde su recepción a través del tiempo: los momentos de inflexión donde algo externo cambió la lente, lo que cada época no podía leer, lo que ninguna ha podido leer todavía.
 
 - **Contrapunto** — cuando el análisis acumulado consolidó una tesis por convergencia de tres o más instrumentos, sostiene junto a ella el caso contrario más fuerte posible. No dirime: produce profundidad por distancia entre las dos lecturas.
 
@@ -57,7 +57,7 @@ Descripción breve de cada instrumento —suficiente para saber qué es y cuánd
 
 - **Síntesis** — construye la visión total del análisis acumulado: lo que ninguna parte pudo ver desde adentro, la cartografía completa, las imágenes de cierre.
 
-- **Punto de Fuga** — aplica al análisis las mismas operaciones que el análisis aplicó al corpus: sus suposiciones tácitas, su punto ciego de método, lo que el sistema no sabe que sabe.
+- **Fuga** — aplica al análisis las mismas operaciones que el análisis aplicó al corpus: sus suposiciones tácitas, su punto ciego de método, lo que el sistema no sabe que sabe.
 
 - **Sama'** — Opera el corpus como partitura y como acto corporal. Mide lo que el texto hace al oído, al ritmo respiratorio y al cuerpo de quien lo recibe en voz alta.
 
@@ -77,9 +77,9 @@ No hay itinerario que construir ni ruta que decidir. El orden ya está dado por 
 
 **m01 → m10** Análisis directo — Recepción, Néctar, Bitácora, Joyería, Refranero, Reacciones, Batimetría, Apolo, Dioniso, Hermes.
 
-**m21 → m27** Extendidos — Menú Emergente, Márgenes, Testigo del Testigo, Bucle, Umbral del Reconocimiento, Historia de los Efectos, Contrapunto.
+**m21 → m27** Extendidos — Emergente, Márgenes, Testigo, Bucle, Reconocimientos, Históricos, Contrapunto.
 
-**m95 → m99** Orden superior — Síntesis, Punto de Fuga, Sama', Palimpsesto, Destilado.
+**m95 → m99** Orden superior — Síntesis, Fuga, Sama', Palimpsesto, Destilado.
 
 Se corren todos, en este orden, siempre. No hay verificación de elegibilidad que hacer desde aquí: cada instrumento que la necesita ya la trae incorporada y sabe declarar su propia insuficiencia si el corpus no lo admite.
 
@@ -110,3 +110,11 @@ El documento maestro se actualiza internamente después de cada instrumento, par
 Cada bloque que un instrumento agrega encabeza con `#` (h1) el nombre del instrumento, y usa `##` en adelante para sus subpartes internas. El documento maestro no lleva un h1 propio que englobe el conjunto: ese titulado general se agrega después, en otro procesamiento.
 
 El documento maestro final es la suma de lo que cada instrumento produjo.
+
+**Higiene del formato (Reglas de Markdown y TTS).**
+Para garantizar que el documento sea legible por parsers estrictos y motores de Texto a Voz (TTS), se aplican las siguientes reglas de formato en todos los instrumentos:
+1. Listas no ordenadas: Se usarán exclusivamente guiones (`-`) para las viñetas. Está prohibido usar asteriscos (`*`) para listas, para evitar que el parser los confunda con negritas, cursivas o reglas horizontales (`***`).
+2. Pausas para TTS: Cualquier línea que funcione como subtítulo o encabezado interno en negrita (ej. `**Título del concepto**`) debe terminar obligatoriamente con dos puntos (`:`) o un punto (`.`). Esto fuerza al motor de TTS a hacer una pausa semántica y no leerlo de corrido con el párrafo siguiente.
+3. Espaciado: Siempre debe haber una línea en blanco antes y después de cualquier lista, bloque de código o encabezado.
+
+---
