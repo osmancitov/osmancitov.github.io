@@ -1313,7 +1313,7 @@ El corpus porta, sin saber que lo porta, el miedo a que la Voluntad no sea real 
 
 ## Verificación de elegibilidad
 
-**Condición 1 — El corpus construye mecanismos.** ✓ El corpus construye al menos ocho mecanismos operables con precisión: el sistema de correspondencias cruzadas, el Arreglo de Nápoles, la fórmula de Tetragrammaton, el método de adivinación en cinco operaciones, el principio de dignificación de cartas, la distinción Arcanos Mayores/Menores como propaganda/diccionario, el sistema de atribución zodiacal a los senderos del Árbol, y la instrucción de abandono de lectura cuando el sistema no coincide.
+**Condición 1 — El corpus construye mecanismos.** ✓ El corpus construye al menos ocho mecanismos operables con precisión: el sistema de correspondencias cruzadas, el Arreglo de Nápoles, la fórmula de Tetragrammaton, el método de adivinación en cinco operaciones, el principio de dignificación de cartas, la distinción Arcanos Mayores /Menores como propaganda /diccionario, el sistema de atribución zodiacal a los senderos del Árbol, y la instrucción de abandono de lectura cuando el sistema no coincide.
 
 **Condición 2 — El corpus pertenece a la clase de objetos que sus mecanismos describen.** ✓ El corpus es un libro de setenta y ocho mil palabras. El sistema que describe tiene setenta y ocho cartas. Un libro es un conjunto de signos ordenados que producen significado por sus relaciones internas —exactamente lo que el corpus dice que es el Tarot. El corpus pertenece a la clase de sistemas de signos que sus mecanismos describen.
 
@@ -1339,7 +1339,7 @@ Cuando se aplican los mecanismos del Tarot Thoth al *Libro de Thoth* mismo, el r
 
 **[Instrucción de abandono]** — si la historia que cuentan las cartas no coincide con la realidad del consultante, se abandona la lectura.
 
-**[Distinción propaganda/diccionario]** — los Arcanos Mayores son propaganda (composición deliberada con intención doctrinaria); los Arcanos Menores son diccionario (registro sistemático sin intención persuasiva).
+**[Distinción propaganda /diccionario]** — los Arcanos Mayores son propaganda (composición deliberada con intención doctrinaria); los Arcanos Menores son diccionario (registro sistemático sin intención persuasiva).
 
 **[Sistema de atribución]** — cada elemento del mazo recibe una posición fija en el Árbol de la Vida; esa posición determina sus relaciones con todos los demás elementos.
 
@@ -1369,7 +1369,7 @@ Una carta mal dignificada invierte o debilita sus cualidades. Aplicado al corpus
 
 La instrucción dice: si la historia que cuentan las cartas no coincide con la realidad del consultante, se abandona la lectura. Aplicada al corpus como lectura: si la historia que cuenta el corpus no coincide con la realidad externa —si los Jefes Secretos no pueden ser verificados, si la corrección de Tzaddi no puede ser confirmada por ningún testigo, si la cadena de transmisión no puede ser autentificada— la instrucción exige abandonar el corpus. El corpus declara que su evidencia es interna al manuscrito e independiente de cualquier testigo externo; al mismo tiempo prescribe abandonar cualquier sistema cuya historia no coincida con la realidad. Aplicada a sí misma, la instrucción de abandono exige el abandono de la lectura del *Libro de Thoth* por exactamente las mismas razones que exigiría el abandono de cualquier lectura de Tarot que no coincida con la realidad del consultante. Lo que se destruye: la posibilidad de que el corpus sea, al mismo tiempo, un sistema irrefutable desde dentro y un sistema que prescribe la refutación desde fuera.
 
-### [Distinción propaganda/diccionario] → Resultado A — Iluminación
+### [Distinción propaganda /diccionario] → Resultado A — Iluminación
 
 El corpus declara que los Arcanos Mayores son propaganda (composición con intención doctrinaria) y los Arcanos Menores son diccionario (registro sistemático). Aplicada al corpus mismo: la Parte I es propaganda —establece la doctrina, convierte al lector, diseña la recepción del sistema. La Parte II es propaganda —describe cada Atu con intención iniciática, selecciona qué aspectos de cada carta amplificar. La Parte III es diccionario —cataloga, sistematiza, registra sin persuadir. La distinción que el corpus hace sobre el mazo aplica exactamente al corpus, con la misma distribución de partes. El corpus es, él mismo, un Tarot.
 
