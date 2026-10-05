@@ -13,3 +13,11 @@ La casa tiene tres salas:
 Entra por aquí: [Destilería](https://github.com/osmancitov/destileria), [Taller](https://github.com/osmancitov/taller) y [Journal](https://github.com/osmancitov/journal).
 
 Si llegas a la página del sitio, encontrarás las tres puertas.
+
+## Imágenes sociales
+
+Cada repo del proyecto tiene su imagen social, generada con el protocolo n105 de ilustración (`protocolos/n105_ilustracion.md` en la Destilería). Cada puerta tiene su propio pintor. El lienzo final mide 1280×640 px y reserva un borde de seguridad de 40 pt alrededor de lo importante.
+
+Estilos confirmados: lobby, De Chirico; Destilería, Zurbarán; Taller, Joseph Wright de Derby; Journal, Rembrandt.
+
+Cualquier sector nuevo del proyecto recibe su imagen del mismo modo, con su propio estilo.
