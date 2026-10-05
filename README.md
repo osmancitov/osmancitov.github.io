@@ -1,3 +1,7 @@
+![Lobby de la casa de Osmancito](img/lobby_social.jpg)
+
+**Lobby** · [Destilería](https://github.com/osmancitov/destileria/blob/main/README.md) · [Taller](https://github.com/osmancitov/taller/blob/main/README.md) · [Journal](https://github.com/osmancitov/journal/blob/main/README.md)
+
 # Osmancito
 
 Bienvenido. Esta es la puerta principal de la casa de Osmancito.
