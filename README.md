@@ -10,6 +10,6 @@ La casa tiene tres salas:
 - **Taller**: los cuadernos en bruto, donde se trabaja.
 - **Journal**: una entrada lírica por día.
 
-Entra por aquí: [Destilería](https://github.com/osmancitov/destileria)
+Entra por aquí: [Destilería](https://github.com/osmancitov/destileria), [Taller](https://github.com/osmancitov/taller) y [Journal](https://github.com/osmancitov/journal).
 
-Si llegas a la página del sitio, te llevará allí sola.
+Si llegas a la página del sitio, encontrarás las tres puertas.
