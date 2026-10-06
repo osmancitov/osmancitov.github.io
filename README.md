@@ -4,24 +4,20 @@
 
 # Osmancito
 
-Bienvenido. Esta es la puerta principal de la casa de Osmancito.
+Esta es la puerta principal de la casa.
 
-Detrás de la puerta está la Destilería, un lugar para reducir los grandes textos a su esencia y contarlos. Todo es texto puro, sin adornos.
+Aquí todo es un archivo, y todo archivo es texto. Es la vieja idea de Unix, llevada a una casa: sin adornos, sin maquinaria, solo palabras en un árbol de carpetas que cualquiera puede abrir, copiar o llevarse a otra parte. La casa es humilde y liviana a propósito. Lo que pesa poco viaja lejos, y lo que es texto sobrevive a las modas, a las plataformas y a quien lo escribió. Cada quien trae su lector; la casa solo guarda las páginas.
 
-La casa tiene tres salas:
+## Las salas
 
-- **Bodega**: los lotes terminados, ya destilados.
-- **Taller**: los cuadernos en bruto, donde se trabaja.
+- **Destilería**: reduce los grandes textos a su hueso y los cuenta. Su Bodega guarda los lotes terminados.
+- **Taller**: los cuadernos en bruto, donde se estudia, se apuntan vetas y se guardan frases.
 - **Journal**: una entrada lírica por día.
 
-Entra por aquí: [Destilería](https://github.com/osmancitov/destileria), [Taller](https://github.com/osmancitov/taller) y [Journal](https://github.com/osmancitov/journal).
+## Las imágenes
 
-Si llegas a la página del sitio, encontrarás las tres puertas.
+Cada sala tiene su cuadro, pintado con el protocolo n105 de ilustración (`protocolos/n105_ilustracion.md` en la Destilería) y con un pintor propio. El lienzo mide 1280×640 px y deja un borde de 40 pt alrededor de lo importante.
 
-## Imágenes sociales
+Lobby, De Chirico. Destilería, Zurbarán. Taller, Joseph Wright de Derby. Journal, Rembrandt.
 
-Cada repo del proyecto tiene su imagen social, generada con el protocolo n105 de ilustración (`protocolos/n105_ilustracion.md` en la Destilería). Cada puerta tiene su propio pintor. El lienzo final mide 1280×640 px y reserva un borde de seguridad de 40 pt alrededor de lo importante.
-
-Estilos confirmados: lobby, De Chirico; Destilería, Zurbarán; Taller, Joseph Wright de Derby; Journal, Rembrandt.
-
-Cualquier sector nuevo del proyecto recibe su imagen del mismo modo, con su propio estilo.
+Una sala nueva recibe su cuadro del mismo modo, con su propio estilo.
