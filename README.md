@@ -16,7 +16,7 @@ Aquí todo es un archivo, y todo archivo es texto. Es la vieja idea de Unix, lle
 
 ## Las imágenes
 
-Cada sala tiene su cuadro, pintado con el protocolo n105 de ilustración (`destileria/protocolos/n105_ilustracion.md` en la Destilería) y con un pintor propio. El lienzo mide 1280×640 px y deja un borde de 40 pt alrededor de lo importante.
+Cada sala tiene su cuadro, pintado con el protocolo n105 de ilustración (`protocolos/n105_ilustracion.md` en la Destilería) y con un pintor propio. El lienzo mide 1280×640 px y deja un borde de 40 pt alrededor de lo importante.
 
 Lobby, De Chirico. Destilería, Zurbarán. Taller, Joseph Wright de Derby. Journal, Rembrandt.
 
