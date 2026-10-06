@@ -6,7 +6,7 @@
 
 Esta es la puerta principal de la casa.
 
-Aquí todo es un archivo, y todo archivo es texto. Es la vieja idea de Unix, llevada a una casa: sin adornos, sin maquinaria, solo palabras en un árbol de carpetas que cualquiera puede abrir, copiar o llevarse a otra parte. La casa es humilde y liviana a propósito. Lo que pesa poco viaja lejos, y lo que es texto sobrevive a las modas, a las plataformas y a quien lo escribió. Cada quien trae su lector; la casa solo guarda las páginas.
+Aquí todo es un archivo, y todo archivo es texto. Es la vieja idea de Unix, llevada a una casa: sin adornos, sin maquinaria, solo palabras en un árbol de carpetas que cualquiera puede abrir, copiar o llevarse a otra parte. La casa es humilde y liviana a propósito. Lo que pesa poco viaja lejos, y lo que es texto sobrevive a las modas, a las plataformas y a quien lo escribió. Cada quien trae su lector; la casa solo guarda las páginas. GitHub Pages sirve esos `.md` tal cual: texto plano, sin fábrica ni proceso de build de por medio.
 
 ## Las salas
 
