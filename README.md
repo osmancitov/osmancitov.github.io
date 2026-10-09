@@ -15,7 +15,7 @@ Esta es la entrada de un sitio de archivos de texto, inspirado en Unix. Las carp
 
 ## Entradas
 
-- [La memoria de la casa](md/cgbaaj_convenciones.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_convenciones.html) · 9 de octubre de 2026.
+- [Valores y principios](md/cgbaaj_valores-principios.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_valores-principios.html) · 9 de octubre de 2026.
 
 Valores, principios y caminos del sitio, para retomar el hilo sin depender de la memoria.
 
