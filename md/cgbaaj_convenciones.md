@@ -26,6 +26,8 @@ Cada sala tiene su propio repositorio. El del Lobby se llama `osmancitov.github.
 
 ## Para quien llega de cero
 
+El lector se llama **el invitado**, como Duncan cuando llegó a casa de Macbeth: entra sin saber lo que pasa dentro. El invitado no sabe nada; cada frase llega con su escena explicada. Vale para toda publicación: se da por hecho que quien lee no conoce la obra, ni sus personajes, ni lo que ocurrió antes.
+
 Se escribe para quien no sabe nada del trabajo previo y no tiene tiempo. Si necesita recordar una conversación para entender la página, falta explicar algo o sobra algo.
 
 Español llano, directo al consumidor final. Primero lo que hay para él: qué puede leer y qué le aporta. Mejor pecar de simple que hacerle sentir que llegó tarde a una conversación de especialistas.
