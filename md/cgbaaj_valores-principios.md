@@ -1,8 +1,8 @@
 9 de octubre de 2026
 
-# La memoria de la casa
+# Valores y principios
 
-Esta entrada reúne los valores, los principios y las convenciones del sitio. Sirve para ponerse al tanto sin recordar las conversaciones que lo levantaron. Si se pierde el hilo, se empieza aquí.
+Esta entrada reúne los valores y los principios del sitio. Sirve para ponerse al tanto sin recordar las conversaciones que lo levantaron. Si se pierde el hilo, se empieza aquí.
 
 ## Lo primero es lo que se viene a leer
 
@@ -75,7 +75,7 @@ El fondo actual es `#0d1117`, con texto claro y enlaces azules. Las páginas usa
 
 Cada sala tiene una pintura de entrada y su propio pintor: De Chirico en el Lobby, Zurbarán en Destilería, Wright of Derby en Taller, Rembrandt en Journal y Georges de La Tour en Capilla. Las imágenes mantienen el formato de la casa: 1280 por 640, margen de seguridad y JPG al 80 %. Sus nombres son los de las salas, sin prefijos de generación.
 
-## Mantener esta memoria
+## Mantener esta entrada
 
 Cuando cambie una regla de la casa, se corrige esta entrada y su HTML. Se deja la regla vigente, no una pila de instrucciones contradictorias. Si cambian las salas o los caminos, también se actualizan sus índices y enlaces.
 
