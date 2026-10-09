@@ -13,4 +13,8 @@ Esta es la entrada de una casa de archivos de texto, a la sombra de Unix. Las ca
 - **Journal**: el registro de los días, contado en prosa.
 - **Capilla**: Lecturas diarias para abrir un espacio de atención y recogimiento.
 
+## Entradas
+
+- [Las convenciones de la casa](md/cgbaaj_convenciones.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_convenciones.html) · 9 de octubre de 2026.
+
 Tenga la bondad de ser liviano. Una página también ocupa tiempo y atención.
