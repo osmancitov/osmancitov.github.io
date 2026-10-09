@@ -28,7 +28,7 @@ Cada sala tiene su propio repositorio. El del Lobby se llama `osmancitov.github.
 
 Quien lee es **el invitado** de la casa, como Duncan cuando llegó a casa de Macbeth. Al invitado no se le deja nada en las manos: el trabajo lo hacemos nosotros. Cada frase llega con su escena explicada y nada se da por sabido: ni la obra, ni sus personajes, ni lo que ocurrió antes.
 
-Se escribe para quien no sabe nada del trabajo previo y no tiene tiempo. Si necesita recordar una conversación para entender la página, falta explicar algo o sobra algo.
+Se escribe para quien llega nuevo y tiene poco tiempo. Si necesita recordar una conversación para entender la página, falta explicar algo o sobra algo.
 
 Español llano, directo al consumidor final. Primero lo que hay para él: qué puede leer y qué le aporta. Mejor pecar de simple que hacerle sentir que llegó tarde a una conversación de especialistas.
 
