@@ -15,6 +15,8 @@ Esta es la entrada de un sitio de archivos de texto, inspirado en Unix. Las carp
 
 ## Entradas
 
-- [Las convenciones de la casa](md/cgbaaj_convenciones.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_convenciones.html) · 9 de octubre de 2026.
+- [La memoria de la casa](md/cgbaaj_convenciones.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_convenciones.html) · 9 de octubre de 2026.
+
+Valores, principios y caminos del sitio, para retomar el hilo sin depender de la memoria.
 
 El lema del sitio: Tenga la bondad de ser liviano.
