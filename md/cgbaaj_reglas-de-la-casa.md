@@ -1,8 +1,6 @@
 9 de octubre de 2026
 
-# Valores y principios
-
-Los valores y los principios de la casa, dichos como regla.
+# Reglas de la casa
 
 ## Lo que se sirve
 
@@ -22,7 +20,7 @@ Los valores y los principios de la casa, dichos como regla.
 ## Las salas
 
 - La casa es un conjunto de textos, a la sombra de Unix: archivos que se abren, se copian y se llevan. Las carpetas forman un árbol y cada sala puede tener sus cuartos.
-- **Lobby**: la entrada de la casa entera y sus principios.
+- **Lobby**: la entrada de la casa entera y sus reglas.
 - **Destilería**: los textos destilados. Sus bodegas guardan lo listo para leer; los Protocolos reúnen los instrumentos.
 - **Taller**: cuadernos de estudio, pruebas, preguntas y herramientas. Aquí sí cabe explicar cómo se hizo algo.
 - **Journal**: lo vivido, pensado y conversado, en prosa.
