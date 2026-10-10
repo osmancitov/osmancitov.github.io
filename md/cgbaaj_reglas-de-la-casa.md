@@ -2,25 +2,33 @@
 
 # Reglas de la casa
 
-Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aquí se toman obras grandes y se destilan en lecturas cortas. Estas son las reglas con que se cuida la casa y se sirve lo que hay en ella. Cada término se explica al aparecer, para que se entienda sin haber estado antes.
+Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aquí se toman obras grandes, como *Macbeth*, la tragedia de Shakespeare, y se destilan en lecturas cortas.
+
+Este texto declara nuestros valores y los dice como reglas de la casa. El primero, y el que más valoramos: que las cosas se entiendan llegando de cero.
 
 ## Lo que se sirve
 
+Valoramos la obra por encima del aparataje.
+
 - Lo que se sirve es una lectura. La casa toma una obra grande, como *Macbeth*, la tragedia de Shakespeare, y la reduce a un texto corto que conserva lo que la hace vivir. Esa lectura se llama el destilado.
-- El foco es la obra, no el aparataje: quien viene por Macbeth encuentra Macbeth, y no las máquinas que sirvieron para reducirlo.
+- El foco es la obra: quien viene por Macbeth encuentra Macbeth, y no las máquinas que sirvieron para reducirlo.
 - La Bodega es la sala donde se guarda el destilado, listo para beber, es decir, para leer. Cada bodega se nombra por su año y su mes: la Bodega 2610 es la de octubre de 2026. Las máquinas, las pruebas y los detalles técnicos viven aparte, en el Taller y en los Protocolos, que son los instrumentos con que se destila.
-- Conviven dos estilos: el de la Bodega 2603, que se conserva como vitrina del pasado, y el actual, que siguen las bodegas nuevas. Cada uno se muestra sin titubeos.
+- Valoramos el pasado a la vista: la Bodega 2603 se conserva como vitrina, con su estilo de entonces. Las bodegas nuevas siguen el estilo actual, y cada estilo se muestra sin titubeos.
 
 ## Para el invitado
 
+Valoramos a quien llega sin conocer la casa ni la obra, y valoramos que pueda entender sin ayuda.
+
 - Quien lee es **el invitado** de la casa, como Duncan, el rey que Macbeth recibe en su castillo. Al invitado no se le deja nada en las manos: el trabajo lo hacemos nosotros. Cada frase llega con su escena explicada y nada se da por sabido: ni la obra, ni sus personajes, ni lo que ocurrió antes.
-- Se escribe para quien llega nuevo y tiene poco tiempo. Si hace falta recordar una conversación para entender la página, falta explicar algo o sobra algo.
+- Se escribe para quien llega nuevo y tiene poco tiempo. Si hace falta recordar una conversación para entender una página, falta explicar algo o sobra algo.
 - Español llano, directo al consumidor final: primero lo que hay para él, y mejor pecar de simple.
 - Se cuenta la línea recta hacia lo que funcionó; los intentos fallidos no son crónica.
 - Las cifras se redondean; las tablas largas y los detalles de taller solo van donde ayudan.
 - La casa no se firma en cada rincón. Cada cosa enseña algo o hace sentir algo; si no, sobra.
 
 ## Las salas
+
+Valoramos el orden: cada cosa tiene su sala.
 
 - La casa es un conjunto de textos, a la sombra de Unix, el sistema que ordena todo en archivos y carpetas: archivos que se abren, se copian y se llevan. Las carpetas forman un árbol y cada sala puede tener sus cuartos.
 - **Lobby**: la entrada de la casa entera y sus reglas.
@@ -33,12 +41,16 @@ Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aq
 
 ## Las portadas
 
+Valoramos que la entrada sea callada y que la conversación venga después.
+
 - Cada sala tiene dos: la muda y la parlanchina.
 - **La muda**, `index.html`: solo la imagen, sin títulos ni explicaciones. Un clic abre la parlanchina. La del Lobby reúne las imágenes de todas las salas.
 - **La parlanchina**, la página con el nombre de la sala (`lobby.html`, `destileria.html`, `taller.html`, `journal.html`, `capilla.html`): cuenta qué es la sala y muestra sus entradas. Su imagen lleva a la página principal del repositorio.
 - La parlanchina refleja la introducción y la lista del README. El README es el índice del repositorio y arriba lleva los enlaces a los README de las cinco salas, con la actual destacada.
 
 ## Leer en la página
+
+Valoramos que leer sea cuestión de un clic y que el texto llegue como es.
 
 - Si una entrada tiene HTML, su título en la parlanchina enlaza directo a él: sin una segunda opción llamada "HTML" ni enlace al Markdown. Sin HTML, el título lleva al visor de GitHub, nunca al texto crudo.
 - El Markdown se guarda como archivo sencillo y portable; el HTML se lee en el navegador y se comparte con título, descripción e imagen. Mismo texto, dos formas de abrirlo: al corregir, se mantienen ambas al día.
@@ -49,6 +61,8 @@ Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aq
 
 ## Cada archivo en su cuarto
 
+Valoramos la raíz corta y cada archivo donde se espera encontrarlo.
+
 - La raíz es corta: README y las dos portadas. Las entradas van en `md/`, sus versiones para el navegador en `html/` y las imágenes en `img/`. Las bodegas conservan sus carpetas.
 - Una entrada es cada texto publicado. Las listas muestran lo más nuevo primero, y cada entrada nueva se añade al README y a la parlanchina, y se enlaza al HTML cuando esté listo.
 - Las entradas se nombran con la fecha en letras y dos o tres palabras con guiones: a es 0, b es 1, hasta j, que es 9, de modo que 26-10-09 es `cgbaaj`. La fecha legible va al comienzo del texto.
@@ -56,12 +70,16 @@ Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aq
 
 ## Liviano
 
-- Tenga la bondad de ser liviano: texto plano, fondo oscuro, pocas imágenes y el mínimo código. Se quita lo que no hace falta.
+Valoramos lo liviano. Tenga la bondad de ser liviano es el lema de la casa.
+
+- Texto plano, fondo oscuro, pocas imágenes y el mínimo código. Se quita lo que no hace falta.
 - Fondo `#0d1117`, texto claro, enlaces azules. Vista previa al compartir el enlace, con título, descripción e imagen; sin etiquetas de Twitter. El icono se comparte desde el Lobby.
 - Cada sala tiene su pintura de entrada y su pintor: De Chirico en el Lobby, Zurbarán en Destilería, Wright of Derby en el Taller, Rembrandt en el Journal y Georges de La Tour en la Capilla.
 - Las imágenes miden 1280 por 640, con margen de seguridad, JPG al 80 %, y llevan el nombre de la sala, sin prefijos de generación.
 
 ## Cuidar esta entrada
+
+Valoramos una sola versión vigente de cada regla.
 
 - Cuando una regla cambia, se corrige aquí y en su HTML: queda la regla vigente, nunca una pila de instrucciones contradictorias. Si cambian las salas o los caminos, se actualizan sus índices y enlaces.
 - Esta página guarda cómo es la casa y cómo cuidarla. Los trabajos en curso y los asuntos privados no viven aquí.
