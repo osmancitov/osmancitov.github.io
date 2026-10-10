@@ -2,15 +2,18 @@
 
 # Reglas de la casa
 
+Esta es la casa de Osmancito: un sitio de textos que se leen en el navegador. Aquí se toman obras grandes y se destilan en lecturas cortas. Estas son las reglas con que se cuida la casa y se sirve lo que hay en ella. Cada término se explica al aparecer, para que se entienda sin haber estado antes.
+
 ## Lo que se sirve
 
-- El foco es la obra, no el aparataje: quien viene por Macbeth encuentra Macbeth.
-- La Bodega sirve el destilado, listo para beber. Las máquinas, las pruebas y los detalles técnicos viven en el Taller y en los Protocolos.
-- El estilo actual se planta sin titubear junto al antiguo. La Bodega 2603 queda como vitrina del pasado; las nuevas bodegas siguen el estilo actual.
+- Lo que se sirve es una lectura. La casa toma una obra grande, como *Macbeth*, la tragedia de Shakespeare, y la reduce a un texto corto que conserva lo que la hace vivir. Esa lectura se llama el destilado.
+- El foco es la obra, no el aparataje: quien viene por Macbeth encuentra Macbeth, y no las máquinas que sirvieron para reducirlo.
+- La Bodega es la sala donde se guarda el destilado, listo para beber, es decir, para leer. Cada bodega se nombra por su año y su mes: la Bodega 2610 es la de octubre de 2026. Las máquinas, las pruebas y los detalles técnicos viven aparte, en el Taller y en los Protocolos, que son los instrumentos con que se destila.
+- Conviven dos estilos: el de la Bodega 2603, que se conserva como vitrina del pasado, y el actual, que siguen las bodegas nuevas. Cada uno se muestra sin titubeos.
 
 ## Para el invitado
 
-- Quien lee es **el invitado** de la casa, como Duncan cuando llegó a casa de Macbeth. Al invitado no se le deja nada en las manos: el trabajo lo hacemos nosotros. Cada frase llega con su escena explicada y nada se da por sabido: ni la obra, ni sus personajes, ni lo que ocurrió antes.
+- Quien lee es **el invitado** de la casa, como Duncan, el rey que Macbeth recibe en su castillo. Al invitado no se le deja nada en las manos: el trabajo lo hacemos nosotros. Cada frase llega con su escena explicada y nada se da por sabido: ni la obra, ni sus personajes, ni lo que ocurrió antes.
 - Se escribe para quien llega nuevo y tiene poco tiempo. Si hace falta recordar una conversación para entender la página, falta explicar algo o sobra algo.
 - Español llano, directo al consumidor final: primero lo que hay para él, y mejor pecar de simple.
 - Se cuenta la línea recta hacia lo que funcionó; los intentos fallidos no son crónica.
@@ -19,13 +22,13 @@
 
 ## Las salas
 
-- La casa es un conjunto de textos, a la sombra de Unix: archivos que se abren, se copian y se llevan. Las carpetas forman un árbol y cada sala puede tener sus cuartos.
+- La casa es un conjunto de textos, a la sombra de Unix, el sistema que ordena todo en archivos y carpetas: archivos que se abren, se copian y se llevan. Las carpetas forman un árbol y cada sala puede tener sus cuartos.
 - **Lobby**: la entrada de la casa entera y sus reglas.
 - **Destilería**: los textos destilados. Sus bodegas guardan lo listo para leer; los Protocolos reúnen los instrumentos.
 - **Taller**: cuadernos de estudio, pruebas, preguntas y herramientas. Aquí sí cabe explicar cómo se hizo algo.
 - **Journal**: lo vivido, pensado y conversado, en prosa.
 - **Capilla**: las lecturas para la oración y el recogimiento. Lo devocional vive aquí y no en el Journal.
-- Cada sala tiene su repositorio: `osmancitov.github.io` (Lobby), `destileria`, `taller`, `journal` y `capilla`.
+- Cada sala tiene su repositorio, que es su carpeta en GitHub: `osmancitov.github.io` (Lobby), `destileria`, `taller`, `journal` y `capilla`.
 - Cada sala abre explicando su nombre y qué guarda. Un cuarto bien dibujado se entiende solo.
 
 ## Las portadas
@@ -47,14 +50,14 @@
 ## Cada archivo en su cuarto
 
 - La raíz es corta: README y las dos portadas. Las entradas van en `md/`, sus versiones para el navegador en `html/` y las imágenes en `img/`. Las bodegas conservan sus carpetas.
-- Las listas muestran lo más nuevo primero. Cada entrada nueva se añade al README y a la parlanchina, y se enlaza al HTML cuando esté listo.
+- Una entrada es cada texto publicado. Las listas muestran lo más nuevo primero, y cada entrada nueva se añade al README y a la parlanchina, y se enlaza al HTML cuando esté listo.
 - Las entradas se nombran con la fecha en letras y dos o tres palabras con guiones: a es 0, b es 1, hasta j, que es 9, de modo que 26-10-09 es `cgbaaj`. La fecha legible va al comienzo del texto.
 - Las imágenes siguen el mismo criterio, sin números de tanda.
 
 ## Liviano
 
 - Tenga la bondad de ser liviano: texto plano, fondo oscuro, pocas imágenes y el mínimo código. Se quita lo que no hace falta.
-- Fondo `#0d1117`, texto claro, enlaces azules. Vista previa Open Graph con título, descripción e imagen; sin etiquetas de Twitter. El icono se comparte desde el Lobby.
+- Fondo `#0d1117`, texto claro, enlaces azules. Vista previa al compartir el enlace, con título, descripción e imagen; sin etiquetas de Twitter. El icono se comparte desde el Lobby.
 - Cada sala tiene su pintura de entrada y su pintor: De Chirico en el Lobby, Zurbarán en Destilería, Wright of Derby en el Taller, Rembrandt en el Journal y Georges de La Tour en la Capilla.
 - Las imágenes miden 1280 por 640, con margen de seguridad, JPG al 80 %, y llevan el nombre de la sala, sin prefijos de generación.
 
