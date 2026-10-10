@@ -37,7 +37,7 @@ Los valores y los principios de la casa, dichos como regla.
 - **La parlanchina**, la página con el nombre de la sala (`lobby.html`, `destileria.html`, `taller.html`, `journal.html`, `capilla.html`): cuenta qué es la sala y muestra sus entradas. Su imagen lleva a la página principal del repositorio.
 - La parlanchina refleja la introducción y la lista del README. El README es el índice del repositorio y arriba lleva los enlaces a los README de las cinco salas, con la actual destacada.
 
-## Leer sin bajar de la página
+## Leer en la página
 
 - Si una entrada tiene HTML, su título en la parlanchina enlaza directo a él: sin una segunda opción llamada "HTML" ni enlace al Markdown. Sin HTML, el título lleva al visor de GitHub, nunca al texto crudo.
 - El Markdown se guarda como archivo sencillo y portable; el HTML se lee en el navegador y se comparte con título, descripción e imagen. Mismo texto, dos formas de abrirlo: al corregir, se mantienen ambas al día.
