@@ -15,6 +15,6 @@ Esta es la entrada de un sitio de archivos de texto, inspirado en Unix. Las carp
 
 ## Entradas
 
-- [Valores y principios](md/cgbaaj_valores-principios.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_valores-principios.html): las reglas de la casa para servir, escribir y guardar · 9 de octubre de 2026.
+- [Valores y principios](md/cgbaaj_valores-principios.md) · [HTML](https://osmancitov.github.io/html/cgbaaj_valores-principios.html) · 9 de octubre de 2026.
 
 El lema del sitio: Tenga la bondad de ser liviano.
