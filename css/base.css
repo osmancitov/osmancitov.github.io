@@ -4,8 +4,8 @@ body {
   background: #080604;
   color: #ddd0b3;
   font-family: 'Lora', Georgia, serif;
-  font-size: clamp(1.5rem, 1.5rem + .833vw, 2.5rem);
-  line-height: 1.85;
+  font-size: clamp(1rem, 1rem + 0.555vw, 1.667rem);
+  line-height: 1.2;
 }
 
 h1, h2 {
