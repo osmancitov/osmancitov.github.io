@@ -24,3 +24,16 @@ blockquote {
   margin: 2em 0;
   font-style: italic;
 }
+
+a {
+  color: #e2b23e;
+}
+
+a:visited {
+  color: #a8783a;
+}
+
+a:hover,
+a:active {
+  color: #f0c060;
+}
