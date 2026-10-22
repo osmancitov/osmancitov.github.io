@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
+html {
+  color-scheme: dark;
+}
+
 body {
+  margin: auto;
+  max-width: 680px;
+  padding: 24px;
   background: #080604;
   color: #ddd0b3;
   font-family: 'Lora', Georgia, serif;
@@ -10,6 +17,18 @@ body {
 
 h1, h2 {
   font-family: 'Cinzel', 'Trajan Pro', serif;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 24px 0;
+}
+
+li {
+  margin: 12px 0;
 }
 
 hr {
