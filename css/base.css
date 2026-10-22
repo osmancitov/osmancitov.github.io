@@ -15,7 +15,11 @@ h1, h2 {
 hr {
   border: none;
   border-top: 1px solid #a8783a;
-  margin: 3.5em 0;
+  margin: 64px 0 32px;
+}
+
+hr:has(+ h2) {
+  margin: 96px 0 40px;
 }
 
 blockquote {
