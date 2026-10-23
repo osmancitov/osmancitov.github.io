@@ -30,7 +30,7 @@ La **entrada** es la pieza que se publica cada día. Lleva sus partes en este or
 
 ## Los dibujos
 
-Los dibujos se hacen con el procedimiento de ilustración de la casa, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Quien publica elige de la lista del procedimiento el pintor que mejor se parezca al ambiente del texto. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo. En la página, cada dibujo enlaza a su propio archivo, para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página, para que no salte al cargar.
+Los dibujos se hacen con el procedimiento de ilustración de la casa, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Quien publica elige de la lista del procedimiento el pintor que mejor se parezca al ambiente del texto. El encargo de cada dibujo pide la proporción cinco a ocho, escrita 5:8, es decir, vertical: ocho partes de alto por cinco de ancho. El Pintor entrega los pedidos de pintura y los dibujos se generan con el motor de imágenes interno de la plataforma de la asistente. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo. En la página, cada dibujo enlaza a su propio archivo, para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página, para que no salte al cargar.
 
 ## Los archivos
 
