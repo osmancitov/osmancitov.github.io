@@ -41,7 +41,7 @@ Solo cuentan las medallas 🎖 dentro de sus mensajes; las reacciones no cuentan
 
 ## Publicar
 
-En el Status y en los Historiales nunca se menciona la búsqueda de trabajo ni de clientes.
+En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de clientes.
 
 1. Los dos archivos gemelos cambian juntos. La apariencia de la página la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 2. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
