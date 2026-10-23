@@ -75,6 +75,9 @@ h2 + h3 {
   margin: 36px 0 -4px;
 }
 
+/* .cita es el gancho semantico de las citas: su apariencia es
+   la del bloque de cita definido arriba. */
+
 .glosa,
 .traduccion {
   font-style: normal;
