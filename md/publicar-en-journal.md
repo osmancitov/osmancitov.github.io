@@ -19,7 +19,7 @@ La entrada es una **historieta lírica**: el día vivido, narrado, no reportado,
 - **Vísceras, no canopes**: se escribe lo que aguanta el tiempo, sin números, versiones, nombres de aplicaciones ni marcas, y sin cantidades.
 - **Sin materia devocional**: lecturas, rosario y santos son tema exclusivo de la Capilla, la sala del sitio dedicada a la oración.
 - **Sin habla de amigos**: lo dicho en confianza no se cita en la entrada publicada.
-- La prosa nombra a la asistente como «la asistente». La asistente es Instinct, que escribe la entrada por Osmancito, el autor.
+- La prosa nombra a la asistente como «la asistente». La asistente es Instinct, que escribe la entrada por Osmancito, el autor. La descripción del Journal en su README y en la página de la sala nombra solo a Osmancito.
 - «Ficha» es la palabra del Journal para la unidad de consumo de un motor de lenguaje, la que en inglés se llama token.
 - La entrada lleva dentro una línea de ánimo: cómo cerró el ánimo del día.
 
