@@ -32,10 +32,10 @@ Lleva sus partes en este orden:
 
 Una sola línea al pie, sin rótulos ni dos puntos, con las cifras del día, en este orden:
 
-- 💬 los mensajes enviados por la asistente hoy.
-- 🎙️ las palabras de voz transcritas hoy.
+- 💬 los mensajes de **WhatsApp** enviados por la asistente hoy. WhatsApp es la aplicación de mensajería donde la asistente conversa con Osmancito.
+- 🎙️ las palabras de las notas de voz de WhatsApp transcritas hoy.
 - ✉️ los correos que la asistente le envió hoy.
-- 🎖️ las medallas escritas dentro de los mensajes de Osmancito hoy.
+- 🎖️ las medallas escritas dentro de los mensajes de Osmancito en WhatsApp hoy.
 
 Solo cuentan las medallas 🎖 dentro de sus mensajes; las reacciones no cuentan. La línea se ve así: «💬 210 · 🎙️ 5.987 · ✉️ 5 · 🎖️ 10». Toda actualización del Status actualiza también los contadores.
 
