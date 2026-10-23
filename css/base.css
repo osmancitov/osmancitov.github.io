@@ -13,6 +13,7 @@ body {
   font-family: 'Lora', Georgia, serif;
   font-size: clamp(1rem, 1rem + 0.555vw, 1.667rem);
   line-height: 1.85;
+  overflow-wrap: break-word;
 }
 
 h1, h2 {
@@ -59,4 +60,36 @@ a:visited {
 a:hover,
 a:active {
   color: #f0c060;
+}
+
+/* Titulo de unidad que sigue a un titulo de seccion (los tramos) */
+h2 + h3 {
+  margin-top: 64px;
+}
+
+/* Clases de funcion de los destilados (Alambique - Frases Selectas).
+   La apariencia de puente, glosa, traduccion, rotulo de cita y firma
+   se define solo aqui; las paginas no llevan estilos que la contradigan. */
+.puente {
+  color: #9da7b3;
+  margin: 36px 0 -4px;
+}
+
+.glosa,
+.traduccion {
+  font-style: normal;
+}
+
+blockquote small {
+  display: block;
+  margin-top: 8px;
+  color: #9da7b3;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.firma {
+  color: #9da7b3;
+  font-size: 15px;
+  margin: 48px 0 0;
 }
