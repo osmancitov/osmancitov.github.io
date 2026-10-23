@@ -1,12 +1,12 @@
 23 de octubre de 2026
 
-# Actualización del Status
+# Actualizar Estatus
 
-Actualización del Status es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Actualizar Estatus es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que mantiene al día el Status. El **Status** es la página de la sala de máquinas que muestra lo que la asistente está haciendo. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
+Es el procedimiento que mantiene al día el Status. El **Status**, en castellano «el estatus», es la página de la sala de máquinas que muestra lo que la asistente está haciendo. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
 
 ## Cuándo
 
@@ -24,7 +24,7 @@ Lleva sus partes en este orden:
 4. **«Corriendo ahora»**: cada trabajo en marcha, con sus aciertos, lo que falta y el tiempo transcurrido.
 5. **«Automáticos diarios»**: los trabajos que se ejecutan solos cada día, con su hora. La página dice el estado verdadero: quitar un automático de la lista significa que dejó de ejecutarse de verdad.
 6. **«Hecho hoy»**: lo terminado hoy.
-7. **«Sociales»**: la actividad del día en los frentes sociales y de interacción con los mercados: un renglón directo y corto por frente o por interacción, unas 500 palabras en total.
+7. **«Sociales»**: la actividad del día en los frentes sociales: un renglón directo y corto por frente, unas 500 palabras en total.
 8. **«Pendiente de Osmancito»**: lo que le toca a él. Si no hay nada, dice «Ninguno».
 9. **La línea de contadores**, al pie. Los **contadores** son las cifras que cuentan la actividad del día.
 

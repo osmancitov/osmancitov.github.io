@@ -1,12 +1,12 @@
 23 de octubre de 2026
 
-# Rotación del Status
+# Rotar Historial
 
-Rotación del Status es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Rotar Historial es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que, al terminar el día, pasa lo hecho del Status al Historial: a medianoche, lo de hoy pasa a ayer. El **Status** es la página de la sala de máquinas que muestra lo que la asistente está haciendo. El **Historial de tareas** es la página que guarda los trabajos terminados hasta ayer, y el **Historial social** es la página que guarda lo hecho cada día en las redes. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
+Es el procedimiento que, al terminar el día, pasa lo hecho del Status al Historial: a medianoche, lo de hoy pasa a ayer. El **Status**, en castellano «el estatus», es la página de la sala de máquinas que muestra lo que la asistente está haciendo. El **Historial de tareas** es la página que guarda los trabajos terminados hasta ayer, y el **Historial social** es la página que guarda lo hecho cada día en las redes. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
 
 ## Cuándo
 
@@ -20,7 +20,7 @@ A medianoche, hora de Caracas. La hora de Caracas es UTC-4: cuatro horas detrás
 
 ## Los archivos
 
-Cada página vive en dos archivos fijos, gemelos, que dicen lo mismo y cambian siempre juntos: un archivo **md**, el texto con marcas simples, y un archivo **html**, la página que se abre en un navegador.
+Cada página vive en dos archivos fijos, **gemelos**, que dicen lo mismo y cambian siempre juntos: un archivo **md**, el texto con marcas simples, y un archivo **html**, la página que se abre en un navegador.
 
 - Status: `md/cgbabd_status.md` y `html/cgbabd_status.html`.
 - Historial de tareas: `md/cgbabd_historial.md` y `html/cgbabd_historial.html`.

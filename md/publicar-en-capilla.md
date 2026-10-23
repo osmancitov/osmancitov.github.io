@@ -1,8 +1,8 @@
 23 de octubre de 2026
 
-# Capilla Diaria
+# Publicar en Capilla
 
-Capilla Diaria es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Publicar en Capilla es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -34,9 +34,9 @@ Los dibujos se hacen con el procedimiento de ilustración de la casa, el **Pinto
 
 ## Los archivos
 
-Cada entrada tiene su archivo **md**, que guarda el texto con marcas simples, en la carpeta `md`; su archivo **html**, la página que se abre en un navegador, en la carpeta `html`; y sus imágenes **jpg**, un formato de imagen, en la carpeta `img`. El md y el html son gemelos: dicen lo mismo y cambian siempre juntos.
+Cada entrada tiene su archivo **md**, que guarda el texto con marcas simples, en la carpeta `md`; su archivo **html**, la página que se abre en un navegador, en la carpeta `html`; y sus imágenes **jpg**, un formato de imagen, en la carpeta `img`. El md y el html son **gemelos**: dicen lo mismo y cambian siempre juntos.
 
-Los nombres llevan el **código de fecha** de la casa: la fecha escrita con letras, dos por el año, dos por el mes y dos por el día, donde cada cifra se cambia por una letra, de la a, que es 0, a la j, que es 9. El 23 de octubre de 2026 es `cgbacd`. La entrada se llama `cgbacd_leer-tiempo`: el código, un guion bajo y el título corto en minúsculas con guiones. Cada imagen se llama con el mismo código, un guion y su nombre: `cgbacd-nube-poniente.jpg`.
+Los nombres llevan la fecha de la entrada en seis cifras: dos para el año (las dos últimas), dos para el mes y dos para el día. El 23 de octubre de 2026 es `261023`. La entrada se llama `261023_leer-tiempo`: la fecha, un guion bajo y el título corto en minúsculas con guiones. Cada imagen se llama con la fecha, el título de la entrada y el título propio de la imagen, unidos con guiones bajos: `261023_leer-tiempo_la-nube-del-poniente.jpg`.
 
 La página html lleva sus **etiquetas og**, que son los datos de la cabecera que dicen cómo se ve la tarjeta cuando alguien comparte el enlace: su título, su descripción y su imagen. La apariencia la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 
