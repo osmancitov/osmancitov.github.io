@@ -48,7 +48,7 @@ La página muestra, en este orden:
 
 El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Cuando alguien comparte el enlace de una página, las redes sociales muestran una tarjeta con el título de la pestaña, una descripción y una imagen. Una **etiqueta og** es un dato escrito en la cabecera de la página que dice cómo se ve esa tarjeta.
 
-Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la misma imagen que está arriba en la página. El título de la tarjeta es el título de la pestaña. La descripción es un texto de 100 palabras como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
+Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la misma imagen que está arriba en la página. El título de la tarjeta es el título de la pestaña. La descripción es un texto de 100 caracteres como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
 
 ## El estilo
 
