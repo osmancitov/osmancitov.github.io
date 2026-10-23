@@ -23,7 +23,7 @@ Lleva sus partes en este orden:
 3. **La fecha y la hora**, por ejemplo «23 de octubre de 2026, 01:13 UTC-4.». UTC-4 es la hora de Caracas: cuatro horas detrás del tiempo universal coordinado. Se escribe así, sin «Caracas» ni «Actualizado:».
 4. **«Corriendo ahora»**: cada trabajo en marcha, con sus aciertos, lo que falta y el tiempo transcurrido.
 5. **«Automáticos diarios»**: los trabajos que se ejecutan solos cada día, con su hora. La página dice el estado verdadero: quitar un automático de la lista significa que dejó de ejecutarse de verdad.
-6. **«Hecho hoy»**: lo terminado hoy.
+6. **«Hecho hoy»**: lo terminado hoy. Cada trabajo terminado se anota aquí como una viñeta y, a la vez, como una línea del **borrador del día**: un comentario al final del archivo md del Historial de tareas, que es la página que guarda los trabajos terminados hasta ayer. Un **comentario** es un trozo del archivo que la página no muestra. Cada línea del borrador guarda la fecha, el título, el detalle y el enlace opcional del trabajo, separados por barras verticales.
 7. **«Sociales»**: la actividad del día en los frentes sociales: un renglón directo y corto por frente, unas 500 palabras en total.
 8. **«Pendiente de Osmancito»**: lo que le toca a él. Si no hay nada, dice «Ninguno».
 9. **La línea de contadores**, al pie. Los **contadores** son las cifras que cuentan la actividad del día.
@@ -40,6 +40,8 @@ Una sola línea al pie, sin rótulos ni dos puntos, con las cifras del día, en 
 Solo cuentan las medallas 🎖 dentro de sus mensajes; las reacciones no cuentan. La línea se ve así: «💬 210 · 🎙️ 5.987 · ✉️ 5 · 🎖️ 10». Toda actualización del Status actualiza también los contadores.
 
 ## Publicar
+
+En el Status y en los Historiales nunca se menciona la búsqueda de trabajo ni de clientes.
 
 1. Los dos archivos gemelos cambian juntos. La apariencia de la página la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 2. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.

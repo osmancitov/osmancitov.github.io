@@ -14,9 +14,9 @@ A medianoche, hora de Caracas. La hora de Caracas es UTC-4: cuatro horas detrás
 
 ## Qué se mueve
 
-1. **Cada trabajo de «Hecho hoy» pasa al Historial de tareas** como un bloque: un título breve que nombra el trabajo, la fecha y el resumen en prosa, y el enlace «Leer» a la página del trabajo. Los bloques nuevos van arriba: la página ordena del más reciente al más antiguo. Si la página de un trabajo se borró, el bloque la menciona como texto, sin enlace.
+1. **Cada línea del borrador del día pasa al principio del Historial de tareas** como un bloque: un título breve que nombra el trabajo, la fecha en palabras y el detalle en prosa, y el enlace «Leer» a la página del trabajo. El **borrador del día** es un comentario al final del archivo md del Historial de tareas, donde durante el día se anota cada trabajo terminado con su fecha, su título, su detalle y su enlace opcional, separados por barras verticales. Un **comentario** es un trozo del archivo que la página no muestra. Al pasar las líneas, el borrador queda vacío. Los bloques nuevos van arriba: la página ordena del más reciente al más antiguo. Si la página de un trabajo se borró, el bloque la menciona como texto, sin enlace.
 2. **La sección «Sociales» pasa entera al Historial social**, bajo un encabezado con la fecha del día que cierra, del día más reciente al más antiguo.
-3. **El Status conserva lo que sigue vivo**: lo que está corriendo, los automáticos diarios y lo pendiente de Osmancito. «Hecho hoy» y «Sociales» amanecen vacíos, y los contadores del pie arrancan el día nuevo en cero.
+3. **El Status se ajusta**: conserva lo que sigue corriendo, los automáticos diarios y lo pendiente de Osmancito; «Hecho hoy» y «Sociales» quedan en «Nada todavía.»; los contadores del pie arrancan el día nuevo en cero y la línea de fecha y hora se reescribe.
 
 ## Los archivos
 
@@ -30,8 +30,9 @@ El Historial de tareas abre diciendo que guarda los trabajos terminados hasta ay
 
 ## Publicar
 
-1. Los archivos gemelos cambian juntos. La apariencia de las páginas la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
-2. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
-3. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+1. Antes de cambiar nada se trae del repositorio la versión más reciente, y al terminar se suben los cambios. Después se comprueban las tres páginas ya publicadas, abiertas en un navegador. La ejecución es silenciosa: se escribe a Osmancito solo si algo falla.
+2. Los archivos gemelos cambian juntos. La apariencia de las páginas la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
+3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
+4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
 
 © 2026 Osmancito
