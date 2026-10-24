@@ -98,8 +98,9 @@ Antes de entregar una unidad se revisa entera, con la página montada:
 1. **Marcado.** Cada cita va en su bloque de cita, con su rótulo dentro. Ninguna cita queda como líneas sueltas ni con signos de cita pegados a la prosa.
 2. **Estilo.** Cada pieza lleva su clase: el puente la suya, la glosa en párrafo propio, la traducción pegada a su cita. Todas las unidades de la entrada reparten las clases de la misma manera.
 3. **Tejido.** Entre ganadora y ganadora hay puente y, cuando hay algo que enseñar, glosa. Con la fuente abierta se contrasta cada puente, para detectar paráfrasis que sustituyan la voz literal del libro; reclasificar una paráfrasis como glosa no resuelve el problema. Si dos ganadoras salen seguidas, se anota el motivo en la entrega, por ejemplo que en el original ya venían pegadas, en vez de rellenar por rellenar.
-4. **Medida.** Se cuentan las palabras de las citas, de los puentes y de la glosa. La entrega dice la cifra de cada pieza, qué parte de la unidad fuente cubren las citas y cómo queda la prosa contra su presupuesto; lo que se pase se declara con su número.
-5. **Vista.** La unidad se ve en el navegador antes de publicarse.
+4. **Cobertura.** Con la fuente abierta, se recorre cada hueco entre dos ganadoras, o entre el borde de la sección y una ganadora, y se lee lo que la obra dice ahí. El puente tiene que contarlo, no presentarlo. Hay anuncio cuando el puente nombra los temas del hueco o dice lo que viene, en vez de contar lo que el hueco dice. Hay omisión sustantiva cuando el puente deja fuera algo que el lector necesita para seguir la lectura: una idea que se retoma después, el desenlace que da sentido a una anécdota o el motivo de un cambio en la obra. Lo que falta se cuenta en el puente, sin pasarse: lo necesario para entender, no el hueco entero traducido. Si un pasaje del hueco merece entrar como cita, se evalúa con el ranking y el presupuesto de selección, en vez de colarlo en el texto propio.
+5. **Medida.** Se cuentan las palabras de las citas, de los puentes y de la glosa. La entrega dice la cifra de cada pieza, qué parte de la unidad fuente cubren las citas y cómo queda la prosa contra su presupuesto; lo que se pase se declara con su número.
+6. **Vista.** La unidad se ve en el navegador antes de publicarse.
 
 La entrega dice qué encontró la revisión y qué se corrigió.
 
@@ -108,6 +109,8 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias. Así cualquiera puede repetir la cuenta con las mismas reglas y comprobar que salen las mismas frases.
 
 ## Cambios
+
+23 de octubre de 2026: la revisión antes de entregar gana la comprobación de la cobertura de cada hueco, que busca dos faltas: el anuncio, cuando el puente presenta los temas del hueco en vez de contar lo que el hueco dice, y la omisión sustantiva, cuando el puente deja fuera lo que el lector necesita para seguir la lectura. Se añade tras revisar los puentes de la obra destilada *On Writing*, donde esas dos faltas fueron las más repetidas.
 
 23 de octubre de 2026: versión escrita en dominio cero, con cada término definido en este texto y sin remisiones a otros archivos. El método y los criterios son los de la versión anterior: selección medida en palabras de la sección con piso del diez por ciento y última frase entera; presupuestos contra las palabras de la unidad fuente (ideal del diez por ciento para citas y puentes, techo del quince por ciento para puentes, máximo del quince por ciento para la glosa opcional); piezas con su clase y apariencia en la hoja de estilos; el puente no sustituye la voz del libro; revisión antes de entregar.
 
