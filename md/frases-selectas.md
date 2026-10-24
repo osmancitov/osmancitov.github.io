@@ -1,8 +1,8 @@
 23 de octubre de 2026
 
-# Alambique - Frases Selectas
+# Frases Selectas
 
-Alambique - Frases Selectas es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Frases Selectas es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
