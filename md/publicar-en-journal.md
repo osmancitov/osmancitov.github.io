@@ -31,7 +31,7 @@ La entrada es una **historieta lírica**: el día vivido, narrado, no reportado,
 4. **La historieta**.
 5. **La firma**: «© 2026 Osmancito», el símbolo ©, el año de publicación y el nombre del autor. Cierra la historieta.
 6. **La raya**: una línea horizontal que separa la historieta firmada de las rúbricas.
-7. **Las tres rúbricas fijas de cierre**. Una **rúbrica** es una línea con nombre propio que cierra la entrada: «Parte del día», «Lectura en curso» y «En la copa». En la copa se lee «una bebida de X»: una frase en positivo, sin negativas.
+7. **Las tres rúbricas fijas de cierre**. Una **rúbrica** es una línea con nombre propio que cierra la entrada: «Parte del día», «Lectura en curso» y «En la copa». En la copa se lee «una bebida de X»: una frase en positivo, sin negativas. «Lectura en curso» nombra la obra que el autor está leyendo: su lectura personal se hace desde las páginas de la **Destilería**, la sala del sitio que destila libros y le sirve de visor y lector de textos, de modo que la lectura coincide con la obra editada o publicada allí ese día, según el historial de su repositorio. La rúbrica no se copia de la entrada anterior; si el día no tuvo obra en la Destilería, o el historial no la deja resolver, se consulta antes de escribirla y no se inventa.
 
 ## Los archivos
 
