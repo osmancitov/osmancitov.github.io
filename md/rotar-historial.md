@@ -22,9 +22,9 @@ A medianoche, hora de Caracas. La hora de Caracas es UTC-4: cuatro horas detrás
 
 Cada página vive en dos archivos fijos, **gemelos**, que dicen lo mismo y cambian siempre juntos: un archivo **md**, el texto con marcas simples, y un archivo **html**, la página que se abre en un navegador.
 
-- Status: `md/cgbabd_status.md` y `html/cgbabd_status.html`.
-- Historial de tareas: `md/cgbabd_historial.md` y `html/cgbabd_historial.html`.
-- Historial social: `md/cgbabf_historial-social.md` y `html/cgbabf_historial-social.html`.
+- Status: `md/261013_status.md` y `html/261013_status.html`.
+- Historial de tareas: `md/261013_historial.md` y `html/261013_historial.html`.
+- Historial social: `md/261015_historial-social.md` y `html/261015_historial-social.html`.
 
 El Historial de tareas abre diciendo que guarda los trabajos terminados hasta ayer, del más reciente al más antiguo.
 

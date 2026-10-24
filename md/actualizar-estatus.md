@@ -14,7 +14,7 @@ No es una tarea con horario. Se ejecuta cuando algo cambia durante el día: empi
 
 ## La página
 
-El Status vive en dos archivos fijos: `md/cgbabd_status.md`, el texto con marcas simples, y `html/cgbabd_status.html`, la página que se abre en un navegador. Son gemelos: dicen lo mismo y cambian siempre juntos.
+El Status vive en dos archivos fijos: `md/261013_status.md`, el texto con marcas simples, y `html/261013_status.html`, la página que se abre en un navegador. Son gemelos: dicen lo mismo y cambian siempre juntos.
 
 Lleva sus partes en este orden:
 
