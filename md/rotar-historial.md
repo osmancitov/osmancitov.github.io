@@ -16,7 +16,7 @@ A medianoche, hora de Caracas. La hora de Caracas es UTC-4: cuatro horas detrás
 
 1. **Cada línea del borrador del día pasa al principio del Historial de tareas** como un bloque: un título breve que nombra el trabajo, la fecha en palabras y el detalle en prosa, y el enlace «Leer» a la página del trabajo. El **borrador del día** es un comentario al final del archivo md del Historial de tareas, donde durante el día se anota cada trabajo terminado con su fecha, su título, su detalle y su enlace opcional, separados por barras verticales. Un **comentario** es un trozo del archivo que la página no muestra. Al pasar las líneas, el borrador queda vacío. Los bloques nuevos van arriba: la página ordena del más reciente al más antiguo. Si la página de un trabajo se borró, el bloque la menciona como texto, sin enlace.
 2. **La sección «Sociales» pasa entera al Historial social**, bajo un encabezado con la fecha del día que cierra, del día más reciente al más antiguo.
-3. **El Status se ajusta**: conserva lo que sigue corriendo, los automáticos diarios y lo pendiente de Osmancito; «Hecho hoy» y «Sociales» quedan en «Nada todavía.»; los contadores del pie arrancan el día nuevo en cero y la línea de fecha y hora se reescribe.
+3. **El Status se ajusta**: conserva lo que sigue corriendo, los automáticos diarios y lo pendiente de Osmancito; «Hecho hoy» y «Sociales» quedan en «Nada todavía.» y la línea de fecha y hora se reescribe.
 
 ## Los archivos
 

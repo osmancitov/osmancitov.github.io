@@ -26,18 +26,6 @@ Lleva sus partes en este orden:
 6. **«Hecho hoy»**: lo terminado hoy. Cada trabajo terminado se anota aquí como una viñeta y, a la vez, como una línea del **borrador del día**: un comentario al final del archivo md del Historial de tareas, que es la página que guarda los trabajos terminados hasta ayer. Un **comentario** es un trozo del archivo que la página no muestra. Cada línea del borrador guarda la fecha, el título, el detalle y el enlace opcional del trabajo, separados por barras verticales: `fecha | título | detalle | enlace`.
 7. **«Sociales»**: la actividad del día en los frentes sociales: un renglón directo y corto por frente, unas 500 palabras en total.
 8. **«Pendiente de Osmancito»**: lo que le toca a él. Si no hay nada, dice «Ninguno».
-9. **La línea de contadores**, al pie. Los **contadores** son las cifras que cuentan la actividad del día.
-
-## Los contadores
-
-Una sola línea al pie, sin rótulos ni dos puntos, con las cifras del día, en este orden:
-
-- 💬 los mensajes de **WhatsApp** enviados por la asistente hoy. WhatsApp es la aplicación de mensajería donde la asistente conversa con Osmancito.
-- 🎙️ las palabras de las notas de voz de WhatsApp transcritas hoy.
-- ✉️ los correos que la asistente le envió hoy.
-- 🎖️ las medallas escritas dentro de los mensajes de Osmancito en WhatsApp hoy.
-
-Solo cuentan las medallas 🎖 dentro de sus mensajes; las reacciones no cuentan. La línea se ve así: «💬 210 · 🎙️ 5.987 · ✉️ 5 · 🎖️ 10». Toda actualización del Status actualiza también los contadores.
 
 ## Publicar
 
