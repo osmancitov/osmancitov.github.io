@@ -41,7 +41,7 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 
 ## Seleccionar
 
-8. **Tomar las frases de más peso hasta cubrir el diez por ciento de las palabras de la sección.** Se suman las palabras de las elegidas, de mayor a menor peso, hasta alcanzar ese diez por ciento o pasarlo por primera vez. La última frase entra siempre entera: si con ella la suma se pasa, el exceso se admite. Lo que no se admite es quedar por debajo ni cortar una frase. Las traducciones no cuentan.
+8. **Tomar las frases de más peso hasta cubrir el diez por ciento de las palabras de la sección.** Se suman las palabras de las elegidas, de mayor a menor peso, hasta alcanzar ese diez por ciento o pasarlo por primera vez. La última frase entra siempre entera: si con ella la suma se pasa, el exceso se admite. Si esa última frase tiene exactamente el mismo peso que otras que aún no entraron, un empate, entran todas las empatadas, aunque la suma se pase más. Lo que no se admite es quedar por debajo ni cortar una frase. Las traducciones no cuentan.
 9. **Ponerlas en el orden de la obra**, no en el orden del ranking.
 
 ## Cómo se comprueba el ranking
@@ -49,6 +49,8 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 Antes de entregar, se comprueba el cálculo. Con el molde y el texto de cada sección a la vista y las mismas reglas de arriba, se vuelve a verificar qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias, y que de ahí salen las mismas frases. Si algo no sale igual, se corrige y se vuelve a calcular. La comprobación es parte del trabajo, no de lo que se publica: la página no describe el cálculo. Al entregar se dice a quien recibe el trabajo que se hizo y qué se encontró, como pide la revisión de Destilar una obra.
 
 ## Cambios
+
+25 de octubre de 2026: cuando la frase con que se alcanza el diez por ciento empata en peso con otras, entran todas las empatadas; el exceso sobre el diez por ciento que eso produzca se admite, como el de la última frase. Antes el texto no decía cómo desempatar. A pedido de Osmancito.
 
 25 de octubre de 2026: la comprobación del ranking pasa a ser una verificación que se hace antes de entregar, y deja de ser algo que se dice al publicar. Se vuelve a calcular con las mismas reglas y, si algo no sale igual, se corrige; la página no describe el cálculo. La puntuación y la selección no cambian. A pedido de Osmancito.
 
