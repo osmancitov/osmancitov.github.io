@@ -130,3 +130,44 @@ article p {
   color: #9da7b3;
   font-size: 15px;
 }
+
+/* Clases de funcion de los destilados: quien (el que habla o la
+   autoria bajo una cita), fig (dibujo de escena junto al texto),
+   es (la linea en castellano del poema interlineal). */
+.quien {
+  color: #9da7b3;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.fig {
+  float: right;
+  width: 340px;
+  max-width: 100%;
+  margin: 12px 0 12px 24px;
+}
+
+.fig img {
+  margin: 0;
+}
+
+hr {
+  clear: both;
+}
+
+@media (max-width: 640px) {
+  .fig {
+    float: none;
+    margin: 24px auto 0;
+  }
+}
+
+.es {
+  color: #9da7b3;
+  font-style: italic;
+}
+
+span.glosa {
+  display: block;
+  margin: 4px 0 12px;
+}
