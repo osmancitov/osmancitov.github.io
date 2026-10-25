@@ -38,7 +38,7 @@ Cada entrada tiene su archivo **md**, que guarda el texto con marcas simples, en
 
 Los nombres llevan la fecha de la entrada en seis cifras: dos para el año (las dos últimas), dos para el mes y dos para el día. El 23 de octubre de 2026 es `261023`. La entrada se llama `261023_leer-tiempo`: la fecha, un guion bajo y el título corto en minúsculas con guiones. Cada imagen se llama con la fecha, el título de la entrada y el título propio de la imagen, unidos con guiones bajos: `261023_leer-tiempo_la-nube-del-poniente.jpg`.
 
-La página html lleva sus **etiquetas og**, que son los datos de la cabecera que dicen cómo se ve la tarjeta cuando alguien comparte el enlace: su título, su descripción y su imagen. La apariencia la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
+La página html lleva sus **etiquetas og**, que son los datos de la cabecera que dicen cómo se ve la tarjeta cuando alguien comparte el enlace: su título, su descripción y su imagen. La imagen de la tarjeta es la primera imagen de la entrada. La apariencia la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 
 ## Publicar
 
