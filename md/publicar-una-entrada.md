@@ -31,7 +31,7 @@ Por ejemplo, una entrada del 22 de octubre de 2026 con el título dentro de la p
 Una entrada tiene dos títulos:
 
 - El **título dentro de la página** es el título que se ve arriba, en la página misma.
-- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el **nombre editorial** del repositorio. El nombre editorial es el nombre del repositorio escrito con mayúscula inicial en cada palabra y con sus tildes, seguido de «Osmancito», el autor del sitio. Ejemplos: «Destilería Osmancito», «Taller Osmancito», «Journal Osmancito» y «Capilla Osmancito». El título de la tarjeta, en cambio, es solo el título dentro de la página, porque en la tarjeta cabe poca información.
+- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el **nombre editorial** del repositorio. El nombre editorial es el nombre del repositorio escrito con mayúscula inicial en cada palabra, salvo en los artículos y las preposiciones, y con sus tildes, seguido de «Osmancito», el autor del sitio. Ejemplos: «Destilería Osmancito», «Taller Osmancito», «Journal Osmancito», «Capilla Osmancito» y «Sala de Máquinas Osmancito». El título de la tarjeta, en cambio, es solo el título dentro de la página, porque en la tarjeta cabe poca información.
 
 ## Lo que muestra la página
 
