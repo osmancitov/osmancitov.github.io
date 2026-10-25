@@ -6,7 +6,7 @@ Destilar una obra es el nombre de este procedimiento. Este texto está escrito p
 
 ## Qué es y para qué sirve
 
-Es el protocolo que destila una obra: elige la unidad fuente, selecciona sus frases más pesadas, las teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
+Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus frases más pesadas, las teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
 
 Hasta el 25 de octubre de 2026 este protocolo vivía entero en Frases Selectas (`frases-selectas.md`). Desde entonces Frases Selectas solo puntúa y selecciona las frases, y este texto ordena todo el trabajo y remite a los demás documentos.
 
@@ -48,13 +48,14 @@ Todo lo que se publica con este procedimiento se escribe para el lector cero, qu
 
 ## El orden del trabajo
 
-1. Se elige la unidad fuente y se declara en la entrega, con el motivo.
-2. Se puntúan y seleccionan sus frases con Frases Selectas.
-3. Se teje la lectura, como dice «Tejer» y «Lo que explican el puente y la glosa».
-4. Se hace el dibujo de la unidad con el Pintor de Imágenes.
-5. Se arma la página con «Decisiones de formato» y con Publicar una entrada.
-6. Se revisa la unidad entera con «Revisión antes de entregar».
-7. Se entrega, diciendo qué encontró la revisión y qué se corrigió.
+1. Se escribe la presentación de la obra y, resumida de ella, la descripción de la página con sus etiquetas, como fija el punto 6 de «Decisiones de formato». Esto se hace una sola vez, al abrir la entrada de la obra, antes de trabajar la primera unidad; las unidades siguientes no lo repiten ni lo cambian.
+2. Se elige la unidad fuente y se declara en la entrega, con el motivo.
+3. Se puntúan y seleccionan sus frases con Frases Selectas.
+4. Se teje la lectura, como dice «Tejer» y «Lo que explican el puente y la glosa».
+5. Se hace el dibujo de la unidad con el Pintor de Imágenes.
+6. Se arma la página con «Decisiones de formato» y con Publicar una entrada.
+7. Se revisa la unidad entera con «Revisión antes de entregar».
+8. Se entrega, diciendo qué encontró la revisión y qué se corrigió.
 
 ## Tejer
 
@@ -105,6 +106,8 @@ Antes de entregar una unidad se revisa entera, con la página montada:
 La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
+
+25 de octubre de 2026: «El orden del trabajo» gana un primer paso: la presentación de la obra y la descripción de la página con sus etiquetas se escriben una sola vez, al abrir la entrada, antes de trabajar la primera unidad. Los demás pasos pasan a numerarse del 2 al 8 sin cambiar su contenido. No cambia el método de selección ni el contenido de la presentación y la descripción, que siguen como fija el punto 6 de «Decisiones de formato». A pedido de Osmancito.
 
 25 de octubre de 2026: nace este documento con las partes de Frases Selectas que no son puntuar ni seleccionar: la unidad fuente, el tejido, los puentes y las glosas, las decisiones de formato (incluido el dibujo de cada unidad), la revisión antes de entregar y la declaración del lector cero. Se mudan sin cambiar su contenido. Los cambios anteriores, de cuando todo vivía en Frases Selectas, están en la sección «Cambios» de ese documento. A pedido de Osmancito.
 
