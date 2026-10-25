@@ -1,6 +1,6 @@
 # Núcleo
 
-El **Núcleo** es esta página: lo que se cumple en los encargos que lo invocan y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio; invoca el Núcleo con esta fórmula: «Cumpliendo con el Núcleo, haz esta cosa». El Núcleo rige los encargos que lo invocan. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
+El **Núcleo** es esta página: lo que se cumple en los encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
 
 La lista de documentos existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
 
@@ -11,6 +11,8 @@ Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github
 ## Cómo se cumple el Núcleo
 
 **Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado. Leer es solo un paso para cumplir.
+
+**Aplicación.** El autor establece la aplicación del Núcleo al formular el encargo. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
 
 1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
 2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
@@ -168,11 +170,11 @@ También se le ha llamado: «productor de briefings».
 
 [Esta misma página](#núcleo)
 
-Lo que se cumple en los encargos que lo invocan y la lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
+Lo que se cumple en los encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
 
 También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** en todo encargo que invoque el Núcleo, al comenzar, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
+**Cuándo se aplica:** en todo encargo al que el autor aplique el Núcleo, al comenzar, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
 
 **Necesita:** ningún otro documento para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
@@ -195,4 +197,4 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 
 25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
 
-25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar, de modo que el autor puede pedir «Cumpliendo con el Núcleo, haz esta cosa». A pedido de Osmancito.
+25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar. A pedido de Osmancito.
