@@ -75,7 +75,7 @@ Todo lo que se publica con este procedimiento se escribe para el lector cero, qu
 
 Además de cubrir los huecos y enseñar, el puente y la glosa explican lo que un lector sin contexto no sabe. Lo primero, quién es cada persona. Ninguna puede quedar como un nombre suelto. Ejemplo: si el puente nombra a Mary Karr, dice antes que es una escritora estadounidense de memorias, es decir, de libros en que una persona cuenta su propia vida, y que aparece mencionada en el libro de King. Lo mismo vale para la madre, el hermano y el padre de King.
 
-Para cada persona se mira si el original la presenta. Si el original la aclara, se dice con sus palabras. Si no la aclara, la explicación va en la glosa, que tiene su propio estilo y por eso se distingue sola de lo que dice el libro: no se añade ninguna advertencia de que viene de fuera. La fuente de cada dato se anota en el registro interno de la entrega, no en la página. Lo que no se pudo verificar se omite o se dice en la entrega.
+Para cada persona se mira si el original la presenta. Si el original la aclara, se dice con sus palabras. Si no la aclara, la explicación va en la glosa, que tiene su propio estilo y por eso se distingue sola de lo que dice el libro: no se añade en la página el aviso de que el dato viene de fuera. Todo dato de fuera del libro se verifica en una fuente, que se conserva y se dice en la entrega; si la página atribuye algo a una persona o a una obra, esa atribución se queda. Lo que no se pudo verificar se omite o se dice.
 
 El puente conecta las citas y aporta el contexto necesario para seguir la lectura. Se revisa con la fuente abierta para detectar paráfrasis que sustituyan la voz literal del libro, tanto de frases seleccionadas como de pasajes no seleccionados. La holgura del presupuesto no se usa para introducir una selección paralela mediante paráfrasis. Si un pasaje merece entrar como cita, se evalúa mediante el ranking y el presupuesto de selección. Reclasificar una paráfrasis como glosa no resuelve el problema: la glosa aporta una explicación educativa, no una vía adicional para reproducir el contenido del libro.
 
@@ -117,7 +117,7 @@ Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se uni
 
 ## Cambios
 
-25 de octubre de 2026: se quita la obligación de declarar en la página que un dato viene de fuera del libro. Como la glosa tiene su propio estilo, ya se distingue sola de lo que dice el libro, y la advertencia solo interrumpía la lectura. La fuente de los datos se conserva en el registro de la entrega. A pedido de Osmancito.
+25 de octubre de 2026: se quita la obligación de declarar en la página que un dato viene de fuera del libro. Como la glosa tiene su propio estilo, ya se distingue sola de lo que dice el libro, y la advertencia solo interrumpía la lectura. Los datos de fuera del libro siguen verificándose en una fuente, y las atribuciones necesarias se quedan. A pedido de Osmancito.
 
 25 de octubre de 2026: las tres voces se distinguen por color. La página lleva la marca de su paleta y la hoja de estilos viste cada clase con su color; el módulo solo nombra las clases y la marca. La primera paleta es la de tres tierras y la llevan *Mientras Escribo I* y *Mientras Escribo II*. A pedido de Osmancito.
 
