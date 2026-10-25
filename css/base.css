@@ -114,3 +114,19 @@ body.tres-tierras .glosa {
   font-size: 0.9em;
   padding-left: calc(1em + 2px);
 }
+
+/* Ficha y fecha del historial (Maquinas): cada entrada va en un
+   article, con su fecha marcada con la clase fecha. */
+article {
+  border-top: 1px solid #30363d;
+  padding: 20px 0;
+}
+
+article p {
+  margin: 10px 0;
+}
+
+.fecha {
+  color: #9da7b3;
+  font-size: 15px;
+}
