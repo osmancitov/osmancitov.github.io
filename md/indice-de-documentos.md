@@ -4,6 +4,8 @@ El **índice de documentos** es esta página: la lista de los documentos que gob
 
 El índice existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
 
+El índice también sirve para preparar un trabajo: cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo. Crear o corregir un documento tiene su propia regla, al final de esta página.
+
 Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github.io`, y cada entrada enlaza al archivo en GitHub. El índice no sustituye las instrucciones de cada documento: cada documento manda en su tema.
 
 ### Dominio Cero: `dominio-cero.md`
@@ -13,6 +15,11 @@ Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github
 La regla de escritura de la casa: cada palabra con el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición. Todo texto público del sitio la cumple.
 
 También se le ha llamado: «el dominio cero».
+
+**Cuándo se aplica:** siempre que se escribe o se revisa un texto que el sitio va a publicar.
+
+**Necesita:** ningún otro documento.
+
 ### Documento Ejemplar: `documento-ejemplar.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/documento-ejemplar.md)
@@ -20,6 +27,11 @@ También se le ha llamado: «el dominio cero».
 Define el documento ejemplar: un texto que describe una forma de hacer algo y es, él mismo, un ejemplo de esa forma. Las reglas que enuncia también lo gobiernan, y pasa su propio examen.
 
 También se le ha llamado: «documento ejemplar».
+
+**Cuándo se aplica:** cuando un texto fija una forma de hacer algo: al escribirlo y al revisarlo se comprueba que él mismo cumpla esa forma.
+
+**Necesita:** ningún otro documento.
+
 ### Productor de Módulos: `productor-de-modulos.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-modulos.md)
@@ -27,6 +39,10 @@ También se le ha llamado: «documento ejemplar».
 Fija cómo se escriben los módulos de la casa, qué forma llevan y cómo se revisan antes de entrar al repositorio.
 
 También se le ha llamado: «el productor de módulos»*.
+
+**Cuándo se aplica:** al crear un módulo nuevo o al corregir uno que ya existe.
+
+**Necesita:** el **Dominio Cero** y el **Documento Ejemplar**.
 
 ### Elementos de Estilo: `elementos-de-estilo.md`
 
@@ -36,6 +52,10 @@ Reúne los elementos de estilo de la casa para escribir en castellano, cada uno 
 
 También se le ha llamado: «elementos de estilo».
 
+**Cuándo se aplica:** al escribir o revisar una producción en castellano, cuando se quieren aplicar estos elementos.
+
+**Necesita:** ningún otro documento.
+
 ### Actualizar Estatus: `actualizar-estatus.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/actualizar-estatus.md)
@@ -43,6 +63,11 @@ También se le ha llamado: «elementos de estilo».
 Mantiene al día el Status, la página de la sala de máquinas que muestra lo que la asistente está haciendo. Se ejecuta cuando algo cambia durante el día, y cada vez que el autor pide «actualiza el estatus».
 
 También se le ha llamado: «actualiza el estatus», «el estatus», «el Status», «actualiza pendientes».
+
+**Cuándo se aplica:** cuando algo cambia durante el día en el trabajo de la asistente, y cada vez que el autor pide «actualiza el estatus».
+
+**Necesita:** el **Dominio Cero**.
+
 ### Rotar Historial: `rotar-historial.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/rotar-historial.md)
@@ -50,11 +75,21 @@ También se le ha llamado: «actualiza el estatus», «el estatus», «el Status
 Al terminar el día, a medianoche, pasa lo hecho del Status al Historial de tareas y la sección «Sociales» al Historial social: lo de hoy pasa a ayer.
 
 También se le ha llamado: «el Historial».
+
+**Cuándo se aplica:** cada día a medianoche, hora de Caracas.
+
+**Necesita:** el **Dominio Cero**. Lo que este procedimiento mueve lo anota **Actualizar Estatus** durante el día; para rotar no hace falta abrirlo.
+
 ### Publicar una entrada: `publicar-una-entrada.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-una-entrada.md)
 
 La descripción de la entrada común del sitio: sus tres archivos (md, html y jpg), su nombre con la fecha en seis cifras, sus dos títulos, sus etiquetas og, su hoja de estilos y su plantilla. Vale para todas las salas.
+
+**Cuándo se aplica:** al agregar una página nueva a cualquier sala del sitio.
+
+**Necesita:** el **Dominio Cero** y, para la imagen, el **Pintor de Imágenes**. Las salas que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en ese documento, que también se abre: cada documento manda en su tema.
+
 ### Publicar en Capilla: `publicar-en-capilla.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-en-capilla.md)
@@ -62,6 +97,11 @@ La descripción de la entrada común del sitio: sus tres archivos (md, html y jp
 Publica cada mañana la lectura del día en la Capilla, la sala dedicada a la oración. El trabajo empieza a las 04:30, hora de Caracas (UTC-4), para que la lectura esté servida a las 05:00.
 
 También se le ha llamado: «el módulo de la Capilla»*, «publicar Capilla»*.
+
+**Cuándo se aplica:** cada mañana; el trabajo empieza a las 04:30, hora de Caracas, para que la lectura esté servida a las 05:00.
+
+**Necesita:** el **Pintor de Imágenes** y el **Dominio Cero**.
+
 ### Publicar en Journal: `publicar-en-journal.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-en-journal.md)
@@ -69,6 +109,11 @@ También se le ha llamado: «el módulo de la Capilla»*, «publicar Capilla»*.
 Publica cada noche la entrada del día en el Journal, la sala que guarda los días.
 
 También se le ha llamado: «el módulo del Journal», «publicar-journal.md».
+
+**Cuándo se aplica:** cada noche; la entrada se arma al final del día, hacia las 23:00, hora de Caracas.
+
+**Necesita:** el **Pintor de Imágenes** y el **Dominio Cero**.
+
 ### Pintor de Imágenes: `pintor-de-imagenes.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/pintor-de-imagenes.md)
@@ -76,6 +121,11 @@ También se le ha llamado: «el módulo del Journal», «publicar-journal.md».
 Convierte un fragmento de texto en el pedido de pintura para la inteligencia artificial que genera las imágenes del sitio: la manera literal y la encarnada, y la lista de pintores. Lo usan los procedimientos de publicación.
 
 También se le ha llamado: «el Pintor», «el módulo del pintor»*.
+
+**Cuándo se aplica:** cuando un texto del sitio necesita una ilustración: convierte el fragmento en el pedido de pintura, o entrega la imagen ya generada. Lo usan los procedimientos de publicación y también se puede encargar directo.
+
+**Necesita:** ningún otro documento.
+
 ### Frases Selectas: `frases-selectas.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/frases-selectas.md)
@@ -83,6 +133,11 @@ También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 Puntúa las frases de una parte de un libro y teje las más pesadas en una lectura que se sigue completa, de principio a fin. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
 
 También se le ha llamado: «Frases Selectas». Antes se llamó «Alambique - Frases Selectas».
+
+**Cuándo se aplica:** al destilar una parte de un libro en la Destilería: puntuar sus frases, seleccionar las de más peso y tejer la lectura hasta entregar la unidad.
+
+**Necesita:** el **Dominio Cero** y, para el dibujo de cada unidad, el **Pintor de Imágenes**.
+
 ### Productor de Briefings: `productor-de-briefings.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
@@ -90,16 +145,34 @@ También se le ha llamado: «Frases Selectas». Antes se llamó «Alambique - Fr
 Lee un boletín por Osmancito y le devuelve por correo un informe detallado, el briefing, con la glosa de sus enlaces, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
 
 También se le ha llamado: «productor de briefings».
+
+**Cuándo se aplica:** cuando el autor pide el briefing de un boletín; cada pedido encarga uno solo.
+
+**Necesita:** el **Dominio Cero**.
+
 ### Índice de Documentos: `indice-de-documentos.md`
 
 [Esta misma página](#índice-de-documentos)
 
-La lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está y para qué sirve. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
+La lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
 
 También se le ha llamado: «el índice de documentos».
+
+**Cuándo se aplica:** al comenzar cualquier trabajo, para elegir qué documentos abrir, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
+
+**Necesita:** ningún otro documento.
 
 ## Cómo se usa este índice
 
 1. Para referirse a un documento basta un nombre aproximado; el índice dice cuál es su archivo exacto.
 2. Las formas marcadas con un asterisco (*) las sugiere la asistente para facilitar la referencia; no son nombres oficiales hasta que el autor las use.
-3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí.
+3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí. Un documento nuevo entra en el índice con su «cuándo se aplica» y lo que necesita.
+4. Antes de empezar un trabajo se nombra la ocasión y se abren los documentos cuyo «cuándo se aplica» la cubre, y también los que cada uno necesita. Se abren los archivos vigentes, no un recuerdo de ellos. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
+5. Para crear un documento de esta carpeta o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Un **módulo** es un documento que fija por escrito cómo se hace un trabajo de la casa. Si se corrige un documento, también se abre ese documento vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
+6. Antes de entregar o publicar, el resultado se contrasta con la revisión que pide cada documento aplicado; lo que la revisión encuentra se corrige, y los hallazgos relevantes se mencionan al entregar.
+7. El índice es un mapa, no un cerrojo: por sí solo no impide que una página se guarde o se publique sin pasar por sus documentos. Ese bloqueo es otro trabajo, que conectaría esta comprobación con la vía que guarda y publica.
+
+## Cambios
+
+25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
+
