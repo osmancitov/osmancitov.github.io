@@ -28,18 +28,19 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 - **Peso:** lo que suma un nodo, o una frase, tras repartir los puntos.
 - **Ranking:** la lista de las frases ordenadas de mayor a menor peso.
 - **Ganadora:** una frase elegida por el ranking para citarse.
-- **Cita:** una ganadora copiada tal cual en su idioma original.
-- **Traducción:** el texto de una cita llevado al castellano, que va debajo de ella.
-- **Rótulo:** la línea pequeña dentro del bloque de cita que dice el número de la frase, por ejemplo «Frase 75».
+- **Cita:** una ganadora copiada tal cual. En el cuerpo de la lectura se muestra en castellano, y su texto en el idioma original va en Los Originales.
+- **Traducción:** el texto de una cita llevado al castellano. Es lo que se muestra dentro del bloque de cita, en el lugar de la cita.
+- **Originales:** la sección final, titulada «Los Originales», que reúne las citas en su idioma original, por orden de aparición.
+- **Rótulo:** la línea pequeña dentro del bloque de cita que dice el número de la frase, por ejemplo «Frase 75». En el cuerpo es un enlace al original; en Los Originales, el enlace de vuelta a su lugar.
 - **Puente:** texto propio, en castellano, que cuenta lo que pasa entre dos citas, o entre el comienzo o el final de la sección y una cita, para que no queden huecos.
 - **Glosa:** texto propio, en un párrafo aparte, que enseña algo que el lector necesita para entender la lectura.
 - **Paráfrasis:** decir con otras palabras lo que el libro dice con las suyas.
 - **Tejido:** la lectura que resulta de poner en orden citas, puentes y glosas.
 - **Presupuesto:** el tope o la meta de palabras que cada pieza tiene, medido contra las palabras de la unidad fuente.
 - **Filete:** una línea fina que separa partes en la página. En el texto plano es una línea que contiene solo tres guiones (---).
-- **Clase:** el nombre que se pone a una pieza en la página (`cita`, `puente`, `glosa`, `traduccion`) para que la hoja de estilos le dé su apariencia.
+- **Clase:** el nombre que se pone a una pieza en la página (`cita`, `puente`, `glosa`) para que la hoja de estilos le dé su apariencia.
 - **Hoja de estilos:** el archivo del sitio, llamado `base.css`, que define colores, letras y espacios de todas las páginas. Ninguna página lleva estilos propios que lo contradigan.
-- **Bloque de cita:** el recuadro de la página, o las líneas que empiezan con el signo `>` en el texto plano, donde van juntas la cita y su rótulo.
+- **Bloque de cita:** el recuadro de la página, o las líneas que empiezan con el signo `>` en el texto plano, donde van juntos el texto de la cita y su rótulo.
 
 ## Para quién se escribe
 
@@ -63,9 +64,9 @@ Todo lo que se publica con este procedimiento se escribe para el lector cero, qu
 ## Tejer
 
 10. **Desde el comienzo de la sección hasta la primera ganadora, un puente.** La primera frase de la sección entra en este puente.
-11. **La primera ganadora.** La cita va en su idioma original, en bloque, con su rótulo («Frase 75»), y debajo su traducción al castellano en párrafo normal. La traducción se verifica palabra por palabra con el libro abierto, nunca de memoria.
+11. **La primera ganadora.** La cita va en castellano, en bloque, con su rótulo («Frase 75») que enlaza a su original en Los Originales. Su texto en el idioma original se copia a Los Originales. Traducción y original se verifican palabra por palabra con el libro abierto, nunca de memoria.
 12. **Un puente y una glosa hasta la segunda ganadora.** El puente cuenta lo que pasa entre las dos frases, para que no queden huecos. La glosa, en párrafo propio, enseña algo que el lector necesita.
-13. **La segunda ganadora**, con su traducción debajo.
+13. **La segunda ganadora**, en castellano, con su rótulo y su original en Los Originales.
 14. **Un puente y una glosa hasta el final de la sección.** La última frase de la sección entra en este puente.
 
 ## Lo que explican el puente y la glosa
@@ -78,25 +79,27 @@ El puente conecta las citas y aporta el contexto necesario para seguir la lectur
 
 ## Decisiones de formato
 
-1. **La cita va en su idioma original y debajo su traducción al castellano.** Así aprendemos a traducir también.
+1. **La cita va en castellano, en su lugar y con la forma de siempre (bloque de cita y rótulo), y el original va al final.** Así la lectura de principio a fin sigue en un solo idioma, y la voz de lectura no cambia de idioma a cada cita. Los originales se leen aparte, en Los Originales.
 2. **La glosa va tejida en cada tramo, no en una sección aparte.** Un tramo es el trozo de lectura entre dos citas, o entre el borde de la sección y una cita. La glosa tejida es una lectura acompañada, y así es como más se disfruta.
 3. **El dibujo va justo debajo del título de la unidad, antes del primer puente, en proporción 5:8.** Es decir, 5 de ancho por 8 de alto.
-4. **Los presupuestos se miden contra las palabras de la unidad fuente.** La proporción ideal es un diez por ciento de citas y un diez por ciento de puentes. Los puentes pueden llegar hasta un quince por ciento como techo, no como objetivo. La glosa es opcional y educativa, con un máximo del quince por ciento, como los puentes, solo cuando presentar a cada persona o enseñar lo que haga falta lo pida. Son techos, no cantidades que haya que gastar. Las traducciones quedan fuera de los presupuestos.
-5. **La cita lleva su número en castellano llano: «Frase 17», no el código del molde (BD0017).** El lector que llega en frío no conoce ese código. Se escribe sin ceros a la izquierda, bajo la cita en original.
+4. **Los presupuestos se miden contra las palabras de la unidad fuente.** La proporción ideal es un diez por ciento de citas y un diez por ciento de puentes. Los puentes pueden llegar hasta un quince por ciento como techo, no como objetivo. La glosa es opcional y educativa, con un máximo del quince por ciento, como los puentes, solo cuando presentar a cada persona o enseñar lo que haga falta lo pida. Son techos, no cantidades que haya que gastar. Las traducciones y Los Originales quedan fuera de los presupuestos.
+5. **La cita lleva su número en castellano llano: «Frase 17», no el código del molde (BD0017).** El lector que llega en frío no conoce ese código. Se escribe sin ceros a la izquierda, bajo la cita en castellano y delante del original en Los Originales.
 6. **La entrada abre con una presentación de la obra y un puente al primer tramo.** Entre el comienzo de la entrada (título y dibujo) y el primer tramo va una glosa corta que presenta la obra: quién la escribió, cuándo, para qué y cómo está armada. Se escribe con el libro abierto, como todo lo demás, y se dice qué viene de fuera del libro. Cierra con un puente que lleva al lector, que llega sin saber nada, hasta el primer tramo. Se escribe una sola vez, al abrir la entrada; los tramos siguientes no la repiten.
 
    La presentación también da la descripción de la página, la que se ve al compartir el enlace en redes y en la vista previa. Una vez escrita la presentación, se resume en una sola frase de hasta 100 caracteres, espacios incluidos, que diga qué es la obra y quién la escribió. Va en castellano llano, sin términos de este procedimiento. La frase se escribe una vez y se copia igual en las dos etiquetas del HTML (el lenguaje en que se escribe la página): `<meta name="description">` y `<meta property="og:description">`. Antes de publicar se cuentan los caracteres, y si pasan de 100 se acorta. Los tramos siguientes no la cambian.
 
-7. **La cita va en un bloque de cita con su rótulo dentro, sin líneas sueltas.** En la página, la cita en original y su rótulo «Frase N», en letra pequeña, van juntos dentro del mismo bloque de cita: primero la cita, en su párrafo, y justo después el rótulo. En el texto plano, la cita va en líneas que empiezan con `>` y el rótulo en su propia línea con `>`, debajo. Ninguna cita se publica sin rótulo, ningún rótulo va en un párrafo aparte y el rótulo no puede salir jamás como la palabra «None»: si el rótulo no queda en su sitio, la cita no se publica.
+7. **La cita va en un bloque de cita con su rótulo dentro, sin líneas sueltas.** En la página, la cita en castellano y su rótulo «Frase N», en letra pequeña, van juntos dentro del mismo bloque de cita: primero la cita, en su párrafo, y justo después el rótulo, que es un enlace al original. En el texto plano, la cita va en líneas que empiezan con `>` y el rótulo en su propia línea con `>`, debajo. Ninguna cita se publica sin rótulo, ningún rótulo va en un párrafo aparte y el rótulo no puede salir jamás como la palabra «None»: si el rótulo no queda en su sitio, la cita no se publica.
 8. **Las partes se separan con un filete.** Un filete va solo en su línea (---) antes de cada sección y antes de cada unidad, menos antes de lo que abre la página y antes de la primera unidad de una sección. En la página, el filete sale como una línea fina con espacio encima del título, y con más espacio cuando el título es de sección, para que el corte mayor se note.
-9. **Las piezas llevan su clase y la apariencia vive en la hoja de estilos.** Cada pieza lleva su clase: la cita, `cita`, dentro de su bloque de cita; el puente, `puente`; la glosa, `glosa`; la traducción, `traduccion`. Este texto solo nombra las clases y su función; los colores y las letras se definen en la hoja de estilos, nunca en la página ni aquí, y ninguna página lleva estilos propios que la contradigan.
+9. **Las piezas llevan su clase y la apariencia vive en la hoja de estilos.** Cada pieza lleva su clase: la cita, `cita`, dentro de su bloque de cita; el puente, `puente`; la glosa, `glosa`. Este texto solo nombra las clases y su función; los colores y las letras se definen en la hoja de estilos, nunca en la página ni aquí, y ninguna página lleva estilos propios que la contradigan.
+10. **Los originales van al final, en su propia sección.** Antes del título «Los Originales» va un filete (---). Debajo del título va un texto corto que explica qué es la sección: reúne, en el idioma del libro y por orden de aparición, las frases que arriba van en castellano, y el número de cada una lleva de vuelta a su lugar. Cada original va en su bloque de cita con el rótulo primero («Frase 75») y la frase después, sin comentarios, puentes ni glosas entre ellos. El rótulo es un enlace de vuelta a la cita en castellano. Si la obra trae una lista que no se traduce, como una bibliografía, se deja en su lugar, en su idioma, y no pasa a Los Originales.
+11. **Los nombres de las unidades y de las secciones, cuando el texto propio los menciona como nombres, se escriben en title case.** Cada palabra lleva mayúscula inicial, salvo los artículos, las preposiciones y las conjunciones que no abren el nombre: «Caja de Herramientas», «Qué Es Escribir», «La Memoria». Una palabra o una expresión que solo coincide con un nombre, como «la caja de herramientas» dicha como imagen, no se convierte en título. Los nombres dentro de citas, ya traducidas o en su idioma original, se dejan como están. Esta regla vale para las menciones; los títulos de los encabezados se rigen por la regla de la entrada donde están.
 
 ## Revisión antes de entregar
 
 Antes de entregar una unidad se revisa entera, con la página montada:
 
-1. **Marcado.** Cada cita va en su bloque de cita, con su rótulo dentro. Ninguna cita queda como líneas sueltas ni con signos de cita pegados a la prosa.
-2. **Estilo.** Cada pieza lleva su clase: el puente la suya, la glosa en párrafo propio, la traducción pegada a su cita. Todas las unidades de la entrada reparten las clases de la misma manera.
+1. **Marcado.** Cada cita va en su bloque de cita, con su rótulo dentro. Ninguna cita queda como líneas sueltas ni con signos de cita pegados a la prosa. Cada rótulo del cuerpo enlaza a un original que existe en Los Originales, y cada original enlaza de vuelta a su lugar.
+2. **Estilo.** Cada pieza lleva su clase: el puente la suya, la glosa en párrafo propio. Todas las unidades de la entrada reparten las clases de la misma manera.
 3. **Tejido.** Entre ganadora y ganadora hay puente y, cuando hay algo que enseñar, glosa. Con la fuente abierta se contrasta cada puente, para detectar paráfrasis que sustituyan la voz literal del libro; reclasificar una paráfrasis como glosa no resuelve el problema. Si dos ganadoras salen seguidas, se anota el motivo en la entrega, por ejemplo que en el original ya venían pegadas, en vez de rellenar por rellenar.
 4. **Cobertura.** Con la fuente abierta, se recorre cada hueco entre dos ganadoras, o entre el borde de la sección y una ganadora, y se lee lo que la obra dice ahí. El puente tiene que contarlo, no presentarlo. Hay anuncio cuando el puente nombra los temas del hueco o dice lo que viene, en vez de contar lo que el hueco dice. Hay omisión sustantiva cuando el puente deja fuera algo que el lector necesita para seguir la lectura: una idea que se retoma después, el desenlace que da sentido a una anécdota o el motivo de un cambio en la obra. Lo que falta se cuenta en el puente, sin pasarse: lo necesario para entender, no el hueco entero traducido. Si un pasaje del hueco merece entrar como cita, se evalúa con el ranking y el presupuesto de selección, en vez de colarlo en el texto propio.
 5. **Medida.** Se cuentan las palabras de las citas, de los puentes y de la glosa. La entrega dice la cifra de cada pieza, qué parte de la unidad fuente cubren las citas y cómo queda la prosa contra su presupuesto; lo que se pase se declara con su número.
@@ -109,6 +112,8 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias. Así cualquiera puede repetir la cuenta con las mismas reglas y comprobar que salen las mismas frases.
 
 ## Cambios
+
+25 de octubre de 2026: la cita pasa al castellano en el lugar de la cita original, con el mismo bloque de cita y el mismo rótulo, y el original se muda a una sección final, «Los Originales». El rótulo del cuerpo enlaza al original y el del original enlaza de vuelta. Los Originales llevan filete antes del título, un texto que explica la sección y el rótulo antes de la frase. Los nombres de unidades y secciones, cuando el texto los menciona, van en title case. La clase `traduccion` deja de usarse en las páginas. Se probó en *Mientras Escribo I* y se extendió a *Mientras Escribo II*, a pedido de Osmancito.
 
 23 de octubre de 2026: la revisión antes de entregar gana la comprobación de la cobertura de cada hueco, que busca dos faltas: el anuncio, cuando el puente presenta los temas del hueco en vez de contar lo que el hueco dice, y la omisión sustantiva, cuando el puente deja fuera lo que el lector necesita para seguir la lectura. Se añade tras revisar los puentes de la obra destilada *On Writing*, donde esas dos faltas fueron las más repetidas.
 
