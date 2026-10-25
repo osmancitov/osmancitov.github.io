@@ -31,7 +31,7 @@ Por ejemplo, una entrada del 22 de octubre de 2026 con el título dentro de la p
 Una entrada tiene dos títulos:
 
 - El **título dentro de la página** es el título que se ve arriba, en la página misma.
-- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el mismo título dentro de la página, sin nada añadido.
+- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el **nombre editorial** del repositorio. El nombre editorial es el nombre del repositorio escrito con mayúscula inicial en cada palabra y con sus tildes, seguido de «Osmancito», el autor del sitio. Ejemplos: «Destilería Osmancito», «Taller Osmancito», «Journal Osmancito» y «Capilla Osmancito». El título de la tarjeta, en cambio, es solo el título dentro de la página, porque en la tarjeta cabe poca información.
 
 ## Lo que muestra la página
 
@@ -48,7 +48,7 @@ La página muestra, en este orden:
 
 El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Cuando alguien comparte el enlace de una página, las redes sociales muestran una tarjeta con el título de la pestaña, una descripción y una imagen. Una **etiqueta og** es un dato escrito en la cabecera de la página que dice cómo se ve esa tarjeta.
 
-Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la primera imagen de la entrada. El título de la tarjeta es el título de la pestaña. La descripción es un texto de 100 caracteres como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
+Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la primera imagen de la entrada. El título de la tarjeta es el título dentro de la página, sin el nombre editorial. La descripción es un texto de 100 caracteres como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
 
 ## El estilo
 
@@ -64,7 +64,7 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>[título dentro de la página]</title>
+<title>[título dentro de la página] · [Nombre editorial]</title>
 <meta name="description" content="[descripción]">
 <link rel="icon" href="https://osmancitov.github.io/favicon.ico">
 <meta property="og:type" content="article">
@@ -93,5 +93,7 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 ```
 
 ## Cambios
+
+25 de octubre de 2026: el título de la pestaña vuelve a llevar un punto medio y el nombre del repositorio, ahora en forma editorial (mayúscula inicial en cada palabra, seguido de «Osmancito»: «Destilería Osmancito», «Journal Osmancito»). El título de la tarjeta sigue siendo solo el título dentro de la página. Sustituye el cambio siguiente en lo que toca a la pestaña. A pedido de Osmancito.
 
 25 de octubre de 2026: el título de la pestaña y el de la tarjeta dejan de llevar, después del título de la página, un punto medio y el nombre del repositorio. Ahora son solo el título dentro de la página. A pedido de Osmancito.
