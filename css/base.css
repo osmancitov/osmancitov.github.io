@@ -83,6 +83,12 @@ h2 + h3 {
   font-style: normal;
 }
 
+/* .subtitulo es la linea de nombres que va bajo el titulo de cada unidad:
+   va en italicas, aparte de la glosa. */
+.subtitulo {
+  font-style: italic;
+}
+
 blockquote small {
   display: block;
   margin-top: 8px;
@@ -113,6 +119,10 @@ body.tres-tierras .glosa {
   color: #c49a7a;
   font-size: 0.9em;
   padding-left: calc(1em + 2px);
+}
+
+body.tres-tierras .subtitulo {
+  color: #c49a7a;
 }
 
 /* Ficha y fecha del historial (Maquinas): cada entrada va en un
