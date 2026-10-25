@@ -142,17 +142,29 @@ También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 
 **Necesita:** ningún otro documento.
 
+### Destilar una obra: `destilar-una-obra.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/destilar-una-obra.md)
+
+El protocolo completo para destilar una obra en la Destilería, la sala del sitio que destila libros: elige la unidad fuente, selecciona sus frases, las teje en una lectura que se sigue completa, de principio a fin, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla.
+
+También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octubre de 2026 este protocolo vivía entero en «Frases Selectas».
+
+**Cuándo se aplica:** al destilar una obra, o una parte de ella, en la Destilería, de la elección de la unidad a la entrega.
+
+**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad y **Publicar una entrada** cuando el destilado se prepara como página del sitio.
+
 ### Frases Selectas: `frases-selectas.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/frases-selectas.md)
 
-Puntúa las frases de una parte de un libro y teje las más pesadas en una lectura que se sigue completa, de principio a fin. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
+Puntúa las frases de una parte de un libro y selecciona las más pesadas, hasta cubrir el diez por ciento de sus palabras. Es la parte de selección de Destilar una obra.
 
 También se le ha llamado: «Frases Selectas». Antes se llamó «Alambique - Frases Selectas».
 
-**Cuándo se aplica:** al destilar una parte de un libro en la Destilería: puntuar sus frases, seleccionar las de más peso y tejer la lectura hasta entregar la unidad.
+**Cuándo se aplica:** cuando Destilar una obra pide puntuar y seleccionar las frases de una unidad, o cuando se encarga solo esa selección.
 
-**Necesita:** el **Dominio Cero** y, para el dibujo de cada unidad, el **Pintor de Imágenes**.
+**Necesita:** el **Dominio Cero**.
 
 ### Productor de Briefings: `productor-de-briefings.md`
 
@@ -194,6 +206,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+25 de octubre de 2026: nace Destilar una obra (`destilar-una-obra.md`) como el protocolo completo de destilación, con su entrada en la lista y sus dependencias: Frases Selectas, el Dominio Cero, el Pintor de Imágenes y Publicar una entrada. La entrada de Frases Selectas pasa a describir solo la puntuación y la selección de las frases. A pedido de Osmancito.
 
 25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
 
