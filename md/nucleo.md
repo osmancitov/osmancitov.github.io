@@ -164,7 +164,7 @@ También se le ha llamado: «productor de briefings».
 
 **Cuándo se aplica:** cuando el autor pide el briefing de un boletín; cada pedido encarga uno solo.
 
-**Necesita:** el **Dominio Cero**.
+**Necesita:** el **Dominio Cero** y, para la imagen de apertura, el **Pintor de Imágenes**.
 
 ### Núcleo: `nucleo.md`
 

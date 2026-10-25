@@ -17,12 +17,13 @@ No tiene horario. Se hace cuando el autor lo pide, sobre la edición que él se�
 El briefing se escribe en castellano, aunque la edición venga en otra lengua, y lleva sus partes en este orden:
 
 1. **El asunto**: el nombre del boletín y la fecha de la edición.
-2. **El resumen**: de qué trata la edición, en pocas frases.
-3. **El desarrollo por temas**: cada tema de la edición, explicado en su propio apartado, en el orden en que la edición lo trata.
-4. **La glosa**: los enlaces abiertos y contados y las referencias explicadas, cada una con su fuente. La glosa sale de lo abierto y comprobado, no de la memoria.
-5. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería. Si no sugiere nada, el apartado dice «Ninguna».
-6. **Las fuentes**: la lista de las páginas abiertas para la glosa.
-7. **La firma**: firma la asistente, que hace el briefing.
+2. **La imagen**, arriba del cuerpo del briefing, antes del resumen: una imagen de apertura relacionada con el contenido de la edición, hecha con el procedimiento de ilustración de la casa, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Este módulo no fija su proporción.
+3. **El resumen**: de qué trata la edición, en pocas frases.
+4. **El desarrollo por temas**: cada tema de la edición, explicado en su propio apartado, en el orden en que la edición lo trata.
+5. **La glosa**: los enlaces abiertos y contados y las referencias explicadas, cada una con su fuente. La glosa sale de lo abierto y comprobado, no de la memoria.
+6. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería. Si no sugiere nada, el apartado dice «Ninguna».
+7. **Las fuentes**: la lista de las páginas abiertas para la glosa.
+8. **La firma**: firma la asistente, que hace el briefing.
 
 ## Los pasos
 
@@ -30,7 +31,7 @@ El briefing se escribe en castellano, aunque la edición venga en otra lengua, y
 2. Se comprueba que la edición no tenga ya un briefing entregado. Si lo tiene, se avisa antes de repetir el trabajo.
 3. Se lee la edición entera.
 4. Se abre cada enlace y cada remisión que pida explicación, y se apunta lo que hay detrás con su dirección.
-5. Se escribe el briefing con sus partes en su orden.
+5. Se hace la imagen de apertura con el Pintor de Imágenes, a partir de lo que trata la edición, y se escribe el briefing con sus partes en su orden.
 6. Se declara en el briefing lo que no se pudo comprobar, junto a lo que afirma.
 7. Se envía al correo del autor desde la dirección de la asistente y se comprueba que llegó: la entrega queda comprobada, no presumida.
 
@@ -40,7 +41,7 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 
 1. **La edición es la pedida.** El boletín y la fecha corresponden a lo encargado.
 2. **La glosa está comprobada.** Cada explicación sale de una página abierta, o se declara sin comprobar.
-3. **Las partes completas y en orden.** Ninguna falta y ninguna cambia de lugar.
+3. **Las partes completas y en orden.** Ninguna falta y ninguna cambia de lugar; la imagen va arriba, antes del resumen.
 4. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
 
 ## Lo que este módulo no hace
