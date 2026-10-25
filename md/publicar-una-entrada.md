@@ -31,7 +31,7 @@ Por ejemplo, una entrada del 22 de octubre de 2026 con el título dentro de la p
 Una entrada tiene dos títulos:
 
 - El **título dentro de la página** es el título que se ve arriba, en la página misma.
-- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el nombre del repositorio.
+- El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el mismo título dentro de la página, sin nada añadido.
 
 ## Lo que muestra la página
 
@@ -64,12 +64,12 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>[título dentro de la página] · [Repositorio]</title>
+<title>[título dentro de la página]</title>
 <meta name="description" content="[descripción]">
 <link rel="icon" href="https://osmancitov.github.io/favicon.ico">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="es_VE">
-<meta property="og:title" content="[título dentro de la página] · [Repositorio]">
+<meta property="og:title" content="[título dentro de la página]">
 <meta property="og:description" content="[descripción]">
 <meta property="og:url" content="https://osmancitov.github.io/[repositorio]/html/[nombre].html">
 <meta property="og:image" content="https://osmancitov.github.io/[repositorio]/img/[nombre].jpg">
@@ -91,3 +91,7 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 </body>
 </html>
 ```
+
+## Cambios
+
+25 de octubre de 2026: el título de la pestaña y el de la tarjeta dejan de llevar, después del título de la página, un punto medio y el nombre del repositorio. Ahora son solo el título dentro de la página. A pedido de Osmancito.
