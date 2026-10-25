@@ -27,6 +27,15 @@ También se le ha llamado: «documento ejemplar».
 Fija cómo se escriben los módulos de la casa, qué forma llevan y cómo se revisan antes de entrar al repositorio.
 
 También se le ha llamado: «el productor de módulos»*.
+
+### Elementos de Estilo: `elementos-de-estilo.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/elementos-de-estilo.md)
+
+Reúne los elementos de estilo de la casa para escribir en castellano, cada uno con su excepción y, donde hace falta, la norma de la RAE. Se usa al escribir o revisar una producción en castellano.
+
+También se le ha llamado: «elementos de estilo».
+
 ### Actualizar Estatus: `actualizar-estatus.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/actualizar-estatus.md)
