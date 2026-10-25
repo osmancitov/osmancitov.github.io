@@ -1,12 +1,26 @@
-# Índice de Documentos
+# Núcleo
 
-El **índice de documentos** es esta página: la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
+El **Núcleo** es esta página: lo que se cumple en los encargos que lo invocan y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio; invoca el Núcleo con esta fórmula: «Cumpliendo con el Núcleo, haz esta cosa». El Núcleo rige los encargos que lo invocan. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
 
-El índice existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
+La lista de documentos existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
 
-El índice también sirve para preparar un trabajo: cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo. Crear o corregir un documento tiene su propia regla, al final de esta página.
+La lista también sirve para preparar un trabajo: cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo. Crear o corregir un documento tiene su propia regla, al final de esta página.
 
-Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github.io`, y cada entrada enlaza al archivo en GitHub. El índice no sustituye las instrucciones de cada documento: cada documento manda en su tema.
+Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github.io`, y cada entrada enlaza al archivo en GitHub. El Núcleo no sustituye las instrucciones de cada documento: cada documento manda en su tema.
+
+## Cómo se cumple el Núcleo
+
+**Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado. Leer es solo un paso para cumplir.
+
+1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
+2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
+3. Abrir y leer esos documentos vigentes, enteros, no un recuerdo de ellos, antes de empezar. Si uno remite a otro necesario, se abre también. Al corregir un documento, o este mismo Núcleo, se lee además el vigente antes de tocarlo. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
+4. Hacer el encargo siguiendo esos documentos. Cada documento gobierna su tema; si dos se contradicen, manda el de su propio tema. Preguntar solo si falta un dato indispensable o hay una contradicción que no se resuelve así.
+5. Antes de entregar o publicar, contrastar el resultado con la revisión que pide cada documento aplicado, corregir lo que falle y mencionar al entregar los hallazgos relevantes.
+
+El Núcleo exige cumplir, pero por sí solo no impide que una página se guarde o se publique sin pasar por él.
+
+## Los documentos
 
 ### Dominio Cero: `dominio-cero.md`
 
@@ -150,29 +164,35 @@ También se le ha llamado: «productor de briefings».
 
 **Necesita:** el **Dominio Cero**.
 
-### Índice de Documentos: `indice-de-documentos.md`
+### Núcleo: `nucleo.md`
 
-[Esta misma página](#índice-de-documentos)
+[Esta misma página](#núcleo)
 
-La lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
+Lo que se cumple en los encargos que lo invocan y la lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
 
-También se le ha llamado: «el índice de documentos».
+También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** al comenzar cualquier trabajo, para elegir qué documentos abrir, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
+**Cuándo se aplica:** en todo encargo que invoque el Núcleo, al comenzar, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
 
-**Necesita:** ningún otro documento.
+**Necesita:** ningún otro documento para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
-## Cómo se usa este índice
+## Cómo se usa la lista
 
-1. Para referirse a un documento basta un nombre aproximado; el índice dice cuál es su archivo exacto.
+1. Para referirse a un documento basta un nombre aproximado; la lista dice cuál es su archivo exacto.
 2. Las formas marcadas con un asterisco (*) las sugiere la asistente para facilitar la referencia; no son nombres oficiales hasta que el autor las use.
-3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí. Un documento nuevo entra en el índice con su «cuándo se aplica» y lo que necesita.
-4. Antes de empezar un trabajo se nombra la ocasión y se abren los documentos cuyo «cuándo se aplica» la cubre, y también los que cada uno necesita. Se abren los archivos vigentes, no un recuerdo de ellos. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
-5. Para crear un documento de esta carpeta o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Un **módulo** es un documento que fija por escrito cómo se hace un trabajo de la casa. Si se corrige un documento, también se abre ese documento vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
-6. Antes de entregar o publicar, el resultado se contrasta con la revisión que pide cada documento aplicado; lo que la revisión encuentra se corrige, y los hallazgos relevantes se mencionan al entregar.
-7. El índice es un mapa, no un cerrojo: por sí solo no impide que una página se guarde o se publique sin pasar por sus documentos. Ese bloqueo es otro trabajo, que conectaría esta comprobación con la vía que guarda y publica.
+3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí. Un documento nuevo entra en la lista con su «cuándo se aplica» y lo que necesita.
+4. Para crear un documento de esta carpeta o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Un **módulo** es un documento que fija por escrito cómo se hace un trabajo de la casa. Si se corrige un documento, también se abre ese documento vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
+
+## Su propio examen
+
+El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **documento ejemplar** (ver el documento de ese nombre): tiene que pasar su propio examen.
+
+1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos.
+2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su documento y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
+3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
 
 25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
 
+25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar, de modo que el autor puede pedir «Cumpliendo con el Núcleo, haz esta cosa». A pedido de Osmancito.
