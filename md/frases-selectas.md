@@ -46,9 +46,11 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 
 ## Cómo se comprueba el ranking
 
-Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias. Así cualquiera puede repetir la cuenta con las mismas reglas y comprobar que salen las mismas frases.
+Antes de entregar, se comprueba el cálculo. Con el molde y el texto de cada sección a la vista y las mismas reglas de arriba, se vuelve a verificar qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias, y que de ahí salen las mismas frases. Si algo no sale igual, se corrige y se vuelve a calcular. La comprobación es parte del trabajo, no de lo que se publica: la página no describe el cálculo. Al entregar se dice a quien recibe el trabajo que se hizo y qué se encontró, como pide la revisión de Destilar una obra.
 
 ## Cambios
+
+25 de octubre de 2026: la comprobación del ranking pasa a ser una verificación que se hace antes de entregar, y deja de ser algo que se dice al publicar. Se vuelve a calcular con las mismas reglas y, si algo no sale igual, se corrige; la página no describe el cálculo. La puntuación y la selección no cambian. A pedido de Osmancito.
 
 25 de octubre de 2026: este documento se limita a puntuar y seleccionar las frases. El tejido, los puentes y las glosas, las decisiones de formato, el dibujo, la revisión antes de entregar y la elección de la unidad fuente pasan, sin cambiar su contenido, a Destilar una obra (`destilar-una-obra.md`). A pedido de Osmancito.
 
