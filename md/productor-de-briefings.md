@@ -4,7 +4,7 @@ Productor de Briefings es el nombre de este procedimiento. Este texto está escr
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que produce el briefing de un boletín para Osmancito, el autor. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es el informe detallado de una edición: lo que dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing.
+Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing.
 
 El briefing ahorra trabajo al autor: entiende la edición entera en un solo correo, sin abrir nada más, y lo que pueda servir al trabajo del sitio queda recogido en su propio apartado.
 
@@ -42,7 +42,6 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 2. **La glosa está comprobada.** Cada explicación sale de una página abierta, o se declara sin comprobar.
 3. **Las partes completas y en orden.** Ninguna falta y ninguna cambia de lugar.
 4. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
-5. **La entrega.** El correo llegó al buzón del autor.
 
 ## Lo que este módulo no hace
 
