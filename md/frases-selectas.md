@@ -39,6 +39,7 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 - **Presupuesto:** el tope o la meta de palabras que cada pieza tiene, medido contra las palabras de la unidad fuente.
 - **Filete:** una línea fina que separa partes en la página. En el texto plano es una línea que contiene solo tres guiones (---).
 - **Clase:** el nombre que se pone a una pieza en la página (`cita`, `puente`, `glosa`) para que la hoja de estilos le dé su apariencia.
+- **Marca:** el nombre que se pone en la página entera (`tres-tierras`) para que la hoja de estilos le dé su paleta de colores. No cambia el texto, solo los colores.
 - **Hoja de estilos:** el archivo del sitio, llamado `base.css`, que define colores, letras y espacios de todas las páginas. Ninguna página lleva estilos propios que lo contradigan.
 - **Bloque de cita:** el recuadro de la página, o las líneas que empiezan con el signo `>` en el texto plano, donde van juntos el texto de la cita y su rótulo.
 
@@ -94,6 +95,8 @@ El puente conecta las citas y aporta el contexto necesario para seguir la lectur
 10. **Los originales van al final, en su propia sección.** Antes del título «Los Originales» va un filete (---). Debajo del título va un texto corto que explica qué es la sección: reúne, en el idioma del libro y por orden de aparición, las frases que arriba van en castellano, y el número de cada una lleva de vuelta a su lugar. Cada original va en su bloque de cita con el rótulo primero («Frase 75») y la frase después, sin comentarios, puentes ni glosas entre ellos. El rótulo es un enlace de vuelta a la cita en castellano. Si la obra trae una lista que no se traduce, como una bibliografía, se deja en su lugar, en su idioma, y no pasa a Los Originales.
 11. **Los nombres de las unidades y de las secciones, cuando el texto propio los menciona como nombres, se escriben en title case.** Cada palabra lleva mayúscula inicial, salvo los artículos, las preposiciones y las conjunciones que no abren el nombre: «Caja de Herramientas», «Qué Es Escribir», «La Memoria». Una palabra o una expresión que solo coincide con un nombre, como «la caja de herramientas» dicha como imagen, no se convierte en título. Los nombres dentro de citas, ya traducidas o en su idioma original, se dejan como están. Esta regla vale para las menciones; los títulos de los encabezados se rigen por la regla de la entrada donde están.
 
+12. **Las tres voces se distinguen por color, con la paleta de tres tierras.** La cita va en dorado crema, el puente en piedra y la glosa en arcilla, más pequeña y con sangría, como una nota al margen de la cita que comenta. Así el color dice qué clase de texto es cada uno: la cita es la voz del libro, el puente es la estructura y la glosa es el comentario. Como siempre, los colores concretos se definen en la hoja de estilos, nunca en la página ni en este texto. La paleta se aplica solo a las páginas que llevan la marca `tres-tierras`; las que no la llevan conservan la paleta anterior.
+
 ## Revisión antes de entregar
 
 Antes de entregar una unidad se revisa entera, con la página montada:
@@ -112,6 +115,8 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias. Así cualquiera puede repetir la cuenta con las mismas reglas y comprobar que salen las mismas frases.
 
 ## Cambios
+
+25 de octubre de 2026: las tres voces ganan cada una su color con la paleta de tres tierras: la cita en dorado crema, el puente en piedra y la glosa en arcilla, que además queda más pequeña y con sangría, como nota. La paleta vive en la hoja de estilos y se aplica a las páginas que llevan la marca `tres-tierras`; por ahora, *Mientras Escribo I* y *Mientras Escribo II*. A pedido de Osmancito.
 
 25 de octubre de 2026: la cita pasa al castellano en el lugar de la cita original, con el mismo bloque de cita y el mismo rótulo, y el original se muda a una sección final, «Los Originales». El rótulo del cuerpo enlaza al original y el del original enlaza de vuelta. Los Originales llevan filete antes del título, un texto que explica la sección y el rótulo antes de la frase. Los nombres de unidades y secciones, cuando el texto los menciona, van en title case. La clase `traduccion` deja de usarse en las páginas. Se probó en *Mientras Escribo I* y se extendió a *Mientras Escribo II*, a pedido de Osmancito.
 

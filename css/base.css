@@ -96,3 +96,21 @@ blockquote small {
   font-size: 15px;
   margin: 48px 0 0;
 }
+
+/* Paleta de tres tierras: las tres voces del destilado se distinguen
+   por color. La cita en dorado crema, el puente en piedra y la glosa
+   en arcilla, mas pequena y con sangria, como nota editorial. Se aplica
+   solo a las paginas que llevan la clase en el cuerpo. */
+body.tres-tierras blockquote.cita {
+  color: #e6d3a8;
+}
+
+body.tres-tierras .puente {
+  color: #a89f92;
+}
+
+body.tres-tierras .glosa {
+  color: #c49a7a;
+  font-size: 0.9em;
+  padding-left: calc(1em + 2px);
+}
