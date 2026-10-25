@@ -74,6 +74,13 @@ También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 Puntúa las frases de una parte de un libro y teje las más pesadas en una lectura que se sigue completa, de principio a fin. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
 
 También se le ha llamado: «Frases Selectas». Antes se llamó «Alambique - Frases Selectas».
+### Productor de Briefings: `productor-de-briefings.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
+
+Lee un boletín por Osmancito y le devuelve por correo un informe detallado, el briefing, con la glosa de sus enlaces, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
+
+También se le ha llamado: «productor de briefings».
 ### Índice de Documentos: `indice-de-documentos.md`
 
 [Esta misma página](#índice-de-documentos)
