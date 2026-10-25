@@ -28,6 +28,8 @@ Cada página vive en dos archivos fijos, **gemelos**, que dicen lo mismo y cambi
 
 El Historial de tareas abre diciendo que guarda los trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+En el html del Historial de tareas, cada bloque va dentro de una etiqueta `article` y su fecha va en un párrafo con la **clase** `fecha`. Una **etiqueta** es una marca del lenguaje de las páginas que dice dónde empieza y dónde termina cada parte, y una **clase** es el nombre que se pone a una pieza para que la hoja de estilos le dé su apariencia. El separador entre bloques y el tamaño y el color de la fecha los define `base.css`: el html no lleva un bloque `style` propio.
+
 ## Publicar
 
 1. Antes de cambiar nada se trae del repositorio la versión más reciente, y al terminar se suben los cambios. Después se comprueban las tres páginas ya publicadas, abiertas en un navegador. La ejecución es silenciosa: se escribe a Osmancito solo si algo falla.
