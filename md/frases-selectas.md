@@ -19,7 +19,7 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 - **Frase:** cada segmento del cuerpo de la obra. Una frase no se corta nunca, y lleva su número.
 - **Molde:** el archivo que contiene la obra ya partida en frases, cada una con su número.
 - **BD:** las letras con que el molde escribe el número de una frase, seguidas de cuatro cifras. BD0076 es la frase 76. El código BD se usa solo en los registros internos y en este texto.
-- **Unidad fuente:** cada sección interna de la obra, con su título: un capítulo, una escena, un cuento. Cada unidad se mide por separado para los presupuestos; nunca se mide la página entera ni la obra entera. Una sección es la que se puntúa, y aquí la sección y la unidad fuente son el mismo texto.
+- **Unidad fuente:** la porción de la obra que se decide trabajar de una vez. Puede ser una parte que la obra ya trae separada, como un capítulo, una escena o un cuento, o una subdivisión interna de una parte mayor, cuando esa parte es demasiado grande para trabajarla entera de una vez. La elección se hace para cada obra, puede variar de una obra a otra y se declara en la entrega, con el motivo; no hay una regla fija que la imponga. Si la porción elegida no trae título propio, se le da uno. Cada unidad se mide por separado para los presupuestos; nunca se mide la página entera ni la obra entera. La unidad fuente no es la página publicada: una entrada puede reunir varias unidades. Una sección es la que se puntúa, y aquí la sección y la unidad fuente son el mismo texto.
 - **Entrada:** la página que reúne varias unidades publicadas de una misma obra.
 - **Puesto:** un sujeto o un objeto de una cláusula de una frase. Una cláusula es una parte de la frase con su propio verbo o con su propio sujeto.
 - **Nodo:** la persona o la cosa a la que se refieren uno o varios puestos. Es lo que se suma y se ordena.
@@ -116,6 +116,8 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 Al publicar se dice qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias. Así cualquiera puede repetir la cuenta con las mismas reglas y comprobar que salen las mismas frases.
 
 ## Cambios
+
+25 de octubre de 2026: la unidad fuente deja de ser una sección interna fija de la obra (capítulo, escena o cuento) y pasa a ser la porción de la obra que se decide trabajar de una vez, que puede coincidir con una de esas partes o con una subdivisión interna; la elección se declara en la entrega, y se aclara que la unidad de trabajo no es la página publicada. A pedido de Osmancito. Este cambio corrige el de más abajo fechado el mismo día.
 
 25 de octubre de 2026: la unidad fuente es cada sección interna de la obra (capítulo, escena o cuento) y se mide por separado, no la página ni la obra entera. El techo del quince por ciento no admite excepciones para los puentes; la glosa, por ser educativa, puede pasarse un poco cuando la explicación lo necesite, y se declara.
 
