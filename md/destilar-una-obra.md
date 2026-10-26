@@ -25,7 +25,7 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 
 - **Obra:** el libro o texto que se trabaja.
 - **Unidad fuente:** la porción de la obra que se decide trabajar de una vez. Puede ser una parte que la obra ya trae separada, como un capítulo, una escena o un cuento, o una subdivisión interna de una parte mayor, cuando esa parte es demasiado grande para trabajarla entera de una vez. La elección se hace para cada obra, puede variar de una obra a otra y se declara en la entrega, con el motivo; no hay una regla fija que la imponga. Si la porción elegida no trae título propio, se le da uno. Una sección es la que se puntúa, y aquí la sección y la unidad fuente son el mismo texto.
-- **Entrada:** la página que reúne varias unidades publicadas de una misma obra.
+- **Entrada:** la página que reúne las unidades publicadas de una misma obra. Crece por entrega progresiva: cada unidad terminada se añade como definitiva, sin esperar a las demás.
 - **Cita:** una ganadora copiada tal cual. En el cuerpo de la lectura se muestra en castellano, y su texto en el idioma original va en Los Originales.
 - **Traducción:** el texto de una cita llevado al castellano. Es lo que se muestra dentro del bloque de cita, en el lugar de la cita.
 - **Originales:** la sección final, titulada «Los Originales», que reúne las citas en su idioma original, por orden de aparición.
@@ -48,14 +48,14 @@ Todo lo que se publica con este procedimiento se escribe para el lector cero, qu
 
 ## El orden del trabajo
 
-1. Se escribe la presentación de la obra y, resumida de ella, la descripción de la página con sus etiquetas, como fija el punto 6 de «Decisiones de formato». Esto se hace una sola vez, al abrir la entrada de la obra, antes de trabajar la primera unidad; las unidades siguientes no lo repiten ni lo cambian.
+1. Se escribe la presentación de la obra y, resumida de ella, la descripción de la página con sus etiquetas, como fija el punto 6 de «Decisiones de formato». Esto se hace una sola vez, al abrir la entrada de la obra, antes de trabajar la primera unidad. La presentación es para la obra entera: no dice cuántas unidades hay publicadas ni cuáles faltan, y las unidades siguientes se añaden a la entrada sin repetirla ni cambiarla, salvo para corregir un error.
 2. Se elige la unidad fuente y se declara en la entrega, con el motivo.
 3. Se puntúan y seleccionan sus frases con Frases Selectas.
 4. Se teje la lectura, como dice «Tejer» y «Lo que explican el puente y la glosa».
 5. Se hace el dibujo de la unidad con el Pintor de Imágenes.
 6. Se arma la página con «Decisiones de formato» y con Publicar una entrada.
 7. Se revisa la unidad entera con «Revisión antes de entregar».
-8. Se entrega, diciendo qué encontró la revisión y qué se corrigió.
+8. Se entrega, diciendo qué encontró la revisión y qué se corrigió. Cada unidad se entrega al terminarla y entra a la entrada ya definitiva; quien la lee puede revisarla y corregirla mientras se trabaja la siguiente.
 
 ## Tejer
 
@@ -107,6 +107,8 @@ Antes de entregar una unidad se revisa entera, con la página montada:
 La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
+
+25 de octubre de 2026: la entrada crece por entrega progresiva. Cada unidad terminada se añade como definitiva y puede revisarse y corregirse mientras se trabaja la siguiente; la presentación de la obra se escribe para el conjunto y no lleva estado de avance ni lista de unidades. Se reformulan el término «Entrada», el primer paso de «El orden del trabajo» y el paso de entrega, sin añadir reglas nuevas. No cambia el método de selección ni el contenido de la presentación. A pedido de Osmancito.
 
 25 de octubre de 2026: cada unidad, cuando la entrada trabaja varias, abre con un subtítulo, la lista de los nombres que más pesan en ella separados por comas, justo debajo de su título y antes del dibujo. Lleva su propia clase, `subtitulo`, en itálicas, con el color de la glosa. Los Originales va por unidad con su título y sin esa línea. La revisión de cobertura añade que cada nombre del subtítulo debe aparecer de forma comprensible en una cita o en un puente de la unidad; si falta, se cubre en el puente. No cambia el método de selección ni el cálculo. A pedido de Osmancito.
 
