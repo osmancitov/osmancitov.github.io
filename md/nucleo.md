@@ -152,7 +152,7 @@ También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octu
 
 **Cuándo se aplica:** al destilar una obra, o una parte de ella, en la Destilería, de la elección de la unidad a la entrega.
 
-**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo**, solo para la presentación de la obra, el texto que abre la página.
+**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad, **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo**, solo para la presentación de la obra, el texto que abre la página.
 
 ### Frases Selectas: `frases-selectas.md`
 
