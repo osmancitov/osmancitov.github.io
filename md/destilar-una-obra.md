@@ -47,6 +47,18 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 
 Todo lo que se publica con este procedimiento se escribe para el lector cero, que llega en frío y no sabe nada de la obra, de su autor ni de los términos de este texto. Ese lector necesita que se defina y se explique cada cosa antes de hablar de ella: quién es cada persona, qué es cada lugar, objeto o palabra extranjera, y de qué momento de la obra se trata. Ningún nombre queda suelto ni ningún término sin explicar; si hay que saber algo para entender una línea, la línea lo dice antes. Rige para la presentación, los puentes, las glosas y los rótulos.
 
+## Qué se busca y dónde va el esfuerzo
+
+Lo que se busca es un destilado completo, leído de principio a fin: las citas, los puentes y las glosas juntos. La lista de citas sola no es el resultado.
+
+Una sección puede verse como un lago que el lector cruza. Las citas son los puntos de apoyo, las rocas firmes. Los puentes y las glosas son el entramado que se tiende entre ellas y que cubre todo el lago. Si ese entramado es bueno, el lector recorre la sección entera y ve todo el panorama, aunque otra elección de apoyos habría servido de manera parecida.
+
+Por eso Frases Selectas elige apoyos con muchas conexiones: frases cuyos nodos se mencionan en muchos lugares y que permiten tender puentes y glosas de muchos tipos, y escribirlos con libertad. No elige las frases más brillantes una por una.
+
+El destilado se hace entre las citas. La glosa trae una lectura que no está en el libro; los puentes convierten las citas en un recorrido y no en una colección. Ahí se crea el destilado, y ahí se decide su calidad: la selección da los apoyos y esa escritura hace el resto.
+
+La precisión de la selección es un medio. El esfuerzo que se le dedica debe ser proporcional a lo que aporta al destilado completo.
+
 ## El orden del trabajo
 
 1. Se escribe la presentación de la obra y, resumida de ella, la descripción de la página con sus etiquetas, como fija el punto 6 de «Decisiones de formato». Esto se hace una sola vez, al abrir la entrada de la obra, antes de trabajar la primera unidad. La presentación es para la obra entera: no dice cuántas unidades hay publicadas ni cuáles faltan, y las unidades siguientes se añaden a la entrada sin repetirla ni cambiarla, salvo para corregir un error.

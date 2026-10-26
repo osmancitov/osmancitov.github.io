@@ -12,6 +12,8 @@ Frases Selectas es una parte de un protocolo mayor, **Destilar una obra** (`dest
 
 Se fijó el 20 de octubre de 2026 con el preámbulo de *On Writing*, un libro del escritor estadounidense Stephen King. El preámbulo es el texto breve que abre ese libro, antes de sus capítulos. Tiene 19 frases, numeradas de la 71 a la 89 en el molde del libro.
 
+Las ganadoras no se buscan por ser las mejores frases de la sección. Se buscan como apoyos: frases cuyos nodos aparecen en muchos lugares y que, por eso, dejan libertad para tender puentes y escribir glosas en distintas direcciones. El peso mide esa conexión, no la belleza de la frase. La exactitud del cálculo sirve para encontrar esos apoyos, y el esfuerzo que se le dedique se mide por lo que aporta al destilado completo.
+
 ## Términos
 
 Cada término se usa en este texto solo con el significado que aquí se le da.
