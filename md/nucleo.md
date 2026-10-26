@@ -152,7 +152,7 @@ También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octu
 
 **Cuándo se aplica:** al destilar una obra, o una parte de ella, en la Destilería, de la elección de la unidad a la entrega.
 
-**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad, **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo** para los textos propios de la entrada: la presentación, los títulos, los subtítulos, los puentes y las glosas.
+**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad, **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo** para los textos de la entrada: la presentación, los títulos, los subtítulos, los puentes, las glosas y las traducciones de las citas, estas sin recortar el sentido ni la voz de la obra.
 
 ### Frases Selectas: `frases-selectas.md`
 
@@ -207,7 +207,7 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 
 ## Cambios
 
-25 de octubre de 2026: la entrada de Destilar una obra pide Elementos de Estilo para todos los textos propios de la entrada, no solo para la presentación, como el módulo. Las citas, sus traducciones y Los Originales quedan fuera. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
+25 de octubre de 2026: la entrada de Destilar una obra pide Elementos de Estilo para todos los textos de la entrada, no solo para la presentación, como el módulo; las traducciones de las citas se revisan sin recortar el sentido ni la voz de la obra, y Los Originales no se tocan. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
 
 25 de octubre de 2026: la entrada de Destilar una obra suma Elementos de Estilo a lo que necesita, solo para la presentación de la obra, para que el contraste con su revisión quede en la cadena del Núcleo. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
 
