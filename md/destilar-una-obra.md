@@ -123,6 +123,8 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
 
+26 de octubre de 2026: se escribe lo que se busca (un destilado completo y no una lista de citas), para qué sirven las ganadoras (apoyos conectados, con holgura para los puentes y las glosas), que el destilado se hace entre las citas y que el esfuerzo de la selección debe ser proporcional a lo que aporta al destilado completo. No cambia ninguna regla de cálculo ni de selección. A pedido de Osmancito.
+
 25 de octubre de 2026: Elementos de Estilo rige todos los textos de la entrada (presentación, títulos, subtítulos, puentes, glosas y traducciones de las citas), no solo la presentación. Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad, y Los Originales se conservan intactos. Rige para esta entrada y este módulo, no para otras producciones. Reformula el término de «Los documentos que usa» y la comprobación de «Estilo» en la revisión. A pedido de Osmancito.
 
 25 de octubre de 2026: se reformulan pasajes existentes. La presentación de la obra se escribe con Elementos de Estilo y se contrasta con su revisión, y solo ella: no los puentes ni las glosas. No lleva puente de cierre; el comienzo de cada parte lo marca su encabezado numerado, con el título en castellano. La presentación dice cómo se divide la obra, en lugar de cómo está armada. A pedido de Osmancito.

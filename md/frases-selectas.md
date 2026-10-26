@@ -52,6 +52,8 @@ Antes de entregar, se comprueba el cálculo. Con el molde y el texto de cada sec
 
 ## Cambios
 
+26 de octubre de 2026: se escribe para qué sirve la selección: son apoyos conectados, con holgura para los puentes y las glosas, y no las mejores frases por separado; y que el esfuerzo del cálculo se mide por lo que aporta al destilado completo. La puntuación y la selección no cambian. A pedido de Osmancito.
+
 25 de octubre de 2026: cuando varios verbos comparten un sujeto que no se repite, ese sujeto cuenta como puesto en cada verbo, igual que el sujeto implícito de «finding» en el ejemplo de la frase 76. Antes el texto no lo decía. A pedido de Osmancito.
 
 25 de octubre de 2026: cuando la frase con que se alcanza el diez por ciento empata en peso con otras, entran todas las empatadas; el exceso sobre el diez por ciento que eso produzca se admite, como el de la última frase. Antes el texto no decía cómo desempatar. A pedido de Osmancito.
