@@ -45,7 +45,15 @@ Anota estas cinco entradas antes de empezar. No las cambies durante el cálculo.
 
 ## Antes de empezar
 
-El molde debe tener los párrafos bien formados. Una línea en blanco en medio de una frase crea un párrafo falso. Corrige el molde antes de calcular. Anota la corrección.
+Verifica la fuente antes de fijar el molde y antes de cualquier cálculo. Esta revisión puede requerir juicio y cotejo; no forma parte de la selección determinista.
+
+1. Si la fuente es un EPUB, revisa sus HTML originales. No des por hecho que cada etiqueta de párrafo coincide con un párrafo de la obra, ni que la conversión a Markdown conserva esos límites.
+2. Busca cortes dentro de frases, texto suelto entre bloques y marcas de formato rotas. Son señales para revisar, no órdenes de unir párrafos automáticamente. Comprueba también que no se hayan unido párrafos distintos.
+3. Coteja los límites dudosos, con el contexto anterior y posterior, con una edición fiable e independiente del archivo que revisas. Comparar una conversión con el mismo original defectuoso no basta. Si no puedes resolver un límite, deja la duda registrada y no empieces el cálculo con ese molde.
+4. Corrige solo lo que el cotejo respalde. Conserva las palabras y su orden; repara los límites y las marcas de formato sin reescribir el texto. Anota la ubicación, el antes y el después y la fuente de cotejo.
+5. Vuelve a comprobar el texto y su presentación: que no falten ni sobren palabras, que los párrafos coincidan con los límites comprobados y que las cursivas no se conviertan en listas u otros bloques. Solo entonces numera los párrafos y fija el molde.
+
+Una prueba acertada no valida toda la obra. Registra qué parte revisaste y qué dudas quedan. Esta fase reduce el riesgo de fallas de origen y de conversión; no garantiza detectarlas todas.
 
 ## Pasos
 
