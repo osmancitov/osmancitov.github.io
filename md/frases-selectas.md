@@ -2,6 +2,8 @@
 
 # Frases Selectas
 
+**Método histórico.** Desde el 27 de octubre de 2026 el método aprobado de nuevas selecciones es [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Este archivo conserva el método anterior y su historial; sus instrucciones no rigen nuevas selecciones salvo encargo expreso de reproducir el método anterior. Los destilados ya publicados no se rehacen por esta sustitución.
+
 Frases Selectas es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
@@ -51,6 +53,8 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 Antes de entregar, se comprueba el cálculo. Con el molde y el texto de cada sección a la vista y las mismas reglas de arriba, se vuelve a verificar qué puestos contaron, cuáles quedaron fuera y cómo se unificaron los alias, y que de ahí salen las mismas frases. Si algo no sale igual, se corrige y se vuelve a calcular. La comprobación es parte del trabajo, no de lo que se publica: la página no describe el cálculo. Al entregar se dice a quien recibe el trabajo que se hizo y qué se encontró, como pide la revisión de Destilar una obra.
 
 ## Cambios
+
+27 de octubre de 2026: se retira como método activo y se conserva como histórico. Cobertura Léxica pasa a ser el método aprobado de nuevas selecciones. A pedido de Osmancito.
 
 26 de octubre de 2026: se escribe para qué sirve la selección: son apoyos conectados, con holgura para los puentes y las glosas, y no las mejores frases por separado; y que el esfuerzo del cálculo se mide por lo que aporta al destilado completo. La puntuación y la selección no cambian. A pedido de Osmancito.
 

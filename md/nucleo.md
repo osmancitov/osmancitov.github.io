@@ -146,23 +146,31 @@ También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/destilar-una-obra.md)
 
-El protocolo completo para destilar una obra en la Destilería, la sala del sitio que destila libros: elige la unidad fuente, selecciona sus frases, las teje en una lectura que se sigue completa, de principio a fin, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla.
+El protocolo completo para destilar una obra en la Destilería, la sala del sitio que destila libros: elige la unidad fuente, selecciona sus párrafos, los teje en una lectura que se sigue completa, de principio a fin, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla.
 
 También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octubre de 2026 este protocolo vivía entero en «Frases Selectas».
 
 **Cuándo se aplica:** al destilar una obra, o una parte de ella, en la Destilería, de la elección de la unidad a la entrega.
 
-**Necesita:** **Frases Selectas**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad, **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo** para los textos de la entrada: la presentación, los títulos, los subtítulos, los puentes, las glosas y las traducciones de las citas, estas sin recortar el sentido ni la voz de la obra.
+**Necesita:** **Cobertura Léxica**, el **Dominio Cero**, el **Pintor de Imágenes** para el dibujo de cada unidad, **Publicar una entrada** cuando el destilado se prepara como página del sitio, y **Elementos de Estilo** para los textos de la entrada: la presentación, los títulos, los subtítulos, los puentes, las glosas y las traducciones de las citas, estas sin recortar el sentido ni la voz de la obra.
 
-### Frases Selectas: `frases-selectas.md`
+### Cobertura Léxica: `cobertura-lexica.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md)
+
+Es el método aprobado para seleccionar párrafos enteros por cobertura de vocabulario. Verifica la fuente antes del cálculo, fija las entradas y comprueba la ejecución. El valor literario se juzga por lectura ciega, no por cobertura. Sustituye a Frases Selectas desde el 27 de octubre de 2026; aprobarlo no demuestra que seleccione mejores pasajes.
+
+**Cuándo se aplica:** cuando Destilar una obra pide seleccionar los párrafos de una unidad, o cuando se encarga solo esa selección.
+
+**Necesita:** el **Dominio Cero**.
+
+### Frases Selectas: `frases-selectas.md` (histórico)
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/frases-selectas.md)
 
-Puntúa las frases de una parte de un libro y selecciona las más pesadas, hasta cubrir el diez por ciento de sus palabras. Es la parte de selección de Destilar una obra.
+Conserva el método anterior de puntuación y selección de frases y su historial. Antes se llamó «Alambique - Frases Selectas».
 
-También se le ha llamado: «Frases Selectas». Antes se llamó «Alambique - Frases Selectas».
-
-**Cuándo se aplica:** cuando Destilar una obra pide puntuar y seleccionar las frases de una unidad, o cuando se encarga solo esa selección.
+**Cuándo se aplica:** para consultar el método anterior o reproducir una selección histórica por encargo expreso. No es el método vigente de nuevas selecciones.
 
 **Necesita:** el **Dominio Cero**.
 
@@ -206,6 +214,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+27 de octubre de 2026: Cobertura Léxica entra como método aprobado de selección y dependencia de Destilar una obra. Frases Selectas se conserva como histórico. No se rehacen destilados publicados. A pedido de Osmancito.
 
 25 de octubre de 2026: la entrada de Destilar una obra pide Elementos de Estilo para todos los textos de la entrada, no solo para la presentación, como el módulo; las traducciones de las citas se revisan sin recortar el sentido ni la voz de la obra, y Los Originales no se tocan. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
 

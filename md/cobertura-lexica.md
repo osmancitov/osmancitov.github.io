@@ -8,9 +8,11 @@ Cobertura Léxica es el nombre de este procedimiento. Este texto está escrito p
 
 Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después se tejen puentes y glosas entre ellas.
 
-El procedimiento no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras.
+La selección no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras. La revisión previa de la fuente requiere juicio y cotejo; se hace antes de fijar esas entradas.
 
 Elige párrafos y no frases, porque una frase puede no entenderse sola. Un párrafo suele conservar más contexto que una frase.
+
+Es el método de selección aprobado para **Destilar una obra** (`destilar-una-obra.md`). Sustituye a Frases Selectas desde el 27 de octubre de 2026. La aprobación permite usarlo; no demuestra que encuentre mejores pasajes.
 
 ## Términos
 
@@ -80,15 +82,22 @@ Una prueba acertada no valida toda la obra. Registra qué parte revisaste y qué
 
 ## Verificación
 
-1. Ejecuta el procedimiento con un script. Ejecútalo dos veces. Las dos listas deben ser idénticas.
-2. Calcula la cobertura.
-3. Calcula el porcentaje real: las palabras de las ganadoras, divididas entre las palabras de la obra.
-4. Calcula la cobertura sin peso: los términos cubiertos, divididos entre todos los términos distintos de la obra. Cuenta cada término una vez.
-5. Entrega la lista, las cinco entradas fijas, el N previsto, el N efectivo, la cobertura, la cobertura sin peso y el porcentaje real.
-6. Compara la cobertura solo entre ejecuciones con el mismo N efectivo. Con otro N efectivo cambian los pesos y el denominador, y la comparación no vale.
-7. Para comparar ejecuciones con distinto N efectivo, usa la cobertura sin peso y el porcentaje real. Ninguna de las dos depende de N.
-8. Ninguna cobertura mide si la lectura es mejor. Para eso, lee las ganadoras sin saber qué variante las eligió.
+### Comprobación de la ejecución
 
+Comprueba dos cosas distintas: que el programa cumpla las reglas de este texto y que repita el resultado con las mismas entradas. Repetirlo solo comprueba consistencia; no basta para demostrar que esté bien implementado.
+
+1. Contrasta el programa con los pasos del procedimiento: cortes, N previsto y efectivo, términos, pesos, cuotas, puntajes, acumulación de términos cubiertos, desempates y orden final.
+2. Ejecuta el procedimiento con un script, un programa que hace el cálculo. Ejecútalo dos veces con las mismas cinco entradas. Las dos listas deben ser idénticas.
+3. Calcula la cobertura.
+4. Calcula el porcentaje real: las palabras de las ganadoras, divididas entre las palabras de la obra.
+5. Calcula la cobertura sin peso: los términos cubiertos, divididos entre todos los términos distintos de la obra. Cuenta cada término una vez.
+6. Entrega la lista, las cinco entradas fijas, el N previsto, el N efectivo, la cobertura, la cobertura sin peso y el porcentaje real.
+7. Compara la cobertura solo entre ejecuciones con el mismo N efectivo. Con otro N efectivo cambian los pesos y el denominador, y la comparación no vale.
+8. Para comparar ejecuciones con distinto N efectivo, usa la cobertura sin peso y el porcentaje real. Ninguna de las dos depende de N.
+
+### Comprobación del valor literario
+
+Ninguna cobertura mide si la lectura es mejor ni si encuentra pasajes que valga la pena detenerse a leer y guardar. Para juzgarlo, lee las ganadoras sin saber qué variante las eligió. Antes de comparar variantes, acuerda cuáles se comparan, un presupuesto comparable y qué se juzgará en la lectura. No saques conclusiones de superioridad sin esa comparación.
 
 ## Límites conocidos
 
@@ -101,3 +110,13 @@ El peso da más valor al vocabulario que aparece en muchos tramos. Da el valor m
 El puntaje divide entre la raíz cuadrada de las palabras. Esto reduce la ventaja de los párrafos largos, pero no la elimina.
 
 Un párrafo cuyos términos ya están cubiertos tiene puntaje cero. Entra solo si la cuota lo exige.
+
+## Estado de las pruebas
+
+El 27 de octubre de 2026 se cotejó un pasaje de Babette, en *White Noise*, del escritor estadounidense Don DeLillo, con un [extracto de una edición independiente](https://penguinrandomhousehighereducation.com/book/?isbn=9780143129554). El cotejo permitió reparar un párrafo dividido y sus cursivas. Esa comprobación no valida el resto de la obra ni todo el tramo de los capítulos 1–7. Tampoco valida el programa de selección ni demuestra superioridad literaria.
+
+La prueba de selección queda pendiente. Antes de ejecutarla se verifica la fuente del alcance elegido y se fijan las cinco entradas.
+
+## Cambios
+
+27 de octubre de 2026: se unifican la revisión de fuente, la selección y la comprobación. Se distingue cumplir las reglas de repetir el resultado, y ambas cosas de juzgar el valor literario mediante lectura ciega. Se instala Cobertura Léxica como método aprobado en lugar de Frases Selectas, sin cambiar la fórmula ni ejecutar la prueba. Los errores que aparezcan se revisarán y corregirán. A pedido de Osmancito.
