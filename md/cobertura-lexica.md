@@ -1,60 +1,83 @@
+27 de octubre de 2026
+
 # Cobertura Léxica
 
-Cobertura Léxica es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Cada término tiene el significado que aquí se le da.
+Cobertura Léxica es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Cada término tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
-## Para qué sirve
+## Qué es y para qué sirve
 
-Este procedimiento elige el 10% de las palabras de una obra, en frases completas. Estas frases son las ganadoras. Después se tejen puentes y glosas entre ellas.
+Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después se tejen puentes y glosas entre ellas.
 
 El procedimiento no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras.
 
+Elige párrafos y no frases, porque una frase puede no entenderse sola. Un párrafo trae el contexto que la frase necesita.
+
 ## Términos
 
+Cada término se usa en este texto solo con el significado que aquí se le da.
+
 - **Obra:** el texto que se trabaja.
-- **Frase:** un segmento de la obra. No se corta nunca. Tiene un número.
-- **Molde:** la obra partida en frases numeradas.
-- **Palabra:** una secuencia de letras entre dos separadores.
-- **Término:** una palabra en minúsculas, reducida a su raíz con el lematizador fijo. Se excluyen las palabras de la lista de vacías.
+- **Párrafo:** el texto entre dos líneas en blanco. Es la unidad de este procedimiento. No se corta nunca. Tiene un número, desde 1, en el orden de la obra.
+- **Molde:** la obra partida en párrafos numerados. No incluye títulos.
+- **Palabra:** una secuencia de letras entre dos separadores. Una palabra puede tener un apóstrofo en medio, como «don't».
 - **Lista de vacías:** una lista fija de artículos, preposiciones, pronombres y conjunciones.
-- **Tramo:** un grupo de frases consecutivas de tamaño parecido.
-- **Peso de un término:** el número de tramos distintos donde aparece.
-- **Cubierto:** un término que ya está en una frase ganadora.
-- **Cuota:** el 10% de las palabras de un tramo.
+- **Lematizador:** un programa fijo que reduce cada palabra a su raíz.
+- **Término:** una palabra en minúsculas, reducida a su raíz con el lematizador. Una palabra de una sola letra no es un término. Una palabra de la lista de vacías no es un término.
+- **Tramo:** un grupo de párrafos consecutivos que suman un número de palabras parecido.
+- **N:** el número de tramos.
+- **Peso de un término:** el valor del término. El paso 4 lo calcula.
+- **Cubierto:** un término que ya está en un párrafo ganador.
+- **Cuota:** el número de párrafos que un tramo debe aportar.
+- **Puntaje:** el valor de un párrafo. El paso 6 lo calcula.
+- **Ganadora:** un párrafo elegido para citarse.
 - **Cobertura:** el peso de los términos cubiertos, dividido entre el peso de todos los términos.
 
 ## Entradas fijas
 
-Anota estas cuatro entradas antes de empezar. No las cambies durante el cálculo.
+Anota estas cinco entradas antes de empezar. No las cambies durante el cálculo.
 
 1. El molde.
 2. La lista de vacías.
 3. El lematizador (nombre y versión).
-4. El porcentaje (10%).
+4. El porcentaje de la cuota (10%).
+5. El divisor de N (500 palabras).
+
+## Antes de empezar
+
+El molde debe tener los párrafos bien formados. Una línea en blanco en medio de una frase crea un párrafo falso. Corrige el molde antes de calcular. Anota la corrección.
 
 ## Pasos
 
-1. **Calcula N.** N es el número de palabras de la obra dividido entre 500, redondeado al entero más cercano. El mínimo de N es 2.
-2. **Forma los tramos.** El tamaño objetivo es el total de palabras entre N. Recorre el molde en orden. Suma frases al tramo actual hasta alcanzar o pasar el tamaño objetivo. La frase que cruza el límite se queda en ese tramo. Empieza un tramo nuevo.
-3. **Extrae los términos** de cada frase. Cuenta cada término una sola vez por frase.
+1. **Calcula N.** N es el número de palabras de la obra, dividido entre 500, redondeado al entero más cercano. Si el resultado queda justo en la mitad, redondea al entero par. El mínimo de N es 2.
+2. **Forma los tramos.** El tamaño objetivo es el total de palabras entre N. Recorre el molde en orden. Suma párrafos al tramo actual. Cierra el tramo cuando sus palabras alcancen o pasen el tamaño objetivo. El párrafo que cruza el límite se queda en ese tramo. Empieza un tramo nuevo. El último tramo recibe todos los párrafos que quedan. La obra tiene N tramos.
+3. **Extrae los términos** de cada párrafo. Cuenta cada término una sola vez por párrafo.
 4. **Calcula el peso** de cada término.
-5. **Calcula la cuota** de cada tramo.
-6. **Elige las ganadoras, tramo por tramo, en el orden de la obra.** En cada tramo:
-   1. Calcula el puntaje de cada frase: la suma de los pesos de sus términos no cubiertos, dividida entre la raíz cuadrada de su número de palabras.
-   2. Elige la frase de mayor puntaje. Si hay empate, elige la de menor número.
-   3. Marca sus términos como cubiertos. Los cubiertos se acumulan en toda la obra.
-   4. Suma las palabras de la frase al total de ganadoras del tramo.
-   5. Repite desde 6.1 hasta que ese total alcance o pase la cuota. La última frase entra entera.
+   1. Cuenta en cuántos tramos distintos aparece el término.
+   2. Si aparece en un solo tramo, su peso es N.
+   3. Si aparece en dos o más tramos, su peso es ese número de tramos.
+5. **Calcula la cuota** de cada tramo: el 10% de sus párrafos, redondeado al entero más cercano. El mínimo de la cuota es 1.
+6. **Elige las ganadoras, tramo por tramo, en el orden de la obra.** Los términos cubiertos se acumulan en toda la obra y no se reinician al cambiar de tramo. En cada tramo, repite la cuota veces:
+   1. Calcula el puntaje de cada párrafo del tramo que aún no es ganador. El puntaje es la suma de los pesos de sus términos no cubiertos, dividida entre la raíz cuadrada de su número de palabras.
+   2. Elige el párrafo de mayor puntaje. Si hay empate, elige el de menor número.
+   3. Marca como cubiertos los términos de ese párrafo.
 7. **Ordena las ganadoras** en el orden de la obra.
 
 ## Verificación
 
 1. Ejecuta el procedimiento con un script. Ejecútalo dos veces. Las dos listas deben ser idénticas.
 2. Calcula la cobertura.
-3. Entrega la lista, las cuatro entradas fijas y la cobertura.
-4. Para comparar variantes (otro N, otro porcentaje), compara su cobertura.
+3. Calcula el porcentaje real: las palabras de las ganadoras, divididas entre las palabras de la obra.
+4. Entrega la lista, las cinco entradas fijas, la cobertura y el porcentaje real.
+5. Para comparar variantes (otro N, otro porcentaje), compara su cobertura y su porcentaje real.
 
-## Límite conocido
+## Límites conocidos
 
-El método mide cuánto vocabulario de la obra cubren las frases. No mide calidad ni sentido.
+El método mide cuánto vocabulario de la obra cubren los párrafos. No mide calidad ni sentido.
 
-Los tramos garantizan que cada parte de la obra tenga voz. El peso por tramos favorece el vocabulario que recorre toda la obra.
+El porcentaje real es mayor que el 10%. La cuota cuenta párrafos, no palabras, y los párrafos largos pesan mucho. El porcentaje real depende de la obra, y por eso se entrega.
+
+El peso da más valor al vocabulario que aparece en muchos tramos. Da el valor máximo al vocabulario que aparece en un solo tramo. Este segundo efecto trae nombres propios y rarezas sin interés.
+
+El puntaje divide entre la raíz cuadrada de las palabras. Esto reduce la ventaja de los párrafos largos, pero no la elimina.
+
+Un párrafo cuyos términos ya están cubiertos tiene puntaje cero. Entra solo si la cuota lo exige.
