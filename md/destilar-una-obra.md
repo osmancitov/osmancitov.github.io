@@ -124,9 +124,7 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
 
-27 de octubre de 2026: cada cita lleva su propia glosa, con espacio para ubicar al lector y compartir una observación pertinente que enriquezca el pasaje. El tamaño se decide por lo que aporta, no por una cuota. Sustituye la orientación del treinta a cincuenta por ciento anotada más abajo. La muestra aprobada del capítulo 12 de White Noise tuvo 226 palabras de glosa y 235 de puente, cerca de una por una; esa proporción describe el resultado aprobado, no impone una fórmula. Se conserva el presupuesto de puentes; la glosa deja de tener un máximo fijo de palabras. A pedido de Osmancito.
-
-27 de octubre de 2026: para los próximos destilados, la cantidad de glosa se orienta por un treinta a cincuenta por ciento de las palabras de los puentes en el conjunto de la obra. La glosa acompaña, ubica, orienta, enseña y enriquece; la proporción no impone relleno ni recortes. Se conserva el presupuesto contra la unidad fuente y su excepción educativa. No se recorta por esta orientación la glosa de White Noise en preparación. A pedido de Osmancito.
+27 de octubre de 2026: cada cita lleva su glosa, un comentario que acompaña y enriquece la lectura, del largo que necesite y sin cantidad fija de palabras. Se conserva el presupuesto de puentes. A pedido de Osmancito.
 
 27 de octubre de 2026: todas las remisiones pasan a Cobertura Léxica, descendiente directo del método anterior. Las notas históricas distinguen las reglas del predecesor de las del método vigente. A pedido de Osmancito.
 
