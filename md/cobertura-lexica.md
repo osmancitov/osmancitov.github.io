@@ -12,7 +12,7 @@ La selección no usa juicio personal. Con las mismas entradas, da siempre las mi
 
 Elige párrafos y no frases, porque una frase puede no entenderse sola. Un párrafo suele conservar más contexto que una frase.
 
-Es el método de selección aprobado para **Destilar una obra** (`destilar-una-obra.md`). Sustituye a Frases Selectas desde el 27 de octubre de 2026. La aprobación permite usarlo; no demuestra que encuentre mejores pasajes.
+Es el método de selección aprobado para **Destilar una obra** (`destilar-una-obra.md`). Es el descendiente directo del método anterior y lo sustituye desde el 27 de octubre de 2026. La aprobación permite usarlo; no demuestra que encuentre mejores pasajes.
 
 ## Términos
 
@@ -119,4 +119,6 @@ La prueba de selección queda pendiente. Antes de ejecutarla se verifica la fuen
 
 ## Cambios
 
-27 de octubre de 2026: se unifican la revisión de fuente, la selección y la comprobación. Se distingue cumplir las reglas de repetir el resultado, y ambas cosas de juzgar el valor literario mediante lectura ciega. Se instala Cobertura Léxica como método aprobado en lugar de Frases Selectas, sin cambiar la fórmula ni ejecutar la prueba. Los errores que aparezcan se revisarán y corregirán. A pedido de Osmancito.
+27 de octubre de 2026: se unifican la revisión de fuente, la selección y la comprobación. Se distingue cumplir las reglas de repetir el resultado, y ambas cosas de juzgar el valor literario mediante lectura ciega. Se instala Cobertura Léxica como método aprobado en lugar de su método predecesor, sin cambiar la fórmula ni ejecutar la prueba. Los errores que aparezcan se revisarán y corregirán. A pedido de Osmancito.
+
+27 de octubre de 2026: las referencias al método predecesor pasan a Cobertura Léxica, su descendiente directo, sin atribuirle resultados de cálculos anteriores. A pedido de Osmancito.

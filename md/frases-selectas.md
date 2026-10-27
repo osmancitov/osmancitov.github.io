@@ -1,16 +1,16 @@
 23 de octubre de 2026
 
-# Frases Selectas
+# Cobertura Léxica: antecedente histórico
 
-**Método histórico.** Desde el 27 de octubre de 2026 el método aprobado de nuevas selecciones es [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Este archivo conserva el método anterior y su historial; sus instrucciones no rigen nuevas selecciones salvo encargo expreso de reproducir el método anterior. Los destilados ya publicados no se rehacen por esta sustitución.
+**Archivo histórico, fuera del flujo activo.** Desde el 27 de octubre de 2026 el método aprobado de nuevas selecciones es [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Este archivo conserva el método anterior y su historial; sus instrucciones no rigen nuevas selecciones salvo encargo expreso de reproducir el método anterior. Los destilados ya publicados no se rehacen por esta sustitución.
 
-Frases Selectas es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Este archivo conserva el procedimiento predecesor de Cobertura Léxica. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
 Es el procedimiento que puntúa las frases de una parte de un libro y selecciona las que más pesan, hasta cubrir el diez por ciento de las palabras de esa parte. Entrega esas frases, las ganadoras, en el orden de la obra. Este texto deja escrito ese procedimiento completo, de la puntuación a la selección, para repetirlo igual en otra parte o en otro libro.
 
-Frases Selectas es una parte de un protocolo mayor, **Destilar una obra** (`destilar-una-obra.md`), que decide la unidad fuente, teje las ganadoras en una lectura con textos propios, hace el dibujo, arma la página y la revisa. Los términos de ese armado, como cita, traducción, puente y glosa, se definen allí. Hasta el 25 de octubre de 2026 este documento contenía todo el protocolo.
+El procedimiento predecesor formó parte de un protocolo mayor, **Destilar una obra** (`destilar-una-obra.md`), que decide la unidad fuente, teje las ganadoras en una lectura con textos propios, hace el dibujo, arma la página y la revisa. Los términos de ese armado, como cita, traducción, puente y glosa, se definen allí. Hasta el 25 de octubre de 2026 este documento contenía todo el protocolo.
 
 Se fijó el 20 de octubre de 2026 con el preámbulo de *On Writing*, un libro del escritor estadounidense Stephen King. El preámbulo es el texto breve que abre ese libro, antes de sus capítulos. Tiene 19 frases, numeradas de la 71 a la 89 en el molde del libro.
 

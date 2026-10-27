@@ -148,7 +148,7 @@ También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 
 El protocolo completo para destilar una obra en la Destilería, la sala del sitio que destila libros: elige la unidad fuente, selecciona sus párrafos, los teje en una lectura que se sigue completa, de principio a fin, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla.
 
-También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octubre de 2026 este protocolo vivía entero en «Frases Selectas».
+También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octubre de 2026 este protocolo vivía entero en el método predecesor de Cobertura Léxica.
 
 **Cuándo se aplica:** al destilar una obra, o una parte de ella, en la Destilería, de la elección de la unidad a la entrega.
 
@@ -158,19 +158,9 @@ También se le ha llamado: «destilar»*, «el destilado»*. Hasta el 25 de octu
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md)
 
-Es el método aprobado para seleccionar párrafos enteros por cobertura de vocabulario. Verifica la fuente antes del cálculo, fija las entradas y comprueba la ejecución. El valor literario se juzga por lectura ciega, no por cobertura. Sustituye a Frases Selectas desde el 27 de octubre de 2026; aprobarlo no demuestra que seleccione mejores pasajes.
+Es el método aprobado para seleccionar párrafos enteros por cobertura de vocabulario. Verifica la fuente antes del cálculo, fija las entradas y comprueba la ejecución. El valor literario se juzga por lectura ciega, no por cobertura. Sustituye a su método predecesor desde el 27 de octubre de 2026; aprobarlo no demuestra que seleccione mejores pasajes.
 
 **Cuándo se aplica:** cuando Destilar una obra pide seleccionar los párrafos de una unidad, o cuando se encarga solo esa selección.
-
-**Necesita:** el **Dominio Cero**.
-
-### Frases Selectas: `frases-selectas.md` (histórico)
-
-[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/frases-selectas.md)
-
-Conserva el método anterior de puntuación y selección de frases y su historial. Antes se llamó «Alambique - Frases Selectas».
-
-**Cuándo se aplica:** para consultar el método anterior o reproducir una selección histórica por encargo expreso. No es el método vigente de nuevas selecciones.
 
 **Necesita:** el **Dominio Cero**.
 
@@ -215,13 +205,15 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 
 ## Cambios
 
-27 de octubre de 2026: Cobertura Léxica entra como método aprobado de selección y dependencia de Destilar una obra. Frases Selectas se conserva como histórico. No se rehacen destilados publicados. A pedido de Osmancito.
+27 de octubre de 2026: todas las referencias de selección remiten a Cobertura Léxica; se retira del índice la entrada del método predecesor. Las menciones históricas expresan la sucesión sin atribuir al nuevo cálculo las reglas antiguas. A pedido de Osmancito.
+
+27 de octubre de 2026: Cobertura Léxica entra como método aprobado de selección y dependencia de Destilar una obra. El método predecesor se conserva en el historial de versiones. No se rehacen destilados publicados. A pedido de Osmancito.
 
 25 de octubre de 2026: la entrada de Destilar una obra pide Elementos de Estilo para todos los textos de la entrada, no solo para la presentación, como el módulo; las traducciones de las citas se revisan sin recortar el sentido ni la voz de la obra, y Los Originales no se tocan. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
 
 25 de octubre de 2026: la entrada de Destilar una obra suma Elementos de Estilo a lo que necesita, solo para la presentación de la obra, para que el contraste con su revisión quede en la cadena del Núcleo. No cambia la entrada de Elementos de Estilo ni las demás. A pedido de Osmancito.
 
-25 de octubre de 2026: nace Destilar una obra (`destilar-una-obra.md`) como el protocolo completo de destilación, con su entrada en la lista y sus dependencias: Frases Selectas, el Dominio Cero, el Pintor de Imágenes y Publicar una entrada. La entrada de Frases Selectas pasa a describir solo la puntuación y la selección de las frases. A pedido de Osmancito.
+25 de octubre de 2026: nace Destilar una obra (`destilar-una-obra.md`) como el protocolo completo de destilación, con su entrada en la lista y sus dependencias de entonces: el método predecesor de Cobertura Léxica, el Dominio Cero, el Pintor de Imágenes y Publicar una entrada. La entrada del método predecesor pasa a describir solo la puntuación y la selección de las frases; la referencia vigente es Cobertura Léxica. A pedido de Osmancito.
 
 25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
 
