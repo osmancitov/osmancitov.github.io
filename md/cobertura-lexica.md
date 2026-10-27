@@ -10,7 +10,7 @@ Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son 
 
 El procedimiento no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras.
 
-Elige párrafos y no frases, porque una frase puede no entenderse sola. Un párrafo trae el contexto que la frase necesita.
+Elige párrafos y no frases, porque una frase puede no entenderse sola. Un párrafo suele conservar más contexto que una frase.
 
 ## Términos
 
@@ -63,7 +63,7 @@ El molde debe tener los párrafos bien formados. Una línea en blanco en medio d
    2. Si aparece en un solo tramo, su peso es el N efectivo.
    3. Si aparece en dos o más tramos, su peso es ese número de tramos.
    4. Nunca uses el N previsto en el cálculo del peso.
-5. **Calcula la cuota** de cada tramo: el 10% de sus párrafos, redondeado al entero más cercano. El mínimo de la cuota es 1.
+5. **Calcula la cuota** de cada tramo: el 10% de sus párrafos, redondeado al entero más cercano. Si el resultado queda justo en la mitad, redondea al entero par. El mínimo de la cuota es 1.
 6. **Elige las ganadoras, tramo por tramo, en el orden de la obra.** Los términos cubiertos se acumulan en toda la obra y no se reinician al cambiar de tramo. En cada tramo, repite la cuota veces:
    1. Calcula el puntaje de cada párrafo del tramo que aún no es ganador. El puntaje es la suma de los pesos de sus términos no cubiertos, dividida entre la raíz cuadrada de su número de palabras.
    2. Elige el párrafo de mayor puntaje. Si hay empate, elige el de menor número.
@@ -86,7 +86,7 @@ El molde debe tener los párrafos bien formados. Una línea en blanco en medio d
 
 El método mide cuánto vocabulario de la obra cubren los párrafos. No mide calidad ni sentido.
 
-El porcentaje real es mayor que el 10%. La cuota cuenta párrafos, no palabras, y los párrafos largos pesan mucho. El porcentaje real depende de la obra, y por eso se entrega.
+El porcentaje real puede ser distinto del 10%. La cuota cuenta párrafos, no palabras, y los párrafos largos pesan mucho. El porcentaje real depende de la obra, y por eso se entrega.
 
 El peso da más valor al vocabulario que aparece en muchos tramos. Da el valor máximo al vocabulario que aparece en un solo tramo. Este segundo efecto trae nombres propios y rarezas sin interés.
 
