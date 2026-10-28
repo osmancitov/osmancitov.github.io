@@ -176,6 +176,18 @@ También se le ha llamado: «productor de briefings».
 
 **Necesita:** el **Dominio Cero** y, para la imagen de apertura, el **Pintor de Imágenes**.
 
+### Investigación de Activos: `investigacion-de-activos.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/investigacion-de-activos.md)
+
+Investiga un activo (una criptomoneda, una participación en un bien como el oro u otro producto de mercado) y entrega una visión estructurada: el contexto del activo, el comportamiento del precio, la actividad registrada, el sentimiento del mercado, las señales de riesgo y una conclusión, cada afirmación con su fuente. No ejecuta operaciones ni promete ganancias. Cada pedido encarga una sola investigación.
+
+También se le ha llamado: «investigación de activos».
+
+**Cuándo se aplica:** cuando el autor pide investigar un activo; cada pedido encarga una sola.
+
+**Necesita:** el **Dominio Cero**.
+
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
