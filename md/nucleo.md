@@ -106,6 +106,18 @@ La descripción de la entrada común del sitio: sus tres archivos (md, html y jp
 
 **Necesita:** el **Dominio Cero** y, para la imagen, el **Pintor de Imágenes**. Las salas que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en ese documento, que también se abre: cada documento manda en su tema.
 
+### Incorporar una sala: `incorporar-una-sala.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/incorporar-una-sala.md)
+
+Suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran: el README, la puerta, la portada y la página de la sala, el registro en la fila de navegación y en las listas del repositorio principal, la activación de GitHub Pages y la firma de los commits.
+
+También se le ha llamado: «incorporar una sala», «sala nueva»*.
+
+**Cuándo se aplica:** cuando el autor pide una sala nueva y su repositorio ya existe.
+
+**Necesita:** el **Dominio Cero**, **Publicar una entrada** para la primera entrada y el **Pintor de Imágenes** para la puerta.
+
 ### Publicar en Capilla: `publicar-en-capilla.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-en-capilla.md)
@@ -216,6 +228,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+28 de octubre de 2026: nace Incorporar una sala (`incorporar-una-sala.md`), que escribe cómo se suma una sala nueva a la casa; hasta hoy esa forma vivía en las salas ya hechas. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
 
 27 de octubre de 2026: todas las referencias de selección remiten a Cobertura Léxica; se retira del índice la entrada del método predecesor. Las menciones históricas expresan la sucesión sin atribuir al nuevo cálculo las reglas antiguas. A pedido de Osmancito.
 
