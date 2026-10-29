@@ -4,21 +4,31 @@ Investigación de Activos es el nombre de este procedimiento. Este texto está e
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que investiga un activo por Osmancito, el autor, y le entrega una visión estructurada de su mercado. Un **activo** es un producto que se compra y se vende en un mercado: una **criptomoneda**, que es dinero digital registrado en una **cadena de bloques**, un registro público de operaciones que ninguna parte controla sola; una participación en un bien, como el oro; u otro producto que se negocie de manera parecida. El **mercado** es el conjunto de quienes compran y venden el activo. La **visión estructurada** es el informe que este procedimiento entrega: un texto con apartados fijos donde cada afirmación lleva su fuente. Una **fuente** es la página o el registro público de donde sale una afirmación. La **asistente** es Instinct, que trabaja por el autor y hace la investigación.
+Es el procedimiento que investiga un activo por Osmancito, el autor, y le entrega una visión estructurada de su mercado. Un **activo** es un producto que se compra y se vende en un mercado: una **criptomoneda**, que es dinero digital registrado en una **cadena de bloques**, un registro de operaciones agrupadas en bloques enlazados que una red de computadoras mantiene según reglas comunes; una participación en un bien, como el oro; u otro producto que se negocie de manera parecida. El **mercado** es el conjunto de quienes compran y venden el activo. La **visión estructurada** es el informe que este procedimiento entrega: un texto con apartados fijos donde cada afirmación lleva su fuente. Una **fuente** es la página o el registro público de donde sale una afirmación. La **asistente** es Instinct, que trabaja por el autor y hace la investigación.
 
 La investigación reúne en un solo informe lo que está pasando con un activo: de dónde viene, cómo se mueve su precio, qué muestran sus registros, qué ánimo tiene el mercado y qué riesgos presenta. Sirve para mirar un activo con el cuadro completo a la vista. El mismo procedimiento vale para cualquier activo: no nace atado a ninguno.
 
 ## Cuándo
 
-No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él señale. Cada pedido encarga una sola investigación: no crea entregas futuras ni repetición.
+No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él señale. Cada pedido encarga una sola investigación: no crea entregas futuras ni repetición. También se aplica a estudios comparados e introductorios de activos y mercados. Si el autor encarga un curso, su recorrido se conserva en la sala elegida; ese recorrido no autoriza publicar futuras entregas sin el alcance que indique el autor.
+
+## Ruta editorial desde el Núcleo
+
+1. Se abre el **Núcleo**, el documento que inventaría los procedimientos de la casa y sirve de punto de partida.
+2. Se abren este procedimiento, el **Dominio Cero** y **Elementos de Estilo** vigentes. El Dominio Cero pide que el texto se entienda sin conocimientos previos; Elementos de Estilo gobierna su redacción.
+3. Se fija la audiencia, el alcance y el destino que pide el encargo. Una publicación del sitio se escribe como artículo para el público, no como respuesta al autor: no alude a la conversación ni le cuenta lo que pidió. El interés de un caso se muestra con hechos, sin una sección de preferencias de la asistente ni una agenda no desarrollada.
+4. Se explican los conceptos antes de usarlos. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
+5. Se elige el orden de exposición. La investigación de un activo sigue «La visión estructurada». Un estudio introductorio o comparado sigue conceptos, casos, medición cuando corresponda, alcance de la conclusión y fuentes; solo incluye precio o sentimiento si forman parte del encargo. El tema se presenta antes de sus cifras, sin forzar una ficha de mercado dentro de una lección.
+6. Se identifica cada medida por objeto, unidad, período y fuente. Se comparan medidas equivalentes: comisiones de red con comisiones de red, no con ingresos de aplicaciones. Una dirección no se presenta como una persona. Las existencias, lo negociado durante un período y los ingresos se distinguen antes de extraer conclusiones.
+7. Cuando el destino es el sitio, se abren **Publicar una entrada** y **Pintor de Imágenes** y se publica en la sala autorizada. Una página privada aparte no sustituye esa publicación. Los archivos de texto y de página conservan el mismo contenido.
 
 ## La visión estructurada
 
-La visión se escribe en castellano y lleva sus apartados en este orden:
+La investigación de un activo se escribe en castellano y lleva sus apartados en este orden. Los estudios introductorios o comparados siguen el orden del punto 5 de «Ruta editorial desde el Núcleo»:
 
 1. **El activo y su contexto**: qué es el activo y quién lo emite o lo respalda. En una criptomoneda, el proyecto detrás de ella; en una participación en un bien, el bien y quien ofrece la participación.
 2. **El comportamiento del precio**: cómo se ha movido el precio en el período reciente: su dirección, su magnitud y los momentos notables del movimiento.
-3. **La actividad registrada**: lo que muestran los registros públicos del activo. En una criptomoneda, la actividad de las **carteras**, las direcciones que guardan y mueven monedas en la cadena de bloques; en otro activo, el registro equivalente que exista, como el volumen negociado o los movimientos de quien lo emite. Si el activo no tiene un registro de esa clase, el apartado lo declara.
+3. **La actividad registrada**: lo que muestran los registros públicos del activo. En una criptomoneda, la actividad de las **direcciones**, identificadores públicos asociados a los saldos y operaciones de la cadena de bloques; las **carteras** son los programas o dispositivos que permiten autorizar esas operaciones; en otro activo, el registro equivalente que exista, como el volumen negociado o los movimientos de quien lo emite. Si el activo no tiene un registro de esa clase, el apartado lo declara.
 4. **El sentimiento del mercado**: el ánimo de quienes participan en él, según lo que publican y discuten en fuentes abiertas.
 5. **Las señales de riesgo**: los hechos que pueden perjudicar a quien tiene el activo: caídas bruscas, concentración en pocas manos, problemas del proyecto o de quien lo emite, cambios en las reglas del mercado.
 6. **La conclusión estructurada**: lo que la investigación reunió, ordenado en pocas frases, con lo comprobado separado de lo no comprobado.
@@ -36,9 +46,9 @@ La visión se escribe para leerla, como un artículo de revista, y también para
 
 ## Los pasos
 
-1. Se toma el activo señalado por el autor. Si hay duda sobre cuál es, se pregunta antes de investigar.
-2. Se abren fuentes públicas y recientes sobre el activo: su proyecto o su emisor, su precio, sus registros, la discusión del mercado y sus riesgos, y se apunta de dónde sale cada dato.
-3. Se escribe la visión con sus apartados en su orden, cada afirmación con su fuente, siguiendo «Cómo se escribe la visión» y Elementos de Estilo.
+1. Se toma el activo o el tema señalado por el autor y se sigue «Ruta editorial desde el Núcleo». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar.
+2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la ficha de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos.
+3. Se escribe la visión con el orden elegido en la ruta editorial, cada afirmación con su fuente, siguiendo «Cómo se escribe la visión» y Elementos de Estilo.
 4. Se declara en la visión lo que no se pudo comprobar, junto a lo que se afirma.
 5. Se entrega la visión al autor por el canal en que llegó el pedido y se comprueba que llegó: la entrega queda comprobada, no presumida.
 6. Si el autor pide además publicar la visión como página del sitio, se abre **Publicar una entrada**, que fija los archivos, los títulos y las etiquetas de la página, y por medio de él el **Pintor de Imágenes** para la ilustración. Publicar una entrada gobierna la presentación; el tono de la prosa lo siguen gobernando «Cómo se escribe la visión» y Elementos de Estilo. La revisión de este documento se hace antes de publicar.
@@ -47,13 +57,16 @@ La visión se escribe para leerla, como un artículo de revista, y también para
 
 Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vista:
 
-1. **El activo es el pedido.** La visión trata del activo que el autor señaló.
+1. **El objeto es el pedido.** La visión trata del activo o del tema que el autor señaló.
 2. **Cada afirmación tiene fuente.** Lo que no sale de una fuente abierta se declara sin comprobar.
-3. **Los apartados completos y en orden.** Ninguno falta y ninguno cambia de lugar; cuando un apartado no aplica al activo, el apartado dice que no aplica en lugar de faltar.
+3. **Orden adecuado al encargo.** La ficha de un activo conserva sus apartados; el estudio introductorio o comparado conserva la ruta de conceptos a fuentes. No se publican asuntos pendientes de desarrollar.
 4. **Dominio cero.** Cada palabra de la visión tiene el significado del diccionario o el que la visión misma le define.
 5. **Cifras y fechas.** La prosa usa cifras de lectura y los datos exactos están aparte; ninguna cifra se recita dos veces; la fecha completa aparece una sola vez al comienzo.
 6. **Salvedades.** Cada una está junto a lo que afecta, aparece una sola vez y cambia de verdad la lectura; ninguna advertencia se repite por costumbre.
 7. **Prueba de oído.** El texto entero se lee en voz alta, o se imagina leído por una voz de máquina, y se corrige lo que suene repetido, cargado de cifras o de advertencias. Esta prueba se hace con Elementos de Estilo a la vista.
+8. **Audiencia y conceptos.** El artículo se sostiene sin la conversación y no se dirige al autor. Cada concepto aparece explicado antes de usarlo.
+9. **Medidas comparables.** Cada cifra identifica qué mide, su unidad, período y fuente; no se confunden direcciones con personas, saldos con flujos ni uso con valor del activo.
+10. **Destino y continuidad.** La entrega llega a la sala autorizada y sus archivos coinciden. Si pertenece a un curso, su lugar queda registrado sin autorizar nuevas publicaciones automáticas.
 
 ## Lo que este módulo no hace
 
@@ -61,5 +74,9 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 2. No promete ganancias ni predice precios: reúne condiciones y riesgos, y ninguna conclusión suya es una garantía.
 3. No crea entregas automáticas: la investigación nace de un pedido del autor y cada pedido encarga una sola.
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
+
+## Cambios
+
+29 de octubre de 2026: se explicita la ruta desde el Núcleo, el artículo público para lector cero, el orden de los estudios introductorios y la separación de redes, activos, aplicaciones y medidas. Se agregan comprobaciones de audiencia, comparabilidad y destino. Se corrige la definición de cadena de bloques para no atribuir ausencia de control a toda red. El curso conserva un recorrido, no una autorización de entregas automáticas. A pedido de Osmancito.
 
 © 2026 Osmancito

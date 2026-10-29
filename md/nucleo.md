@@ -1,6 +1,6 @@
 # Núcleo
 
-El **Núcleo** es esta página: lo que se cumple en los encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
+El **Núcleo** es esta página: el punto de partida de toda producción escrita de la casa y lo que se cumple en los demás encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
 
 La lista de documentos existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
 
@@ -12,7 +12,7 @@ Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github
 
 **Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado. Leer es solo un paso para cumplir.
 
-**Aplicación.** El autor establece la aplicación del Núcleo al formular el encargo. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
+**Aplicación.** La preparación de toda producción escrita de la casa empieza en este Núcleo. El destino y el alcance los fija el encargo; elegir los documentos no cambia lo que el autor pidió. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
 
 1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
 2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
@@ -196,7 +196,7 @@ Investiga un activo (una criptomoneda, una participación en un bien como el oro
 
 También se le ha llamado: «investigación de activos».
 
-**Cuándo se aplica:** cuando el autor pide investigar un activo; cada pedido encarga una sola.
+**Cuándo se aplica:** cuando el autor pide investigar un activo o preparar un estudio comparado o introductorio de activos y mercados; cada pedido encarga una sola entrega, salvo que el autor indique otro alcance.
 
 **Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la visión: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
@@ -208,7 +208,7 @@ Lo que se cumple en los encargos a los que el autor lo aplica y la lista de los 
 
 También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** en todo encargo al que el autor aplique el Núcleo, al comenzar, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
+**Cuándo se aplica:** al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
 
 **Necesita:** ningún otro documento para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
@@ -228,6 +228,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+29 de octubre de 2026: toda producción escrita empieza en el Núcleo. Investigación de Activos incluye estudios comparados e introductorios y una ruta editorial para el lector público sin conocimientos previos, con revisión de audiencia, conceptos, métricas y destino. El alcance y la publicación siguen sujetos al encargo; un curso no crea entregas automáticas. A pedido de Osmancito.
 
 29 de octubre de 2026: Investigación de Activos gana la sección «Cómo se escribe la visión» y tres puntos más en su revisión (cifras y fechas, salvedades, prueba de oído), y pasa a necesitar Elementos de Estilo además del Dominio Cero; al publicarse como página, también Publicar una entrada y el Pintor de Imágenes, que ya estaban en el Núcleo. La entrada de Elementos de Estilo no cambia: sigue siendo un documento de consejos, y esta dependencia le llega desde Investigación de Activos. Se comprobó que la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
 
