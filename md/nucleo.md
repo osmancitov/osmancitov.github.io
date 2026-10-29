@@ -192,13 +192,13 @@ También se le ha llamado: «productor de briefings».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/investigacion-de-activos.md)
 
-Investiga un activo (una criptomoneda, una participación en un bien como el oro u otro producto de mercado) y entrega una visión estructurada: el contexto del activo, el comportamiento del precio, la actividad registrada, el sentimiento del mercado, las señales de riesgo y una conclusión, cada afirmación con su fuente. No ejecuta operaciones ni promete ganancias. Cada pedido encarga una sola investigación.
+Investiga un activo (una criptomoneda, una participación en un bien como el oro u otro producto de mercado) y entrega una visión estructurada: el contexto del activo, el comportamiento del precio, la actividad registrada, el sentimiento del mercado, las señales de riesgo y una conclusión, cada afirmación con su fuente. Se escribe para leerla y oírla, con cifras redondeadas en la prosa. No ejecuta operaciones ni promete ganancias. Cada pedido encarga una sola investigación.
 
 También se le ha llamado: «investigación de activos».
 
 **Cuándo se aplica:** cuando el autor pide investigar un activo; cada pedido encarga una sola.
 
-**Necesita:** el **Dominio Cero**.
+**Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la visión: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
 ### Núcleo: `nucleo.md`
 
@@ -228,6 +228,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+29 de octubre de 2026: Investigación de Activos gana la sección «Cómo se escribe la visión» y tres puntos más en su revisión (cifras y fechas, salvedades, prueba de oído), y pasa a necesitar Elementos de Estilo además del Dominio Cero; al publicarse como página, también Publicar una entrada y el Pintor de Imágenes, que ya estaban en el Núcleo. La entrada de Elementos de Estilo no cambia: sigue siendo un documento de consejos, y esta dependencia le llega desde Investigación de Activos. Se comprobó que la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
 
 28 de octubre de 2026: nace Incorporar una sala (`incorporar-una-sala.md`), que escribe cómo se suma una sala nueva a la casa; hasta hoy esa forma vivía en las salas ya hechas. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
 
