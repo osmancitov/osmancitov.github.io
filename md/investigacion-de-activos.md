@@ -10,21 +10,20 @@ La investigación reúne en un solo informe lo que está pasando con un activo: 
 
 ## Cuándo
 
-No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él señale. Cada pedido encarga una sola investigación: no crea entregas futuras ni repetición. También se aplica a estudios comparados e introductorios de activos y mercados. Si el autor encarga un curso, su recorrido se conserva en la sala elegida; ese recorrido no autoriza publicar futuras entregas sin el alcance que indique el autor.
+No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él señale. Cada pedido encarga una sola investigación: no crea entregas futuras ni repetición. También se aplica a los estudios de activos y mercados. Un **estudio** es un texto que explica conceptos o compara activos, sin los apartados fijos de la visión estructurada. Si el autor encarga un curso, su recorrido se conserva en la sala elegida; ese recorrido no autoriza publicar futuras entregas sin el alcance que indique el autor.
 
-## Ruta editorial desde el Núcleo
+## Cómo se prepara la investigación
 
-1. Se abre el **Núcleo**, el documento que inventaría los procedimientos de la casa y sirve de punto de partida.
-2. Se abren este procedimiento, el **Dominio Cero** y **Elementos de Estilo** vigentes. El Dominio Cero pide que el texto se entienda sin conocimientos previos; Elementos de Estilo gobierna su redacción.
-3. Se fija la audiencia, el alcance y el destino que pide el encargo. Una publicación del sitio se escribe como artículo para el público, no como respuesta al autor: no alude a la conversación ni le cuenta lo que pidió. El interés de un caso se muestra con hechos, sin una sección de preferencias de la asistente ni una agenda no desarrollada.
-4. Se explican los conceptos antes de usarlos. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
-5. Se elige el orden de exposición. La investigación de un activo sigue «La visión estructurada». Un estudio introductorio o comparado sigue conceptos, casos, medición cuando corresponda, alcance de la conclusión y fuentes; solo incluye precio o sentimiento si forman parte del encargo. El tema se presenta antes de sus cifras, sin forzar una ficha de mercado dentro de una lección.
-6. Se identifica cada medida por objeto, unidad, período y fuente. Se comparan medidas equivalentes: comisiones de red con comisiones de red, no con ingresos de aplicaciones. Una dirección no se presenta como una persona. Las existencias, lo negociado durante un período y los ingresos se distinguen antes de extraer conclusiones.
-7. Cuando el destino es el sitio, se abren **Publicar una entrada** y **Pintor de Imágenes** y se publica en la sala autorizada. Una página privada aparte no sustituye esa publicación. Los archivos de texto y de página conservan el mismo contenido.
+Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que inventaría los procedimientos de la casa; este procedimiento no repite esa ruta. Antes de investigar se resuelven estos puntos:
+
+1. Se fija la audiencia, el alcance y el destino que pide el encargo. La publicación del sitio es un artículo para el público: se sostiene por sí sola, sin que el lector conozca el pedido ni la conversación en que nació. El interés de un caso se muestra con hechos.
+2. Se explican los conceptos antes de usarlos. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
+3. Se elige el orden de exposición. La investigación de un activo sigue «La visión estructurada». Un estudio introductorio o comparado sigue conceptos, casos, medición cuando corresponda, alcance de la conclusión y fuentes; solo incluye precio o sentimiento si forman parte del encargo. El tema se presenta antes de sus cifras, sin forzar los apartados de la visión estructurada dentro de una lección.
+4. Se identifica cada medida por objeto, unidad, período y fuente. Se comparan medidas equivalentes: comisiones de red con comisiones de red, no con ingresos de aplicaciones. Una dirección no se presenta como una persona. Las existencias, lo negociado durante un período y los ingresos se distinguen antes de extraer conclusiones.
 
 ## La visión estructurada
 
-La investigación de un activo se escribe en castellano y lleva sus apartados en este orden. Los estudios introductorios o comparados siguen el orden del punto 5 de «Ruta editorial desde el Núcleo»:
+La investigación de un activo se escribe en castellano y lleva sus apartados en este orden. Los estudios siguen el orden del punto 3 de «Cómo se prepara la investigación»:
 
 1. **El activo y su contexto**: qué es el activo y quién lo emite o lo respalda. En una criptomoneda, el proyecto detrás de ella; en una participación en un bien, el bien y quien ofrece la participación.
 2. **El comportamiento del precio**: cómo se ha movido el precio en el período reciente: su dirección, su magnitud y los momentos notables del movimiento.
@@ -46,9 +45,9 @@ La visión se escribe para leerla, como un artículo de revista, y también para
 
 ## Los pasos
 
-1. Se toma el activo o el tema señalado por el autor y se sigue «Ruta editorial desde el Núcleo». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar.
-2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la ficha de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos.
-3. Se escribe la visión con el orden elegido en la ruta editorial, cada afirmación con su fuente, siguiendo «Cómo se escribe la visión» y Elementos de Estilo.
+1. Se toma el activo o el tema señalado por el autor y se resuelven los puntos de «Cómo se prepara la investigación». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar.
+2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la visión de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos.
+3. Se escribe la visión con el orden elegido al preparar la investigación, cada afirmación con su fuente, siguiendo «Cómo se escribe la visión» y Elementos de Estilo.
 4. Se declara en la visión lo que no se pudo comprobar, junto a lo que se afirma.
 5. Se entrega la visión al autor por el canal en que llegó el pedido y se comprueba que llegó: la entrega queda comprobada, no presumida.
 6. Si el autor pide además publicar la visión como página del sitio, se abre **Publicar una entrada**, que fija los archivos, los títulos y las etiquetas de la página, y por medio de él el **Pintor de Imágenes** para la ilustración. Publicar una entrada gobierna la presentación; el tono de la prosa lo siguen gobernando «Cómo se escribe la visión» y Elementos de Estilo. La revisión de este documento se hace antes de publicar.
@@ -59,7 +58,7 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 
 1. **El objeto es el pedido.** La visión trata del activo o del tema que el autor señaló.
 2. **Cada afirmación tiene fuente.** Lo que no sale de una fuente abierta se declara sin comprobar.
-3. **Orden adecuado al encargo.** La ficha de un activo conserva sus apartados; el estudio introductorio o comparado conserva la ruta de conceptos a fuentes. No se publican asuntos pendientes de desarrollar.
+3. **Orden adecuado al encargo.** La visión de un activo conserva sus apartados; el estudio conserva el orden de conceptos a fuentes. No se publican asuntos pendientes de desarrollar.
 4. **Dominio cero.** Cada palabra de la visión tiene el significado del diccionario o el que la visión misma le define.
 5. **Cifras y fechas.** La prosa usa cifras de lectura y los datos exactos están aparte; ninguna cifra se recita dos veces; la fecha completa aparece una sola vez al comienzo.
 6. **Salvedades.** Cada una está junto a lo que afecta, aparece una sola vez y cambia de verdad la lectura; ninguna advertencia se repite por costumbre.
@@ -76,6 +75,8 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+30 de octubre de 2026: la ruta de lectura (qué documentos abrir y en qué orden) sale de este módulo y queda solo en el Núcleo; la sección pasa a llamarse «Cómo se prepara la investigación» y conserva los criterios propios de la operación: audiencia, conceptos, orden de exposición y medidas. Los casos concretos de correcciones anteriores se redactan como criterios generales. «Ficha» deja de usarse: el informe se llama siempre visión estructurada y el texto que no sigue sus apartados, estudio. A pedido de Osmancito.
 
 29 de octubre de 2026: se explicita la ruta desde el Núcleo, el artículo público para lector cero, el orden de los estudios introductorios y la separación de redes, activos, aplicaciones y medidas. Se agregan comprobaciones de audiencia, comparabilidad y destino. Se corrige la definición de cadena de bloques para no atribuir ausencia de control a toda red. El curso conserva un recorrido, no una autorización de entregas automáticas. A pedido de Osmancito.
 
