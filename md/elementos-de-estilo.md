@@ -16,7 +16,7 @@ Los ejemplos de este texto son propios. Su origen está en «Fuentes».
 
 ## Cuándo
 
-Se usa cuando se escribe o se revisa una producción en castellano y se quiere aplicar estos elementos. No fija una regla para toda la casa.
+Se usa siempre que se escribe o se revisa una producción en castellano que la casa publica o entrega. Cada consejo admite las excepciones que su paso dice.
 
 ## Cómo se aplica
 
@@ -148,3 +148,7 @@ Normas de la RAE, páginas leídas el 25 de octubre de 2026:
 - [Coordinación de preposiciones y artículos](https://www.rae.es/buen-uso-espa%C3%B1ol/coordinaci%C3%B3n-de-preposiciones-y-art%C3%ADculos)
 - [Coordinación de segmentos análogos y divergentes](https://www.rae.es/gram%C3%A1tica/sintaxis/categor%C3%ADas-coordinables-i-coordinaci%C3%B3n-de-segmentos-an%C3%A1logos-y-divergentes)
 - [Extranjerismos crudos](https://www.rae.es/duda-linguistica/como-se-escriben-los-extranjerismos-crudos-en-un-texto-en-espanol)
+
+## Cambios
+
+30 de octubre de 2026: «Cuándo» deja de depender de que se quieran aplicar los elementos: se usan siempre en la producción en castellano que la casa publica o entrega, con las excepciones de cada paso. Así coincide con el Núcleo. A pedido de Osmancito.

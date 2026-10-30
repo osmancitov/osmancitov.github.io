@@ -16,7 +16,7 @@ Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github
 
 1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
 2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
-3. Abrir y leer esos documentos vigentes, enteros, no un recuerdo de ellos, antes de empezar. Si uno remite a otro necesario, se abre también. Al corregir un documento, o este mismo Núcleo, se lee además el vigente antes de tocarlo. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
+3. Abrir y leer esos documentos vigentes, enteros, no un recuerdo de ellos, antes de empezar. El orden de lectura es este: primero los documentos generales que valen para la producción (el Dominio Cero y, si es en castellano, Elementos de Estilo); después el documento de la operación; al final los de publicación e imagen, como Publicar una entrada y el Pintor de Imágenes, cuando el encargo termina en una página. Si uno remite a otro necesario, se abre también. Al corregir un documento, o este mismo Núcleo, se lee además el vigente antes de tocarlo. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
 4. Hacer el encargo siguiendo esos documentos. Cada documento gobierna su tema; si dos se contradicen, manda el de su propio tema. Preguntar solo si falta un dato indispensable o hay una contradicción que no se resuelve así.
 5. Antes de entregar o publicar, contrastar el resultado con la revisión que pide cada documento aplicado, corregir lo que falle y mencionar al entregar los hallazgos relevantes.
 
@@ -68,7 +68,7 @@ Reúne los elementos de estilo de la casa para escribir en castellano, cada uno 
 
 También se le ha llamado: «elementos de estilo».
 
-**Cuándo se aplica:** al escribir o revisar una producción en castellano, cuando se quieren aplicar estos elementos.
+**Cuándo se aplica:** siempre que se escribe o se revisa una producción en castellano que la casa publica o entrega.
 
 **Necesita:** ningún otro documento.
 
@@ -228,6 +228,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+30 de octubre de 2026: el paso 3 de «Cómo se cumple el Núcleo» fija el orden de lectura: documentos generales, documento de la operación, y publicación e imagen al final. Elementos de Estilo pasa a aplicarse siempre a la producción en castellano que la casa publica o entrega, y su módulo se ajusta para decir lo mismo. La ruta de lectura de Investigación de Activos sale de ese módulo y queda solo aquí. A pedido de Osmancito.
 
 29 de octubre de 2026: toda producción escrita empieza en el Núcleo. Investigación de Activos incluye estudios comparados e introductorios y una ruta editorial para el lector público sin conocimientos previos, con revisión de audiencia, conceptos, métricas y destino. El alcance y la publicación siguen sujetos al encargo; un curso no crea entregas automáticas. A pedido de Osmancito.
 
