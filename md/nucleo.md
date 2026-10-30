@@ -200,6 +200,18 @@ También se le ha llamado: «investigación de activos».
 
 **Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la visión: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
+### Radar: `radar.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/radar.md)
+
+Vigila un asunto de manera repetida y avisa cuando pasa algo que cumple las condiciones acordadas. Cada encargo crea un radar con su configuración: el asunto vigilado, las fuentes, la cadencia, las condiciones de aviso, el canal y el horario de entrega. El mismo procedimiento sirve para cualquier asunto.
+
+También se le ha llamado: «radar».
+
+**Cuándo se aplica:** cuando el autor encarga una vigilancia repetida; cada encargo crea un solo radar.
+
+**Necesita:** el **Dominio Cero** y, para los avisos, **Elementos de Estilo**.
+
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
@@ -228,6 +240,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **d
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+30 de octubre de 2026: nace Radar (`radar.md`), el procedimiento de la vigilancia repetida: el método es uno y cada encargo fija su configuración. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
 
 30 de octubre de 2026: el paso 3 de «Cómo se cumple el Núcleo» fija el orden de lectura: documentos generales, documento de la operación, y publicación e imagen al final. Elementos de Estilo pasa a aplicarse siempre a la producción en castellano que la casa publica o entrega, y su módulo se ajusta para decir lo mismo. La ruta de lectura de Investigación de Activos sale de ese módulo y queda solo aquí. A pedido de Osmancito.
 
