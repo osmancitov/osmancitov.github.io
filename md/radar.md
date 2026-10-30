@@ -4,7 +4,7 @@ Radar es el nombre de este texto. Este texto está escrito para el lector cero: 
 
 ## Qué es y para qué sirve
 
-La **casa** es el sitio de Osmancito: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. El **autor** es Osmancito, dueño de la casa; la **asistente** es Instinct, que trabaja por él. Un **encargo** es lo que el autor pide hacer.
+La **casa** es el sitio de Osmancito: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. El **autor** es Osmancito, dueño de la casa; la **asistente** es Instinct, que trabaja por él. Un **encargo** es lo que el autor pide hacer. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Un **radar** es un trabajo que vigila un asunto de manera repetida y avisa al autor cuando pasa algo que cumple las condiciones acordadas. El radar existe para que el autor se entere de los cambios que le importan sin vigilar él mismo las fuentes. Una **fuente** es la página o el registro público de donde sale una afirmación. El radar revisa sus fuentes con una frecuencia fija, su **cadencia**, y entrega un **aviso**: el mensaje que cuenta lo que cambió, de qué fuente sale y cuándo ocurrió.
 
@@ -61,5 +61,7 @@ Cada aviso pasa esta revisión entera antes de entregarse, con el texto a la vis
 ## Cambios
 
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
+
+30 de octubre de 2026: define «módulo» en «Qué es y para qué sirve», porque el título «Lo que este módulo no hace» lo usaba sin explicarlo. A pedido de Osmancito.
 
 © 2026 Osmancito

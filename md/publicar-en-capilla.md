@@ -4,7 +4,7 @@ Publicar en Capilla es el nombre de este texto. Este texto está escrito para el
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que publica cada mañana la lectura del día en la Capilla. La **Capilla** es la sala del sitio dedicada a la oración. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la Capilla se llama `capilla`.
+Es el procedimiento que publica cada mañana la lectura del día en la Capilla. La **Capilla** es la sala del sitio dedicada a la oración. El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la Capilla se llama `capilla`. El **README** es el texto que presenta un repositorio. La **asistente** es Instinct, que escribe la lectura por Osmancito, el autor.
 
 El trabajo empieza a las 04:30, hora de Caracas, para que la lectura esté servida a las 05:00. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado.
 
@@ -48,14 +48,14 @@ Antes de publicar, se comprueba con la entrada a la vista:
 4. **Dibujos.** Cada dibujo se pidió en proporción 5:8 y al recibirlo se comprobaron sus dimensiones; lleva su nota de lo sembrado y se publica sin recortar ni redimensionar.
 5. **Memorias.** Se cubrieron la fiesta del día, si la hay, y todas las memorias opcionales que el calendario de la fuente da, cada una con sus partes.
 6. **Saludos y firma.** Los saludos usan «feliz día de» o «feliz memoria de» según corresponda, y la firma está al final.
-7. **Estilo.** Elementos de Estilo se aplica con una excepción de género: la prosa lírica que este módulo pide manda sobre cualquier consejo que la contradiga, y los demás consejos siguen valiendo.
+7. **Estilo.** Elementos de Estilo se aplica con una excepción de género: la prosa lírica que este texto pide manda sobre cualquier consejo que la contradiga, y los demás consejos siguen valiendo.
 8. **Archivos.** El md y el html dicen lo mismo, los nombres llevan la fecha en seis cifras, la página lleva sus etiquetas og y la hoja de estilos común, y la lista del README y la de `capilla.html` llevan la entrada arriba.
 9. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
 10. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la entrada completa, con sus imágenes.
 
 ## Publicar
 
-1. La entrada nueva se anota arriba del todo en la lista del **README**, el texto que presenta el repositorio, y en la página de la sala, `capilla.html`, que lo refleja. Las listas van de lo más nuevo a lo más viejo.
+1. La entrada nueva se anota arriba del todo en la lista del README, y en la página de la sala, `capilla.html`, que lo refleja. Las listas van de lo más nuevo a lo más viejo.
 2. Se publica directo, sin esperar confirmación.
 3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
@@ -63,5 +63,7 @@ Antes de publicar, se comprueba con la entrada a la vista:
 ## Cambios
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la prosa lírica de la Capilla. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
+
+30 de octubre de 2026: define «casa», «README» y «asistente» donde aparecen por primera vez y reemplaza «este módulo» por «este texto». A pedido de Osmancito.
 
 © 2026 Osmancito

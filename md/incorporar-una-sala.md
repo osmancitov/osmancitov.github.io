@@ -4,7 +4,7 @@ Incorporar una sala es el nombre de este texto. Este texto está escrito para el
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran. La **casa**, o **sitio**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El **autor** es Osmancito, dueño de la casa, y la **asistente** es Instinct, que trabaja por él.
+Es el procedimiento que suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran. La **casa**, o **sitio**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El **autor** es Osmancito, dueño de la casa, y la **asistente** es Instinct, que trabaja por él. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Los términos de la sala se llaman así en este texto:
 
@@ -66,5 +66,7 @@ La revisión dice qué encontró y qué se corrigió.
 ## Cambios
 
 30 de octubre de 2026: el paso 5 dice que la puerta es la excepción a la regla de imágenes del Pintor de Imágenes, que ahora la recoge, en lugar de decir que el Pintor la deja fuera. A pedido de Osmancito.
+
+30 de octubre de 2026: define «módulo» en «Qué es y para qué sirve», porque el título «Lo que este módulo no hace» lo usaba sin explicarlo. A pedido de Osmancito.
 
 © 2026 Osmancito

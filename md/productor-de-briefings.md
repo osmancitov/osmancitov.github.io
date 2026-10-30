@@ -4,7 +4,7 @@ Productor de Briefings es el nombre de este texto. Este texto está escrito para
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing.
+Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 El briefing ahorra trabajo al autor: entiende la edición entera en un solo correo, sin abrir nada más, y lo que pueda servir al trabajo del sitio queda recogido en su propio apartado.
 
@@ -53,5 +53,7 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 ## Cambios
 
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
+
+30 de octubre de 2026: define «casa» y «módulo» en «Qué es y para qué sirve», porque el texto los usaba sin explicarlos. A pedido de Osmancito.
 
 © 2026 Osmancito

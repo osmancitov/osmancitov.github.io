@@ -4,7 +4,7 @@ Publicar una entrada es el nombre de este texto. Este texto está escrito para e
 
 ## Qué es y para qué sirve
 
-Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio. Vale para todas las salas; las que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en su documento, que también se abre: cada documento manda en su tema.
+Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Una **sala** es cada sección del sitio, que es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`, guardada en su propio repositorio. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio. Vale para todas las salas; las que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en su documento, que también se abre: cada documento manda en su tema. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 ## Cuándo
 
@@ -121,3 +121,5 @@ Antes de publicar se comprueba:
 25 de octubre de 2026: el título de la pestaña vuelve a llevar un punto medio y el nombre del repositorio, ahora en forma editorial (mayúscula inicial en cada palabra, seguido de «Osmancito»: «Destilería Osmancito», «Journal Osmancito»). El título de la tarjeta sigue siendo solo el título dentro de la página. Sustituye el cambio siguiente en lo que toca a la pestaña. A pedido de Osmancito.
 
 25 de octubre de 2026: el título de la pestaña y el de la tarjeta dejan de llevar, después del título de la página, un punto medio y el nombre del repositorio. Ahora son solo el título dentro de la página. A pedido de Osmancito.
+
+30 de octubre de 2026: define «módulo» y «sala» antes de «Cuándo», porque el texto los usaba sin explicarlos. A pedido de Osmancito.

@@ -4,7 +4,7 @@ Cobertura Léxica es el nombre de este texto. Este texto está escrito para el l
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después, el módulo Destilar una obra teje entre ellas puentes y glosas: textos propios que cuentan lo que pasa entre dos ganadoras y que acompañan al lector. Destilar una obra los define por completo.
+Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después, el protocolo Destilar una obra teje entre ellas puentes y glosas: textos propios que cuentan lo que pasa entre dos ganadoras y que acompañan al lector. Destilar una obra los define por completo. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un archivo **md** es un texto con marcas simples.
 
 La selección no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras. La revisión previa de la fuente requiere juicio y cotejo; se hace antes de fijar esas entradas.
 
@@ -129,3 +129,5 @@ La prueba de selección queda pendiente. Antes de ejecutarla se verifica la fuen
 27 de octubre de 2026: se unifican la revisión de fuente, la selección y la comprobación. Se distingue cumplir las reglas de repetir el resultado, y ambas cosas de juzgar el valor literario mediante lectura ciega. Se instala Cobertura Léxica como método aprobado en lugar de su método predecesor, sin cambiar la fórmula ni ejecutar la prueba. Los errores que aparezcan se revisarán y corregirán. A pedido de Osmancito.
 
 27 de octubre de 2026: las referencias al método predecesor pasan a Cobertura Léxica, su descendiente directo, sin atribuirle resultados de cálculos anteriores. A pedido de Osmancito.
+
+30 de octubre de 2026: define «módulo» y «md» y nombra a Destilar una obra como protocolo, porque el texto los usaba sin explicarlos. A pedido de Osmancito.

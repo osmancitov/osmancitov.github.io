@@ -56,6 +56,8 @@ Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no d
 
 ## Los módulos de la casa
 
+Términos que usan las entradas siguientes: **md** es el formato de texto con marcas simples; **html** es el formato de las páginas web; **JPG** es un formato de imagen que comprime el archivo; las etiquetas **og** dicen a un programa de mensajería qué título e imagen mostrar cuando se comparte una página; **UTC-4** es la hora de Osmancito, cuatro horas menos que la hora universal; el **README** es el texto que presenta un repositorio; **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas; un **commit** es un guardado con nombre en el historial de cambios de un repositorio.
+
 ### Dominio Cero: `dominio-cero.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/dominio-cero.md)
@@ -300,3 +302,5 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 25 de octubre de 2026: el índice gana su función de preparación de trabajos. Cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo, y «Cómo se usa este índice» fija abrir los documentos vigentes antes de empezar, la regla para crear o corregir documentos y el contraste del resultado con la revisión de cada documento antes de entregar. A pedido de Osmancito.
 
 25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar. A pedido de Osmancito.
+
+30 de octubre de 2026: añade los términos md, html, JPG, og, UTC-4, README, GitHub y commit al comienzo de «Los módulos de la casa». A pedido de Osmancito.

@@ -4,7 +4,7 @@ Destilar una obra es el nombre de este texto. Este texto está escrito para el l
 
 ## Qué es y para qué sirve
 
-Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros.
+Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios.
 
 Hasta el 25 de octubre de 2026 este protocolo vivía entero en el método predecesor de [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Desde el 27 de octubre de 2026 Cobertura Léxica es el método de selección aprobado. Este texto ordena todo el trabajo y remite a los demás documentos. Los destilados ya publicados no se rehacen por esta sustitución.
 
@@ -17,7 +17,7 @@ Al destilar una obra, o una parte de ella, en la Destilería, de la elección de
 1. **Cobertura Léxica** verifica la fuente y selecciona párrafos enteros de cada unidad. Sus términos, como párrafo, molde, ganadora y cobertura, tienen en este texto el significado que ese documento les da. Incluye la comprobación de la ejecución y la lectura ciega para juzgar el valor literario.
 2. **El Dominio Cero** gobierna todo texto que se publica.
 3. **El Pintor de Imágenes** convierte un fragmento de texto en el pedido de pintura del dibujo de cada unidad.
-4. **Publicar una entrada** rige la página cuando el destilado se prepara como página del sitio: sus archivos, su nombre, sus títulos, sus etiquetas og, su hoja de estilos y su plantilla. Allí se fija que la imagen de la tarjeta es la primera imagen de la entrada.
+4. **Publicar una entrada** rige la página cuando el destilado se prepara como página del sitio: sus archivos, su nombre, sus títulos, sus etiquetas og (los datos de la cabecera que dicen cómo se ve la tarjeta al compartir el enlace), su hoja de estilos y su plantilla. Allí se fija que la imagen de la tarjeta es la primera imagen de la entrada.
 5. **Elementos de Estilo** (`elementos-de-estilo.md`) rige la redacción de los textos propios de la entrada (la presentación, los títulos, los subtítulos, los puentes y las glosas) y la de las traducciones de las citas, que se revisan con su «Revisión antes de entregar». Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad. Los Originales se conservan intactos.
 
 Cada documento manda en su tema.
@@ -138,7 +138,7 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 26 de octubre de 2026: se escribe lo que se busca (un destilado completo y no una lista de citas), para qué sirven las ganadoras (apoyos conectados, con holgura para los puentes y las glosas), que el destilado se hace entre las citas y que el esfuerzo de la selección debe ser proporcional a lo que aporta al destilado completo. No cambia ninguna regla de cálculo ni de selección. A pedido de Osmancito.
 
-25 de octubre de 2026: Elementos de Estilo rige todos los textos de la entrada (presentación, títulos, subtítulos, puentes, glosas y traducciones de las citas), no solo la presentación. Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad, y Los Originales se conservan intactos. Rige para esta entrada y este módulo, no para otras producciones. Reformula el término de «Los documentos que usa» y la comprobación de «Estilo» en la revisión. A pedido de Osmancito.
+25 de octubre de 2026: Elementos de Estilo rige todos los textos de la entrada (presentación, títulos, subtítulos, puentes, glosas y traducciones de las citas), no solo la presentación. Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad, y Los Originales se conservan intactos. Rige para esta entrada y este protocolo, no para otras producciones. Reformula el término de «Los documentos que usa» y la comprobación de «Estilo» en la revisión. A pedido de Osmancito.
 
 25 de octubre de 2026: se reformulan pasajes existentes. La presentación de la obra se escribe con Elementos de Estilo y se contrasta con su revisión, y solo ella: no los puentes ni las glosas. No lleva puente de cierre; el comienzo de cada parte lo marca su encabezado numerado, con el título en castellano. La presentación dice cómo se divide la obra, en lugar de cómo está armada. A pedido de Osmancito.
 
@@ -149,5 +149,7 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 25 de octubre de 2026: «El orden del trabajo» gana un primer paso: la presentación de la obra y la descripción de la página con sus etiquetas se escriben una sola vez, al abrir la entrada, antes de trabajar la primera unidad. Los demás pasos pasan a numerarse del 2 al 8 sin cambiar su contenido. No cambia el método de selección ni el contenido de la presentación y la descripción, que siguen como fija el punto 6 de «Decisiones de formato». A pedido de Osmancito.
 
 25 de octubre de 2026: nace este documento con las partes del método predecesor de Cobertura Léxica que no son puntuar ni seleccionar: la unidad fuente, el tejido, los puentes y las glosas, las decisiones de formato (incluido el dibujo de cada unidad), la revisión antes de entregar y la declaración del lector cero. Se mudan sin cambiar su contenido. Los cambios anteriores se conservan en el historial de versiones del repositorio; la referencia vigente es Cobertura Léxica. A pedido de Osmancito.
+
+30 de octubre de 2026: define «repositorio» y las etiquetas og donde aparecen por primera vez y reemplaza «este módulo» por «este protocolo». A pedido de Osmancito.
 
 © 2026 Osmancito
