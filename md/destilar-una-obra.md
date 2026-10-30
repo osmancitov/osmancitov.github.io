@@ -4,9 +4,9 @@ Destilar una obra es el nombre de este texto. Este texto está escrito para el l
 
 ## Qué es y para qué sirve
 
-Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios.
+Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
-Hasta el 25 de octubre de 2026 este protocolo vivía entero en el método predecesor de [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Desde el 27 de octubre de 2026 Cobertura Léxica es el método de selección aprobado. Este texto ordena todo el trabajo y remite a los demás documentos. Los destilados ya publicados no se rehacen por esta sustitución.
+Hasta el 25 de octubre de 2026 este módulo vivía entero en el método predecesor de [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Desde el 27 de octubre de 2026 Cobertura Léxica es el método de selección aprobado. Este texto ordena todo el trabajo y remite a los demás documentos. Los destilados ya publicados no se rehacen por esta sustitución.
 
 ## Cuándo
 
@@ -138,7 +138,7 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 26 de octubre de 2026: se escribe lo que se busca (un destilado completo y no una lista de citas), para qué sirven las ganadoras (apoyos conectados, con holgura para los puentes y las glosas), que el destilado se hace entre las citas y que el esfuerzo de la selección debe ser proporcional a lo que aporta al destilado completo. No cambia ninguna regla de cálculo ni de selección. A pedido de Osmancito.
 
-25 de octubre de 2026: Elementos de Estilo rige todos los textos de la entrada (presentación, títulos, subtítulos, puentes, glosas y traducciones de las citas), no solo la presentación. Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad, y Los Originales se conservan intactos. Rige para esta entrada y este protocolo, no para otras producciones. Reformula el término de «Los documentos que usa» y la comprobación de «Estilo» en la revisión. A pedido de Osmancito.
+25 de octubre de 2026: Elementos de Estilo rige todos los textos de la entrada (presentación, títulos, subtítulos, puentes, glosas y traducciones de las citas), no solo la presentación. Las traducciones se revisan respetando el sentido y la voz de la obra, sin recortarlas por brevedad, y Los Originales se conservan intactos. Rige para esta entrada y este módulo, no para otras producciones. Reformula el término de «Los documentos que usa» y la comprobación de «Estilo» en la revisión. A pedido de Osmancito.
 
 25 de octubre de 2026: se reformulan pasajes existentes. La presentación de la obra se escribe con Elementos de Estilo y se contrasta con su revisión, y solo ella: no los puentes ni las glosas. No lleva puente de cierre; el comienzo de cada parte lo marca su encabezado numerado, con el título en castellano. La presentación dice cómo se divide la obra, en lugar de cómo está armada. A pedido de Osmancito.
 
@@ -150,6 +150,6 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 25 de octubre de 2026: nace este documento con las partes del método predecesor de Cobertura Léxica que no son puntuar ni seleccionar: la unidad fuente, el tejido, los puentes y las glosas, las decisiones de formato (incluido el dibujo de cada unidad), la revisión antes de entregar y la declaración del lector cero. Se mudan sin cambiar su contenido. Los cambios anteriores se conservan en el historial de versiones del repositorio; la referencia vigente es Cobertura Léxica. A pedido de Osmancito.
 
-30 de octubre de 2026: define «repositorio» y las etiquetas og donde aparecen por primera vez y reemplaza «este módulo» por «este protocolo». A pedido de Osmancito.
+30 de octubre de 2026: define «módulo», «repositorio» y las etiquetas og donde aparecen por primera vez. A pedido de Osmancito.
 
 © 2026 Osmancito

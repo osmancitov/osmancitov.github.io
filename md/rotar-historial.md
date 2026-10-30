@@ -8,7 +8,7 @@ Es el procedimiento que, al terminar el día, pasa lo hecho del Status al Histor
 
 ## Cuándo
 
-A medianoche, hora de Caracas. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado.
+A medianoche, UTC-4. UTC-4 es cuatro horas detrás del tiempo universal coordinado.
 
 ## Qué se mueve
 
@@ -38,5 +38,7 @@ En el html del Historial de tareas, cada bloque va dentro de una etiqueta `artic
 ## Cambios
 
 30 de octubre de 2026: la fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. Su comprobación de las tres páginas publicadas sigue en «Publicar». A pedido de Osmancito.
+
+30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.
 
 © 2026 Osmancito

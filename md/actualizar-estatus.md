@@ -17,7 +17,7 @@ El Status vive en dos archivos fijos: `md/261013_status.md`, el texto con marcas
 Lleva sus partes en este orden:
 
 1. **El título**: «Estado actual».
-2. **La fecha y la hora**, por ejemplo «23 de octubre de 2026, 01:13 UTC-4.». UTC-4 es la hora de Caracas: cuatro horas detrás del tiempo universal coordinado. Se escribe así, sin «Caracas» ni «Actualizado:».
+2. **La fecha y la hora**, por ejemplo «23 de octubre de 2026, 01:13 UTC-4.». UTC-4 es cuatro horas detrás del tiempo universal coordinado. Se escribe así, sin «Caracas» ni «Actualizado:».
 3. **«Corriendo ahora»**: cada trabajo en marcha, con sus aciertos, lo que falta y el tiempo transcurrido.
 4. **«Automáticos diarios»**: los trabajos que se ejecutan solos cada día, con su hora. La página dice el estado verdadero: quitar un automático de la lista significa que dejó de ejecutarse de verdad.
 5. **«Hecho hoy»**: lo terminado hoy. Cada trabajo terminado se anota aquí como una viñeta y, a la vez, como una línea del **borrador del día**: un comentario al final del archivo md del Historial de tareas, que es la página que guarda los trabajos terminados hasta ayer. Un **comentario** es un trozo del archivo que la página no muestra. Cada línea del borrador guarda la fecha, el título, el detalle y el enlace opcional del trabajo, separados por barras verticales: `fecha | título | detalle | enlace`.
@@ -48,5 +48,7 @@ En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de c
 ## Cambios
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que incluye comprobar que la página publicada refleja lo escrito. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
+
+30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.
 
 © 2026 Osmancito

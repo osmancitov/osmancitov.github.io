@@ -6,7 +6,7 @@ Publicar en Capilla es el nombre de este texto. Este texto está escrito para el
 
 Es el procedimiento que publica cada mañana la lectura del día en la Capilla. La **Capilla** es la sala del sitio dedicada a la oración. El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la Capilla se llama `capilla`. El **README** es el texto que presenta un repositorio. La **asistente** es Instinct, que escribe la lectura por Osmancito, el autor.
 
-El trabajo empieza a las 04:30, hora de Caracas, para que la lectura esté servida a las 05:00. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado.
+El trabajo empieza a las 04:30 UTC-4, para que la lectura esté servida a las 05:00. UTC-4 es cuatro horas detrás del tiempo universal coordinado.
 
 ## La fuente
 
@@ -65,5 +65,7 @@ Antes de publicar, se comprueba con la entrada a la vista:
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la prosa lírica de la Capilla. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 30 de octubre de 2026: define «casa», «README» y «asistente» donde aparecen por primera vez y reemplaza «este módulo» por «este texto». A pedido de Osmancito.
+
+30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.
 
 © 2026 Osmancito

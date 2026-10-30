@@ -126,7 +126,7 @@ Al terminar el día, a medianoche, pasa lo hecho del Status al Historial de tare
 
 También se le ha llamado: «el Historial».
 
-**Cuándo se aplica:** cada día a medianoche, hora de Caracas.
+**Cuándo se aplica:** cada día a medianoche, UTC-4.
 
 **Necesita:** el **Dominio Cero**. Lo que este procedimiento mueve lo anota **Actualizar Estatus** durante el día; para rotar no hace falta abrirlo.
 
@@ -156,11 +156,11 @@ También se le ha llamado: «incorporar una sala», «sala nueva»*.
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-en-capilla.md)
 
-Publica cada mañana la lectura del día en la Capilla, la sala dedicada a la oración. El trabajo empieza a las 04:30, hora de Caracas (UTC-4), para que la lectura esté servida a las 05:00.
+Publica cada mañana la lectura del día en la Capilla, la sala dedicada a la oración. El trabajo empieza a las 04:30 UTC-4, para que la lectura esté servida a las 05:00.
 
 También se le ha llamado: «el módulo de la Capilla»*, «publicar Capilla»*.
 
-**Cuándo se aplica:** cada mañana; el trabajo empieza a las 04:30, hora de Caracas, para que la lectura esté servida a las 05:00.
+**Cuándo se aplica:** cada mañana; el trabajo empieza a las 04:30 UTC-4, para que la lectura esté servida a las 05:00.
 
 **Necesita:** el **Pintor de Imágenes** y el **Dominio Cero**.
 
@@ -172,7 +172,7 @@ Publica cada noche la entrada del día en el Journal, la sala que guarda los dí
 
 También se le ha llamado: «el módulo del Journal», «publicar-journal.md».
 
-**Cuándo se aplica:** cada noche; la entrada se arma al final del día, hacia las 23:00, hora de Caracas.
+**Cuándo se aplica:** cada noche; la entrada se arma al final del día, hacia las 23:00 UTC-4.
 
 **Necesita:** el **Pintor de Imágenes** y el **Dominio Cero**.
 
@@ -304,3 +304,5 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar. A pedido de Osmancito.
 
 30 de octubre de 2026: añade los términos md, html, JPG, og, UTC-4, README, GitHub y commit al comienzo de «Los módulos de la casa». A pedido de Osmancito.
+
+30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.

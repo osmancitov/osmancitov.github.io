@@ -8,7 +8,7 @@ Es el procedimiento que publica cada noche la entrada del día en el Journal. El
 
 ## Cuándo
 
-La entrada se arma al final del día, hacia las 23:00, hora de Caracas, y se escribe en **goteo lento**: destilada despacio, dejando que el día escurra, sin trabajo programado durante el día. Si una pieza se escribió antes ese mismo día, se funde en la entrada única del día. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado. Se publica directo, sin esperar confirmación. En un día flojo se publica una entrada mínima y digna: la cadena no se rompe. Una entrada atrasada se fecha en el día vivido.
+La entrada se arma al final del día, hacia las 23:00 UTC-4 (cuatro horas detrás del tiempo universal coordinado), y se escribe en **goteo lento**: destilada despacio, dejando que el día escurra, sin trabajo programado durante el día. Si una pieza se escribió antes ese mismo día, se funde en la entrada única del día. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado. Se publica directo, sin esperar confirmación. En un día flojo se publica una entrada mínima y digna: la cadena no se rompe. Una entrada atrasada se fecha en el día vivido.
 
 ## La historieta lírica
 
@@ -65,5 +65,7 @@ Antes de publicar, se comprueba con la entrada a la vista:
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la historieta lírica. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 30 de octubre de 2026: define «casa» y «README» donde aparecen por primera vez y reemplaza «este módulo» por «este texto». A pedido de Osmancito.
+
+30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.
 
 © 2026 Osmancito
