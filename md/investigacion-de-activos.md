@@ -18,12 +18,13 @@ Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que
 
 1. Se fija la audiencia, el alcance y el destino que pide el encargo. La publicación del sitio es un artículo para el público: se sostiene por sí sola, sin que el lector conozca el pedido ni la conversación en que nació. El interés de un caso se muestra con hechos.
 2. Se explican los conceptos antes de usarlos. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
-3. Se elige el orden de exposición. La investigación de un activo sigue «La visión estructurada». Un estudio introductorio o comparado sigue conceptos, casos, medición cuando corresponda, alcance de la conclusión y fuentes; solo incluye precio o sentimiento si forman parte del encargo. El tema se presenta antes de sus cifras, sin forzar los apartados de la visión estructurada dentro de una lección.
-4. Se identifica cada medida por objeto, unidad, período y fuente. Se comparan medidas equivalentes: comisiones de red con comisiones de red, no con ingresos de aplicaciones. Una dirección no se presenta como una persona. Las existencias, lo negociado durante un período y los ingresos se distinguen antes de extraer conclusiones.
+3. Se arma el recorrido desde el objeto, no desde una lista de preguntas. El **recorrido** es el orden de las explicaciones que lleva al lector cero desde lo que ya sabe hasta entender el objeto. El autor no tiene que saber de antemano qué enseñar: el recorrido sale de investigar. Se parte de una frase que diga qué es el objeto. Cada término de esa frase que el lector cero no conozca y que haga falta para entenderlo se explica antes, en pocas líneas; si esa explicación usa otro término desconocido y necesario, también se explica antes. No se explica lo que no hace falta para llegar al objeto. Las explicaciones se ordenan de modo que ninguna use algo que explica otra posterior. Una explicación breve puede ser una entrada propia, con el término y su sentido. Si el objeto es más de una cosa, como una plataforma, una red y una moneda, se separan las partes y cada una recibe su recorrido. Al terminar, el lector cero debe poder decir con sus palabras lo que el objeto permita: qué es, de qué partes se compone, cómo funciona, quién puede usarlo y cómo se entra, qué lo ha puesto a prueba, cómo se mide y qué no se sabe. Eso orienta; no es un formulario ni una lista de apartados obligatorios. Cada objeto decide qué aplica y en qué forma, y se declara lo que no aplica o no se pudo comprobar.
+4. Se elige el orden de exposición. La investigación de un activo sigue «La visión estructurada». Un estudio introductorio o comparado sigue conceptos, casos, medición cuando corresponda, alcance de la conclusión y fuentes; solo incluye precio o sentimiento si forman parte del encargo. El tema se presenta antes de sus cifras, sin forzar los apartados de la visión estructurada dentro de una lección.
+5. Se identifica cada medida por objeto, unidad, período y fuente. Se comparan medidas equivalentes: comisiones de red con comisiones de red, no con ingresos de aplicaciones. Una dirección no se presenta como una persona. Las existencias, lo negociado durante un período y los ingresos se distinguen antes de extraer conclusiones.
 
 ## La visión estructurada
 
-La investigación de un activo se escribe en castellano y lleva sus apartados en este orden. Los estudios siguen el orden del punto 3 de «Cómo se prepara la investigación»:
+La investigación de un activo se escribe en castellano y lleva sus apartados en este orden. Los estudios siguen el orden del punto 4 de «Cómo se prepara la investigación»:
 
 1. **El activo y su contexto**: qué es el activo y quién lo emite o lo respalda. En una criptomoneda, el proyecto detrás de ella; en una participación en un bien, el bien y quien ofrece la participación.
 2. **El comportamiento del precio**: cómo se ha movido el precio en el período reciente: su dirección, su magnitud y los momentos notables del movimiento.
@@ -45,7 +46,7 @@ La visión se escribe para leerla, como un artículo de revista, y también para
 
 ## Los pasos
 
-1. Se toma el activo o el tema señalado por el autor y se resuelven los puntos de «Cómo se prepara la investigación». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar.
+1. Se toma el activo o el tema señalado por el autor y se resuelven los puntos de «Cómo se prepara la investigación». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar; no se pide al autor la lista de lecciones ni de preguntas, porque el recorrido sale de la investigación.
 2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la visión de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos.
 3. Se escribe la visión con el orden elegido al preparar la investigación, cada afirmación con su fuente, siguiendo «Cómo se escribe la visión» y Elementos de Estilo.
 4. Se declara en la visión lo que no se pudo comprobar, junto a lo que se afirma.
@@ -66,6 +67,7 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 8. **Audiencia y conceptos.** El artículo se sostiene sin la conversación y no se dirige al autor. Cada concepto aparece explicado antes de usarlo.
 9. **Medidas comparables.** Cada cifra identifica qué mide, su unidad, período y fuente; no se confunden direcciones con personas, saldos con flujos ni uso con valor del activo.
 10. **Destino y continuidad.** La entrega llega a la sala autorizada y sus archivos coinciden. Si pertenece a un curso, su lugar queda registrado sin autorizar nuevas publicaciones automáticas.
+11. **Lectura en frío.** El texto se lee como quien llega sin saber nada: cada explicación prepara la siguiente y ninguna exige algo que nadie enseñó antes.
 
 ## Lo que este módulo no hace
 
@@ -75,6 +77,8 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+30 de octubre de 2026: se agrega cómo se arma el recorrido de un estudio desde el objeto, sin pedir al autor lista de lecciones ni de preguntas; el paso 1 aclara qué no se pregunta al autor y la revisión suma la lectura en frío. A pedido de Osmancito.
 
 30 de octubre de 2026: el Núcleo se describe como la lista de los módulos, no de los procedimientos, porque todos los documentos de `md` son módulos. A pedido de Osmancito.
 
