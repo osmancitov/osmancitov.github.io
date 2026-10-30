@@ -128,7 +128,7 @@ La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
 
-30 de octubre de 2026: «tramo» queda solo para Cobertura Léxica y la lectura entre dos citas pasa a llamarse «trecho»; «sección» queda para la unidad fuente, las mayúsculas de los nombres se describen sin el término inglés que usaba el texto, «parte» para la división mayor que la reúne y «apartado» para Los Originales; «entrada» remite a la definición de Publicar una entrada. El ejemplo del puente deja de nombrar un libro y una persona concretos y queda como método. Se quita la repetición del techo del quince por ciento de los puentes y se añade «Cuándo». La fecha de la versión anterior, 27 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
+30 de octubre de 2026: «tramo» queda solo para Cobertura Léxica y la lectura entre dos citas pasa a llamarse «trecho»; «sección» queda para la unidad fuente, «parte» para la división mayor que la reúne y «apartado» para Los Originales; «entrada» remite a la definición de Publicar una entrada; la regla de mayúsculas de los nombres se escribe sin el término inglés que usaba. El ejemplo del puente deja de nombrar un libro y una persona concretos y queda como método. Se quita la repetición del techo del quince por ciento de los puentes y se añade «Cuándo». La fecha de la versión anterior, 27 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 27 de octubre de 2026: cada cita lleva su glosa, un comentario que acompaña y enriquece la lectura, del largo que necesite y sin cantidad fija de palabras. Se conserva el presupuesto de puentes. A pedido de Osmancito.
 
