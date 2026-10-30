@@ -86,7 +86,8 @@ Antes de presentarse, el borrador pasa esta revisión entera, con el texto a la 
 5. **Orden de la explicación.** Nada se usa antes de explicarse.
 6. **Autocumplimiento.** El módulo pasa sus propias reglas, comprobadas contra el texto regla por regla, no solo declaradas.
 7. **Documento ejemplar.** Si el módulo describe una forma de hacer algo, él mismo es un ejemplo de esa forma: las reglas que enuncia también lo gobiernan.
-8. **Lectura en frío.** Se lee entero como el lector cero y se sigue su procedimiento sin usar nada que el texto no diga.
+8. **Estilo.** El texto pasa la «Revisión antes de entregar» de Elementos de Estilo, como el Núcleo manda a todo módulo.
+9. **Lectura en frío.** Se lee entero como el lector cero y se sigue su procedimiento sin usar nada que el texto no diga.
 
 La revisión dice qué encontró y qué se corrigió.
 
@@ -99,5 +100,7 @@ La revisión dice qué encontró y qué se corrigió.
 5. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con la identidad autorizada de Osmancito, como autor y como quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 
 ## Cambios
+
+30 de octubre de 2026: la revisión incluye Elementos de Estilo, que el Núcleo exige al texto de todo módulo. A pedido de Osmancito.
 
 30 de octubre de 2026: todo documento de la carpeta `md` pasa a ser un módulo, el Núcleo, el Dominio Cero y el Documento Ejemplar incluidos; se define el módulo como regla o trabajo escrito. La forma exige el título sin fecha delante, la declaración del lector cero nombra «este texto» en lugar de «este procedimiento», y «Cuándo» y «Revisión antes de entregar» alcanzan a los módulos que fijan una regla o una forma. Un encabezado con otro nombre que cumple la misma función no se corrige. Se añade cuándo se revisa un módulo ya escrito. A pedido de Osmancito.

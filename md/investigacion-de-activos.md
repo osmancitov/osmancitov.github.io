@@ -14,7 +14,7 @@ No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él seña
 
 ## Cómo se prepara la investigación
 
-Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que inventaría los procedimientos de la casa; este procedimiento no repite esa ruta. Antes de investigar se resuelven estos puntos:
+Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que lista los módulos de la casa; este procedimiento no repite esa ruta. Antes de investigar se resuelven estos puntos:
 
 1. Se fija la audiencia, el alcance y el destino que pide el encargo. La publicación del sitio es un artículo para el público: se sostiene por sí sola, sin que el lector conozca el pedido ni la conversación en que nació. El interés de un caso se muestra con hechos.
 2. Se explican los conceptos antes de usarlos. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
@@ -75,6 +75,8 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+30 de octubre de 2026: el Núcleo se describe como la lista de los módulos, no de los procedimientos, porque todos los documentos de `md` son módulos. A pedido de Osmancito.
 
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
 

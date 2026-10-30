@@ -40,12 +40,13 @@ Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o 
 
 1. **Productor de Módulos:** la forma del módulo, con las partes que su trabajo necesita y ninguna más.
 2. **Dominio Cero:** cada palabra con el significado del diccionario o el que el texto le da en su primera aparición.
-3. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
-4. Los módulos que su entrada de la lista dice que necesita.
+3. **Elementos de Estilo:** el texto de un módulo es una producción en castellano que la casa publica, y se escribe y se revisa con él, con las excepciones que cada consejo dice. Si un módulo fija una forma para su propio texto, como la declaración del lector cero, esa forma manda en esa parte.
+4. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
+5. Los módulos que su entrada de la lista dice que necesita.
 
 Esto vale también para los módulos que sostienen la lista: el Núcleo, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar. Cada uno de ellos, además, pasa su propio examen.
 
-Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no diga «Necesita: Dominio Cero» no es un fallo. Un encabezado con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige lo que no lo hace.
+Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no diga «Necesita: Dominio Cero» ni «Necesita: Elementos de Estilo» no es un fallo. Elementos de Estilo se exige a toda producción en castellano que la casa publica o entrega, también a los módulos ya escritos cuando se corrigen o se revisan. Un encabezado con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige lo que no lo hace.
 
 **Cuándo se comprueba.**
 
@@ -260,7 +261,7 @@ También se le ha llamado: «el Núcleo», «el índice de documentos», «indic
 1. Para referirse a un documento basta un nombre aproximado; la lista dice cuál es su archivo exacto.
 2. Las formas marcadas con un asterisco (*) las sugiere la asistente para facilitar la referencia; no son nombres oficiales hasta que el autor las use.
 3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí. Un documento nuevo entra en la lista con su «cuándo se aplica» y lo que necesita.
-4. Para crear un módulo o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Si se corrige un módulo, también se abre ese módulo vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
+4. Para crear un módulo o corregir uno se abren el Productor de Módulos, el Dominio Cero y Elementos de Estilo, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Si se corrige un módulo, también se abre ese módulo vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero, Elementos de Estilo y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente y esos cuatro.
 
 ## Su propio examen
 
@@ -271,6 +272,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+30 de octubre de 2026: «Qué cumple cada módulo» incluye Elementos de Estilo para el texto de todo módulo, sin repetirlo en cada entrada, y el punto 4 de «Cómo se usa la lista» lo abre al crear o corregir un módulo. Se comprobó de nuevo el conjunto: los 17 archivos publicados, la lista y sus dependencias. A pedido de Osmancito.
 
 30 de octubre de 2026: los documentos de la carpeta `md` pasan a ser todos módulos, regidos por el Núcleo y el Productor de Módulos: no hay dos clases. El Núcleo abre con su declaración del lector cero y define «módulo» antes de usarlo, parte su primera frase en tres trabajos, fija en «Qué cumple cada módulo» qué documentos cumple cada módulo, incluido él mismo, cuándo se comprueba y que se revisa el conjunto tras cada cambio de esos documentos. Su propio examen pasa a cubrir esa forma. A pedido de Osmancito.
 
