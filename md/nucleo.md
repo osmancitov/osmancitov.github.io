@@ -39,7 +39,7 @@ El Núcleo exige cumplir, pero por sí solo no impide que una página se guarde 
 Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o su tamaño:
 
 1. **Productor de Módulos:** la forma del módulo, con las partes que su trabajo necesita y ninguna más.
-2. **Dominio Cero:** cada palabra con el significado del diccionario o el que el texto le da en su primera aparición.
+2. **Dominio Cero:** la base común de escritura: cada palabra con el significado del diccionario o el que el texto le da en su primera aparición, y cada idea necesaria explicada antes de usarse, desde donde está el lector.
 3. **Elementos de Estilo:** el texto de un módulo es una producción en castellano que la casa publica, y se escribe y se revisa con él, con las excepciones que cada consejo dice. Si un módulo fija una forma para su propio texto, como la declaración del lector cero, esa forma manda en esa parte.
 4. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
 5. Los módulos que su entrada de la lista dice que necesita.
@@ -62,7 +62,7 @@ Términos que usan las entradas siguientes: **md** es el formato de texto con ma
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/dominio-cero.md)
 
-La regla de escritura de la casa: cada palabra con el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición. Todo texto público del sitio la cumple.
+La base común de escritura de la casa: cada palabra con el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición, y cada idea que hace falta explicada antes de usarse, desde donde está el lector. Todo texto público del sitio la cumple, y los demás módulos no la repiten.
 
 También se le ha llamado: «el dominio cero».
 
@@ -274,6 +274,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+30 de octubre de 2026: el Dominio Cero pasa a ser la base común de escritura (palabras e ideas necesarias, desde donde está el lector) y su entrada y «Qué cumple cada módulo» lo dicen así. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
 30 de octubre de 2026: «Qué cumple cada módulo» incluye Elementos de Estilo para el texto de todo módulo, sin repetirlo en cada entrada, y el punto 4 de «Cómo se usa la lista» lo abre al crear o corregir un módulo. Se comprobó de nuevo el conjunto: los 17 archivos publicados, la lista y sus dependencias. A pedido de Osmancito.
 
