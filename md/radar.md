@@ -1,6 +1,6 @@
 # Radar
 
-Radar es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Radar es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -57,5 +57,9 @@ Cada aviso pasa esta revisión entera antes de entregarse, con el texto a la vis
 2. No crea radares ni cambia el propio: toda vigilancia nueva y todo cambio de configuración nacen de un encargo del autor.
 3. No promete cubrirlo todo: una fuente pública puede fallar o llegar tarde, y el radar solo ve lo que sus fuentes muestran cuando las revisa. Lo que no se pudo ver se declara así, no se disimula.
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
+
+## Cambios
+
+30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
 
 © 2026 Osmancito

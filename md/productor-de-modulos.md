@@ -1,12 +1,12 @@
 # Productor de Módulos
 
-Productor de Módulos es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Productor de Módulos es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
-La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios; las páginas de la casa se guardan en repositorios. Un **módulo** es un texto de la casa que fija por escrito cómo se hace un trabajo, para que el trabajo se repita igual sin depender de la memoria de nadie, persona o máquina.
+La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios; las páginas de la casa se guardan en repositorios. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
-Es el procedimiento que produce los módulos de la casa. Los módulos viven como archivos de texto con marcas simples en la carpeta `md` del repositorio `osmancitov.github.io`, el repositorio principal de la casa.
+Es el procedimiento que produce los módulos de la casa. Todo documento de la carpeta `md` es un módulo: no hay dos clases de documentos, una de conceptos y otra de procedimientos. Dominio Cero, Documento Ejemplar, el Núcleo y este mismo Productor son módulos y pasan por este procedimiento igual que los demás. Qué documentos cumple cada módulo lo fija el Núcleo en «Qué cumple cada módulo». Los módulos viven como archivos de texto con marcas simples en la carpeta `md` del repositorio `osmancitov.github.io`, el repositorio principal de la casa.
 
 Cuando una manera de trabajar no está escrita, vive solo en la memoria de quien la ejecuta. La memoria se olvida, no se puede comprobar y no pasa intacta de una cabeza a otra. El módulo la sustituye por un texto: el método queda escrito una sola vez, en un solo lugar, y cualquiera puede leerlo, ejecutarlo y revisarlo. Así las reglas de cada trabajo dejan de estar dispersas: las que pertenecen a un trabajo viven en su módulo.
 
@@ -52,16 +52,22 @@ Un módulo nace cuando una manera de trabajar no debería seguir viviendo solo e
 
 ## La forma de un módulo
 
-1. **El nombre** del módulo, como título, en la primera línea, sin nada delante. Es un nombre propio que dice lo que el procedimiento hace, como «Productor de Módulos» dice lo que hace este. El archivo lleva el mismo nombre en minúsculas, sin acentos y con guiones, y la terminación `.md`, como `productor-de-modulos.md`.
-2. **La declaración del lector cero**: la frase fija con que abre este texto, con el nombre del módulo en su lugar.
+1. **El nombre** del módulo, como título, en la primera línea, sin nada delante: ni fecha ni otra marca. La fecha de un cambio va en «Cambios». Es un nombre propio que dice lo que el procedimiento hace, como «Productor de Módulos» dice lo que hace este. El archivo lleva el mismo nombre en minúsculas, sin acentos y con guiones, y la terminación `.md`, como `productor-de-modulos.md`.
+2. **La declaración del lector cero**: la frase fija con que abre este texto, con el nombre del módulo en su lugar. Dice «es el nombre de este texto», porque no todo módulo es un procedimiento.
 3. **«Qué es y para qué sirve»**: qué hace el procedimiento, para qué existe y los términos que usa.
-4. **«Cuándo»**, si el trabajo tiene hora fija o empieza cuando ocurre algo.
+4. **«Cuándo»**: cuándo se aplica el módulo, sea una hora fija, un hecho que lo dispara o el tipo de texto o trabajo que lo exige. Si cabe en una frase, puede ir dentro de «Qué es y para qué sirve».
 5. **El cuerpo**: el procedimiento en pasos o las reglas ordenadas por temas.
-6. **«Revisión antes de entregar»**, si el módulo produce entregas: la lista de comprobaciones que cada entrega tiene que pasar.
+6. **«Revisión antes de entregar»**, si el módulo produce entregas (un texto, una página, una imagen, un mensaje) o fija una forma que se comprueba sobre un texto: la lista de comprobaciones que cada entrega tiene que pasar. Un módulo que fija una forma, como el Documento Ejemplar o el Núcleo, puede llamar a esta parte «Su propio examen», porque en él la comprobación es que su propio texto cumpla la forma.
 7. **«Publicar»**, si el trabajo termina en páginas: las reglas comunes de publicación de la casa.
 8. **«Cambios»**: cuando el módulo se corrige, cada corrección se anota en esa sección, con su fecha, qué cambió y por qué. Un módulo recién nacido todavía no la lleva: no tiene correcciones que anotar.
 
-La forma sirve al método, no al revés: un módulo lleva las partes que su trabajo necesita y ninguna más.
+La forma sirve al método, no al revés: un módulo lleva las partes que su trabajo necesita y ninguna más. Una parte con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige un módulo cuando no lo hace, no por el nombre de sus encabezados.
+
+## Cuándo se revisa un módulo ya escrito
+
+1. Un módulo se revisa con este Productor cuando se corrige, porque la corrección abre este documento.
+2. Cuando cambia este Productor, el Dominio Cero, el Documento Ejemplar o el Núcleo, se revisa cada módulo de la lista del Núcleo contra el cambio, como el Núcleo fija en «Qué cumple cada módulo».
+3. Lo que no cumple se corrige. Lo que no se puede corregir sin decidir algo que no está escrito se anota como pregunta para Osmancito.
 
 ## Lo que este módulo no hace
 
@@ -92,3 +98,6 @@ La revisión dice qué encontró y qué se corrigió.
 4. El módulo vive como un solo archivo de texto con marcas simples en la carpeta `md`. A diferencia de las páginas que la casa publica, que llevan dos archivos gemelos que dicen lo mismo y cambian siempre juntos, el módulo no lleva página gemela.
 5. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con la identidad autorizada de Osmancito, como autor y como quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 
+## Cambios
+
+30 de octubre de 2026: todo documento de la carpeta `md` pasa a ser un módulo, el Núcleo, el Dominio Cero y el Documento Ejemplar incluidos; se define el módulo como regla o trabajo escrito. La forma exige el título sin fecha delante, la declaración del lector cero nombra «este texto» en lugar de «este procedimiento», y «Cuándo» y «Revisión antes de entregar» alcanzan a los módulos que fijan una regla o una forma. Un encabezado con otro nombre que cumple la misma función no se corrige. Se añade cuándo se revisa un módulo ya escrito. A pedido de Osmancito.

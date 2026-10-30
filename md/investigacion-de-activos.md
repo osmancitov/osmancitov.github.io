@@ -1,6 +1,6 @@
 # Investigación de Activos
 
-Investigación de Activos es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Investigación de Activos es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -75,6 +75,8 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
 
 30 de octubre de 2026: la ruta de lectura (qué documentos abrir y en qué orden) sale de este módulo y queda solo en el Núcleo; la sección pasa a llamarse «Cómo se prepara la investigación» y conserva los criterios propios de la operación: audiencia, conceptos, orden de exposición y medidas. Los casos concretos de correcciones anteriores se redactan como criterios generales. «Ficha» deja de usarse: el informe se llama siempre visión estructurada y el texto que no sigue sus apartados, estudio. A pedido de Osmancito.
 

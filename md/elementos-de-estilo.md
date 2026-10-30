@@ -1,10 +1,10 @@
 # Elementos de Estilo
 
-Elementos de Estilo es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Elementos de Estilo es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
-La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **producción** es un texto que la casa escribe para entregarlo: una entrada, un módulo, un mensaje o un informe. Un **módulo** es un texto de la casa que fija por escrito cómo se hace un trabajo, para que el trabajo salga igual cada vez.
+La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **producción** es un texto que la casa escribe para entregarlo: una entrada, un módulo, un mensaje o un informe. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Elementos de Estilo reúne los elementos de estilo de la casa: lo que se hace para que una producción en castellano se lea con claridad. Sirve para dos trabajos: escribir una producción y revisarla antes de entregarla.
 
@@ -150,5 +150,7 @@ Normas de la RAE, páginas leídas el 25 de octubre de 2026:
 - [Extranjerismos crudos](https://www.rae.es/duda-linguistica/como-se-escriben-los-extranjerismos-crudos-en-un-texto-en-espanol)
 
 ## Cambios
+
+30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. La definición de «módulo» es la misma de todos los documentos: una regla o un trabajo escrito. A pedido de Osmancito.
 
 30 de octubre de 2026: «Cuándo» deja de depender de que se quieran aplicar los elementos: se usan siempre en la producción en castellano que la casa publica o entrega, con las excepciones de cada paso. Así coincide con el Núcleo. A pedido de Osmancito.

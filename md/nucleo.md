@@ -1,12 +1,24 @@
 # Núcleo
 
-El **Núcleo** es esta página: el punto de partida de toda producción escrita de la casa y lo que se cumple en los demás encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio, con el nombre exacto de cada uno, dónde está y para qué sirve. Un **encargo** es lo que el autor pide hacer en el sitio. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio.
+Núcleo es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
-La lista de documentos existe para que no haga falta recordar el nombre exacto de un documento para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos documentos, se aclara cuál se quiere decir; no se adivina.
+## Qué es y para qué sirve
 
-La lista también sirve para preparar un trabajo: cada entrada dice cuándo se aplica su documento y qué otros documentos hay que abrir junto con él para ejecutarlo. Crear o corregir un documento tiene su propia regla, al final de esta página.
+El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio. Un **encargo** es lo que el autor pide hacer en el sitio. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Todo documento de la carpeta `md` del repositorio base, `osmancitov.github.io`, es un módulo, este incluido: no hay dos clases de documentos.
 
-Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github.io`, y cada entrada enlaza al archivo en GitHub. El Núcleo no sustituye las instrucciones de cada documento: cada documento manda en su tema.
+El Núcleo hace tres trabajos:
+
+1. Es el punto de partida de toda producción escrita de la casa.
+2. Fija qué documentos cumple cada módulo y cuándo se comprueba.
+3. Lista los módulos, con el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros módulos hay que abrir junto con él.
+
+La lista existe para que no haga falta recordar el nombre exacto de un módulo para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos módulos, se aclara cuál se quiere decir; no se adivina.
+
+Los módulos viven en la carpeta `md` del repositorio base y cada entrada enlaza al archivo en GitHub. El Núcleo no sustituye las instrucciones de cada módulo: cada módulo manda en su tema.
+
+## Cuándo
+
+Al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo. También cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo en la lista, y cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, para revisar el conjunto como dice «Qué cumple cada módulo».
 
 ## Cómo se cumple el Núcleo
 
@@ -22,7 +34,26 @@ Los documentos viven en la carpeta `md` del repositorio base, `osmancitov.github
 
 El Núcleo exige cumplir, pero por sí solo no impide que una página se guarde o se publique sin pasar por él.
 
-## Los documentos
+## Qué cumple cada módulo
+
+Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o su tamaño:
+
+1. **Productor de Módulos:** la forma del módulo, con las partes que su trabajo necesita y ninguna más.
+2. **Dominio Cero:** cada palabra con el significado del diccionario o el que el texto le da en su primera aparición.
+3. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
+4. Los módulos que su entrada de la lista dice que necesita.
+
+Esto vale también para los módulos que sostienen la lista: el Núcleo, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar. Cada uno de ellos, además, pasa su propio examen.
+
+Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no diga «Necesita: Dominio Cero» no es un fallo. Un encabezado con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige lo que no lo hace.
+
+**Cuándo se comprueba.**
+
+1. Al crear un módulo y al corregirlo, con los documentos del punto 4 de «Cómo se usa la lista».
+2. Cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, cada módulo de la lista se revisa contra el cambio. Lo que ya no cumple se corrige. Lo que no se puede corregir sin decidir algo que no está escrito se anota como pregunta para Osmancito.
+3. Al terminar una corrección o una revisión se revisa el conjunto de la carpeta, no solo los archivos tocados, y se comprueba que la lista inventaría todos los archivos de `md`.
+
+## Los módulos de la casa
 
 ### Dominio Cero: `dominio-cero.md`
 
@@ -52,11 +83,11 @@ También se le ha llamado: «documento ejemplar».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-modulos.md)
 
-Fija cómo se escriben los módulos de la casa, qué forma llevan y cómo se revisan antes de entrar al repositorio.
+Fija cómo se escriben los módulos de la casa, qué forma llevan y cómo se revisan antes de entrar al repositorio. Todos los documentos de `md` son módulos.
 
 También se le ha llamado: «el productor de módulos»*.
 
-**Cuándo se aplica:** al crear un módulo nuevo o al corregir uno que ya existe.
+**Cuándo se aplica:** al crear un módulo nuevo, al corregir uno que ya existe y al revisar el conjunto cuando cambia uno de los cuatro documentos que todos cumplen.
 
 **Necesita:** el **Dominio Cero** y el **Documento Ejemplar**.
 
@@ -216,30 +247,32 @@ También se le ha llamado: «radar».
 
 [Esta misma página](#núcleo)
 
-Lo que se cumple en los encargos a los que el autor lo aplica y la lista de los documentos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros documentos hay que abrir junto con él para ejecutarlo. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
+Fija lo que se cumple en los encargos a los que el autor lo aplica, qué documentos cumple cada módulo y cuándo se comprueba, y lista los módulos que gobiernan el sitio: el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros módulos hay que abrir junto con él. Está en la carpeta `md` del repositorio base, `osmancitov.github.io`.
 
 También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo, y cuando un documento nace, cambia de nombre o cambia de carpeta, para anotarlo.
+**Cuándo se aplica:** al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo, cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo, y cuando cambia uno de los cuatro documentos que todos cumplen, para revisar el conjunto.
 
-**Necesita:** ningún otro documento para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
+**Necesita:** ningún otro módulo para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
 ## Cómo se usa la lista
 
 1. Para referirse a un documento basta un nombre aproximado; la lista dice cuál es su archivo exacto.
 2. Las formas marcadas con un asterisco (*) las sugiere la asistente para facilitar la referencia; no son nombres oficiales hasta que el autor las use.
 3. Si un documento cambia de nombre o de carpeta, su entrada se actualiza aquí. Un documento nuevo entra en la lista con su «cuándo se aplica» y lo que necesita.
-4. Para crear un documento de esta carpeta o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Un **módulo** es un documento que fija por escrito cómo se hace un trabajo de la casa. Si se corrige un documento, también se abre ese documento vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
+4. Para crear un módulo o corregir uno se abren el Productor de Módulos y el Dominio Cero, y también el Documento Ejemplar cuando el texto fija una forma de hacer algo. Si se corrige un módulo, también se abre ese módulo vigente antes de tocarlo. Por ejemplo: crear un módulo abre el Productor de Módulos, el Dominio Cero y el Documento Ejemplar; corregir el Pintor abre el Pintor de Imágenes vigente, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar.
 
 ## Su propio examen
 
-El Núcleo fija una forma de hacer algo, cumplir un encargo, y por eso es un **documento ejemplar** (ver el documento de ese nombre): tiene que pasar su propio examen.
+El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: tiene que cumplir lo que fija, como cualquier otro.
 
-1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos.
-2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su documento y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
-3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
+1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos, y «Qué cumple cada módulo» dice qué documentos cumple cada módulo y cuándo se comprueba.
+2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su módulo y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo tiene la forma de un módulo: su declaración del lector cero, «Qué es y para qué sirve» con los términos definidos antes de usarse, «Cuándo», el cuerpo, este examen y «Cambios». El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
+3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+30 de octubre de 2026: los documentos de la carpeta `md` pasan a ser todos módulos, regidos por el Núcleo y el Productor de Módulos: no hay dos clases. El Núcleo abre con su declaración del lector cero y define «módulo» antes de usarlo, parte su primera frase en tres trabajos, fija en «Qué cumple cada módulo» qué documentos cumple cada módulo, incluido él mismo, cuándo se comprueba y que se revisa el conjunto tras cada cambio de esos documentos. Su propio examen pasa a cubrir esa forma. A pedido de Osmancito.
 
 30 de octubre de 2026: nace Radar (`radar.md`), el procedimiento de la vigilancia repetida: el método es uno y cada encargo fija su configuración. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
 

@@ -1,6 +1,6 @@
 # Productor de Briefings
 
-Productor de Briefings es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Productor de Briefings es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -49,5 +49,9 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 1. No crea entregas automáticas: el briefing nace de un pedido del autor y cada pedido encarga uno solo.
 2. No glosa de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 3. No publica en el sitio: el briefing se entrega por correo y no toca las páginas ni sus archivos.
+
+## Cambios
+
+30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
 
 © 2026 Osmancito

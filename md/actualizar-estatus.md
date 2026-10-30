@@ -1,8 +1,6 @@
-23 de octubre de 2026
-
 # Actualizar Estatus
 
-Actualizar Estatus es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Actualizar Estatus es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -27,6 +25,18 @@ Lleva sus partes en este orden:
 7. **«Pendiente de Osmancito»**: lo que le toca a él. Si no hay nada, dice «Ninguno».
 8. **La firma**, al pie: «© 2026 Osmancito», el símbolo ©, el año de publicación y el nombre del autor.
 
+## Revisión antes de entregar
+
+Antes de subir los cambios se comprueba con la página a la vista:
+
+1. **Partes.** Están las seis partes, en su orden, y la firma al pie.
+2. **Fecha y hora.** Se escriben con UTC-4, sin «Caracas» ni «Actualizado:».
+3. **Hecho hoy.** Cada trabajo terminado figura como viñeta y como línea del borrador del día.
+4. **Pendiente de Osmancito.** Dice lo que le toca a él, o «Ninguno».
+5. **Lo que no se menciona.** No aparece la búsqueda de trabajo ni de clientes.
+6. **Gemelos.** El md y el html dicen lo mismo.
+7. **Página publicada.** Después de subir los cambios, la página del Status abre y muestra lo que se escribió.
+
 ## Publicar
 
 En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de clientes.
@@ -34,5 +44,9 @@ En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de c
 1. Los dos archivos gemelos cambian juntos. La apariencia de la página la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 2. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 3. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+
+## Cambios
+
+30 de octubre de 2026: se añade «Revisión antes de entregar», que incluye comprobar que la página publicada refleja lo escrito. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 © 2026 Osmancito

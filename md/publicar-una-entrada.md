@@ -1,6 +1,14 @@
 # Publicar una entrada
 
-Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio.
+Publicar una entrada es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+
+## Qué es y para qué sirve
+
+Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio. Vale para todas las salas; las que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en su documento, que también se abre: cada documento manda en su tema.
+
+## Cuándo
+
+Al agregar una página nueva a cualquier sala del sitio.
 
 ## Los archivos
 
@@ -92,7 +100,23 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 </html>
 ```
 
+## Revisión antes de entregar
+
+Antes de publicar se comprueba:
+
+1. **Archivos.** Los tres archivos existen y llevan el mismo nombre, y el md y el html dicen lo mismo.
+2. **Nombre.** Empieza con seis cifras de fecha, sigue con un guion bajo y el título con guiones, todo en minúsculas, y no se repite en otra entrada.
+3. **Títulos.** El título de la pestaña es el título dentro de la página, un punto medio y el nombre editorial; el título de la tarjeta es solo el título dentro de la página.
+4. **Página.** Muestra, en orden, la fecha, el título, la imagen, el texto, la firma y el enlace de vuelta.
+5. **Imagen.** Es un jpg al 75 %, conserva su proporción y su ancho y su alto están escritos en la página.
+6. **Etiquetas og.** La imagen de la tarjeta es la primera de la entrada y la descripción tiene 100 caracteres como máximo, igual en la cabecera y en la tarjeta.
+7. **Estilo.** La página enlaza `base.css` y no lleva estilo propio.
+8. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
+9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la página.
+
 ## Cambios
+
+30 de octubre de 2026: el texto pasa a tener la forma de un módulo: declaración del lector cero, «Qué es y para qué sirve», «Cuándo» y «Revisión antes de entregar». El contenido de la entrada no cambia. A pedido de Osmancito.
 
 25 de octubre de 2026: el título de la pestaña vuelve a llevar un punto medio y el nombre del repositorio, ahora en forma editorial (mayúscula inicial en cada palabra, seguido de «Osmancito»: «Destilería Osmancito», «Journal Osmancito»). El título de la tarjeta sigue siendo solo el título dentro de la página. Sustituye el cambio siguiente en lo que toca a la pestaña. A pedido de Osmancito.
 

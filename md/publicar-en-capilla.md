@@ -1,8 +1,6 @@
-23 de octubre de 2026
-
 # Publicar en Capilla
 
-Publicar en Capilla es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Publicar en Capilla es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -40,11 +38,30 @@ Los nombres llevan la fecha de la entrada en seis cifras: dos para el año (las 
 
 La página html lleva sus **etiquetas og**, que son los datos de la cabecera que dicen cómo se ve la tarjeta cuando alguien comparte el enlace: su título, su descripción y su imagen. La imagen de la tarjeta es la primera imagen de la entrada. La apariencia la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 
+## Revisión antes de entregar
+
+Antes de publicar, se comprueba con la entrada a la vista:
+
+1. **Fecha y fuente.** La lectura corresponde a la fecha de la entrada y se tomó de la página de la fuente de ese día.
+2. **Antífona.** La cita está tomada de las lecturas del día, su fuente está verificada, su número sigue al del día anterior y su referencia no repite el nombre del libro.
+3. **Texto del día.** Tiene 75 palabras, en presente de subjuntivo y primera persona del plural, sin encabezados ni jerga religiosa.
+4. **Dibujos.** Cada dibujo se pidió en proporción 5:8 y al recibirlo se comprobaron sus dimensiones; lleva su nota de lo sembrado y se publica sin recortar ni redimensionar.
+5. **Memorias.** Se cubrieron la fiesta del día, si la hay, y todas las memorias opcionales que el calendario de la fuente da, cada una con sus partes.
+6. **Saludos y firma.** Los saludos usan «feliz día de» o «feliz memoria de» según corresponda, y la firma está al final.
+7. **Estilo.** Elementos de Estilo se aplica con una excepción de género: la prosa lírica que este módulo pide manda sobre cualquier consejo que la contradiga, y los demás consejos siguen valiendo.
+8. **Archivos.** El md y el html dicen lo mismo, los nombres llevan la fecha en seis cifras, la página lleva sus etiquetas og y la hoja de estilos común, y la lista del README y la de `capilla.html` llevan la entrada arriba.
+9. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
+10. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la entrada completa, con sus imágenes.
+
 ## Publicar
 
 1. La entrada nueva se anota arriba del todo en la lista del **README**, el texto que presenta el repositorio, y en la página de la sala, `capilla.html`, que lo refleja. Las listas van de lo más nuevo a lo más viejo.
 2. Se publica directo, sin esperar confirmación.
 3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+
+## Cambios
+
+30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la prosa lírica de la Capilla. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 © 2026 Osmancito

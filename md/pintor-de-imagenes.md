@@ -1,42 +1,50 @@
-21 de octubre de 2026
-
 # Pintor de Imágenes
 
-La Destilería ilustra sus textos con pinturas hechas por una IA de imágenes. Este módulo convierte un fragmento de texto en el prompt que la IA necesita para pintar esa ilustración. Operas en castellano, sea cual sea el idioma del fragmento.
+Pintor de Imágenes es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+
+## Qué es y para qué sirve
+
+Una **inteligencia artificial de imágenes**, o IA de imágenes, es un programa que pinta una imagen a partir de un texto; su **motor** es el programa concreto que la pinta. Un **pedido de pintura**, que en inglés se llama *prompt*, es el texto que se le da a la IA de imágenes para que pinte. Un **JPG** es un formato de imagen que comprime el archivo para que pese poco. El **archivo md** de una página es el texto con marcas simples de la página.
+
+Este módulo convierte un fragmento de texto en el pedido de pintura que la IA necesita para pintar su ilustración. Escribe el pedido en castellano, sea cual sea el idioma del fragmento. Lo usan los módulos que ilustran sus páginas: Destilar una obra, Publicar en Capilla, Publicar en Journal, Productor de Briefings e Incorporar una sala, y también se puede encargar directo.
+
+## Cuándo
+
+Cuando un texto de la casa necesita una ilustración: al convertir el fragmento en el pedido de pintura y al entregar la imagen ya pintada.
 
 ## Qué recibe y qué entrega
 
-Recibe un fragmento de texto, de una frase a una página, y a veces indicaciones sobre cómo debe ser la imagen. Entrega los prompts, o las imágenes ya generadas, según lo que se le pida.
+Recibe un fragmento de texto, de una frase a una página, y a veces indicaciones sobre cómo debe ser la imagen. Entrega los pedidos de pintura, o las imágenes ya generadas, según lo que se le pida.
 
 ## Las dos maneras de ilustrar un fragmento
 
-La literal muestra lo que el texto dice: la escena que describe, quién está, dónde, qué hace. Su prompt nombra lo visible de esa escena. La encarnada se usa cuando el texto no describe una escena sino una idea: inventa una escena que hace visible esa idea, la vuelve lugar, cuerpo y gesto, y su prompt describe esa escena inventada. Cada manera produce su propio prompt.
+La literal muestra lo que el texto dice: la escena que describe, quién está, dónde, qué hace. Su pedido nombra lo visible de esa escena. La encarnada se usa cuando el texto no describe una escena sino una idea: inventa una escena que hace visible esa idea, la vuelve lugar, cuerpo y gesto, y su pedido describe esa escena inventada. Cada manera produce su propio pedido de pintura.
 
 ## Leer el fragmento
 
-Léelo con atención total y extrae tres cosas: la carga (qué siente), la tensión (qué fuerzas chocan) y el objeto (una escena visible o una idea que no se ve). La carga se vuelve la luz y el ambiente del prompt. El objeto dice si hay escena o hay idea.
+Se lee con atención total y se extraen tres cosas: la carga (qué siente), la tensión (qué fuerzas chocan) y el objeto (una escena visible o una idea que no se ve). La carga se vuelve la luz y el ambiente del pedido. El objeto dice si hay escena o hay idea.
 
 ## Lo que pida el encargo
 
-Antes de decidir nada, fíjate en lo que el encargo pide. Si dice que la imagen sea literal o encarnada (simbólica), se hace así. Si pide las dos versiones, se escriben las dos. Si da una proporción, el prompt pide exactamente esa. Si nombra un pintor, se usa ese. Si pide los prompts, se entregan los prompts; si pide las imágenes, se generan.
+Antes de decidir nada, se mira lo que el encargo pide. Si dice que la imagen sea literal o encarnada (simbólica), se hace así. Si pide las dos versiones, se escriben las dos. Si da una proporción, el pedido pide exactamente esa. Si nombra un pintor, se usa ese. Si pide los pedidos de pintura, se entregan los pedidos; si pide las imágenes, se generan.
 
-Solo para lo que el encargo no diga, decides tú. Si no dijo la manera, aplica la prueba: si lo que pide el fragmento podría fotografiarse, hay escena y va la literal; si no, va la encarnada. Si no nombró pintor, elige de la lista de más abajo el que mejor se parezca al ambiente del fragmento en luz, tensión y escala; puedes usar más de uno, y lo justificas en una línea nombrando qué del fragmento te llevó a él.
+Solo para lo que el encargo no diga, se decide aquí. Si no dijo la manera, se aplica la prueba: si lo que pide el fragmento podría fotografiarse, hay escena y va la literal; si no, va la encarnada. Si no nombró pintor, se elige de la lista de más abajo el que mejor se parezca al ambiente del fragmento en luz, tensión y escala; se puede usar más de uno, y cada elección se justifica en una línea que nombra qué del fragmento llevó a ella.
 
-## El prompt
+## El pedido de pintura
 
-Un solo párrafo, en este orden: la escena en una o dos frases; la luz y el ambiente, que son la carga del fragmento vuelta atmósfera; el estilo. Cierra con:
+Un solo párrafo, en este orden: la escena en una o dos frases; la luz y el ambiente, que son la carga del fragmento vuelta atmósfera; el estilo. El pedido cierra con:
 
 "Al estilo de [Artista] — [descripción visual completa de la lista]. Sin fotorrealismo. Etiqueta discreta en esquina inferior: [Título de la imagen] · [Artista] · Osmancito"
 
-Si el encargo dio una proporción, añade al final: «Relación de aspecto [proporción]». Si no, no pides ninguna.
+Si el encargo dio una proporción, se añade al final: «Relación de aspecto [proporción]». Si no, no se pide ninguna.
 
 Cada imagen se titula con 2 a 4 palabras tomadas o inspiradas del fragmento: en la literal nombra lo que se ve, en la encarnada lo que se encarna.
 
 ## La imagen
 
-La imagen se publica tal como la entrega el motor, sin recortar ni redimensionar, comprimida a JPG al 75 %.
+La imagen se publica tal como la entrega el motor, sin recortar ni redimensionar, comprimida a JPG al 75 %. La excepción son las puertas de las salas, que define Incorporar una sala: miden 1280 píxeles de ancho por 640 de alto, con calidad del 80 %, y se ajustan a esa proporción sin cortar ningún elemento ni la etiqueta. Para ellas manda Incorporar una sala.
 
-Al entrar en una página, la imagen lleva un enlace a su propio archivo: un clic la abre a tamaño completo en la misma pestaña, sin scripts. En el cuaderno se escribe `[![texto alternativo](../img/archivo.jpg)](../img/archivo.jpg)`; en la página, `<a href="../img/archivo.jpg"><img src="../img/archivo.jpg" alt="texto alternativo"></a>`. Quedan fuera solo las imágenes de las salas que llevan al repositorio en GitHub: esas son ayudas de navegación y siguen como están.
+Al entrar en una página, la imagen lleva un enlace a su propio archivo: un clic la abre a tamaño completo en la misma pestaña, sin scripts. En el archivo md se escribe `[![texto alternativo](../img/archivo.jpg)](../img/archivo.jpg)`; en la página, `<a href="../img/archivo.jpg"><img src="../img/archivo.jpg" alt="texto alternativo"></a>`. Quedan fuera solo las imágenes de las salas que llevan al repositorio en GitHub: esas son ayudas de navegación y siguen como están.
 
 ## Lista de estilos
 
@@ -92,5 +100,21 @@ Al entrar en una página, la imagen lleva un enlace a su propio archivo: un clic
 50. **Ivan Aivazovsky:** Romanticismo marino, mar dramático, translucidez del agua, luz sobre las olas, atmósfera tormentosa.
 51. **Jacob van Ruisdael:** Barroco holandés, paisajes atmosféricos, cielos protagónicos y nublados, melancolía natural.
 52. **Käthe Kollwitz:** Expresionismo social, grafito y grabado austero, alto contraste, líneas angustiosas, sombras profundas.
+
+## Revisión antes de entregar
+
+Antes de entregar un pedido de pintura o una imagen se comprueba:
+
+1. **Encargo.** El pedido sigue lo que el encargo pidió: la manera, la proporción, el pintor y si se entregan pedidos o imágenes.
+2. **Forma.** El pedido es un solo párrafo, en el orden de la escena, la luz y el ambiente, y el estilo, y cierra con la fórmula del artista y la etiqueta.
+3. **Pintor.** El pintor está en la lista. Si lo eligió este módulo, una línea dice qué del fragmento llevó a él.
+4. **Título.** La imagen se titula con 2 a 4 palabras tomadas o inspiradas del fragmento.
+5. **Proporción.** Si el encargo dio una proporción, el pedido la pide y, al recibir la imagen, se comprueban sus dimensiones.
+6. **Imagen.** Se mira la imagen final: la etiqueta se lee entera y el archivo es un JPG al 75 % sin recortar ni redimensionar, salvo la excepción de las puertas.
+7. **Dominio Cero.** Cada palabra del pedido tiene el significado del diccionario o una definición en su primera aparición.
+
+## Cambios
+
+30 de octubre de 2026: el texto pasa a tener la forma de un módulo: declaración del lector cero, «Qué es y para qué sirve» con sus términos definidos, «Cuándo» y «Revisión antes de entregar». Habla de manera impersonal, nombra el pedido de pintura con un solo nombre, dice qué módulos lo usan y no solo la Destilería, y fija la excepción de las puertas de las salas, que Incorporar una sala ya remitía a este texto sin que estuviera escrita aquí. La fecha de la versión anterior, 21 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 © 2026 Osmancito

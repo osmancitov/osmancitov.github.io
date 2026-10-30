@@ -1,6 +1,6 @@
 # Incorporar una sala
 
-Incorporar una sala es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Incorporar una sala es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -33,7 +33,7 @@ Se abren completos los documentos vigentes que este procedimiento necesita: el D
 2. Se escribe el README, con este orden: la fila de navegación con todas las salas y la nueva en negrita y sin enlace; el título con el nombre editorial; el texto que define la sala; y la sección «Entradas».
 3. Se escribe el texto que define la sala. Dice qué significa el nombre de la sala y de dónde viene, con su fuente, y qué guarda la sala. Cada palabra cumple el Dominio Cero.
 4. Se escribe una descripción de la sala de 100 caracteres como máximo. Es la misma en las etiquetas og de la portada y de la página de la sala.
-5. Se pinta la puerta con el Pintor de Imágenes. Las puertas de las salas comparten una paleta oscura y cálida, y cada puerta tiene su propio pintor de la lista del Pintor, sin repetir el de otra sala. Mide 1280 píxeles de ancho por 640 de alto, es un archivo **jpg**, un formato de imagen, con calidad del 80 %, que es el ajuste de compresión que hace liviano el archivo, y lleva en una esquina inferior la etiqueta que el Pintor describe. Si la inteligencia artificial que genera la imagen no entrega la proporción de 2 a 1, se ajusta hasta ella conservando la composición: se elige qué parte de la imagen se quita de modo que no se corte ningún elemento ni la etiqueta, y se comprueba mirando la imagen final. Las puertas son ayudas de navegación y el Pintor las deja fuera de la regla de no recortar.
+5. Se pinta la puerta con el Pintor de Imágenes. Las puertas de las salas comparten una paleta oscura y cálida, y cada puerta tiene su propio pintor de la lista del Pintor, sin repetir el de otra sala. Mide 1280 píxeles de ancho por 640 de alto, es un archivo **jpg**, un formato de imagen, con calidad del 80 %, que es el ajuste de compresión que hace liviano el archivo, y lleva en una esquina inferior la etiqueta que el Pintor describe. Si la inteligencia artificial que genera la imagen no entrega la proporción de 2 a 1, se ajusta hasta ella conservando la composición: se elige qué parte de la imagen se quita de modo que no se corte ningún elemento ni la etiqueta, y se comprueba mirando la imagen final. Las puertas son ayudas de navegación y por eso son la excepción a lo que el Pintor fija para las demás imágenes, que es no recortarlas ni redimensionarlas y comprimirlas al 75 %: para la puerta manda este paso.
 6. Se crean las tres carpetas: `md`, `html` e `img`. La puerta va en `img` con el nombre `<repo>.jpg`.
 7. Se escribe la página de la sala, `<repo>.html`, y la portada, `index.html`. Se copian de una sala existente, y se cambian el nombre, la descripción, las direcciones y el texto alternativo de la imagen. Ambas llevan las **etiquetas og**, que son los datos de la cabecera de la página que dicen cómo se ve la tarjeta cuando alguien comparte el enlace; llevan también el enlace a `/css/base.css` y el icono `https://osmancitov.github.io/favicon.ico`. El título de la pestaña es el nombre editorial y «Osmancito». La imagen de la tarjeta es la puerta, con su ancho y su alto escritos. La página de la sala sigue el orden: la puerta, que enlaza al repositorio en GitHub; el título; el texto que define la sala; la lista de entradas, de la más nueva a la más vieja, con enlace a su html; y el enlace «volver» a la página principal. La portada lleva solo la puerta, enlazada a la página de la sala.
 8. Se registra la sala en la casa. Se añade su nombre, con enlace, al final de la fila de navegación de cada README de las otras salas y del repositorio principal. En el repositorio principal, `osmancitov.github.io`, se añade además: su línea en la sección «Las salas» del README y en la página `lobby.html`; su puerta, al final de la portada `index.html`; y su nombre en la descripción de la casa de las etiquetas og de `index.html` y de `lobby.html`.
@@ -62,5 +62,9 @@ La revisión dice qué encontró y qué se corrigió.
 2. No cambia las demás salas más allá de su fila de navegación y de las listas del repositorio principal.
 3. No fija una regla para el contenido de las entradas de la sala: cada sala puede tener su propio procedimiento de publicación.
 4. No convierte dudas en reglas: lo que quede por decidir se anota como pregunta para el autor.
+
+## Cambios
+
+30 de octubre de 2026: el paso 5 dice que la puerta es la excepción a la regla de imágenes del Pintor de Imágenes, que ahora la recoge, en lugar de decir que el Pintor la deja fuera. A pedido de Osmancito.
 
 © 2026 Osmancito

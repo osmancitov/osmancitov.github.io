@@ -1,8 +1,6 @@
-23 de octubre de 2026
-
 # Publicar en Journal
 
-Publicar en Journal es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Publicar en Journal es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
@@ -41,11 +39,29 @@ Los nombres llevan la fecha de la entrada en seis cifras: dos para el año (las 
 
 La página html lleva sus **etiquetas og**, que son los datos de la cabecera que dicen cómo se ve la tarjeta cuando alguien comparte el enlace: su título, su descripción y su imagen. La imagen de la tarjeta es la primera imagen de la entrada. La apariencia la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
 
+## Revisión antes de entregar
+
+Antes de publicar, se comprueba con la entrada a la vista:
+
+1. **Fecha y título.** La fecha es la del día vivido y el título son cuatro sustantivos descriptivos, sin artículos.
+2. **Dibujo.** Hay un solo dibujo, hecho con el pintor del Journal, sin recortar ni redimensionar, con enlace a su archivo y su ancho y su alto escritos en la página.
+3. **Historieta.** Narra el día, sin números, versiones, aplicaciones, marcas ni cantidades; no lleva materia devocional ni habla de amigos; nombra a la asistente como «la asistente»; usa «ficha» para el token y lleva su línea de ánimo.
+4. **Estilo.** Elementos de Estilo se aplica con una excepción de género: la prosa lírica que este módulo pide manda sobre cualquier consejo que la contradiga, y los demás consejos siguen valiendo.
+5. **Cierre.** La firma cierra la historieta, la raya la separa de las tres rúbricas y las tres rúbricas están.
+6. **Lectura en curso.** La obra se comprobó en los archivos cambiados y en las fuentes del día, no solo en los mensajes de los cambios, y no se copió de la entrada anterior.
+7. **Archivos.** El md y el html dicen lo mismo, los nombres llevan la fecha en seis cifras, la página lleva sus etiquetas og y la hoja de estilos común, y la lista del README y la de `journal.html` llevan la entrada arriba.
+8. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
+9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la entrada completa, con su imagen.
+
 ## Publicar
 
 1. La entrada nueva se anota arriba del todo en la lista del **README**, el texto que presenta el repositorio, y en la página de la sala, `journal.html`, que lo refleja. Las listas van de lo más nuevo a lo más viejo.
 2. Se publica directo, sin esperar confirmación.
 3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+
+## Cambios
+
+30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la historieta lírica. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 © 2026 Osmancito

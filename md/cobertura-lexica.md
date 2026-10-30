@@ -1,12 +1,10 @@
-27 de octubre de 2026
-
 # Cobertura Léxica
 
-Cobertura Léxica es el nombre de este procedimiento. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Cada término tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+Cobertura Léxica es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después se tejen puentes y glosas entre ellas.
+Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después, el módulo Destilar una obra teje entre ellas puentes y glosas: textos propios que cuentan lo que pasa entre dos ganadoras y que acompañan al lector. Destilar una obra los define por completo.
 
 La selección no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras. La revisión previa de la fuente requiere juicio y cotejo; se hace antes de fijar esas entradas.
 
@@ -19,6 +17,9 @@ Es el método de selección aprobado para **Destilar una obra** (`destilar-una-o
 Cada término se usa en este texto solo con el significado que aquí se le da.
 
 - **Obra:** el texto que se trabaja.
+- **EPUB:** un formato de libro digital que guarda el texto en archivos HTML.
+- **HTML:** el lenguaje con que se escriben las páginas; marca cada párrafo con una etiqueta.
+- **Markdown:** un formato de texto con marcas simples, como el signo `>` para una cita o los asteriscos para la cursiva.
 - **Párrafo:** el texto entre dos líneas en blanco. Es la unidad de este procedimiento. No se corta nunca. Tiene un número, desde 1, en el orden de la obra.
 - **Molde:** la obra partida en párrafos numerados. No incluye títulos.
 - **Palabra:** una secuencia de letras entre dos separadores. Una palabra puede tener un apóstrofo en medio, como «don't».
@@ -34,6 +35,10 @@ Cada término se usa en este texto solo con el significado que aquí se le da.
 - **Puntaje:** el valor de un párrafo. El paso 6 lo calcula.
 - **Ganadora:** un párrafo elegido para citarse.
 - **Cobertura:** el peso de los términos cubiertos, dividido entre el peso de todos los términos.
+
+## Cuándo
+
+Cuando Destilar una obra pide seleccionar los párrafos de una unidad, o cuando se encarga solo esa selección.
 
 ## Entradas fijas
 
@@ -118,6 +123,8 @@ El 27 de octubre de 2026 se cotejó un pasaje de Babette, en *White Noise*, del 
 La prueba de selección queda pendiente. Antes de ejecutarla se verifica la fuente del alcance elegido y se fijan las cinco entradas.
 
 ## Cambios
+
+30 de octubre de 2026: se define EPUB, HTML y Markdown, que el texto usaba sin explicar, y se dice qué son los puentes y las glosas con remisión a Destilar una obra. La declaración del lector cero pasa a ser la fija de todos los módulos y se añade «Cuándo». La fecha de la versión anterior, 27 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
 27 de octubre de 2026: se unifican la revisión de fuente, la selección y la comprobación. Se distingue cumplir las reglas de repetir el resultado, y ambas cosas de juzgar el valor literario mediante lectura ciega. Se instala Cobertura Léxica como método aprobado en lugar de su método predecesor, sin cambiar la fórmula ni ejecutar la prueba. Los errores que aparezcan se revisarán y corregirán. A pedido de Osmancito.
 
