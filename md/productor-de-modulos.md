@@ -10,7 +10,7 @@ Es el procedimiento que produce los módulos de la casa. Todo documento de la ca
 
 Cuando una manera de trabajar no está escrita, vive solo en la memoria de quien la ejecuta. La memoria se olvida, no se puede comprobar y no pasa intacta de una cabeza a otra. El módulo la sustituye por un texto: el método queda escrito una sola vez, en un solo lugar, y cualquiera puede leerlo, ejecutarlo y revisarlo. Así las reglas de cada trabajo dejan de estar dispersas: las que pertenecen a un trabajo viven en su módulo.
 
-Todo módulo se escribe en **dominio cero**: cada palabra tiene el significado que le da el diccionario de la lengua, o el que el texto le da en su primera aparición, de modo que alguien sin conocimiento previo ni memoria lo entienda.
+Todo módulo se escribe en **dominio cero**: cada palabra tiene el significado que le da el diccionario de la lengua, o el que el texto le da en su primera aparición, y cada idea que hace falta para entenderlo se explica antes de usarla, como fija el Dominio Cero, de modo que alguien sin conocimiento previo ni memoria lo entienda.
 
 Las ideas de escritura de este módulo se adaptan de ASD-STE100, un estándar que fija un inglés técnico simplificado para la documentación: una palabra por significado, instrucciones claras, frases que se entienden, explicación por temas. Aquí llegan adaptadas a la casa y al castellano, sin su diccionario ni sus cifras.
 
@@ -100,6 +100,8 @@ La revisión dice qué encontró y qué se corrigió.
 5. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con la identidad autorizada de Osmancito, como autor y como quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 
 ## Cambios
+
+30 de octubre de 2026: la definición de dominio cero que da este módulo sigue la del Dominio Cero, que ahora incluye las ideas necesarias además de las palabras. No cambia ninguna regla de este módulo. A pedido de Osmancito.
 
 30 de octubre de 2026: la revisión incluye Elementos de Estilo, que el Núcleo exige al texto de todo módulo. A pedido de Osmancito.
 
