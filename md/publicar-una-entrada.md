@@ -100,6 +100,12 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 </html>
 ```
 
+## La firma del cambio
+
+El cambio se sube al repositorio con **git**, el programa que registra los cambios con su autor. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa. El editor web de GitHub, que es la edición de archivos desde la página del repositorio en el navegador, no es un camino válido: firma el committer como GitHub.
+
+Después de subir el cambio, el commit se abre en GitHub y se leen sus dos firmas. El trabajo no se da por hecho mientras el autor y el committer no llevan el correo personal de Osmancito.
+
 ## Revisión antes de entregar
 
 Antes de publicar se comprueba:
@@ -113,8 +119,11 @@ Antes de publicar se comprueba:
 7. **Estilo.** La página enlaza `base.css` y no lleva estilo propio.
 8. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
 9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la página.
+10. **Firma del cambio.** El commit se abrió en GitHub después de subirlo y lleva el correo personal de Osmancito como autor y como committer.
 
 ## Cambios
+
+1 de noviembre de 2026: la entrada gana «La firma del cambio»: todo cambio se sube firmado con el correo personal de Osmancito como autor y como committer, el editor web de GitHub queda fuera como camino de publicación y la firma se comprueba en GitHub antes de dar el trabajo por hecho. La revisión gana su punto 10. A pedido de Osmancito.
 
 30 de octubre de 2026: el texto pasa a tener la forma de un módulo: declaración del lector cero, «Qué es y para qué sirve», «Cuándo» y «Revisión antes de entregar». El contenido de la entrada no cambia. A pedido de Osmancito.
 
