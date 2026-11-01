@@ -41,7 +41,7 @@ Una entrada tiene dos títulos:
 - El **título dentro de la página** es el título que se ve arriba, en la página misma.
 - El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el **nombre editorial** del repositorio. El nombre editorial es el nombre del repositorio escrito con mayúscula inicial en cada palabra, salvo en los artículos y las preposiciones, y con sus tildes, seguido de «Osmancito», el autor del sitio. Ejemplos: «Destilería Osmancito», «Taller Osmancito», «Journal Osmancito», «Capilla Osmancito» y «Sala de Máquinas Osmancito». El título de la tarjeta, en cambio, es solo el título dentro de la página, porque en la tarjeta cabe poca información.
 
-El título dentro de la página se escribe con mayúscula inicial en cada palabra, salvo en los artículos, las preposiciones y las conjunciones, como «y» y «o». La primera palabra lleva mayúscula siempre. Ejemplos: «El Libro de Arena», «Los Seis Maestros del Trading».
+El título dentro de la página se escribe en castellano con mayúscula solo en la primera palabra y en los nombres propios: así lo fija la RAE, la Real Academia Española, que con las demás academias fija la norma del castellano. Los títulos en otras lenguas conservan el uso de la suya. Ejemplos: «El libro de arena», «Los seis maestros del trading».
 
 ## Lo que muestra la página
 
@@ -117,6 +117,8 @@ Antes de publicar se comprueba:
 9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la página.
 
 ## Cambios
+
+1 de noviembre de 2026: la regla de mayúsculas del título se corrige el mismo día en que entró: deja el uso inglés, mayúscula inicial en cada palabra, y pasa al criterio del castellano que fija la RAE, con cada lengua conservando el suyo. A pedido de Osmancito.
 
 1 de noviembre de 2026: el título dentro de la página gana su regla de mayúsculas: mayúscula inicial en cada palabra, salvo artículos, preposiciones y conjunciones, con la primera palabra siempre en mayúscula; la revisión la comprueba. A pedido de Osmancito.
 
