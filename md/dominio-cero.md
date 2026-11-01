@@ -21,6 +21,8 @@ Siempre que se escribe o se revisa un texto que la casa publica.
 5. Cuánto se explica lo decide lo que el lector necesita en ese texto. Si no necesita nada, no se explica nada.
 6. Quien pide el texto no tiene que preparar lecciones ni preguntas: quien escribe averigua qué necesita el lector y lo ordena.
 
+7. El texto aplica esta base sin anunciarla: explica lo que hace falta, pero no dice que explica, ni para quién escribe, ni lo que el lector no sabe. La claridad queda en cómo está escrito, no en una frase que la anuncie. Lo que un módulo dice como regla, incluida la declaración del lector cero que abre cada módulo, no es un anuncio: es la regla misma.
+
 ## La necesidad
 
 Un texto que usa palabras sin explicarlas obliga a quien lo lee a saber lo que sabe quien lo escribió. Quien no lo sabe, sea persona o máquina, no entiende, o entiende otra cosa. Quien olvida lo que leyó antes tampoco puede entenderlo.
@@ -42,6 +44,8 @@ Antes de publicar un texto se comprueba, con el texto a la vista:
 4. **Ideas necesarias.** Cada idea que hace falta para entender el texto está explicada antes de usarse, y no hay explicaciones que no hagan falta.
 5. **Lectura en frío.** El texto se lee como quien llega sin saber nada: cada explicación prepara la siguiente y ninguna exige algo que nadie enseñó antes.
 
+6. **Sin anuncio.** El texto explica sin decir que explica: no anuncia su manera de escribir ni nombra a su lector ni lo que este no sabe.
+
 ## Su propio examen
 
 Este módulo fija una forma de hacer algo, escribir un texto, y por eso es un documento ejemplar: pasa su propia revisión.
@@ -51,6 +55,8 @@ Este módulo fija una forma de hacer algo, escribir un texto, y por eso es un do
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares, y todo lo necesario para contrastar está en este texto.
 
 ## Cambios
+
+1 de noviembre de 2026: la base se aplica sin anunciarse. Una producción explica lo que hace falta y no dice que explica, ni para quién escribe, ni lo que su lector no sabe; la claridad queda en la escritura, no en una frase que la anuncie. Lo que un módulo dice como regla, incluida la declaración del lector cero, no es anuncio. Gana el punto 7 de «Cómo se construye el texto» y la comprobación 6 de «Revisión antes de entregar». A pedido de Osmancito.
 
 30 de octubre de 2026: el Dominio Cero pasa a ser la base común de escritura: además de las palabras, fija que cada idea necesaria se explica antes de usarse, desde donde está el lector, sin lecciones ni preguntas previas del autor. Gana «Cómo se construye el texto» y dos comprobaciones. Los demás módulos no repiten esta regla. A pedido de Osmancito.
 
