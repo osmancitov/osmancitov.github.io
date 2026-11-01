@@ -84,7 +84,8 @@ Recorre las seis partes en orden. En cada paso, compara el texto con lo que el p
 6. Si te pierdes en una frase, empieza otra.
 7. No metas opinión sin motivo ni a destiempo. Excepción: un texto de opinión admite la opinión.
 8. Responde lo que se preguntó.
-9. Usa pocas figuras. Una **figura** es un recurso que dice una cosa con la imagen de otra. Un **símil** compara una cosa con otra con «como»; una **metáfora** llama a una cosa con el nombre de otra. Una ráfaga de símiles distrae, y no conviene mezclar metáforas. Es una preferencia, no una prohibición.
+9. No prometas lo que no se pidió: presentar algo no es comprometerse a nada con ello. Nombrar unos libros no anuncia leerlos, y describir un trabajo no anuncia hacerlo. Excepción: el compromiso que el encargo pide.
+10. Usa pocas figuras. Una **figura** es un recurso que dice una cosa con la imagen de otra. Un **símil** compara una cosa con otra con «como»; una **metáfora** llama a una cosa con el nombre de otra. Una ráfaga de símiles distrae, y no conviene mezclar metáforas. Es una preferencia, no una prohibición.
 
 ### 6. Diálogo, resumen y revisión
 
@@ -110,7 +111,7 @@ Antes de entregar una producción, léela entera y responde cada pregunta con el
 5. ¿Cada frase afirma lo que quiere decir?
 6. ¿Cada modificador está junto a lo que precisa, y cada gerundio que abre la frase se refiere al sujeto o lleva el suyo?
 7. ¿Cada inciso abre y cierra, y cada signo cumple la norma de la RAE?
-8. ¿El texto pone el asunto por delante, sin exageraciones ni opinión sin motivo?
+8. ¿El texto pone el asunto por delante, sin exageraciones, sin opinión sin motivo y sin promesas que no se pidieron?
 9. ¿Un lector sin memoria lo entiende a la primera?
 10. ¿Se revisó al menos una vez después de escribirlo?
 
@@ -132,7 +133,7 @@ Los pasos vienen de estas reglas (r.) y recordatorios (rec.) del libro. La regla
 - Parte 2: pasos 1 y 2, r. 16; paso 3, r. 17; paso 4, rec. 4; paso 5, rec. 6; paso 6, rec. 8; paso 7, rec. 14; paso 8, rec. 12; paso 9, rec. 15; paso 10, rec. 19; pasos 11 y 12, rec. 20; paso 13, rec. 21; paso 14, rec. 10.
 - Parte 3: pasos 1 y 2, r. 14; pasos 3 y 4, r. 15; paso 5, r. 18; paso 6, r. 20; pasos 7 y 8, r. 19; pasos 9 y 10, r. 11; pasos 11 y 12, r. 6; paso 13, r. 22; pasos 14 y 15, r. 9.
 - Parte 4: pasos 1 y 2, r. 3; pasos 3 y 4, r. 5; pasos 5 a 7, r. 7; paso 8, r. 8.
-- Parte 5: paso 1, rec. 1; paso 2, rec. 2; paso 3, rec. 7; paso 4, rec. 9; pasos 5 y 6, rec. 16; pasos 7 y 8, rec. 17; paso 9, rec. 18.
+- Parte 5: paso 1, rec. 1; paso 2, rec. 2; paso 3, rec. 7; paso 4, rec. 9; pasos 5 y 6, rec. 16; pasos 7 y 8, rec. 17; paso 9, propio de la casa; paso 10, rec. 18.
 - Parte 6: pasos 1 y 2, rec. 11; pasos 3 y 4, rec. 13; paso 5, norma de la RAE sobre la raya; pasos 6 a 8, r. 21; pasos 9 y 10, rec. 5.
 
 Normas de la RAE, páginas leídas el 25 de octubre de 2026:
@@ -150,6 +151,8 @@ Normas de la RAE, páginas leídas el 25 de octubre de 2026:
 - [Extranjerismos crudos](https://www.rae.es/duda-linguistica/como-se-escriben-los-extranjerismos-crudos-en-un-texto-en-espanol)
 
 ## Cambios
+
+1 de noviembre de 2026: «Cuida el tono» gana el paso 9, no prometer lo que no se pidió: presentar algo no es comprometerse a nada, y nombrar unos libros no anuncia leerlos; el paso de las figuras pasa a ser el 10, la pregunta 8 de la revisión comprueba también las promesas no pedidas y «Fuentes» registra el paso como propio de la casa. La pauta nace de una corrección a una entrada de Tesorería: presentar los libros de unos autores no añade compromisos de lectura. A pedido de Osmancito.
 
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. La definición de «módulo» es la misma de todos los documentos: una regla o un trabajo escrito. A pedido de Osmancito.
 
