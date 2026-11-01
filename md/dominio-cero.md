@@ -23,6 +23,8 @@ Siempre que se escribe o se revisa un texto que la casa publica.
 
 7. El texto aplica esta base sin anunciarla: explica lo que hace falta, pero no dice que explica, ni para quién escribe, ni lo que el lector no sabe. La claridad queda en cómo está escrito, no en una frase que la anuncie. Lo que un módulo dice como regla, incluida la declaración del lector cero que abre cada módulo, no es un anuncio: es la regla misma.
 
+8. El texto entrega en su propia lectura todo lo que ofrece. Una promesa no está contenida en el momento del escrito: deja parte de la entrega para un después y queda como una deuda fuera del texto. Por eso el texto presenta sin comprometer: nombrar unos libros no anuncia leerlos, y describir un trabajo no anuncia hacerlo.
+
 ## La necesidad
 
 Un texto que usa palabras sin explicarlas obliga a quien lo lee a saber lo que sabe quien lo escribió. Quien no lo sabe, sea persona o máquina, no entiende, o entiende otra cosa. Quien olvida lo que leyó antes tampoco puede entenderlo.
@@ -46,15 +48,19 @@ Antes de publicar un texto se comprueba, con el texto a la vista:
 
 6. **Sin anuncio.** El texto explica sin decir que explica: no anuncia su manera de escribir ni nombra a su lector ni lo que este no sabe.
 
+7. **Autocontenido.** El texto entrega en su propia lectura lo que ofrece: no queda nada prometido para un después.
+
 ## Su propio examen
 
 Este módulo fija una forma de hacer algo, escribir un texto, y por eso es un documento ejemplar: pasa su propia revisión.
 
-1. **Describir su forma.** «Qué es y para qué sirve» define el dominio cero y «Cómo se construye el texto» fija cómo se escribe y «Revisión antes de entregar» lo enuncia en cinco comprobaciones.
+1. **Describir su forma.** «Qué es y para qué sirve» define el dominio cero y «Cómo se construye el texto» fija cómo se escribe y «Revisión antes de entregar» lo enuncia en siete comprobaciones.
 2. **Mostrar esa forma dentro del texto.** Cada término propio de este texto, casa, módulo y dominio cero, se define en su primera aparición; las demás palabras tienen el significado del diccionario.
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares, y todo lo necesario para contrastar está en este texto.
 
 ## Cambios
+
+1 de noviembre de 2026: la base gana la autocontención frente a la promesa. Lo que el texto ofrece lo entrega en el momento del escrito; una promesa no está contenida en ese momento, sino que deja parte de la entrega para un después, como una deuda fuera del texto. Ganan el punto 8 de «Cómo se construye el texto» y la comprobación 7 de «Revisión antes de entregar», y su propio examen cuenta ahora siete comprobaciones. La misma pauta salió el mismo día de Elementos de Estilo, que no repite la base. A pedido de Osmancito.
 
 1 de noviembre de 2026: la base se aplica sin anunciarse. Una producción explica lo que hace falta y no dice que explica, ni para quién escribe, ni lo que su lector no sabe; la claridad queda en la escritura, no en una frase que la anuncie. Lo que un módulo dice como regla, incluida la declaración del lector cero, no es anuncio. Gana el punto 7 de «Cómo se construye el texto» y la comprobación 6 de «Revisión antes de entregar». A pedido de Osmancito.
 

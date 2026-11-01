@@ -39,7 +39,7 @@ Al comenzar toda producción escrita de la casa o cualquier otro encargo al que 
 Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o su tamaño:
 
 1. **Productor de Módulos:** la forma del módulo, con las partes que su trabajo necesita y ninguna más.
-2. **Dominio Cero:** la base común de escritura: cada palabra con el significado del diccionario o el que el texto le da en su primera aparición, y cada idea necesaria explicada antes de usarse, desde donde está el lector.
+2. **Dominio Cero:** la base común de escritura: cada palabra con el significado del diccionario o el que el texto le da en su primera aparición, y cada idea necesaria explicada antes de usarse, desde donde está el lector, y lo que el texto ofrece se entrega en su propia lectura, sin promesas.
 3. **Elementos de Estilo:** el texto de un módulo es una producción en castellano que la casa publica, y se escribe y se revisa con él, con las excepciones que cada consejo dice. Si un módulo fija una forma para su propio texto, como la declaración del lector cero, esa forma manda en esa parte.
 4. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
 5. Los módulos que su entrada de la lista dice que necesita.
@@ -274,6 +274,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+1 de noviembre de 2026: la entrada del Dominio Cero en «Qué cumple cada módulo» recoge la autocontención que el módulo ganó hoy: lo que el texto ofrece se entrega en su propia lectura, sin promesas que queden como deuda con un después. A pedido de Osmancito.
 
 1 de noviembre de 2026: se retira de «Cómo se cumple el Núcleo» la frase que declaraba que el Núcleo exige cumplir pero no impide por sí solo guardar o publicar sin pasar por él. No la sustituye ninguna otra. A pedido de Osmancito.
 
