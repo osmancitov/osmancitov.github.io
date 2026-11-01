@@ -41,6 +41,8 @@ Una entrada tiene dos títulos:
 - El **título dentro de la página** es el título que se ve arriba, en la página misma.
 - El **título de la pestaña** es el texto que el navegador muestra en la pestaña de la página. Es el título dentro de la página, un punto medio (`·`) y el **nombre editorial** del repositorio. El nombre editorial es el nombre del repositorio escrito con mayúscula inicial en cada palabra, salvo en los artículos y las preposiciones, y con sus tildes, seguido de «Osmancito», el autor del sitio. Ejemplos: «Destilería Osmancito», «Taller Osmancito», «Journal Osmancito», «Capilla Osmancito» y «Sala de Máquinas Osmancito». El título de la tarjeta, en cambio, es solo el título dentro de la página, porque en la tarjeta cabe poca información.
 
+El título dentro de la página se escribe con mayúscula inicial en cada palabra, salvo en los artículos, las preposiciones y las conjunciones, como «y» y «o». La primera palabra lleva mayúscula siempre. Ejemplos: «El Libro de Arena», «Los Seis Maestros del Trading».
+
 ## Lo que muestra la página
 
 La página muestra, en este orden:
@@ -106,7 +108,7 @@ Antes de publicar se comprueba:
 
 1. **Archivos.** Los tres archivos existen y llevan el mismo nombre, y el md y el html dicen lo mismo.
 2. **Nombre.** Empieza con seis cifras de fecha, sigue con un guion bajo y el título con guiones, todo en minúsculas, y no se repite en otra entrada.
-3. **Títulos.** El título de la pestaña es el título dentro de la página, un punto medio y el nombre editorial; el título de la tarjeta es solo el título dentro de la página.
+3. **Títulos.** El título de la pestaña es el título dentro de la página, un punto medio y el nombre editorial; el título de la tarjeta es solo el título dentro de la página; el título dentro de la página cumple la regla de las mayúsculas.
 4. **Página.** Muestra, en orden, la fecha, el título, la imagen, el texto, la firma y el enlace de vuelta.
 5. **Imagen.** Es un jpg al 75 %, conserva su proporción y su ancho y su alto están escritos en la página.
 6. **Etiquetas og.** La imagen de la tarjeta es la primera de la entrada y la descripción tiene 100 caracteres como máximo, igual en la cabecera y en la tarjeta.
@@ -115,6 +117,8 @@ Antes de publicar se comprueba:
 9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la página.
 
 ## Cambios
+
+1 de noviembre de 2026: el título dentro de la página gana su regla de mayúsculas: mayúscula inicial en cada palabra, salvo artículos, preposiciones y conjunciones, con la primera palabra siempre en mayúscula; la revisión la comprueba. A pedido de Osmancito.
 
 1 de noviembre de 2026: «La firma del cambio» y su punto de revisión se retiran el mismo día: la regla de identidad de commits queda una sola vez en la casa, simplificada, en el Núcleo. A pedido de Osmancito.
 
