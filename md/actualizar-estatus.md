@@ -42,10 +42,11 @@ Antes de subir los cambios se comprueba con la página a la vista:
 En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de clientes.
 
 1. Los dos archivos gemelos cambian juntos. La apariencia de la página la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
-2. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
-3. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+2. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
 
 ## Cambios
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que incluye comprobar que la página publicada refleja lo escrito. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

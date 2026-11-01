@@ -57,10 +57,11 @@ Antes de publicar, se comprueba con la entrada a la vista:
 
 1. La entrada nueva se anota arriba del todo en la lista del README, y en la página de la sala, `journal.html`, que lo refleja. Las listas van de lo más nuevo a lo más viejo.
 2. Se publica directo, sin esperar confirmación.
-3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
-4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+3. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
 
 ## Cambios
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la historieta lírica. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

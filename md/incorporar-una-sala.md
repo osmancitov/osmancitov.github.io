@@ -39,7 +39,6 @@ Se abren completos los documentos vigentes que este procedimiento necesita: el D
 8. Se registra la sala en la casa. Se añade su nombre, con enlace, al final de la fila de navegación de cada README de las otras salas y del repositorio principal. En el repositorio principal, `osmancitov.github.io`, se añade además: su línea en la sección «Las salas» del README y en la página `lobby.html`; su puerta, al final de la portada `index.html`; y su nombre en la descripción de la casa de las etiquetas og de `index.html` y de `lobby.html`.
 9. Se activa **GitHub Pages**, que es el servicio de GitHub que publica las páginas del repositorio como sitio web. Se publican desde la rama `main`, que es la línea principal del historial del repositorio, y su carpeta raíz. Se pone la dirección de la sala como sitio web en el panel «About» del repositorio. La imagen de la puerta se pone como imagen de vista previa en los ajustes del repositorio.
 10. Se publica la primera entrada de la sala siguiendo Publicar una entrada. Se anota arriba del todo en la lista del README y en la página de la sala.
-11. Se registra cada **commit**, que es el registro de un cambio en el repositorio, con la identidad de Osmancito como autor y como **committer**, que es quien registra el cambio. Esa identidad es el nombre y el correo personal que ya llevan los commits anteriores del repositorio, o, si el repositorio no tiene historial, los del repositorio principal `osmancitov.github.io`; el texto no escribe el correo, porque las páginas públicas no lo muestran. Antes del primer commit se comprueba la configuración de git. Si no se puede registrar esa identidad, el trabajo se detiene y se avisa. Tras cada envío de cambios a GitHub se comprueba en GitHub que autor y committer son esa identidad.
 
 ## Revisión antes de entregar
 
@@ -52,7 +51,6 @@ Antes de entregar, la sala pasa esta revisión entera, con las páginas abiertas
 5. **La navegación.** Cada README, el del repositorio principal incluido, nombra la sala nueva con un enlace que abre.
 6. **Las listas de la casa.** La sección «Las salas», `lobby.html` y la portada del repositorio principal incluyen la sala.
 7. **La primera entrada.** Pasó la revisión de Publicar una entrada.
-8. **Los commits.** Cada commit nuevo muestra en GitHub la identidad del autor, como autor y como committer.
 
 La revisión dice qué encontró y qué se corrigió.
 
@@ -64,6 +62,8 @@ La revisión dice qué encontró y qué se corrigió.
 4. No convierte dudas en reglas: lo que quede por decidir se anota como pregunta para el autor.
 
 ## Cambios
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: el paso 5 dice que la puerta es la excepción a la regla de imágenes del Pintor de Imágenes, que ahora la recoge, en lugar de decir que el Pintor la deja fuera. A pedido de Osmancito.
 

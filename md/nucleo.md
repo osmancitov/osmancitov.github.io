@@ -54,6 +54,10 @@ Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no d
 2. Cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, cada módulo de la lista se revisa contra el cambio. Lo que ya no cumple se corrige. Lo que no se puede corregir sin decidir algo que no está escrito se anota como pregunta para Osmancito.
 3. Al terminar una corrección o una revisión se revisa el conjunto de la carpeta, no solo los archivos tocados, y se comprueba que la lista inventaría todos los archivos de `md`.
 
+## Identidad de commits
+
+Todo commit, de cualquier repositorio de osmancitov, se firma con el correo personal de Osmancito como autor.
+
 ## Los módulos de la casa
 
 Términos que usan las entradas siguientes: **md** es el formato de texto con marcas simples; **html** es el formato de las páginas web; **JPG** es un formato de imagen que comprime el archivo; las etiquetas **og** dicen a un programa de mensajería qué título e imagen mostrar cuando se comparte una página; **UTC-4** es la hora de Osmancito, cuatro horas menos que la hora universal; el **README** es el texto que presenta un repositorio; **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas; un **commit** es un guardado con nombre en el historial de cambios de un repositorio.
@@ -144,7 +148,7 @@ La descripción de la entrada común del sitio: sus tres archivos (md, html y jp
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/incorporar-una-sala.md)
 
-Suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran: el README, la puerta, la portada y la página de la sala, el registro en la fila de navegación y en las listas del repositorio principal, la activación de GitHub Pages y la firma de los commits.
+Suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran: el README, la puerta, la portada y la página de la sala, el registro en la fila de navegación y en las listas del repositorio principal, la activación de GitHub Pages.
 
 También se le ha llamado: «incorporar una sala», «sala nueva»*.
 
@@ -274,6 +278,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+1 de noviembre de 2026: la casa centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en seis módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
 
 30 de octubre de 2026: el Dominio Cero pasa a ser la base común de escritura (palabras e ideas necesarias, desde donde está el lector) y su entrada y «Qué cumple cada módulo» lo dicen así. No cambia la lista ni las dependencias. A pedido de Osmancito.
 

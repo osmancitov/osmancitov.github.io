@@ -32,10 +32,11 @@ En el html del Historial de tareas, cada bloque va dentro de una etiqueta `artic
 
 1. Antes de cambiar nada se trae del repositorio la versión más reciente, y al terminar se suben los cambios. Después se comprueban las tres páginas ya publicadas, abiertas en un navegador. La ejecución es silenciosa: se escribe a Osmancito solo si algo falla.
 2. Los archivos gemelos cambian juntos. La apariencia de las páginas la da la **hoja de estilos** común del sitio, el archivo `base.css`, que define colores, letras y espacios de todas las páginas; ninguna página lleva estilos propios que la contradigan.
-3. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con el correo personal de Osmancito como autor y como committer, que es quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
-4. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
+3. Todo texto público cumple el dominio cero: cada palabra con el significado del diccionario o definida en su primera aparición.
 
 ## Cambios
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: la fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. Su comprobación de las tres páginas publicadas sigue en «Publicar». A pedido de Osmancito.
 

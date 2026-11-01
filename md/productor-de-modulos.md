@@ -97,9 +97,10 @@ La revisión dice qué encontró y qué se corrigió.
 2. Lo que entra queda instituido y se cumple.
 3. Lo que sigue en duda queda fuera, anotado como pregunta para él.
 4. El módulo vive como un solo archivo de texto con marcas simples en la carpeta `md`. A diferencia de las páginas que la casa publica, que llevan dos archivos gemelos que dicen lo mismo y cambian siempre juntos, el módulo no lleva página gemela.
-5. Cada **commit**, que es el registro de un cambio en el repositorio, se firma con la identidad autorizada de Osmancito, como autor y como quien registra el cambio. Si no se puede firmar así, el trabajo se detiene y se avisa.
 
 ## Cambios
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: la definición de dominio cero que da este módulo sigue la del Dominio Cero, que ahora incluye las ideas necesarias además de las palabras. No cambia ninguna regla de este módulo. A pedido de Osmancito.
 
