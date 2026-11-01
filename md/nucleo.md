@@ -279,7 +279,7 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 
 ## Cambios
 
-1 de noviembre de 2026: la casa centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en seis módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
+1 de noviembre de 2026: la casa centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en los módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
 
 30 de octubre de 2026: el Dominio Cero pasa a ser la base común de escritura (palabras e ideas necesarias, desde donde está el lector) y su entrada y «Qué cumple cada módulo» lo dicen así. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
