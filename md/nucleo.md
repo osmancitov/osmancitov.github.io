@@ -32,6 +32,8 @@ Al comenzar toda producción escrita de la casa o cualquier otro encargo al que 
 4. Hacer el encargo siguiendo esos documentos. Cada documento gobierna su tema; si dos se contradicen, manda el de su propio tema. Preguntar solo si falta un dato indispensable o hay una contradicción que no se resuelve así.
 5. Antes de entregar o publicar, contrastar el resultado con la revisión que pide cada documento aplicado, corregir lo que falle y mencionar al entregar los hallazgos relevantes.
 
+**Firma de los commits.** Un commit queda firmado con el nombre y el correo de su **autor**, la persona a quien el historial atribuye el cambio. Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el correo personal de Osmancito como autor.
+
 El Núcleo exige cumplir, pero por sí solo no impide que una página se guarde o se publique sin pasar por él.
 
 ## Qué cumple cada módulo
@@ -53,10 +55,6 @@ Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no d
 1. Al crear un módulo y al corregirlo, con los documentos del punto 4 de «Cómo se usa la lista».
 2. Cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, cada módulo de la lista se revisa contra el cambio. Lo que ya no cumple se corrige. Lo que no se puede corregir sin decidir algo que no está escrito se anota como pregunta para Osmancito.
 3. Al terminar una corrección o una revisión se revisa el conjunto de la carpeta, no solo los archivos tocados, y se comprueba que la lista inventaría todos los archivos de `md`.
-
-## Identidad de commits
-
-Todo commit, de cualquier repositorio de osmancitov, se firma con el correo personal de Osmancito como autor.
 
 ## Los módulos de la casa
 
@@ -278,6 +276,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+1 de noviembre de 2026: la identidad de commits pasa de sección propia a «Cómo se cumple el Núcleo», donde está el procedimiento del trabajo, y se redacta en la forma de este texto, definiendo la firma y su autor para el lector cero; la regla no cambia. A pedido de Osmancito.
 
 1 de noviembre de 2026: la casa centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en los módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
 
