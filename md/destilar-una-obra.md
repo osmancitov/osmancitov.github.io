@@ -89,7 +89,7 @@ Para cada persona se mira si el original la presenta. Si el original la aclara, 
 
 El puente conecta las citas y aporta el contexto necesario para seguir la lectura. Se revisa con la fuente abierta para detectar paráfrasis que sustituyan la voz literal del libro, tanto de frases seleccionadas como de pasajes no seleccionados. La holgura del presupuesto no se usa para introducir una selección paralela mediante paráfrasis. Si un pasaje merece entrar como cita, se evalúa mediante Cobertura Léxica, sin añadir una selección paralela. Reclasificar una paráfrasis como glosa no resuelve el problema: la glosa aporta una explicación educativa, no una vía adicional para reproducir el contenido del libro.
 
-Cada cita lleva su glosa: un comentario que acompaña y enriquece la lectura, del largo que necesite, sin una cantidad fija de palabras. Va en un párrafo aparte, junto a la cita. No se añade texto para llenar espacio.
+Cada cita lleva su glosa: un comentario que acompaña y enriquece la lectura, del largo que necesite, sin una cantidad fija de palabras. Va en un párrafo aparte, junto a la cita. No se añade texto para llenar espacio. El puente y la glosa tratan de la obra y de su lectura, nunca del procedimiento que produjo la entrada: nada de cómo se seleccionaron los párrafos, de cómo quedó un pasaje en el destilado ni de ninguna otra decisión de este trabajo.
 
 ## Decisiones de formato
 
@@ -127,6 +127,8 @@ Antes de entregar una unidad se revisa entera, con la página montada:
 La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
+
+1 de noviembre de 2026: el puente y la glosa tratan de la obra y de su lectura, nunca del procedimiento que produjo la entrada, como la selección de párrafos o la forma en que un pasaje quedó en el destilado. Nace de una corrección a una glosa de La psicología del dinero que explicaba por escrito la tipografía de un fragmento. A pedido de Osmancito.
 
 30 de octubre de 2026: «tramo» queda solo para Cobertura Léxica y la lectura entre dos citas pasa a llamarse «trecho»; «sección» queda para la unidad fuente, «parte» para la división mayor que la reúne y «apartado» para Los Originales; «entrada» remite a la definición de Publicar una entrada; la regla de mayúsculas de los nombres se escribe sin el término inglés que usaba. El ejemplo del puente deja de nombrar un libro y una persona concretos y queda como método. Se quita la repetición del techo del quince por ciento de los puentes y se añade «Cuándo». La fecha de la versión anterior, 27 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 
