@@ -4,7 +4,7 @@ Productor de Briefings es el nombre de este texto. Este texto está escrito para
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un **correo en formato rico** es un correo con aspecto de página: títulos, negritas, imágenes dentro del texto y enlaces que se abren con un clic; lo contrario es el **texto plano**, que son solo letras sin formato, donde los saltos de línea cortan las frases y las direcciones aparecen sueltas. Una **imagen en línea** es la que se ve dentro del cuerpo del correo, en su lugar, y no como archivo adjunto aparte.
+Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un **correo en formato rico** es un correo con aspecto de página: títulos, negritas, imágenes dentro del texto y enlaces que se abren con un clic; lo contrario es el **texto plano**, que son solo letras sin formato, donde los saltos de línea cortan las frases y las direcciones aparecen sueltas. Una **imagen en línea** es la que se ve dentro del cuerpo del correo, en su lugar, y no como archivo adjunto aparte. Un **enlace con nombre** es un enlace escrito con palabras que dicen a qué página lleva, y no con la dirección suelta. El **Núcleo** es el módulo que fija cómo se cumple todo encargo de la casa y qué es un **10/10**: la nota de una entrega que cumple las seis condiciones que el Núcleo enumera. **Elementos de Estilo** es el módulo que reúne los consejos para escribir en castellano con claridad.
 
 El briefing ahorra trabajo al autor: entiende la edición entera en un solo correo, sin abrir nada más, y lo que pueda servir al trabajo del sitio queda recogido en su propio apartado.
 
@@ -44,8 +44,10 @@ El briefing se envía en formato rico, no en texto plano. Es un solo mensaje, co
 4. Se abre cada enlace y cada remisión que pida explicación, y se apunta lo que hay detrás con su dirección.
 5. Se hace la imagen de apertura con el Pintor de Imágenes, a partir de lo que trata la edición, y se escribe el briefing con sus partes en su orden.
 6. Se declara en el briefing lo que no se pudo comprobar, junto a lo que afirma.
-7. Se envía al correo del autor desde la dirección de la asistente, en formato rico, y se comprueba que llegó: la entrega queda comprobada, no presumida.
-8. Se abre el correo recibido en un navegador y se mira entero tal como lo ve el autor: la imagen en su lugar, los títulos, los enlaces con nombre y los párrafos sin cortes. Lo que falle se corrige y se envía de nuevo antes de dar el trabajo por entregado.
+7. Se envía al correo del autor, desde la dirección de la asistente y en formato rico.
+8. Se comprueba que el correo llegó: la entrega queda comprobada, no presumida.
+9. Se abre el correo recibido en un navegador y se mira entero, tal como lo ve el autor: la imagen en su lugar, los títulos, los enlaces con nombre y los párrafos sin cortes.
+10. Si algo falla en lo que se ve, se corrige y se envía de nuevo antes de dar el trabajo por entregado.
 
 ## Revisión antes de entregar
 
@@ -57,7 +59,7 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 4. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
 5. **Castellano claro.** El texto pasa la revisión de Elementos de Estilo: voz activa, frases que afirman y sin adorno que sobre.
 6. **Formato rico.** Se cumplen las seis condiciones de «El correo».
-7. **Visto como llega.** El correo recibido se miró entero, como dice el paso 8, y nada se rompió.
+7. **Visto como llega.** El correo recibido se miró entero, como dice el paso 9, y nada se rompió.
 8. **Diez sobre diez.** El briefing cumple lo que el Núcleo llama un 10/10.
 
 ## Lo que este módulo no hace
@@ -69,7 +71,7 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 
 ## Cambios
 
-2 de noviembre de 2026: el briefing se envía en formato rico, con la imagen en línea, enlaces con nombre y sin archivos adjuntos aparte que sustituyan al cuerpo; se mira el correo recibido antes de dar el trabajo por entregado, y la revisión incluye Elementos de Estilo, el formato rico y el 10/10 del Núcleo. A pedido de Osmancito.
+2 de noviembre de 2026: el briefing se envía en formato rico, con la imagen en línea, enlaces con nombre y sin archivos adjuntos aparte que sustituyan al cuerpo; se mira el correo recibido antes de dar el trabajo por entregado, el paso de enviar se parte en cuatro acciones, se definen el enlace con nombre, el Núcleo, el 10/10 y Elementos de Estilo, y la revisión incluye Elementos de Estilo, el formato rico y el 10/10 del Núcleo. A pedido de Osmancito.
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. A pedido de Osmancito.
 
 30 de octubre de 2026: define «casa» y «módulo» en «Qué es y para qué sirve», porque el texto los usaba sin explicarlos. A pedido de Osmancito.
