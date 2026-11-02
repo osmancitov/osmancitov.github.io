@@ -97,7 +97,7 @@ Una **plantilla** es un modelo que se copia y se completa. Lo que está dentro d
 <p>[texto]</p>
 <p>© [año] Osmancito</p>
 </main>
-<p><a href="../[repositorio].html">[volver]</a></p>
+<p><a href="../[repositorio].html">[Volver]</a></p>
 </body>
 </html>
 ```
