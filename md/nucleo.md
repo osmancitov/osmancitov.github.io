@@ -34,6 +34,19 @@ Al comenzar toda producción escrita de la casa o cualquier otro encargo al que 
 
 **Firma de los commits.** Un commit queda firmado con el nombre y el correo de su **autor**, la persona a quien el historial atribuye el cambio. Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el correo personal de Osmancito como autor.
 
+## Qué es un 10/10
+
+Un **10/10** es la nota que la asistente se pondría al revisar su propia entrega con los ojos del autor. Una entrega lo merece cuando cumple las seis condiciones siguientes:
+
+1. **Lo pedido, entero.** Hace lo que el autor pidió, sin añadir lo que no pidió ni dejar fuera lo que pidió.
+2. **Sin hallazgos.** Pasa la revisión de cada documento aplicado y no deja ninguno pendiente.
+3. **En la forma en que se recibe.** Lo que se entrega por correo va en **formato rico**, que es un correo con aspecto de página: títulos, imágenes dentro del texto y enlaces con nombre que se abren con un clic. El **texto plano**, que son solo letras sin formato, no cumple, porque corta las frases y deja las direcciones sueltas.
+4. **Visto tal como llega.** Se mira el resultado ya recibido, abierto como lo abre el autor, y no solo el archivo que se envió. Si algo se ve roto o torcido, se corrige antes de dar el encargo por terminado.
+5. **Con lo dudoso a la vista.** Lo que no se pudo comprobar se declara junto a lo que afirma.
+6. **Entregado y comprobado.** Llega por el canal y a la dirección que el autor pidió, y se comprueba que llegó.
+
+Una entrega que falla una de las seis es un 9 o menos: se corrige y se vuelve a mirar. Cada módulo puede añadir lo que su trabajo exige para llegar al 10/10.
+
 ## Qué cumple cada módulo
 
 Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o su tamaño:
@@ -214,7 +227,7 @@ Es el método aprobado para seleccionar párrafos enteros por cobertura de vocab
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
 
-Lee un boletín por Osmancito y le devuelve por correo un informe detallado, el briefing, con la glosa de sus enlaces, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
+Lee un boletín por Osmancito y le devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, la glosa de sus enlaces, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
 
 También se le ha llamado: «productor de briefings».
 
@@ -269,12 +282,13 @@ También se le ha llamado: «el Núcleo», «el índice de documentos», «indic
 
 El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: tiene que cumplir lo que fija, como cualquier otro.
 
-1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos, y «Qué cumple cada módulo» dice qué documentos cumple cada módulo y cuándo se comprueba.
+1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos, «Qué es un 10/10» dice cuándo una entrega merece esa nota, y «Qué cumple cada módulo» dice qué documentos cumple cada módulo y cuándo se comprueba.
 2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su módulo y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo tiene la forma de un módulo: su declaración del lector cero, «Qué es y para qué sirve» con los términos definidos antes de usarse, «Cuándo», el cuerpo, este examen y «Cambios». El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
 
+2 de noviembre de 2026: nace «Qué es un 10/10», que fija las seis condiciones de una entrega que merece esa nota, entre ellas el formato rico para lo que se entrega por correo y mirar el resultado tal como llega; la entrada del Productor de Briefings recoge el formato rico y la imagen en línea. A pedido de Osmancito.
 1 de noviembre de 2026: la entrada del Dominio Cero en «Qué cumple cada módulo» recoge la autocontención que el módulo ganó hoy: lo que el texto ofrece se entrega en su propia lectura, sin promesas que queden como deuda con un después. A pedido de Osmancito.
 
 1 de noviembre de 2026: se retira de «Cómo se cumple el Núcleo» la frase que declaraba que el Núcleo exige cumplir pero no impide por sí solo guardar o publicar sin pasar por él. No la sustituye ninguna otra. A pedido de Osmancito.
