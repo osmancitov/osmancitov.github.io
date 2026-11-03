@@ -259,6 +259,18 @@ También se le ha llamado: «radar».
 
 **Necesita:** el **Dominio Cero** y, para los avisos, **Elementos de Estilo**.
 
+### Ticker Ema99: `ticker-ema99.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/ticker-ema99.md)
+
+Fija el cálculo y la forma de la lectura del ticker: la desviación de la cotización de cada activo respecto a su media móvil exponencial de 99 velas de un minuto, expresada en décimas de punto porcentual, y la cotización con cuatro cifras significativas y su escala de mil en mil, todo en un bloque monoespaciado que sirve en cualquier mensajería. El método no impone activos, frecuencia ni destino: esos son la configuración de cada ticker.
+
+También se le ha llamado: «el ticker»*, «el ticker permanente»*.
+
+**Cuándo se aplica:** cada vez que toca producir una lectura de un ticker Ema99, o al encargar un ticker nuevo con este método.
+
+**Necesita:** ningún otro documento.
+
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
@@ -287,6 +299,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+3 de noviembre de 2026: nace Ticker Ema99 (`ticker-ema99.md`), que fija el cálculo y la forma de la lectura del ticker, con su entrada en la lista; la lista inventaría los dieciocho archivos de la carpeta `md`. A pedido de Osmancito.
 
 2 de noviembre de 2026: nace «Qué es un 10/10», que fija las seis condiciones de una entrega que merece esa nota, entre ellas el formato rico para lo que se entrega por correo y mirar el resultado tal como llega; la entrada del Productor de Briefings recoge el formato rico y la imagen en línea. A pedido de Osmancito.
 1 de noviembre de 2026: la entrada del Dominio Cero en «Qué cumple cada módulo» recoge la autocontención que el módulo ganó hoy: lo que el texto ofrece se entrega en su propia lectura, sin promesas que queden como deuda con un después. A pedido de Osmancito.
