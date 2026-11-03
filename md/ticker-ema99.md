@@ -73,10 +73,10 @@ Antes de entregarse, cada lectura pasa esta revisión entera, con el texto a la 
 
 ## La configuración del ticker permanente
 
-El método de este módulo sirve para cualquier ticker Ema99. El ticker permanente del autor, al nacer este módulo, usa esta configuración:
+El método de este módulo sirve para cualquier ticker Ema99. El ticker permanente del autor usa esta configuración:
 
 1. Activos: BTC, ETH, ZEC, BNB, HYPE y BMT.
-2. Frecuencia: una lectura cada cinco minutos aproximadamente. Si la última lectura tiene menos de 240 segundos al llegar el turno, el ciclo se salta para no duplicarla; los ajustes pedidos por el autor generan lecturas extra. La frecuencia del muestreo no es el tamaño de la vela: las velas son siempre de un minuto.
+2. Frecuencia: una lectura cada cinco minutos del reloj, en los minutos terminados en 0 y en 5 de cada hora UTC-4: las 7:00, las 7:05, las 7:10 y así. La hora programada es el inicio previsto; la consulta y la entrega pueden llegar unos segundos después o demorarse, y el encabezado escribe la hora real de la consulta, no la programada. Si la última lectura tiene menos de 240 segundos al llegar el turno, el ciclo se salta para no duplicarla; los ajustes pedidos por el autor generan lecturas extra. La frecuencia del muestreo no es el tamaño de la vela: las velas son siempre de un minuto.
 3. Destino: el hilo diario del autor en Slack, la conversación encadenada que se abre cada día.
 
 Cambiar los activos, la frecuencia o el destino es una decisión del autor sobre la configuración y no exige corregir este módulo.
