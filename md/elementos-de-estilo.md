@@ -4,7 +4,7 @@
 
 Elementos de Estilo reúne los elementos de estilo del hotel: lo que se hace para que una producción en castellano se lea con claridad. Sirve para dos trabajos: escribir una producción y revisarla antes de entregarla.
 
-El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **producción** es un texto que el hotel escribe para entregarlo: una entrada, un módulo, un mensaje o un informe. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
+El **hotel** es el Hotel Osmancito, el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **producción** es un texto que el hotel escribe para entregarlo: una entrada, un módulo, un mensaje o un informe. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Los elementos son consejos. Un **consejo** es una preferencia de estilo: ayuda a escribir mejor y admite excepciones, que el mismo paso dice. Cuando un paso se apoya en una norma del castellano, lo dice con las palabras «según la RAE». La **RAE** es la Real Academia Española, que junto con las demás academias de la lengua fija la norma del castellano. Las páginas de la RAE que respaldan esos pasos están en «Fuentes».
 
@@ -148,6 +148,8 @@ Normas de la RAE, páginas leídas el 25 de octubre de 2026:
 - [Extranjerismos crudos](https://www.rae.es/duda-linguistica/como-se-escriben-los-extranjerismos-crudos-en-un-texto-en-espanol)
 
 ## Cambios
+
+8 de noviembre de 2026: el sitio pasa a llamarse Hotel Osmancito, sin posesivo, y la definición del hotel lo nombra con su nombre propio. A pedido de Osmancito.
 
 8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y «Qué es y para qué sirve» abre con lo que este texto es; las definiciones de hotel, producción y módulo van después de esa respuesta, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 

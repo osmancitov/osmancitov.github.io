@@ -2,7 +2,7 @@
 
 ## Glosario
 
-El **sitio**, también llamado el **hotel**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas. Una **sala** es cada una de las secciones del sitio, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios; un **commit** es un guardado con nombre en ese historial. El **autor** es Osmancito, el dueño del sitio, y la **asistente** es Instinct, que trabaja por él. Un **encargo** es lo que el autor pide hacer en el sitio. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Todo documento de la carpeta `md` del repositorio base, `osmancitov.github.io`, es un módulo, este incluido: no hay dos clases de documentos.
+El **sitio** es el Hotel Osmancito, el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; también se le llama el **hotel**. **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas. Una **sala** es cada una de las secciones del sitio, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios; un **commit** es un guardado con nombre en ese historial. El **autor** es Osmancito, el dueño del sitio, y la **asistente** es Instinct, que trabaja por él. Un **encargo** es lo que el autor pide hacer en el sitio. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Todo documento de la carpeta `md` del repositorio base, `osmancitov.github.io`, es un módulo, este incluido: no hay dos clases de documentos.
 
 ## Qué es y para qué sirve
 
@@ -275,6 +275,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+8 de noviembre de 2026: el sitio pasa a llamarse Hotel Osmancito, sin posesivo: el «Glosario» le da su nombre propio, la puerta principal y su preview titulan «Hotel Osmancito» y conservan «Lobby» como nombre de la entrada, y las salas que nombraban el sitio con otro nombre actualizan su descripción. A pedido de Osmancito.
 
 8 de noviembre de 2026: salen del hotel los módulos Radar y Ticker Ema99, quedados obsoletos: se eliminan sus archivos (`radar.md`, `ticker-ema99.md`) y sus entradas de la lista, y la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
 
