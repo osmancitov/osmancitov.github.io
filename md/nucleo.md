@@ -6,7 +6,7 @@ El **sitio**, también llamado el **hotel**, es el conjunto de páginas publicad
 
 ## Qué es y para qué sirve
 
-El Núcleo hace tres trabajos:
+El Núcleo es el módulo que ordena los demás módulos: dice cuáles hay, qué trabajo fija cada uno y por dónde empieza cualquier producción escrita del hotel, para que las reglas del sitio se lean desde un solo lugar. Hace tres trabajos:
 
 1. Es el punto de partida de toda producción escrita del hotel.
 2. Fija qué documentos cumple cada módulo y cuándo se comprueba.
@@ -278,7 +278,7 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 
 8 de noviembre de 2026: salen del hotel los módulos Radar y Ticker Ema99, quedados obsoletos: se eliminan sus archivos (`radar.md`, `ticker-ema99.md`) y sus entradas de la lista, y la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
 
-8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto. Los términos base pasan al «Glosario», la primera sección, donde GitHub y commit quedan definidos antes de su primer uso, y «Qué es y para qué sirve» abre con los tres trabajos del Núcleo. Se quitan frases que el texto gastaba hablando de sí mismo, se deshacen dos frases enredadas y la firma de los commits deja de darle un segundo significado a la palabra «autor». «Qué cumple cada módulo» dice ahora cuándo se aplican el Dominio Cero y Elementos de Estilo. El sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto. Los términos base pasan al «Glosario», la primera sección, donde GitHub y commit quedan definidos antes de su primer uso, y «Qué es y para qué sirve» define primero qué es el Núcleo, el módulo que ordena los demás, antes de enumerar sus tres trabajos. Se quitan frases que el texto gastaba hablando de sí mismo, se deshacen dos frases enredadas y la firma de los commits deja de darle un segundo significado a la palabra «autor». «Qué cumple cada módulo» dice ahora cuándo se aplican el Dominio Cero y Elementos de Estilo. El sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 2 de noviembre de 2026: nace «Qué es un 10/10», que fija las seis condiciones de una entrega que merece esa nota, entre ellas el formato rico para lo que se entrega por correo y mirar el resultado tal como llega; la entrada del Productor de Briefings recoge el formato rico y la imagen en línea. A pedido de Osmancito.
 1 de noviembre de 2026: la entrada del Dominio Cero en «Qué cumple cada módulo» recoge la autocontención que el módulo ganó hoy: lo que el texto ofrece se entrega en su propia lectura, sin promesas que queden como deuda con un después. A pedido de Osmancito.
