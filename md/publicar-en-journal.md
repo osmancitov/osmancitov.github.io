@@ -1,14 +1,12 @@
 # Publicar en Journal
 
-Publicar en Journal es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el procedimiento que publica cada noche la entrada del día en el Journal. El **Journal** es la sala del sitio que guarda los días. El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio del Journal se llama `journal`. El **README** es el texto que presenta un repositorio.
+Es el procedimiento que publica cada noche la entrada del día en el Journal. El **Journal** es la sala del sitio que guarda los días. El **sitio**, también llamado el **hotel**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio del Journal se llama `journal`. El **README** es el texto que presenta un repositorio.
 
 ## Cuándo
 
-La entrada se arma al final del día, hacia las 23:00 UTC-4 (cuatro horas detrás del tiempo universal coordinado), y se escribe en **goteo lento**: destilada despacio, dejando que el día escurra, sin trabajo programado durante el día. Si una pieza se escribió antes ese mismo día, se funde en la entrada única del día. La hora de Caracas es UTC-4: cuatro horas detrás del tiempo universal coordinado. Se publica directo, sin esperar confirmación. En un día flojo se publica una entrada mínima y digna: la cadena no se rompe. Una entrada atrasada se fecha en el día vivido.
+La entrada se arma al final del día, hacia las 23:00 UTC-4 (cuatro horas detrás del tiempo universal coordinado), y se escribe en **goteo lento**: destilada despacio, dejando que el día escurra, sin trabajo programado durante el día. Si una pieza se escribió antes ese mismo día, se funde en la entrada única del día. Se publica directo, sin esperar confirmación. En un día flojo se publica una entrada mínima y digna: la cadena no se rompe. Una entrada atrasada se fecha en el día vivido.
 
 ## La historieta lírica
 
@@ -25,11 +23,11 @@ La entrada es una **historieta lírica**: el día vivido, narrado, no reportado,
 
 1. **La fecha legible**, sola en la primera línea: «22 de octubre de 2026».
 2. **El título**: cuatro sustantivos descriptivos, sin artículos, como «Dibujos, tramos, raya y prueba».
-3. **El dibujo**, justo tras el título: uno solo por entrada, hecho con el procedimiento de ilustración de la casa, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. El pintor del Journal es Rembrandt, por su claroscuro. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo; enlaza a su propio archivo para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página.
+3. **El dibujo**, justo tras el título: uno solo por entrada, hecho con el procedimiento de ilustración del hotel, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. El pintor del Journal es Rembrandt, por su claroscuro. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo; enlaza a su propio archivo para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página.
 4. **La historieta**.
 5. **La firma**: «© 2026 Osmancito», el símbolo ©, el año de publicación y el nombre del autor. Cierra la historieta.
 6. **La raya**: una línea horizontal que separa la historieta firmada de las rúbricas.
-7. **Las tres rúbricas fijas de cierre**. Una **rúbrica** es una línea con nombre propio que cierra la entrada: «Parte del día», «Lectura en curso» y «En la copa». En la copa se lee «una bebida de X»: una frase en positivo, sin negativas. «Lectura en curso» nombra la obra que el autor está leyendo: su lectura personal se hace desde las páginas de la **Destilería**, la sala del sitio que destila libros y le sirve de visor y lector de textos, de modo que la lectura coincide con la obra editada o publicada allí ese día, según el historial de su repositorio. Si el día tuvo varias obras, la rúbrica las nombra a todas, cada una con su título y su autor. La obra se comprueba en los archivos cambiados y en las fuentes del día, no solo en los mensajes de los cambios registrados; los arreglos de la casa —estilos, índices, presentaciones— y los renombres de archivos no son obra. Que un día no registre cambios no prueba que no hubiera lectura: se busca en las fuentes del día si la lectura siguió de los días vecinos antes de declarar el hueco. La rúbrica no se copia de la entrada anterior; si el día no tuvo obra en la Destilería, o el historial no la deja resolver, se consulta antes de escribirla y no se inventa.
+7. **Las tres rúbricas fijas de cierre**. Una **rúbrica** es una línea con nombre propio que cierra la entrada: «Parte del día», «Lectura en curso» y «En la copa». En la copa se lee «una bebida de X»: una frase en positivo, sin negativas. «Lectura en curso» nombra la obra que el autor está leyendo: su lectura personal se hace desde las páginas de la **Destilería**, la sala del sitio que destila libros y le sirve de visor y lector de textos, de modo que la lectura coincide con la obra editada o publicada allí ese día, según el historial de su repositorio. Si el día tuvo varias obras, la rúbrica las nombra a todas, cada una con su título y su autor. La obra se comprueba en los archivos cambiados y en las fuentes del día, no solo en los mensajes de los cambios registrados; los arreglos del hotel —estilos, índices, presentaciones— y los renombres de archivos no son obra. Que un día no registre cambios no prueba que no hubiera lectura: se busca en las fuentes del día si la lectura siguió de los días vecinos antes de declarar el hueco. La rúbrica no se copia de la entrada anterior; si el día no tuvo obra en la Destilería, o el historial no la deja resolver, se consulta antes de escribirla y no se inventa.
 
 ## Los archivos
 
@@ -61,7 +59,9 @@ Antes de publicar, se comprueba con la entrada a la vista:
 
 ## Cambios
 
-1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto y una repetición de la equivalencia de UTC-4 en «Cuándo», y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en el hotel, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la historieta lírica. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

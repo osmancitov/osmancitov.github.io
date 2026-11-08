@@ -1,10 +1,8 @@
 # Publicar una entrada
 
-Publicar una entrada es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Una **sala** es cada sección del sitio, que es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`, guardada en su propio repositorio. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio. Vale para todas las salas; las que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en su documento, que también se abre: cada documento manda en su tema. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
+Una **entrada** es el conjunto de tres archivos que se agrega a un repositorio para publicar una página nueva. Un **repositorio** es una carpeta que guarda los archivos de un mismo tema y el historial de sus cambios. Una **sala** es cada sección del sitio, que es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`, guardada en su propio repositorio. Este texto describe la entrada común. No describe las portadas ni las páginas que presentan un repositorio. Vale para todas las salas; las que tienen su propio procedimiento, como la Capilla y el Journal, describen su entrada en su documento, que también se abre: cada documento manda en su tema. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 ## Cuándo
 
@@ -118,11 +116,13 @@ Antes de publicar se comprueba:
 
 ## Cambios
 
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
 1 de noviembre de 2026: la regla de mayúsculas del título se corrige el mismo día en que entró: deja el uso inglés, mayúscula inicial en cada palabra, y pasa al criterio del castellano que fija la RAE, con cada lengua conservando el suyo. A pedido de Osmancito.
 
 1 de noviembre de 2026: el título dentro de la página gana su regla de mayúsculas: mayúscula inicial en cada palabra, salvo artículos, preposiciones y conjunciones, con la primera palabra siempre en mayúscula; la revisión la comprueba. A pedido de Osmancito.
 
-1 de noviembre de 2026: «La firma del cambio» y su punto de revisión se retiran el mismo día: la regla de identidad de commits queda una sola vez en la casa, simplificada, en el Núcleo. A pedido de Osmancito.
+1 de noviembre de 2026: «La firma del cambio» y su punto de revisión se retiran el mismo día: la regla de identidad de commits queda una sola vez en el hotel, simplificada, en el Núcleo. A pedido de Osmancito.
 
 1 de noviembre de 2026: la entrada gana «La firma del cambio»: todo cambio se sube firmado con el correo personal de Osmancito como autor y como committer, el editor web de GitHub queda fuera como camino de publicación y la firma se comprueba en GitHub antes de dar el trabajo por hecho. La revisión gana su punto 10. A pedido de Osmancito.
 

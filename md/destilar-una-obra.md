@@ -1,10 +1,8 @@
 # Destilar una obra
 
-Destilar una obra es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
+Es el protocolo que destila una obra: escribe la presentación de la obra y su descripción, elige la unidad fuente, selecciona sus párrafos por cobertura léxica, los teje en una lectura que se sigue completa, de principio a fin, con textos propios, hace el dibujo de cada unidad, arma la página y la revisa antes de entregarla. Se aplica a las obras que se trabajan en la Destilería, la sala del sitio que destila libros. Un **repositorio** es una carpeta que guarda archivos y el historial de sus cambios. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Hasta el 25 de octubre de 2026 este módulo vivía entero en el método predecesor de [Cobertura Léxica](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/cobertura-lexica.md). Desde el 27 de octubre de 2026 Cobertura Léxica es el método de selección aprobado. Este texto ordena todo el trabajo y remite a los demás documentos. Los destilados ya publicados no se rehacen por esta sustitución.
 
@@ -127,6 +125,8 @@ Antes de entregar una unidad se revisa entera, con la página montada:
 La entrega dice qué encontró la revisión y qué se corrigió.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 2 de noviembre de 2026: el punto 8 de «Decisiones de formato» aclara la excepción del filete: vale solo cuando un encabezado de parte ya marca el corte; si la obra no trae partes, la primera unidad lleva su filete como cualquier otra. A pedido de Osmancito.
 

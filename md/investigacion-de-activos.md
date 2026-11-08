@@ -1,10 +1,8 @@
 # Investigación de Activos
 
-Investigación de Activos es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el procedimiento que investiga un activo por Osmancito, el autor, y le entrega una visión estructurada de su mercado. Un **activo** es un producto que se compra y se vende en un mercado: una **criptomoneda**, que es dinero digital registrado en una **cadena de bloques**, un registro de operaciones agrupadas en bloques enlazados que una red de computadoras mantiene según reglas comunes; una participación en un bien, como el oro; u otro producto que se negocie de manera parecida. El **mercado** es el conjunto de quienes compran y venden el activo. La **visión estructurada** es el informe que este procedimiento entrega: un texto con apartados fijos donde cada afirmación lleva su fuente. Una **fuente** es la página o el registro público de donde sale una afirmación. La **asistente** es Instinct, que trabaja por el autor y hace la investigación. La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
+Es el procedimiento que investiga un activo por Osmancito, el autor, y le entrega una visión estructurada de su mercado. Un **activo** es un producto que se compra y se vende en un mercado: una **criptomoneda**, que es dinero digital registrado en una **cadena de bloques**, un registro de operaciones agrupadas en bloques enlazados que una red de computadoras mantiene según reglas comunes; una participación en un bien, como el oro; u otro producto que se negocie de manera parecida. El **mercado** es el conjunto de quienes compran y venden el activo. La **visión estructurada** es el informe que este procedimiento entrega: un texto con apartados fijos donde cada afirmación lleva su fuente. Una **fuente** es la página o el registro público de donde sale una afirmación. La **asistente** es Instinct, que trabaja por el autor y hace la investigación. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 La investigación reúne en un solo informe lo que está pasando con un activo: de dónde viene, cómo se mueve su precio, qué muestran sus registros, qué ánimo tiene el mercado y qué riesgos presenta. Sirve para mirar un activo con el cuadro completo a la vista. El mismo procedimiento vale para cualquier activo: no nace atado a ninguno.
 
@@ -14,7 +12,7 @@ No tiene horario. Se hace cuando el autor lo pide, sobre el activo que él seña
 
 ## Cómo se prepara la investigación
 
-Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que lista los módulos de la casa; este procedimiento no repite esa ruta. Antes de investigar se resuelven estos puntos:
+Qué documentos se leen y en qué orden lo fija el **Núcleo**, el documento que lista los módulos del hotel; este procedimiento no repite esa ruta. Antes de investigar se resuelven estos puntos:
 
 1. Se fija la audiencia, el alcance y el destino que pide el encargo. La publicación del sitio es un artículo para el público: se sostiene por sí sola, sin que el lector conozca el pedido ni la conversación en que nació. El interés de un caso se muestra con hechos.
 2. Se distinguen los conceptos del objeto. En un estudio de criptomonedas, se distingue la **red**, el conjunto de computadoras que mantiene el registro, el activo que circula y la **aplicación**, el programa o conjunto de programas que presta un servicio. El uso de una red no demuestra por sí solo que su moneda deba subir de precio.
@@ -36,7 +34,7 @@ La investigación de un activo se escribe en castellano y lleva sus apartados en
 
 ## Cómo se escribe la visión
 
-La visión se escribe para leerla, como un artículo de revista, y también para oírla: una voz de máquina que la lea en voz alta debe sonar clara. Para ello el procedimiento aplica **Elementos de Estilo**, el documento de la casa que reúne los consejos para escribir en castellano. Aquí se fijan los criterios propios de una investigación:
+La visión se escribe para leerla, como un artículo de revista, y también para oírla: una voz de máquina que la lea en voz alta debe sonar clara. Para ello el procedimiento aplica **Elementos de Estilo**, el documento del hotel que reúne los consejos para escribir en castellano. Aquí se fijan los criterios propios de una investigación:
 
 1. **El dato exacto y la cifra de lectura van separados.** Un **dato exacto** es la cifra completa tal como la da la fuente, por ejemplo 1.640.000 monedas. Una **cifra de lectura** es esa misma cifra redondeada a dos cifras significativas, que son las dos primeras que no son cero, por ejemplo 1,6 millones de monedas o 1.200 millones de dólares en lugar de 1.197 millones. La prosa usa cifras de lectura. Los datos exactos se guardan aparte, en una tabla o en un apartado de consulta, para quien quiera comprobar o calcular. Si una cifra de lectura cambia lo que el lector entendería, por ejemplo una diferencia pequeña que es el tema, se da exacta.
 2. **Cada cifra se dice una vez.** Lo que ya muestra una tabla no se recita de nuevo en la prosa; la prosa dice qué significa.
@@ -76,6 +74,8 @@ Antes de entregarse, la visión pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 30 de octubre de 2026: lo común de escribir para el lector cero (explicar antes de usar, lo necesario y solo eso, el orden, la lectura en frío) pasa al Dominio Cero. Este módulo conserva lo propio de investigar: el recorrido parte del objeto, se separan sus partes y se fijan qué debe poder decir el lector al final. A pedido de Osmancito.
 

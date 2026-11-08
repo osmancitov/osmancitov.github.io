@@ -1,38 +1,38 @@
 # Núcleo
 
-Núcleo es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
+## Glosario
+
+El **sitio**, también llamado el **hotel**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas. Una **sala** es cada una de las secciones del sitio, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios; un **commit** es un guardado con nombre en ese historial. El **autor** es Osmancito, el dueño del sitio, y la **asistente** es Instinct, que trabaja por él. Un **encargo** es lo que el autor pide hacer en el sitio. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Todo documento de la carpeta `md` del repositorio base, `osmancitov.github.io`, es un módulo, este incluido: no hay dos clases de documentos.
 
 ## Qué es y para qué sirve
 
-El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. La **asistente** es Instinct, que trabaja por Osmancito, el autor del sitio. Un **encargo** es lo que el autor pide hacer en el sitio. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Todo documento de la carpeta `md` del repositorio base, `osmancitov.github.io`, es un módulo, este incluido: no hay dos clases de documentos.
-
 El Núcleo hace tres trabajos:
 
-1. Es el punto de partida de toda producción escrita de la casa.
+1. Es el punto de partida de toda producción escrita del hotel.
 2. Fija qué documentos cumple cada módulo y cuándo se comprueba.
 3. Lista los módulos, con el nombre exacto de cada uno, dónde está, para qué sirve, cuándo se aplica y qué otros módulos hay que abrir junto con él.
 
-La lista existe para que no haga falta recordar el nombre exacto de un módulo para referirse a él. Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos módulos, se aclara cuál se quiere decir; no se adivina.
+Cada entrada registra también las otras formas en que el autor lo ha llamado. Cuando un nombre pueda señalar a dos módulos, se aclara cuál se quiere decir; no se adivina.
 
-Los módulos viven en la carpeta `md` del repositorio base y cada entrada enlaza al archivo en GitHub. El Núcleo no sustituye las instrucciones de cada módulo: cada módulo manda en su tema.
+Los módulos viven en la carpeta `md` del repositorio base y cada entrada enlaza al archivo en GitHub. El Núcleo no sustituye las instrucciones de cada módulo.
 
 ## Cuándo
 
-Al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo. También cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo en la lista, y cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, para revisar el conjunto como dice «Qué cumple cada módulo».
+Al comenzar toda producción escrita del hotel o cualquier otro encargo al que el autor aplique el Núcleo. También cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo en la lista, y cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, para revisar el conjunto como dice «Qué cumple cada módulo».
 
 ## Cómo se cumple el Núcleo
 
-**Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado. Leer es solo un paso para cumplir.
+**Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado.
 
-**Aplicación.** La preparación de toda producción escrita de la casa empieza en este Núcleo. El destino y el alcance los fija el encargo; elegir los documentos no cambia lo que el autor pidió. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
+**Aplicación.** La preparación de toda producción escrita del hotel empieza en este Núcleo. El destino y el alcance los fija el encargo; elegir los documentos no cambia lo que el autor pidió. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
 
 1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
 2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
-3. Abrir y leer esos documentos vigentes, enteros, no un recuerdo de ellos, antes de empezar. El orden de lectura es este: primero los documentos generales que valen para la producción (el Dominio Cero y, si es en castellano, Elementos de Estilo); después el documento de la operación; al final los de publicación e imagen, como Publicar una entrada y el Pintor de Imágenes, cuando el encargo termina en una página. Si uno remite a otro necesario, se abre también. Al corregir un documento, o este mismo Núcleo, se lee además el vigente antes de tocarlo. Por ejemplo: preparar una entrada abre Publicar una entrada, el Pintor de Imágenes y el Dominio Cero; ilustrarla abre el Pintor de Imágenes.
+3. Abrir y leer esos documentos vigentes, enteros, no un recuerdo de ellos, antes de empezar. El orden de lectura es este: primero los documentos generales que valen para la producción (el Dominio Cero y, si es en castellano, Elementos de Estilo); después el documento de la operación; al final los de publicación e imagen, como Publicar una entrada y el Pintor de Imágenes, cuando el encargo termina en una página. Si uno remite a otro necesario, se abre también. Al corregir un documento, o este mismo Núcleo, se lee además el vigente antes de tocarlo.
 4. Hacer el encargo siguiendo esos documentos. Cada documento gobierna su tema; si dos se contradicen, manda el de su propio tema. Preguntar solo si falta un dato indispensable o hay una contradicción que no se resuelve así.
 5. Antes de entregar o publicar, contrastar el resultado con la revisión que pide cada documento aplicado, corregir lo que falle y mencionar al entregar los hallazgos relevantes.
 
-**Firma de los commits.** Un commit queda firmado con el nombre y el correo de su **autor**, la persona a quien el historial atribuye el cambio. Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el correo personal de Osmancito como autor.
+**Firma de los commits.** Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el nombre y el correo personales de Osmancito, como autor y como committer del cambio.
 
 ## Qué es un 10/10
 
@@ -52,14 +52,14 @@ Una entrega que falla una de las seis es un 9 o menos: se corrige y se vuelve a 
 Todo módulo de la carpeta `md` cumple estos documentos, sea cual sea su tema o su tamaño:
 
 1. **Productor de Módulos:** la forma del módulo, con las partes que su trabajo necesita y ninguna más.
-2. **Dominio Cero:** la base común de escritura: cada palabra con el significado del diccionario o el que el texto le da en su primera aparición, y cada idea necesaria explicada antes de usarse, desde donde está el lector, y lo que el texto ofrece se entrega en su propia lectura, sin promesas.
-3. **Elementos de Estilo:** el texto de un módulo es una producción en castellano que la casa publica, y se escribe y se revisa con él, con las excepciones que cada consejo dice. Si un módulo fija una forma para su propio texto, como la declaración del lector cero, esa forma manda en esa parte.
+2. **Dominio Cero:** la base común de escritura. Se aplica siempre que se escribe o se revisa un texto que el hotel publica: cada palabra con el significado del diccionario o el que el texto le da en su primera aparición, cada idea necesaria explicada antes de usarse, desde donde está el lector, y lo que el texto ofrece se entrega en su propia lectura, sin promesas.
+3. **Elementos de Estilo:** se aplica siempre que se escribe o se revisa una producción en castellano que el hotel publica o entrega, módulos incluidos, con las excepciones que cada consejo dice. Si un módulo fija una forma para su propio texto, esa forma manda en esa parte.
 4. **Documento Ejemplar**, cuando el módulo fija una forma de hacer algo: el propio módulo cumple esa forma.
 5. Los módulos que su entrada de la lista dice que necesita.
 
 Esto vale también para los módulos que sostienen la lista: el Núcleo, el Productor de Módulos, el Dominio Cero y el Documento Ejemplar. Cada uno de ellos, además, pasa su propio examen.
 
-Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no diga «Necesita: Dominio Cero» ni «Necesita: Elementos de Estilo» no es un fallo. Elementos de Estilo se exige a toda producción en castellano que la casa publica o entrega, también a los módulos ya escritos cuando se corrigen o se revisan. Un encabezado con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige lo que no lo hace.
+Un módulo no repite lo que este Núcleo ya manda a todos: no es un fallo que otro módulo no diga «Necesita: Dominio Cero» ni «Necesita: Elementos de Estilo». Un encabezado con otro nombre cumple la forma si hace lo que la forma pide; solo se corrige un encabezado que no la cumple.
 
 **Cuándo se comprueba.**
 
@@ -67,15 +67,15 @@ Un módulo no repite lo que este Núcleo ya manda a todos: que otro módulo no d
 2. Cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, cada módulo de la lista se revisa contra el cambio. Lo que ya no cumple se corrige. Lo que no se puede corregir sin decidir algo que no está escrito se anota como pregunta para Osmancito.
 3. Al terminar una corrección o una revisión se revisa el conjunto de la carpeta, no solo los archivos tocados, y se comprueba que la lista inventaría todos los archivos de `md`.
 
-## Los módulos de la casa
+## Los módulos del hotel
 
-Términos que usan las entradas siguientes: **md** es el formato de texto con marcas simples; **html** es el formato de las páginas web; **JPG** es un formato de imagen que comprime el archivo; las etiquetas **og** dicen a un programa de mensajería qué título e imagen mostrar cuando se comparte una página; **UTC-4** es la hora de Osmancito, cuatro horas menos que la hora universal; el **README** es el texto que presenta un repositorio; **GitHub** es el servicio web donde se guardan los repositorios y desde donde se publican las páginas; un **commit** es un guardado con nombre en el historial de cambios de un repositorio.
+Términos que usan las entradas siguientes: **md** es el formato de texto con marcas simples; **html** es el formato de las páginas web; **JPG** es un formato de imagen que comprime el archivo; las etiquetas **og** dicen a un programa de mensajería qué título e imagen mostrar cuando se comparte una página; **UTC-4** es la hora de Osmancito, cuatro horas menos que la hora universal; el **README** es el texto que presenta un repositorio.
 
 ### Dominio Cero: `dominio-cero.md`
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/dominio-cero.md)
 
-La base común de escritura de la casa: cada palabra con el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición, y cada idea que hace falta explicada antes de usarse, desde donde está el lector. Todo texto público del sitio la cumple, y los demás módulos no la repiten.
+La base común de escritura del hotel: cada palabra con el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición, y cada idea que hace falta explicada antes de usarse, desde donde está el lector. Todo texto público del sitio la cumple, y los demás módulos no la repiten.
 
 También se le ha llamado: «el dominio cero».
 
@@ -99,7 +99,7 @@ También se le ha llamado: «documento ejemplar».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-modulos.md)
 
-Fija cómo se escriben los módulos de la casa, qué forma llevan y cómo se revisan antes de entrar al repositorio. Todos los documentos de `md` son módulos.
+Fija cómo se escriben los módulos del hotel, qué forma llevan y cómo se revisan antes de entrar al repositorio. Todos los documentos de `md` son módulos.
 
 También se le ha llamado: «el productor de módulos»*.
 
@@ -111,11 +111,11 @@ También se le ha llamado: «el productor de módulos»*.
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/elementos-de-estilo.md)
 
-Reúne los elementos de estilo de la casa para escribir en castellano, cada uno con su excepción y, donde hace falta, la norma de la RAE. Se usa al escribir o revisar una producción en castellano.
+Reúne los elementos de estilo del hotel para escribir en castellano, cada uno con su excepción y, donde hace falta, la norma de la RAE. Se usa al escribir o revisar una producción en castellano.
 
 También se le ha llamado: «elementos de estilo».
 
-**Cuándo se aplica:** siempre que se escribe o se revisa una producción en castellano que la casa publica o entrega.
+**Cuándo se aplica:** siempre que se escribe o se revisa una producción en castellano que el hotel publica o entrega.
 
 **Necesita:** ningún otro documento.
 
@@ -157,7 +157,7 @@ La descripción de la entrada común del sitio: sus tres archivos (md, html y jp
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/incorporar-una-sala.md)
 
-Suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran: el README, la puerta, la portada y la página de la sala, el registro en la fila de navegación y en las listas del repositorio principal, la activación de GitHub Pages.
+Suma una sala nueva al hotel, desde el repositorio vacío hasta que las otras salas la nombran: el README, la puerta, la portada y la página de la sala, el registro en la fila de navegación y en las listas del repositorio principal, la activación de GitHub Pages.
 
 También se le ha llamado: «incorporar una sala», «sala nueva»*.
 
@@ -247,30 +247,6 @@ También se le ha llamado: «investigación de activos».
 
 **Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la visión: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
-### Radar: `radar.md`
-
-[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/radar.md)
-
-Vigila un asunto de manera repetida y avisa cuando pasa algo que cumple las condiciones acordadas. Cada encargo crea un radar con su configuración: el asunto vigilado, las fuentes, la cadencia, las condiciones de aviso, el canal y el horario de entrega. El mismo procedimiento sirve para cualquier asunto.
-
-También se le ha llamado: «radar».
-
-**Cuándo se aplica:** cuando el autor encarga una vigilancia repetida; cada encargo crea un solo radar.
-
-**Necesita:** el **Dominio Cero** y, para los avisos, **Elementos de Estilo**.
-
-### Ticker Ema99: `ticker-ema99.md`
-
-[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/ticker-ema99.md)
-
-Fija el cálculo y la forma de la lectura del ticker: la desviación de la cotización de cada activo respecto a su media móvil exponencial de 99 velas de un minuto, expresada en décimas de punto porcentual, y la cotización con cuatro cifras significativas y su escala de mil en mil, todo en un bloque monoespaciado que sirve en cualquier mensajería. El método no impone activos, frecuencia ni destino: esos son la configuración de cada ticker.
-
-También se le ha llamado: «el ticker»*, «el ticker permanente»*.
-
-**Cuándo se aplica:** cada vez que toca producir una lectura de un ticker Ema99, o al encargar un ticker nuevo con este método.
-
-**Necesita:** ningún otro documento.
-
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
@@ -279,7 +255,7 @@ Fija lo que se cumple en los encargos a los que el autor lo aplica, qué documen
 
 También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** al comenzar toda producción escrita de la casa o cualquier otro encargo al que el autor aplique el Núcleo, cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo, y cuando cambia uno de los cuatro documentos que todos cumplen, para revisar el conjunto.
+**Cuándo se aplica:** al comenzar toda producción escrita del hotel o cualquier otro encargo al que el autor aplique el Núcleo, cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo, y cuando cambia uno de los cuatro documentos que todos cumplen, para revisar el conjunto.
 
 **Necesita:** ningún otro módulo para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
@@ -295,12 +271,14 @@ También se le ha llamado: «el Núcleo», «el índice de documentos», «indic
 El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: tiene que cumplir lo que fija, como cualquier otro.
 
 1. **Describir su forma.** «Cómo se cumple el Núcleo» dice qué es cumplir y los cinco pasos, «Qué es un 10/10» dice cuándo una entrega merece esa nota, y «Qué cumple cada módulo» dice qué documentos cumple cada módulo y cuándo se comprueba.
-2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su módulo y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo tiene la forma de un módulo: su declaración del lector cero, «Qué es y para qué sirve» con los términos definidos antes de usarse, «Cuándo», el cuerpo, este examen y «Cambios». El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
+2. **Mostrar esa forma dentro del texto.** Cada entrada de la lista dice cuándo se aplica su módulo y qué necesita, que es lo que el paso 2 manda elegir, y la entrada del propio Núcleo está escrita igual. El Núcleo tiene la forma de un módulo: el título, el «Glosario», «Qué es y para qué sirve» con los términos definidos antes de usarse, «Cuándo», el cuerpo, este examen y «Cambios». El Núcleo se corrige con la misma forma: se lee vigente antes de tocarlo, se abren los documentos del punto 4 de «Cómo se usa la lista» y, antes de entregar, se contrasta con este examen.
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
 
-3 de noviembre de 2026: nace Ticker Ema99 (`ticker-ema99.md`), que fija el cálculo y la forma de la lectura del ticker, con su entrada en la lista; la lista inventaría los dieciocho archivos de la carpeta `md`. A pedido de Osmancito.
+8 de noviembre de 2026: salen del hotel los módulos Radar y Ticker Ema99, quedados obsoletos: se eliminan sus archivos (`radar.md`, `ticker-ema99.md`) y sus entradas de la lista, y la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto. Los términos base pasan al «Glosario», la primera sección, donde GitHub y commit quedan definidos antes de su primer uso, y «Qué es y para qué sirve» abre con los tres trabajos del Núcleo. Se quitan frases que el texto gastaba hablando de sí mismo, se deshacen dos frases enredadas y la firma de los commits deja de darle un segundo significado a la palabra «autor». «Qué cumple cada módulo» dice ahora cuándo se aplican el Dominio Cero y Elementos de Estilo. El sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 2 de noviembre de 2026: nace «Qué es un 10/10», que fija las seis condiciones de una entrega que merece esa nota, entre ellas el formato rico para lo que se entrega por correo y mirar el resultado tal como llega; la entrada del Productor de Briefings recoge el formato rico y la imagen en línea. A pedido de Osmancito.
 1 de noviembre de 2026: la entrada del Dominio Cero en «Qué cumple cada módulo» recoge la autocontención que el módulo ganó hoy: lo que el texto ofrece se entrega en su propia lectura, sin promesas que queden como deuda con un después. A pedido de Osmancito.
@@ -309,7 +287,7 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 
 1 de noviembre de 2026: la identidad de commits pasa de sección propia a «Cómo se cumple el Núcleo», donde está el procedimiento del trabajo, y se redacta en la forma de este texto, definiendo la firma y su autor para el lector cero; la regla no cambia. A pedido de Osmancito.
 
-1 de noviembre de 2026: la casa centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en los módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
+1 de noviembre de 2026: el hotel centraliza la identidad de commits: la regla queda una sola vez, en la sección «Identidad de commits» de este texto, con la redacción simplificada que fija Osmancito; deja de repetirse en los módulos y en la página de reglas, donde era la regla 55. A pedido de Osmancito.
 
 30 de octubre de 2026: el Dominio Cero pasa a ser la base común de escritura (palabras e ideas necesarias, desde donde está el lector) y su entrada y «Qué cumple cada módulo» lo dicen así. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
@@ -317,15 +295,13 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 
 30 de octubre de 2026: los documentos de la carpeta `md` pasan a ser todos módulos, regidos por el Núcleo y el Productor de Módulos: no hay dos clases. El Núcleo abre con su declaración del lector cero y define «módulo» antes de usarlo, parte su primera frase en tres trabajos, fija en «Qué cumple cada módulo» qué documentos cumple cada módulo, incluido él mismo, cuándo se comprueba y que se revisa el conjunto tras cada cambio de esos documentos. Su propio examen pasa a cubrir esa forma. A pedido de Osmancito.
 
-30 de octubre de 2026: nace Radar (`radar.md`), el procedimiento de la vigilancia repetida: el método es uno y cada encargo fija su configuración. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
-
-30 de octubre de 2026: el paso 3 de «Cómo se cumple el Núcleo» fija el orden de lectura: documentos generales, documento de la operación, y publicación e imagen al final. Elementos de Estilo pasa a aplicarse siempre a la producción en castellano que la casa publica o entrega, y su módulo se ajusta para decir lo mismo. La ruta de lectura de Investigación de Activos sale de ese módulo y queda solo aquí. A pedido de Osmancito.
+30 de octubre de 2026: el paso 3 de «Cómo se cumple el Núcleo» fija el orden de lectura: documentos generales, documento de la operación, y publicación e imagen al final. Elementos de Estilo pasa a aplicarse siempre a la producción en castellano que el hotel publica o entrega, y su módulo se ajusta para decir lo mismo. La ruta de lectura de Investigación de Activos sale de ese módulo y queda solo aquí. A pedido de Osmancito.
 
 29 de octubre de 2026: toda producción escrita empieza en el Núcleo. Investigación de Activos incluye estudios comparados e introductorios y una ruta editorial para el lector público sin conocimientos previos, con revisión de audiencia, conceptos, métricas y destino. El alcance y la publicación siguen sujetos al encargo; un curso no crea entregas automáticas. A pedido de Osmancito.
 
 29 de octubre de 2026: Investigación de Activos gana la sección «Cómo se escribe la visión» y tres puntos más en su revisión (cifras y fechas, salvedades, prueba de oído), y pasa a necesitar Elementos de Estilo además del Dominio Cero; al publicarse como página, también Publicar una entrada y el Pintor de Imágenes, que ya estaban en el Núcleo. La entrada de Elementos de Estilo no cambia: sigue siendo un documento de consejos, y esta dependencia le llega desde Investigación de Activos. Se comprobó que la lista inventaría los dieciséis archivos de la carpeta `md`. A pedido de Osmancito.
 
-28 de octubre de 2026: nace Incorporar una sala (`incorporar-una-sala.md`), que escribe cómo se suma una sala nueva a la casa; hasta hoy esa forma vivía en las salas ya hechas. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
+28 de octubre de 2026: nace Incorporar una sala (`incorporar-una-sala.md`), que escribe cómo se suma una sala nueva al hotel; hasta hoy esa forma vivía en las salas ya hechas. Entra en la lista con su «cuándo se aplica» y lo que necesita. A pedido de Osmancito.
 
 27 de octubre de 2026: todas las referencias de selección remiten a Cobertura Léxica; se retira del índice la entrada del método predecesor. Las menciones históricas expresan la sucesión sin atribuir al nuevo cálculo las reglas antiguas. A pedido de Osmancito.
 
@@ -341,6 +317,6 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 
 25 de octubre de 2026: el índice de documentos pasa a llamarse Núcleo (`nucleo.md`). Además de la lista de documentos, fija cómo se cumple todo encargo: leer el Núcleo, elegir y abrir los documentos que aplican, hacer el encargo siguiéndolos y contrastar el resultado con su revisión antes de entregar. A pedido de Osmancito.
 
-30 de octubre de 2026: añade los términos md, html, JPG, og, UTC-4, README, GitHub y commit al comienzo de «Los módulos de la casa». A pedido de Osmancito.
+30 de octubre de 2026: añade los términos md, html, JPG, og, UTC-4, README, GitHub y commit al comienzo de «Los módulos del hotel». A pedido de Osmancito.
 
 30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.

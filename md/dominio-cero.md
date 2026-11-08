@@ -1,16 +1,12 @@
 # Dominio Cero
 
-Dominio Cero es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
-
-Este módulo fija la regla de escritura de la casa. El **dominio cero** es el conjunto de textos donde cada palabra tiene el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición, y donde cada idea que hace falta para entender el texto se explica antes de usarla, para que alguien sin conocimiento previo ni memoria lo entienda. Es la base común de toda la escritura de la casa: los demás módulos no repiten esta regla, fijan cómo hacen su trabajo.
+El **dominio cero** es el conjunto de textos donde cada palabra tiene el significado que le da el diccionario de la lengua, o el que el texto le define en su primera aparición, y donde cada idea que hace falta para entender el texto se explica antes de usarla, para que alguien sin conocimiento previo ni memoria lo entienda. Este texto fija el dominio cero como la regla de escritura del **hotel**, el sitio de Osmancito: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Es la base común de toda la escritura del hotel: los demás **módulos**, los textos del hotel que fijan por escrito una regla o cómo se hace un trabajo, no repiten esta regla, sino que fijan cómo hacen el suyo.
 
 ## Cuándo
 
-Siempre que se escribe o se revisa un texto que la casa publica.
+Siempre que se escribe o se revisa un texto que el hotel publica.
 
 ## Cómo se construye el texto
 
@@ -21,7 +17,7 @@ Siempre que se escribe o se revisa un texto que la casa publica.
 5. Cuánto se explica lo decide lo que el lector necesita en ese texto. Si no necesita nada, no se explica nada.
 6. Quien pide el texto no tiene que preparar lecciones ni preguntas: quien escribe averigua qué necesita el lector y lo ordena.
 
-7. El texto aplica esta base sin anunciarla: explica lo que hace falta, pero no dice que explica, ni para quién escribe, ni lo que el lector no sabe. La claridad queda en cómo está escrito, no en una frase que la anuncie. Lo que un módulo dice como regla, incluida la declaración del lector cero que abre cada módulo, no es un anuncio: es la regla misma.
+7. El texto aplica esta base sin anunciarla: explica lo que hace falta, pero no dice que explica, ni para quién escribe, ni lo que el lector no sabe. La claridad queda en cómo está escrito, no en una frase que la anuncie.
 
 8. El texto entrega en su propia lectura todo lo que ofrece. Una promesa no está contenida en el momento del escrito: deja parte de la entrega para un después y queda como una deuda fuera del texto. Por eso el texto presenta sin comprometer: nombrar unos libros no anuncia leerlos, y describir un trabajo no anuncia hacerlo.
 
@@ -55,10 +51,12 @@ Antes de publicar un texto se comprueba, con el texto a la vista:
 Este módulo fija una forma de hacer algo, escribir un texto, y por eso es un documento ejemplar: pasa su propia revisión.
 
 1. **Describir su forma.** «Qué es y para qué sirve» define el dominio cero y «Cómo se construye el texto» fija cómo se escribe y «Revisión antes de entregar» lo enuncia en siete comprobaciones.
-2. **Mostrar esa forma dentro del texto.** Cada término propio de este texto, casa, módulo y dominio cero, se define en su primera aparición; las demás palabras tienen el significado del diccionario.
+2. **Mostrar esa forma dentro del texto.** Cada término propio de este texto, hotel, módulo y dominio cero, se define en su primera aparición; las demás palabras tienen el significado del diccionario.
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares, y todo lo necesario para contrastar está en este texto.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto y la salvedad que la exceptuaba de la regla de no anunciar, en el punto 7 de «Cómo se construye el texto». El sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 1 de noviembre de 2026: la base gana la autocontención frente a la promesa. Lo que el texto ofrece lo entrega en el momento del escrito; una promesa no está contenida en ese momento, sino que deja parte de la entrega para un después, como una deuda fuera del texto. Ganan el punto 8 de «Cómo se construye el texto» y la comprobación 7 de «Revisión antes de entregar», y su propio examen cuenta ahora siete comprobaciones. La misma pauta salió el mismo día de Elementos de Estilo, que no repite la base. A pedido de Osmancito.
 

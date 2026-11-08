@@ -1,7 +1,5 @@
 # Actualizar Estatus
 
-Actualizar Estatus es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
 Es el procedimiento que mantiene al día el Status. El **Status**, en castellano «el estatus», es la página de la sala de máquinas que muestra lo que la asistente está haciendo. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
@@ -46,7 +44,9 @@ En el Status y en los Historiales no se menciona la búsqueda de trabajo ni de c
 
 ## Cambios
 
-1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en el hotel, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que incluye comprobar que la página publicada refleja lo escrito. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

@@ -1,10 +1,8 @@
 # Cobertura Léxica
 
-Cobertura Léxica es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después, el módulo Destilar una obra teje entre ellas puentes y glosas: textos propios que cuentan lo que pasa entre dos ganadoras y que acompañan al lector. Destilar una obra los define por completo. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un archivo **md** es un texto con marcas simples.
+Es el procedimiento que elige párrafos de una obra. Los párrafos elegidos son las ganadoras. Después, el módulo Destilar una obra teje entre ellas puentes y glosas: textos propios que cuentan lo que pasa entre dos ganadoras y que acompañan al lector. Destilar una obra los define por completo. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un archivo **md** es un texto con marcas simples.
 
 La selección no usa juicio personal. Con las mismas entradas, da siempre las mismas ganadoras. La revisión previa de la fuente requiere juicio y cotejo; se hace antes de fijar esas entradas.
 
@@ -123,6 +121,8 @@ El 27 de octubre de 2026 se cotejó un pasaje de Babette, en *White Noise*, del 
 La prueba de selección queda pendiente. Antes de ejecutarla se verifica la fuente del alcance elegido y se fijan las cinco entradas.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 1 de noviembre de 2026: cuando una reparación une párrafos que ya tenían número, el párrafo unido conserva el número del primero. Nace de una corrección a La psicología del dinero: un párrafo que el EPUB partía en dos quedó rotulado con dos números. A pedido de Osmancito.
 

@@ -1,7 +1,5 @@
 # Rotar Historial
 
-Rotar Historial es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
 Es el procedimiento que, al terminar el día, pasa lo hecho del Status al Historial: a medianoche, lo de hoy pasa a ayer. El **Status**, en castellano «el estatus», es la página de la sala de máquinas que muestra lo que la asistente está haciendo. El **Historial de tareas** es la página que guarda los trabajos terminados hasta ayer, y el **Historial social** es la página que guarda lo hecho cada día en las redes. La **sala de máquinas** es la sala del sitio que guarda el funcionamiento de la asistente. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la sala de máquinas se llama `maquinas`. La asistente es Instinct, que trabaja por Osmancito, el autor de las páginas.
@@ -36,7 +34,9 @@ En el html del Historial de tareas, cada bloque va dentro de una etiqueta `artic
 
 ## Cambios
 
-1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en el hotel, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: la fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. Su comprobación de las tres páginas publicadas sigue en «Publicar». A pedido de Osmancito.
 

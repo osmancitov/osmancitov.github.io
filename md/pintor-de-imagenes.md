@@ -1,16 +1,14 @@
 # Pintor de Imágenes
 
-Pintor de Imágenes es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Una **inteligencia artificial de imágenes**, o IA de imágenes, es un programa que pinta una imagen a partir de un texto; su **motor** es el programa concreto que la pinta. Un **pedido de pintura**, que en inglés se llama *prompt*, es el texto que se le da a la IA de imágenes para que pinte. Un **JPG** es un formato de imagen que comprime el archivo para que pese poco. El **archivo md** de una página es el texto con marcas simples de la página. La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Una **sala** es cada sección de la casa, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios.
+Una **inteligencia artificial de imágenes**, o IA de imágenes, es un programa que pinta una imagen a partir de un texto; su **motor** es el programa concreto que la pinta. Un **pedido de pintura**, que en inglés se llama *prompt*, es el texto que se le da a la IA de imágenes para que pinte. Un **JPG** es un formato de imagen que comprime el archivo para que pese poco. El **archivo md** de una página es el texto con marcas simples de la página. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Una **sala** es cada sección del hotel, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios.
 
 Este módulo convierte un fragmento de texto en el pedido de pintura que la IA necesita para pintar su ilustración. Escribe el pedido en castellano, sea cual sea el idioma del fragmento. Lo usan los módulos que ilustran sus páginas: Destilar una obra, Publicar en Capilla, Publicar en Journal, Productor de Briefings e Incorporar una sala, y también se puede encargar directo.
 
 ## Cuándo
 
-Cuando un texto de la casa necesita una ilustración: al convertir el fragmento en el pedido de pintura y al entregar la imagen ya pintada.
+Cuando un texto del hotel necesita una ilustración: al convertir el fragmento en el pedido de pintura y al entregar la imagen ya pintada.
 
 ## Qué recibe y qué entrega
 
@@ -114,6 +112,8 @@ Antes de entregar un pedido de pintura o una imagen se comprueba:
 7. **Dominio Cero.** Cada palabra del pedido tiene el significado del diccionario o una definición en su primera aparición.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 30 de octubre de 2026: el texto pasa a tener la forma de un módulo: declaración del lector cero, «Qué es y para qué sirve» con sus términos definidos, «Cuándo» y «Revisión antes de entregar». Habla de manera impersonal, nombra el pedido de pintura con un solo nombre, dice qué módulos lo usan y no solo la Destilería, y fija la excepción de las puertas de las salas, que Incorporar una sala ya remitía a este texto sin que estuviera escrita aquí. La fecha de la versión anterior, 21 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

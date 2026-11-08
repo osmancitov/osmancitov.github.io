@@ -1,10 +1,8 @@
 # Publicar en Capilla
 
-Publicar en Capilla es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el procedimiento que publica cada mañana la lectura del día en la Capilla. La **Capilla** es la sala del sitio dedicada a la oración. El **sitio**, también llamado la **casa**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la Capilla se llama `capilla`. El **README** es el texto que presenta un repositorio. La **asistente** es Instinct, que escribe la lectura por Osmancito, el autor.
+Es el procedimiento que publica cada mañana la lectura del día en la Capilla. La **Capilla** es la sala del sitio dedicada a la oración. El **sitio**, también llamado el **hotel**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El repositorio de la Capilla se llama `capilla`. El **README** es el texto que presenta un repositorio. La **asistente** es Instinct, que escribe la lectura por Osmancito, el autor.
 
 El trabajo empieza a las 04:30 UTC-4, para que la lectura esté servida a las 05:00. UTC-4 es cuatro horas detrás del tiempo universal coordinado.
 
@@ -28,7 +26,7 @@ La **entrada** es la pieza que se publica cada día. Lleva sus partes en este or
 
 ## Los dibujos
 
-Los dibujos se hacen con el procedimiento de ilustración de la casa, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Quien publica elige de la lista del procedimiento el pintor que mejor se parezca al ambiente del texto. El encargo de cada dibujo pide la proporción cinco a ocho, escrita 5:8, es decir, vertical: ocho partes de alto por cinco de ancho. La proporción se escribe en el texto del pedido de pintura, sin fijarla por ninguna otra vía; al recibir el dibujo se comprueban sus dimensiones. El Pintor entrega los pedidos de pintura y los dibujos se generan con el motor de imágenes interno de la plataforma de la asistente. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo. En la página, cada dibujo enlaza a su propio archivo, para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página, para que no salte al cargar.
+Los dibujos se hacen con el procedimiento de ilustración del hotel, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Quien publica elige de la lista del procedimiento el pintor que mejor se parezca al ambiente del texto. El encargo de cada dibujo pide la proporción cinco a ocho, escrita 5:8, es decir, vertical: ocho partes de alto por cinco de ancho. La proporción se escribe en el texto del pedido de pintura, sin fijarla por ninguna otra vía; al recibir el dibujo se comprueban sus dimensiones. El Pintor entrega los pedidos de pintura y los dibujos se generan con el motor de imágenes interno de la plataforma de la asistente. El dibujo se publica tal como lo entrega la inteligencia artificial, sin recortar ni redimensionar, comprimido como JPG con calidad del 75 %, que es el ajuste de compresión que hace liviano el archivo. En la página, cada dibujo enlaza a su propio archivo, para abrirlo a tamaño completo con un clic, y su ancho y su alto se escriben en la página, para que no salte al cargar.
 
 ## Los archivos
 
@@ -61,7 +59,9 @@ Antes de publicar, se comprueba con la entrada a la vista:
 
 ## Cambios
 
-1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en el hotel, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: se añade «Revisión antes de entregar», que reúne los controles que estaban repartidos en el texto y comprueba la página ya publicada, y se dice cómo se aplica Elementos de Estilo a la prosa lírica de la Capilla. La fecha de la versión anterior, 23 de octubre de 2026, que abría el archivo, pasa a esta sección porque la primera línea es solo el título. A pedido de Osmancito.
 

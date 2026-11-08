@@ -1,10 +1,8 @@
 # Incorporar una sala
 
-Incorporar una sala es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-Es el procedimiento que suma una sala nueva a la casa, desde el repositorio vacío hasta que las otras salas la nombran. La **casa**, o **sitio**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El **autor** es Osmancito, dueño de la casa, y la **asistente** es Instinct, que trabaja por él. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
+Es el procedimiento que suma una sala nueva al hotel, desde el repositorio vacío hasta que las otras salas la nombran. El **hotel**, o **sitio**, es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **sala** es cada una de sus secciones, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios. El **autor** es Osmancito, dueño del hotel, y la **asistente** es Instinct, que trabaja por él. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Los términos de la sala se llaman así en este texto:
 
@@ -17,7 +15,7 @@ Los términos de la sala se llaman así en este texto:
 - La **fila de navegación** es la primera línea de cada README: los nombres de todas las salas, unidos por puntos medios, cada uno con un enlace al README de su sala. La sala del README que se lee va en negrita y sin enlace.
 - Una **entrada** es el conjunto de tres archivos que describe el documento Publicar una entrada: un archivo **md**, que guarda el texto con marcas simples; un archivo **html**, que es la página que se abre en un navegador; y un archivo **jpg**, que es una imagen.
 
-Hasta hoy esta forma vivía en las salas ya hechas y en la memoria de la asistente, no en un texto. Este procedimiento la escribe una vez. Se tomó de las salas Social y Sala de máquinas y de la página principal de la casa, leídas el 28 de octubre de 2026.
+Hasta hoy esta forma vivía en las salas ya hechas y en la memoria de la asistente, no en un texto. Este procedimiento la escribe una vez. Se tomó de las salas Social y Sala de máquinas y de la página principal del hotel, leídas el 28 de octubre de 2026.
 
 ## Cuándo
 
@@ -36,7 +34,7 @@ Se abren completos los documentos vigentes que este procedimiento necesita: el D
 5. Se pinta la puerta con el Pintor de Imágenes. Las puertas de las salas comparten una paleta oscura y cálida, y cada puerta tiene su propio pintor de la lista del Pintor, sin repetir el de otra sala. Mide 1280 píxeles de ancho por 640 de alto, es un archivo **jpg**, un formato de imagen, con calidad del 80 %, que es el ajuste de compresión que hace liviano el archivo, y lleva en una esquina inferior la etiqueta que el Pintor describe. Si la inteligencia artificial que genera la imagen no entrega la proporción de 2 a 1, se ajusta hasta ella conservando la composición: se elige qué parte de la imagen se quita de modo que no se corte ningún elemento ni la etiqueta, y se comprueba mirando la imagen final. Las puertas son ayudas de navegación y por eso son la excepción a lo que el Pintor fija para las demás imágenes, que es no recortarlas ni redimensionarlas y comprimirlas al 75 %: para la puerta manda este paso.
 6. Se crean las tres carpetas: `md`, `html` e `img`. La puerta va en `img` con el nombre `<repo>.jpg`.
 7. Se escribe la página de la sala, `<repo>.html`, y la portada, `index.html`. Se copian de una sala existente, y se cambian el nombre, la descripción, las direcciones y el texto alternativo de la imagen. Ambas llevan las **etiquetas og**, que son los datos de la cabecera de la página que dicen cómo se ve la tarjeta cuando alguien comparte el enlace; llevan también el enlace a `/css/base.css` y el icono `https://osmancitov.github.io/favicon.ico`. El título de la pestaña es el nombre editorial y «Osmancito». La imagen de la tarjeta es la puerta, con su ancho y su alto escritos. La página de la sala sigue el orden: la puerta, que enlaza al repositorio en GitHub; el título; el texto que define la sala; la lista de entradas, de la más nueva a la más vieja, con enlace a su html; y el enlace «volver» a la página principal. La portada lleva solo la puerta, enlazada a la página de la sala.
-8. Se registra la sala en la casa. Se añade su nombre, con enlace, al final de la fila de navegación de cada README de las otras salas y del repositorio principal. En el repositorio principal, `osmancitov.github.io`, se añade además: su línea en la sección «Las salas» del README y en la página `lobby.html`; su puerta, al final de la portada `index.html`; y su nombre en la descripción de la casa de las etiquetas og de `index.html` y de `lobby.html`.
+8. Se registra la sala en el hotel. Se añade su nombre, con enlace, al final de la fila de navegación de cada README de las otras salas y del repositorio principal. En el repositorio principal, `osmancitov.github.io`, se añade además: su línea en la sección «Las salas» del README y en la página `lobby.html`; su puerta, al final de la portada `index.html`; y su nombre en la descripción del hotel de las etiquetas og de `index.html` y de `lobby.html`.
 9. Se activa **GitHub Pages**, que es el servicio de GitHub que publica las páginas del repositorio como sitio web. Se publican desde la rama `main`, que es la línea principal del historial del repositorio, y su carpeta raíz. Se pone la dirección de la sala como sitio web en el panel «About» del repositorio. La imagen de la puerta se pone como imagen de vista previa en los ajustes del repositorio.
 10. Se publica la primera entrada de la sala siguiendo Publicar una entrada. Se anota arriba del todo en la lista del README y en la página de la sala.
 
@@ -49,7 +47,7 @@ Antes de entregar, la sala pasa esta revisión entera, con las páginas abiertas
 3. **Cada dirección abre.** La portada, la página de la sala, la puerta y cada entrada abren en la dirección publicada.
 4. **La puerta.** Se mira la imagen final: tiene la proporción 2 a 1, la composición se conserva y la etiqueta se lee entera.
 5. **La navegación.** Cada README, el del repositorio principal incluido, nombra la sala nueva con un enlace que abre.
-6. **Las listas de la casa.** La sección «Las salas», `lobby.html` y la portada del repositorio principal incluyen la sala.
+6. **Las listas del hotel.** La sección «Las salas», `lobby.html` y la portada del repositorio principal incluyen la sala.
 7. **La primera entrada.** Pasó la revisión de Publicar una entrada.
 
 La revisión dice qué encontró y qué se corrigió.
@@ -63,7 +61,9 @@ La revisión dice qué encontró y qué se corrigió.
 
 ## Cambios
 
-1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en la casa, en el Núcleo. A pedido de Osmancito.
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
+1 de noviembre de 2026: la firma de los commits deja de repetirse aquí; la regla queda una sola vez en el hotel, en el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: el paso 5 dice que la puerta es la excepción a la regla de imágenes del Pintor de Imágenes, que ahora la recoge, en lugar de decir que el Pintor la deja fuera. A pedido de Osmancito.
 

@@ -1,10 +1,6 @@
 # Documento Ejemplar
 
-Documento Ejemplar es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
-
-La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Un **documento ejemplar** es un texto que describe una forma de hacer algo y es, él mismo, un ejemplo de esa forma. No le basta hablar de sí mismo: las reglas que enuncia también lo gobiernan, y tiene que pasar su propio examen.
 
@@ -34,5 +30,7 @@ Las condiciones de un documento ejemplar se pueden comprobar en este texto, cada
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la definición está al comienzo, la descripción en «La necesidad» y «Lo que se gana» y el examen aquí. Quien lee no necesita abrir nada más.
 
 ## Cambios
+
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
 30 de octubre de 2026: el Documento Ejemplar pasa a tener la forma de un módulo: declaración del lector cero, «Qué es y para qué sirve» y «Cuándo». La necesidad, lo que se gana y su propio examen no cambian. A pedido de Osmancito.

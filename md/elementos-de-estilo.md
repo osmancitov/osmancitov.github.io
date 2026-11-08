@@ -1,12 +1,10 @@
 # Elementos de Estilo
 
-Elementos de Estilo es el nombre de este texto. Este texto está escrito para el lector cero: la persona o la máquina que lo lee sin haber leído nada más. Toda palabra tiene el significado del diccionario o el que este texto le da la primera vez que aparece.
-
 ## Qué es y para qué sirve
 
-La **casa** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto de la casa que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Una **producción** es un texto que la casa escribe para entregarlo: una entrada, un módulo, un mensaje o un informe.
+Elementos de Estilo reúne los elementos de estilo del hotel: lo que se hace para que una producción en castellano se lea con claridad. Sirve para dos trabajos: escribir una producción y revisarla antes de entregarla.
 
-Elementos de Estilo reúne los elementos de estilo de la casa: lo que se hace para que una producción en castellano se lea con claridad. Sirve para dos trabajos: escribir una producción y revisarla antes de entregarla.
+El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Una **producción** es un texto que el hotel escribe para entregarlo: una entrada, un módulo, un mensaje o un informe. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina.
 
 Los elementos son consejos. Un **consejo** es una preferencia de estilo: ayuda a escribir mejor y admite excepciones, que el mismo paso dice. Cuando un paso se apoya en una norma del castellano, lo dice con las palabras «según la RAE». La **RAE** es la Real Academia Española, que junto con las demás academias de la lengua fija la norma del castellano. Las páginas de la RAE que respaldan esos pasos están en «Fuentes».
 
@@ -16,7 +14,7 @@ Los ejemplos de este texto son propios. Su origen está en «Fuentes».
 
 ## Cuándo
 
-Se usa siempre que se escribe o se revisa una producción en castellano que la casa publica o entrega. Cada consejo admite las excepciones que su paso dice.
+Se usa siempre que se escribe o se revisa una producción en castellano que el hotel publica o entrega. Cada consejo admite las excepciones que su paso dice.
 
 ## Cómo se aplica
 
@@ -35,7 +33,7 @@ Recorre las seis partes en orden. En cada paso, compara el texto con lo que el p
 3. Quita las palabras que no dicen nada. Excepción: la brevedad no es el fin. Una frase larga con todas sus palabras útiles está bien.
 4. Apoya la frase en sustantivos, que nombran personas, cosas o ideas, y en verbos, que dicen lo que alguien o algo hace, es o le pasa. Excepción: los adjetivos, que acompañan al sustantivo y dicen cómo es, y los adverbios, que precisan a un verbo, a un adjetivo o a otro adverbio, son a veces indispensables.
 5. Relee el texto y borra el adorno que sobra.
-6. Evita los **calificadores**, que son las palabras que suavizan o inflan a otra, como «bastante», «muy» o «un poco». Los tres ejemplos son ilustrativos: la casa no fija una lista de calificadores.
+6. Evita los **calificadores**, que son las palabras que suavizan o inflan a otra, como «bastante», «muy» o «un poco». Los tres ejemplos son ilustrativos: el hotel no fija una lista de calificadores.
 7. Prefiere la palabra llana a la rebuscada. Ninguna palabra es mala en sí: juzga con el oído.
 8. Desconfía de las palabras fabricadas que nadie diría. Es un consejo de oído: una palabra que no se usa al hablar rara vez conviene al papel. No prohíbe crear palabras.
 9. Usa un **dialecto**, que es la manera de hablar propia de una región o de un grupo, solo si lo conoces bien. Úsalo poco y siempre de la misma manera.
@@ -124,7 +122,7 @@ Un texto que describe una forma de hacer algo es un **documento ejemplar** cuand
 
 ## Fuentes
 
-Procedencia: estos elementos se adaptaron al castellano a partir de *The Elements of Style*, de William Strunk Jr. y E. B. White, cuarta edición, Longman, 1999. La selección, la redacción en castellano, los ejemplos y el contraste con las normas de la RAE son propios de la casa. Los pasos no citan ni traducen el libro. Del libro se toman 39 de sus 43 reglas y recordatorios; los otros cuatro son específicos del inglés y no se toman: el posesivo con apóstrofo, la coma ante el último elemento de una serie, la coma ante la conjunción que une dos oraciones y el caso de los pronombres. Para la coma, la RAE fija otra norma: no se escribe coma ante «y», «e», «ni», «o» ni «u» que cierran una serie, salvo excepciones, y se escribe coma ante «pero», «mas» y «sino que», con excepciones.
+Procedencia: estos elementos se adaptaron al castellano a partir de *The Elements of Style*, de William Strunk Jr. y E. B. White, cuarta edición, Longman, 1999. La selección, la redacción en castellano, los ejemplos y el contraste con las normas de la RAE son propios del hotel. Los pasos no citan ni traducen el libro. Del libro se toman 39 de sus 43 reglas y recordatorios; los otros cuatro son específicos del inglés y no se toman: el posesivo con apóstrofo, la coma ante el último elemento de una serie, la coma ante la conjunción que une dos oraciones y el caso de los pronombres. Para la coma, la RAE fija otra norma: no se escribe coma ante «y», «e», «ni», «o» ni «u» que cierran una serie, salvo excepciones, y se escribe coma ante «pero», «mas» y «sino que», con excepciones.
 
 Los pasos vienen de estas reglas (r.) y recordatorios (rec.) del libro. La regla 22 aparece con el número 18 en el archivo digital que se consultó; aquí se usa la numeración de la edición completa.
 
@@ -151,12 +149,14 @@ Normas de la RAE, páginas leídas el 25 de octubre de 2026:
 
 ## Cambios
 
+8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y «Qué es y para qué sirve» abre con lo que este texto es; las definiciones de hotel, producción y módulo van después de esa respuesta, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
+
 1 de noviembre de 2026: la pauta de no prometer, añadida hoy a «Cuida el tono» como paso 9, pasa al Dominio Cero, la base común de escritura, que la fija como autocontención del texto frente a la deuda con un después; este módulo no repite la base, y «Cuida el tono», la pregunta 8 de la revisión y «Fuentes» vuelven a su forma anterior. A pedido de Osmancito.
 
-1 de noviembre de 2026: «Cuida el tono» gana el paso 9, no prometer lo que no se pidió: presentar algo no es comprometerse a nada, y nombrar unos libros no anuncia leerlos; el paso de las figuras pasa a ser el 10, la pregunta 8 de la revisión comprueba también las promesas no pedidas y «Fuentes» registra el paso como propio de la casa. La pauta nace de una corrección a una entrada de Tesorería: presentar los libros de unos autores no añade compromisos de lectura. A pedido de Osmancito.
+1 de noviembre de 2026: «Cuida el tono» gana el paso 9, no prometer lo que no se pidió: presentar algo no es comprometerse a nada, y nombrar unos libros no anuncia leerlos; el paso de las figuras pasa a ser el 10, la pregunta 8 de la revisión comprueba también las promesas no pedidas y «Fuentes» registra el paso como propio del hotel. La pauta nace de una corrección a una entrada de Tesorería: presentar los libros de unos autores no añade compromisos de lectura. A pedido de Osmancito.
 
 30 de octubre de 2026: la declaración del lector cero pasa a nombrar «este texto» en lugar de «este procedimiento», igual que todos los módulos, porque no todo módulo es un procedimiento. La definición de «módulo» es la misma de todos los documentos: una regla o un trabajo escrito. A pedido de Osmancito.
 
-30 de octubre de 2026: «Cuándo» deja de depender de que se quieran aplicar los elementos: se usan siempre en la producción en castellano que la casa publica o entrega, con las excepciones de cada paso. Así coincide con el Núcleo. A pedido de Osmancito.
+30 de octubre de 2026: «Cuándo» deja de depender de que se quieran aplicar los elementos: se usan siempre en la producción en castellano que el hotel publica o entrega, con las excepciones de cada paso. Así coincide con el Núcleo. A pedido de Osmancito.
 
 30 de octubre de 2026: la definición de «módulo» pasa antes de la de «producción», que la usaba. A pedido de Osmancito.
