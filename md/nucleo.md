@@ -227,7 +227,7 @@ Es el método aprobado para seleccionar párrafos enteros por cobertura de vocab
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
 
-Lee un boletín por Osmancito y le devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, la glosa de sus enlaces, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
+Lee un boletín por Osmancito y le devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, la glosa de sus enlaces, un apartado de posibles efectos sobre los activos, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
 
 También se le ha llamado: «productor de briefings».
 
@@ -275,6 +275,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+11 de noviembre de 2026: la entrada del Productor de Briefings recoge su apartado nuevo, «Posibles efectos sobre los activos», sin nombrar ninguna plataforma. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
 8 de noviembre de 2026: el sitio pasa a llamarse Hotel Osmancito, sin posesivo: el «Glosario» le da su nombre propio, la puerta principal y su preview titulan «Hotel Osmancito» y conservan «Lobby» como nombre de la entrada, y las salas que nombraban el sitio con otro nombre actualizan su descripción. A pedido de Osmancito.
 

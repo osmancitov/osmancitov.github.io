@@ -2,9 +2,9 @@
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un **correo en formato rico** es un correo con aspecto de página: títulos, negritas, imágenes dentro del texto y enlaces que se abren con un clic; lo contrario es el **texto plano**, que son solo letras sin formato, donde los saltos de línea cortan las frases y las direcciones aparecen sueltas. Una **imagen en línea** es la que se ve dentro del cuerpo del correo, en su lugar, y no como archivo adjunto aparte. Un **enlace con nombre** es un enlace escrito con palabras que dicen a qué página lleva, y no con la dirección suelta. El **Núcleo** es el módulo que fija cómo se cumple todo encargo del hotel y qué es un **10/10**: la nota de una entrega que cumple las seis condiciones que el Núcleo enumera. **Elementos de Estilo** es el módulo que reúne los consejos para escribir en castellano con claridad.
+Es el procedimiento que lee un boletín por Osmancito, el autor, y le devuelve un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: lo que una edición dice, explicado por temas, con sus remisiones abiertas y contadas. La **glosa** es la explicación de lo que la edición remite: cada **enlace**, que es la dirección de una página que se abre con un clic, se abre y se cuenta lo que hay detrás, y cada nombre, obra o cita se explica. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. Un **activo** es un producto que se compra y se vende en un mercado. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un **correo en formato rico** es un correo con aspecto de página: títulos, negritas, imágenes dentro del texto y enlaces que se abren con un clic; lo contrario es el **texto plano**, que son solo letras sin formato, donde los saltos de línea cortan las frases y las direcciones aparecen sueltas. Una **imagen en línea** es la que se ve dentro del cuerpo del correo, en su lugar, y no como archivo adjunto aparte. Un **enlace con nombre** es un enlace escrito con palabras que dicen a qué página lleva, y no con la dirección suelta. El **Núcleo** es el módulo que fija cómo se cumple todo encargo del hotel y qué es un **10/10**: la nota de una entrega que cumple las seis condiciones que el Núcleo enumera. **Elementos de Estilo** es el módulo que reúne los consejos para escribir en castellano con claridad.
 
-El briefing ahorra trabajo al autor: entiende la edición entera en un solo correo, sin abrir nada más, y lo que pueda servir al trabajo del sitio queda recogido en su propio apartado.
+El briefing ahorra trabajo al autor: entiende la edición entera en un solo correo, sin abrir nada más, lo que pueda servir al trabajo del sitio queda recogido en su propio apartado y lo que pueda tocar a los activos que el autor puede comprar y vender, en el suyo.
 
 ## Cuándo
 
@@ -19,9 +19,10 @@ El briefing se escribe en castellano, aunque la edición venga en otra lengua, y
 3. **El resumen**: de qué trata la edición, en pocas frases.
 4. **El desarrollo por temas**: cada tema de la edición, explicado en su propio apartado, en el orden en que la edición lo trata.
 5. **La glosa**: los enlaces abiertos y contados y las referencias explicadas, cada una con su fuente puesta como enlace con nombre. Cada explicación se escribe de corrido, con el dato que más importa primero. La glosa sale de lo abierto y comprobado, no de la memoria.
-6. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería, sin inventar lo que la edición no sugiere. Si no sugiere nada, el apartado dice «Ninguna».
-7. **Las fuentes**: la lista de las páginas abiertas para la glosa, cada una como enlace con el nombre de la página, no con su dirección suelta.
-8. **La firma**: firma la asistente, que hace el briefing.
+6. **«Posibles efectos sobre los activos»**: qué activos, de los que el autor puede comprar y vender, podrían verse afectados por lo que dice la edición, y por qué: el camino desde el hecho hasta el precio, explicado con lo abierto y comprobado. Si la edición no tiene una relación fundada con ningún activo, el apartado lo dice con claridad. No predice precios ni recomienda comprar ni vender, y no nombra la casa de cambio ni la plataforma donde se compran.
+7. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería, sin inventar lo que la edición no sugiere. Si no sugiere nada, el apartado dice «Ninguna».
+8. **Las fuentes**: la lista de las páginas abiertas para la glosa, cada una como enlace con el nombre de la página, no con su dirección suelta.
+9. **La firma**: firma la asistente, que hace el briefing.
 
 ## El correo
 
@@ -54,11 +55,12 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 1. **La edición es la pedida.** El boletín y la fecha corresponden a lo encargado.
 2. **La glosa está comprobada.** Cada explicación sale de una página abierta, o se declara sin comprobar.
 3. **Las partes completas y en orden.** Ninguna falta y ninguna cambia de lugar; la imagen va arriba, antes del resumen.
-4. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
-5. **Castellano claro.** El texto pasa la revisión de Elementos de Estilo: voz activa, frases que afirman y sin adorno que sobre.
-6. **Formato rico.** Se cumplen las seis condiciones de «El correo».
-7. **Visto como llega.** El correo recibido se miró entero, como dice el paso 9, y nada se rompió.
-8. **Diez sobre diez.** El briefing cumple lo que el Núcleo llama un 10/10.
+4. **Efectos sobre los activos.** El apartado explica el camino del hecho al activo con lo comprobado, o dice que no hay relación fundada; no predice precios, no recomienda operar y no nombra la plataforma donde se compran.
+5. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
+6. **Castellano claro.** El texto pasa la revisión de Elementos de Estilo: voz activa, frases que afirman y sin adorno que sobre.
+7. **Formato rico.** Se cumplen las seis condiciones de «El correo».
+8. **Visto como llega.** El correo recibido se miró entero, como dice el paso 9, y nada se rompió.
+9. **Diez sobre diez.** El briefing cumple lo que el Núcleo llama un 10/10.
 
 ## Lo que este módulo no hace
 
@@ -68,6 +70,8 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 4. No envía texto plano ni adjuntos en lugar del cuerpo: el correo en formato rico es el briefing mismo.
 
 ## Cambios
+
+11 de noviembre de 2026: el briefing gana el apartado «Posibles efectos sobre los activos», entre el desarrollo con su glosa y «Ideas para Destilería»: explica qué activos podrían verse afectados y por qué, o dice que no hay relación fundada, sin predecir precios, sin recomendar operar y sin nombrar la plataforma donde se compran. Se define «activo» y la revisión gana su punto 4. A pedido de Osmancito.
 
 8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
