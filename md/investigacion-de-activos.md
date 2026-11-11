@@ -47,7 +47,7 @@ La investigación de un activo se escribe en castellano y lleva sus apartados en
 
 ## Cómo se escribe la entrega
 
-La visión, el estudio y la glosa de un evento se escriben para leerla, como un artículo de revista, y también para oírla: una voz de máquina que la lea en voz alta debe sonar clara. Para ello el procedimiento aplica **Elementos de Estilo**, el documento del hotel que reúne los consejos para escribir en castellano. Aquí se fijan los criterios propios de una investigación:
+Cada entrega, sea una visión, un estudio o la glosa de un evento, se escribe para leerla, como un artículo de revista, y también para oírla: una voz de máquina que la lea en voz alta debe sonar clara. Para ello el procedimiento aplica **Elementos de Estilo**, el documento del hotel que reúne los consejos para escribir en castellano. Aquí se fijan los criterios propios de una investigación:
 
 1. **El dato exacto y la cifra de lectura van separados.** Un **dato exacto** es la cifra completa tal como la da la fuente, por ejemplo 1.640.000 monedas. Una **cifra de lectura** es esa misma cifra redondeada a dos cifras significativas, que son las dos primeras que no son cero, por ejemplo 1,6 millones de monedas o 1.200 millones de dólares en lugar de 1.197 millones. La prosa usa cifras de lectura. Los datos exactos se guardan aparte, en una tabla o en un apartado de consulta, para quien quiera comprobar o calcular. Si una cifra de lectura cambia lo que el lector entendería, por ejemplo una diferencia pequeña que es el tema, se da exacta.
 2. **Cada cifra se dice una vez.** Lo que ya muestra una tabla no se recita de nuevo en la prosa; la prosa dice qué significa.
@@ -62,7 +62,7 @@ La visión, el estudio y la glosa de un evento se escriben para leerla, como un 
 3. Se escribe la entrega con el orden elegido al preparar la investigación, cada afirmación con su fuente, siguiendo «Cómo se escribe la entrega» y Elementos de Estilo.
 4. Se declara en la entrega lo que no se pudo comprobar, junto a lo que se afirma.
 5. Se entrega el informe al autor por el canal en que llegó el pedido y se comprueba que llegó: la entrega queda comprobada, no presumida.
-6. Si el autor pide además publicar la visión como página del sitio, se abre **Publicar una entrada**, que fija los archivos, los títulos y las etiquetas de la página, y por medio de él el **Pintor de Imágenes** para la ilustración. Publicar una entrada gobierna la presentación; el tono de la prosa lo siguen gobernando «Cómo se escribe la visión» y Elementos de Estilo. La revisión de este documento se hace antes de publicar.
+6. Si el autor pide además publicar el informe como página del sitio, se abre **Publicar una entrada**, que fija los archivos, los títulos y las etiquetas de la página, y por medio de él el **Pintor de Imágenes** para la ilustración. Publicar una entrada gobierna la presentación; el tono de la prosa lo siguen gobernando «Cómo se escribe la entrega» y Elementos de Estilo. La revisión de este documento se hace antes de publicar.
 
 ## Revisión antes de entregar
 
@@ -87,6 +87,8 @@ Antes de entregarse, el informe pasa esta revisión entera, con el texto a la vi
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
 
 ## Cambios
+
+11 de noviembre de 2026: la revisión final corrige la concordancia de la regla de lectura y la remisión al encabezado «Cómo se escribe la entrega», para que rija sin ambigüedad las tres formas.
 
 11 de noviembre de 2026: se admite el evento como objeto y se fija su glosa: hecho, contexto, reacción comprobada, explicaciones contrastadas y alcance de la conclusión. El reportaje inicial queda como referencia, no como límite ni explicación heredada. Se conservan la visión de un activo, los estudios y los límites de cada encargo. A pedido de Osmancito.
 
