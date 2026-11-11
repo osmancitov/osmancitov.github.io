@@ -181,3 +181,30 @@ span.glosa {
   display: block;
   margin: 4px 0 12px;
 }
+
+/* Tabla de datos (Tesoreria): se desplaza en horizontal dentro de la
+   columna de texto, sin ensanchar la pagina. */
+.tabla {
+  overflow-x: auto;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 24px 0;
+}
+
+.tabla table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla th,
+.tabla td {
+  padding: 4px 10px;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid #30363d;
+}
+
+.tabla th:nth-child(2),
+.tabla td:nth-child(2) {
+  text-align: left;
+}
