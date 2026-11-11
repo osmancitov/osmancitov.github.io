@@ -227,11 +227,11 @@ Es el método aprobado para seleccionar párrafos enteros por cobertura de vocab
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
 
-Lee un boletín por Osmancito y le devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, la glosa de sus enlaces, un apartado de posibles efectos sobre los activos, un apartado de ideas para la Destilería y las fuentes. Se hace solo cuando el autor lo pide, y cada pedido encarga un solo briefing.
+Lee un boletín por Osmancito e investiga sus asuntos mediante la glosa: el hecho o el tema es el objeto, con fuentes propias y contraste, sin heredar el enfoque del boletín. Devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, el desarrollo con glosa, los posibles efectos sobre los activos, las ideas para la Destilería y las fuentes. Conserva el alcance y la repetición que el autor autorice.
 
 También se le ha llamado: «productor de briefings».
 
-**Cuándo se aplica:** cuando el autor pide el briefing de un boletín; cada pedido encarga uno solo.
+**Cuándo se aplica:** cuando el autor pide el briefing de un boletín, una sola edición o cada edición al llegar, según el alcance autorizado.
 
 **Necesita:** el **Dominio Cero** y, para la imagen de apertura, el **Pintor de Imágenes**.
 
@@ -243,9 +243,9 @@ Investiga un activo (una criptomoneda, una participación en un bien como el oro
 
 También se le ha llamado: «investigación de activos».
 
-**Cuándo se aplica:** cuando el autor pide investigar un activo o preparar un estudio comparado o introductorio de activos y mercados; cada pedido encarga una sola entrega, salvo que el autor indique otro alcance.
+**Cuándo se aplica:** cuando el autor pide investigar un activo, preparar un estudio comparado o introductorio de activos y mercados, o investigar un evento que los afecte. La glosa de un evento investiga el hecho, no solo su reportaje inicial. Cada pedido encarga una sola entrega, salvo que el autor indique otro alcance.
 
-**Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la visión: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
+**Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la entrega: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
 ### Núcleo: `nucleo.md`
 
@@ -275,6 +275,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+11 de noviembre de 2026: Productor de Briefings investiga los asuntos de cada edición mediante la glosa, con fuentes propias y contraste; Investigación de Activos admite la glosa de un evento. Se actualizan sus entradas sin crear módulos ni cambiar el método de la Destilería. A pedido de Osmancito.
 
 11 de noviembre de 2026: «Publicar una entrada» distingue las dos descripciones de una entrada: la de la tarjeta, de 100 caracteres como máximo, y la de la lista de la sala, otro texto, sin ese límite. A pedido de Osmancito.
 
