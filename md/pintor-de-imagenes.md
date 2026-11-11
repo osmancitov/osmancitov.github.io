@@ -98,6 +98,7 @@ Al entrar en una página, la imagen lleva un enlace a su propio archivo: un clic
 50. **Ivan Aivazovsky:** Romanticismo marino, mar dramático, translucidez del agua, luz sobre las olas, atmósfera tormentosa.
 51. **Jacob van Ruisdael:** Barroco holandés, paisajes atmosféricos, cielos protagónicos y nublados, melancolía natural.
 52. **Käthe Kollwitz:** Expresionismo social, grafito y grabado austero, alto contraste, líneas angustiosas, sombras profundas.
+53. **Ilustración editorial cálida:** Diseño editorial contemporáneo, formas planas y mínimas, tonos crema y arena, tinta oscura con acento verde azulado, sombras suaves, composición despejada.
 
 ## Revisión antes de entregar
 
@@ -112,6 +113,8 @@ Antes de entregar un pedido de pintura o una imagen se comprueba:
 7. **Dominio Cero.** Cada palabra del pedido tiene el significado del diccionario o una definición en su primera aparición.
 
 ## Cambios
+
+11 de noviembre de 2026: se añade a la lista de estilos el 53, Ilustración editorial cálida, junto a los pintores y sin quitar ni cambiar ninguno. A pedido de Osmancito.
 
 8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
