@@ -147,7 +147,7 @@ También se le ha llamado: «el Historial».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/publicar-una-entrada.md)
 
-La descripción de la entrada común del sitio: sus tres archivos (md, html y jpg), su nombre con la fecha en seis cifras, sus dos títulos, sus etiquetas og, su hoja de estilos y su plantilla. Vale para todas las salas.
+La descripción de la entrada común del sitio: sus tres archivos (md, html y jpg), su nombre con la fecha en seis cifras, sus dos títulos, su descripción, sus etiquetas og, su hoja de estilos y su plantilla. Vale para todas las salas.
 
 **Cuándo se aplica:** al agregar una página nueva a cualquier sala del sitio.
 
@@ -275,6 +275,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+11 de noviembre de 2026: «Publicar una entrada» distingue las dos descripciones de una entrada: la de la tarjeta, de 100 caracteres como máximo, y la de la lista de la sala, otro texto, sin ese límite. A pedido de Osmancito.
 
 11 de noviembre de 2026: la entrada del Productor de Briefings recoge su apartado nuevo, «Posibles efectos sobre los activos», sin nombrar ninguna plataforma. No cambia la lista ni las dependencias. A pedido de Osmancito.
 

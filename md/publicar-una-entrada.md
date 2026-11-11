@@ -56,7 +56,9 @@ La página muestra, en este orden:
 
 El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Cuando alguien comparte el enlace de una página, las redes sociales muestran una tarjeta con el título de la pestaña, una descripción y una imagen. Una **etiqueta og** es un dato escrito en la cabecera de la página que dice cómo se ve esa tarjeta.
 
-Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la primera imagen de la entrada. El título de la tarjeta es el título dentro de la página, sin el nombre editorial. La descripción es un texto de 100 caracteres como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
+Cada página lleva sus propias etiquetas og. La imagen de la tarjeta es la primera imagen de la entrada. El título de la tarjeta es el título dentro de la página, sin el nombre editorial. La descripción de la tarjeta es un texto de 100 caracteres como máximo que resume la entrada, y es la misma en la cabecera y en la tarjeta.
+
+La entrada lleva otra descripción en la lista de la sala, junto a su título. Es un texto distinto de la descripción de la tarjeta y no tiene su límite de 100 caracteres: su trabajo es presentar la entrada a quien llega sin conocerla.
 
 ## El estilo
 
@@ -109,12 +111,14 @@ Antes de publicar se comprueba:
 3. **Títulos.** El título de la pestaña es el título dentro de la página, un punto medio y el nombre editorial; el título de la tarjeta es solo el título dentro de la página; el título dentro de la página cumple la regla de las mayúsculas.
 4. **Página.** Muestra, en orden, la fecha, el título, la imagen, el texto, la firma y el enlace de vuelta.
 5. **Imagen.** Es un jpg al 75 %, conserva su proporción y su ancho y su alto están escritos en la página.
-6. **Etiquetas og.** La imagen de la tarjeta es la primera de la entrada y la descripción tiene 100 caracteres como máximo, igual en la cabecera y en la tarjeta.
+6. **Etiquetas og.** La imagen de la tarjeta es la primera de la entrada y la descripción de la tarjeta tiene 100 caracteres como máximo, igual en la cabecera y en la tarjeta. La descripción de la lista es otro texto y no lleva ese límite.
 7. **Estilo.** La página enlaza `base.css` y no lleva estilo propio.
 8. **Dominio Cero.** Cada palabra del texto tiene el significado del diccionario o una definición en su primera aparición.
 9. **Página publicada.** Después de subir los cambios, la dirección de la entrada abre y muestra la página.
 
 ## Cambios
+
+11 de noviembre de 2026: la descripción de la entrada queda en dos textos: la descripción de la tarjeta, de 100 caracteres como máximo e igual en la cabecera y en la tarjeta, y la descripción de la lista de la sala, que es otro texto, sin ese límite, y presenta la entrada a quien llega sin conocerla. A pedido de Osmancito.
 
 8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto, y el sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
