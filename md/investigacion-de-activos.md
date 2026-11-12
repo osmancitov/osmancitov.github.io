@@ -26,12 +26,25 @@ El recorrido parte del evento, no del artículo que lo contó. La investigación
 
 1. **Qué ocurrió.** El hecho, su momento y el registro que permite comprobarlo. Se consulta el anuncio original, los resultados publicados o la decisión oficial cuando existen.
 2. **Qué cambia.** El contexto necesario para distinguir lo nuevo de lo que ya se sabía o esperaba.
-3. **Qué reacción se comprobó.** Los movimientos del mercado, si forman parte del objeto, con su momento, sesión, período y referencia. Dos porcentajes tomados en momentos distintos no se presentan como una contradicción sin comprobar esas diferencias.
-4. **Cómo se explica.** Las interpretaciones pertinentes se contrastan con fuentes buscadas para el evento, además de las del reportaje inicial. Varias páginas que repiten el mismo comunicado no son confirmaciones independientes. Se distingue lo que dicen los interesados de lo que permite concluir la investigación.
-5. **Qué permite concluir.** La lectura propia se apoya en las pruebas y declara sus límites. Que una reacción siga a un anuncio no demuestra por sí solo que el anuncio la causó. Las causas propuestas se presentan como tales si no se pueden establecer.
-6. **Las fuentes.** Las páginas y los registros abiertos sostienen las afirmaciones; lo que no se pudo comprobar se declara donde cambia la lectura.
+3. **Qué se esperaba antes.** Se busca lo que estaba publicado antes del evento: la **guía anterior**, que es la previsión que la propia empresa dio para el período, y las previas de analistas de los días anteriores. Cada pieza se evalúa por lo que aporta. La guía anterior permite comparar el resultado con lo que la empresa había dicho. Una previa recoge expectativas y preocupaciones del mercado, aunque no traiga un anuncio nuevo. Una pieza puede darse por cubierta si su identidad y su versión están comprobadas; una pieza nueva, o con otro enfoque, se lee antes de descartarla. El **consenso**, que es el promedio de lo que esperan los analistas, se presenta como conocido de antemano solo si hay una fuente fechada antes del evento. Si únicamente aparece citado después, se llama consenso citado después y no se usa como si hubiera estado disponible antes. Una nota de analista es una opinión y no un hecho de la empresa.
+4. **Qué reacción se comprobó.** Los movimientos del mercado, si forman parte del objeto, con su momento, sesión, período y referencia. Dos porcentajes tomados en momentos distintos no se presentan como una contradicción sin comprobar esas diferencias.
+5. **Cómo se explica.** Las interpretaciones pertinentes se contrastan con fuentes buscadas para el evento, además de las del reportaje inicial. Varias páginas que repiten el mismo comunicado no son confirmaciones independientes. Se distingue lo que dicen los interesados de lo que permite concluir la investigación.
+6. **Qué permite concluir.** La lectura propia se apoya en las pruebas y declara sus límites. Que una reacción siga a un anuncio no demuestra por sí solo que el anuncio la causó. Las causas propuestas se presentan como tales si no se pueden establecer.
+7. **Las fuentes.** Las páginas y los registros abiertos sostienen las afirmaciones; lo que no se pudo comprobar se declara donde cambia la lectura.
 
 Estos puntos forman un recorrido, no una obligación de rellenar apartados vacíos. La glosa puede reunirlos por temas sin repetir primero un resumen y después el mismo relato comentado. El método no promete eliminar todo sesgo: pone a prueba el enfoque de la primera referencia y las explicaciones de la propia investigación.
+
+## Dónde se busca y cómo se deja constancia
+
+Cada evento se busca en fuentes de varias clases, para que la explicación no dependa de una sola. Se prefiere la fuente primaria; si no es accesible, se usa la cobertura que la recoge y se identifica como tal. Un medio que añade análisis propio se cita por ese análisis y no se trata de forma automática como cobertura secundaria.
+
+1. **De la empresa:** comunicado de resultados, carta a los accionistas, presentación, transcripción de la llamada y guía anterior, en su página de relaciones con inversores.
+2. **Registros ante el regulador:** en Estados Unidos, los de la SEC, en su sistema EDGAR. Los formularios dependen de cada emisor: muchos emisores extranjeros informan de sus hechos con el formulario 6-K, pero otros presentan los formularios nacionales. Por eso se abre la lista de presentaciones de la empresa y se consultan las que correspondan, sin suponer el formulario. Fuente sobre el 6-K: https://www.sec.gov/about/forms/form6-k.pdf
+3. **Notas de analistas:** el informe original de un banco suele ser de acceso restringido a sus clientes. Cuando no es accesible, se cita la cobertura que lo recoge: The Fly, que resume cambios de precio objetivo (por ejemplo, https://www.tipranks.com/news/the-fly/nebius-price-target-lowered-to-265-from-324-at-citi-thefly-news), y las previas de TipRanks, que citan las opiniones de los analistas sobre lo que se mirará en el informe (por ejemplo, https://www.tipranks.com/news/nebius-group-nbis-price-forecast-what-financial-analysts-expect-ahead-of-q3-earnings-tomorrow). También se revisan los títulos de las previas de Seeking Alpha.
+4. **Prensa financiera:** Bloomberg, para informes sobre las relaciones con clientes y los proyectos de la empresa; CNBC, para la cobertura de resultados y de la reacción del mercado. Cada pieza se cita con lo que aporta y se distingue lo que el medio comprobó de lo que atribuye a otros.
+5. **Datos de mercado:** cotizaciones con su sesión, momento y referencia.
+
+La búsqueda deja un **registro de cobertura**, una lista de trabajo con tres partes: lo que se abrió y se leyó, lo que apareció en los resultados y se descartó con el motivo en una línea, y lo que se buscó y no se consiguió. Un descarte se funda en lo que la pieza aporta, no en su categoría ni en su parecido con otra. El registro se guarda en el archivo de trabajo de la investigación. La entrega recoge de él solo lo que cambia la lectura, según el punto 4 de «Los pasos».
 
 ## La visión estructurada
 
@@ -58,7 +71,7 @@ Cada entrega, sea una visión, un estudio o la glosa de un evento, se escribe pa
 ## Los pasos
 
 1. Se toma el activo, el tema o el evento señalado por el autor y se resuelven los puntos de «Cómo se prepara la investigación». Si hay duda indispensable sobre el objeto del estudio, se pregunta antes de investigar; no se pide al autor la lista de lecciones ni de preguntas, porque el recorrido sale de la investigación.
-2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la visión de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos.
+2. Se abren fuentes públicas adecuadas al tema y se apunta de dónde sale cada dato. Para la visión de un activo se abren fuentes recientes de su proyecto o emisor, precio, registros, discusión del mercado y riesgos. Para la glosa de un evento se siguen las clases de «Dónde se busca y cómo se deja constancia» y se lleva el registro de cobertura.
 3. Se escribe la entrega con el orden elegido al preparar la investigación, cada afirmación con su fuente, siguiendo «Cómo se escribe la entrega» y Elementos de Estilo.
 4. Se declara en la entrega lo que no se pudo comprobar, junto a lo que se afirma.
 5. Se entrega el informe al autor por el canal en que llegó el pedido y se comprueba que llegó: la entrega queda comprobada, no presumida.
@@ -78,6 +91,7 @@ Antes de entregarse, el informe pasa esta revisión entera, con el texto a la vi
 8. **Audiencia y conceptos.** El artículo se sostiene sin la conversación y no se dirige al autor.
 9. **Medidas comparables.** Cada cifra identifica qué mide, su unidad, período y fuente; no se confunden direcciones con personas, saldos con flujos ni uso con valor del activo.
 10. **Destino y continuidad.** La entrega llega a la sala autorizada y sus archivos coinciden. Si pertenece a un curso, su lugar queda registrado sin autorizar nuevas publicaciones automáticas.
+11. **Cobertura.** El registro de cobertura existe y cada descarte tiene su motivo. Lo buscado y no conseguido que cambia la lectura figura en la entrega. Las expectativas previas se distinguen de lo que solo se conoció después del evento.
 
 ## Lo que este módulo no hace
 
@@ -85,8 +99,11 @@ Antes de entregarse, el informe pasa esta revisión entera, con el texto a la vi
 2. No promete ganancias ni predice precios: reúne condiciones y riesgos, y ninguna conclusión suya es una garantía.
 3. No crea entregas automáticas: la investigación nace de un pedido del autor y cada pedido encarga una sola.
 4. No afirma de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
+5. No presenta como conocido de antemano un dato que solo se documenta después del evento.
 
 ## Cambios
+
+12 de noviembre de 2026: «La glosa de un evento» suma el punto «Qué se esperaba antes». El módulo fija las clases de fuentes para un evento y el registro de cobertura, y la revisión y los límites recogen ambas cosas.
 
 11 de noviembre de 2026: la revisión final corrige la concordancia de la regla de lectura y la remisión al encabezado «Cómo se escribe la entrega», para que rija sin ambigüedad las tres formas.
 
@@ -109,3 +126,4 @@ Antes de entregarse, el informe pasa esta revisión entera, con el texto a la vi
 30 de octubre de 2026: define «casa» y «módulo» en «Qué es y para qué sirve», porque el texto los usaba sin explicarlos. A pedido de Osmancito.
 
 © 2026 Osmancito
+
