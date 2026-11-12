@@ -243,7 +243,7 @@ Investiga un activo (una criptomoneda, una participación en un bien como el oro
 
 También se le ha llamado: «investigación de activos».
 
-**Cuándo se aplica:** cuando el autor pide investigar un activo, preparar un estudio comparado o introductorio de activos y mercados, o investigar un evento que los afecte. La glosa de un evento investiga el hecho, no solo su reportaje inicial. Cada pedido encarga una sola entrega, salvo que el autor indique otro alcance.
+**Cuándo se aplica:** cuando el autor pide investigar un activo, preparar un estudio comparado o introductorio de activos y mercados, o investigar un evento que los afecte. La glosa de un evento investiga el hecho, no solo su reportaje inicial, busca lo publicado antes del evento y deja un registro de cobertura. Cada pedido encarga una sola entrega, salvo que el autor indique otro alcance.
 
 **Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la entrega: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
@@ -275,6 +275,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+12 de noviembre de 2026: la entrada de Investigación de Activos recoge que la glosa de un evento busca lo publicado antes del evento y deja un registro de cobertura. No cambia la lista ni las dependencias.
 
 11 de noviembre de 2026: Productor de Briefings investiga los asuntos de cada edición mediante la glosa, con fuentes propias y contraste; Investigación de Activos admite la glosa de un evento. Se actualizan sus entradas sin crear módulos ni cambiar el método de la Destilería. A pedido de Osmancito.
 
@@ -328,3 +330,4 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 30 de octubre de 2026: añade los términos md, html, JPG, og, UTC-4, README, GitHub y commit al comienzo de «Los módulos del hotel». A pedido de Osmancito.
 
 30 de octubre de 2026: la hora se nombra solo con UTC-4, sin «hora de Caracas», como prefiere Osmancito. A pedido de Osmancito.
+
