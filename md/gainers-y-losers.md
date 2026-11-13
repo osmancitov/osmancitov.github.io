@@ -38,4 +38,8 @@ Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
 4. **Orden numérico.** La lista está ordenada por la variación convertida a número, de mayor a menor, con los *gainers* arriba y los *losers* abajo.
 5. **Intervalo declarado.** La entrega dice qué intervalo representa la lista: la ventana móvil de 24 horas o la que se haya pedido.
 
+## Cambios
+
+13 de noviembre de 2026: el procedimiento excluye los pares en `BREAK` al consultar la lista de 24 horas: la cruza con el catálogo de pares (`exchangeInfo`) y conserva solo los `TRADING`, porque esos pares devuelven operaciones antiguas bajo fechas recientes. Gana el paso 3, la nota sobre los pares en `BREAK` y el punto 3 de «Revisión antes de entregar». A pedido de Osmancito.
+
 © 2026 Osmancito
