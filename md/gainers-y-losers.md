@@ -25,7 +25,7 @@ Cuando el autor pide la lista más reciente de los pares que más suben o de los
 La rutina sigue estos pasos:
 
 1. Obtén la lista completa, ordenada, con los pasos anteriores hasta el 6, sin los pares en `BREAK`. La **posición** de un par es su lugar en esa lista, de 1 hacia abajo; no se reinicia en ninguna zona de la presentación.
-2. Compara los símbolos de la lista con los nombres de las subcarpetas del registro y anuncia el resultado: el tamaño de la lista, es decir, cuántos pares tiene; qué pares son nuevos, los que están en la lista y no en el registro; qué pares faltan, los que están en el registro y no en la lista; o que todo sigue igual.
+2. Compara los símbolos de la lista con los nombres de las subcarpetas del registro y anuncia el resultado: el tamaño de la lista, es decir, cuántos pares tiene; qué pares son nuevos, los que están en la lista y no en el registro; qué pares faltan, los que están en el registro y no en la lista; o que todo sigue igual. La comparación se entrega al autor, no se añade a la página de listas.
 3. Presenta los *gainers*: los diez primeros pares, de la posición 1 a la 10, cada uno con su posición y su variación con tres decimales.
 4. Presenta los **neutros**: los pares cuya variación publicada es `0.000`, cada uno con su posición y su variación. Ese valor es cero con los tres decimales de la API: no prueba que el precio no se haya movido en la ventana. Si no hay ninguno, presenta el par de menor variación positiva y el par de menor variación negativa en valor absoluto, que son los vecinos del cero, cada uno con su posición y su variación con tres decimales.
 5. Presenta los *losers*: los diez últimos pares, en el orden de la lista, de modo que el que más baja queda al final, cada uno con su posición y su variación con tres decimales.
@@ -39,6 +39,14 @@ Notas:
 
 Fuente: la [documentación oficial de la API de Binance Spot](https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md), que describe las dos direcciones y sus campos.
 
+## Formato de la publicación
+
+La [entrada del 13 de noviembre de 2026](https://osmancitov.github.io/tesoreria/html/261113_gainers-y-losers.html), con sus recortes de texto, es la referencia del formato: imagen de apertura, presentación breve, proporciones y las tres listas. Las explicaciones del método permanecen en este módulo; la página no las repite ni añade advertencias que el autor retiró.
+
+Las **proporciones** son el porcentaje de pares que suben, quedan neutros o bajan dentro de la lista completa. Se calculan sobre la misma consulta que produce las listas, después del filtro: la cantidad de cada grupo dividida por el total, multiplicada por cien. Se muestran junto a los recuentos, con dos decimales. No se calculan sobre los diez primeros ni sobre los diez últimos.
+
+Una actualización de la página se hace cuando el autor la pida y declara la fecha y la hora de la consulta usada. El formato no activa una ejecución automática ni una frecuencia de actualización.
+
 ## Revisión antes de entregar
 
 Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
@@ -51,8 +59,12 @@ Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
 6. **Comparación anunciada.** Si se entregó la rutina, la entrega dice el tamaño de la lista y los pares nuevos y faltantes frente al registro, o que todo sigue igual.
 7. **Posiciones de la lista completa.** Si se entregó la rutina, cada par lleva su posición en la lista completa y su variación con tres decimales, sin reiniciar la cuenta, y los empates siguen el orden alfabético del símbolo.
 8. **Neutros presentes.** Si se entregó la rutina, aparecen todos los pares con variación publicada `0.000`, o los dos vecinos del cero si no hay ninguno, sin afirmar que el precio no se movió.
+9. **Proporciones de la misma consulta.** Los recuentos de los tres grupos suman el total de pares filtrados, y cada porcentaje usa ese total como denominador. Las proporciones y las listas salen de la misma consulta.
+10. **Formato breve.** Si se publica, la página sigue la entrada de referencia, sin reponer los bloques retirados ni activar actualizaciones automáticas. Los archivos md y html dicen lo mismo.
 
 ## Cambios
+
+13 de noviembre de 2026: la publicación depurada queda como referencia de formato. Se añaden las proporciones de los tres grupos sobre la misma consulta, junto a sus recuentos, sin activar una ejecución automática. La sección por capitalización sigue fuera del procedimiento hasta resolver su cálculo y sus fuentes. A pedido de Osmancito.
 
 13 de noviembre de 2026: la rutina ordena por la variación que entrega la API sin redondearla y presenta cada variación con sus tres decimales. Los neutros son los pares con variación publicada `0.000`, que es cero con esa precisión y no prueba que el precio no se haya movido. Cambian los pasos 5 del procedimiento y 3 a 5 de la rutina, y los puntos 4, 7 y 8 de «Revisión antes de entregar». A pedido de Osmancito.
 
