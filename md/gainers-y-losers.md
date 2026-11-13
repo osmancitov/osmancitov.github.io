@@ -14,12 +14,14 @@ Cuando el autor pide la lista más reciente de los pares que más suben o de los
 
 1. La lista completa la entrega la dirección `https://data-api.binance.vision/api/v3/ticker/24hr`, que no pide clave: es la base pública que la documentación de Binance indica para los datos de mercado. Pídela. La respuesta es un texto en formato **JSON**, datos con estructura, con un elemento por par, y cada elemento trae el campo `priceChangePercent`: la variación porcentual del precio del par en las últimas 24 horas móviles.
 2. Filtra los pares por su moneda de referencia, la segunda del par, porque solo se comparan pares que miden contra lo mismo: BTCUSDT y BTCEUR no se ordenan juntos. La referencia común es USDT: conserva los símbolos que terminan en `USDT`.
-3. Convierte `priceChangePercent` a número: llega como texto, y un orden de textos no ordena cantidades.
-4. Ordena los pares por esa variación, de mayor a menor: arriba quedan los *gainers* y abajo los *losers*.
-5. Toma de cada extremo la cantidad que el encargo pida, o la lista completa si la pide entera.
+3. Excluye los pares que Binance no está negociando. La respuesta de 24 horas no dice el estado de cada par; lo dice `https://data-api.binance.vision/api/v3/exchangeInfo`, el catálogo de pares de Binance, en el campo `status` de cada uno. Un par en `TRADING` se negocia; uno en `BREAK` está detenido, por ejemplo porque Binance lo retiró. Conserva solo los símbolos cuyo `status` sea `TRADING`.
+4. Convierte `priceChangePercent` a número: llega como texto, y un orden de textos no ordena cantidades.
+5. Ordena los pares por esa variación, de mayor a menor: arriba quedan los *gainers* y abajo los *losers*.
+6. Toma de cada extremo la cantidad que el encargo pida, o la lista completa si la pide entera.
 
 Notas:
 
+- Por qué se excluyen los pares en `BREAK`: la dirección de 24 horas también devuelve esos pares, pero con datos que no son de las últimas 24 horas. El 13 de noviembre de 2026 se comprobó con BETAUSDT, en `BREAK`: la respuesta decía -64 % y fechas de apertura y cierre del día, pero su último dato era una operación del 16 de abril de 2025. Esos pares, con porcentajes de operaciones antiguas, aparecían entre los *losers* y los *gainers* como si fueran movimientos de hoy. La documentación de Binance describe una ventana móvil de 24 horas y no explica este comportamiento.
 - La ventana de la dirección de 24 horas es móvil: cubre las últimas 24 horas hasta el momento de la consulta. Quien pida «los de hoy» recibe esa ventana, salvo que pida otro intervalo.
 - Para otra ventana la API tiene otra dirección, `https://data-api.binance.vision/api/v3/ticker`, con el tamaño en el parámetro `windowSize`, por ejemplo `1h` o `4h`; el valor por defecto es `1d`. Es una dirección distinta, no un parámetro de la de 24 horas.
 - Si la dirección base `https://api.binance.com` responde que el servicio no está disponible desde la ubicación, se usa la base pública de datos de mercado, `https://data-api.binance.vision`.
@@ -32,7 +34,8 @@ Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
 
 1. **Ventana móvil.** La variación es la que la fuente ya calculó para la ventana móvil; no se reconstruyó desde un corte fijo.
 2. **Misma referencia.** Todos los pares de la lista llevan la misma moneda de referencia.
-3. **Orden numérico.** La lista está ordenada por la variación convertida a número, de mayor a menor, con los *gainers* arriba y los *losers* abajo.
-4. **Intervalo declarado.** La entrega dice qué intervalo representa la lista: la ventana móvil de 24 horas o la que se haya pedido.
+3. **Solo pares en `TRADING`.** Ningún par de la lista está en `BREAK` en el catálogo de pares.
+4. **Orden numérico.** La lista está ordenada por la variación convertida a número, de mayor a menor, con los *gainers* arriba y los *losers* abajo.
+5. **Intervalo declarado.** La entrega dice qué intervalo representa la lista: la ventana móvil de 24 horas o la que se haya pedido.
 
 © 2026 Osmancito
