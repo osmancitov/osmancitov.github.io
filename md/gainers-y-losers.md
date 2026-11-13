@@ -43,6 +43,8 @@ Fuente: la [documentación oficial de la API de Binance Spot](https://github.com
 
 La [entrada del 13 de noviembre de 2026](https://osmancitov.github.io/tesoreria/html/261113_gainers-y-losers.html), con sus recortes de texto, es la referencia del formato: imagen de apertura, presentación breve, proporciones y las tres listas. Las explicaciones del método permanecen en este módulo; la página no las repite ni añade advertencias que el autor retiró.
 
+Las tablas llevan la columna **Activo**, no «Par», y muestran el nombre del activo sin el sufijo USDT: BTC, ETH, BNB. El par completo, como BTCUSDT, queda en los datos de trabajo, en la ordenación y en la comparación con el registro, y no aparece en la tabla. La sección «Fuentes» lleva una sola aclaración breve: los precios y las variaciones son los de los pares con USDT, que se toma como aproximación al dólar, y los importes en dólares parten de capitalizaciones en dólares. No se etiqueta todo como USDT: los importes ponderados no son precios en USDT.
+
 Las **proporciones** son el porcentaje de pares que suben, quedan neutros o bajan dentro de la lista completa. Se calculan sobre la misma consulta que produce las listas, después del filtro: la cantidad de cada grupo dividida por el total, multiplicada por cien. Se muestran junto a los recuentos, con dos decimales. No se calculan sobre los diez primeros ni sobre los diez últimos.
 
 Una actualización de la página se hace cuando el autor la pida y declara la fecha y la hora de la consulta usada. El formato no activa una ejecución automática ni una frecuencia de actualización.
@@ -64,6 +66,8 @@ Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
 
 ## Cambios
 
+13 de noviembre de 2026: las tablas de la publicación muestran la columna **Activo** con el nombre sin el sufijo USDT, y la sección «Fuentes» gana una aclaración breve sobre USDT como aproximación al dólar. El par completo sigue en los datos de trabajo. Cambia «Formato de la publicación». A pedido de Osmancito.
+
 13 de noviembre de 2026: la publicación depurada queda como referencia de formato. Se añaden las proporciones de los tres grupos sobre la misma consulta, junto a sus recuentos, sin activar una ejecución automática. La sección por capitalización sigue fuera del procedimiento hasta resolver su cálculo y sus fuentes. A pedido de Osmancito.
 
 13 de noviembre de 2026: la rutina ordena por la variación que entrega la API sin redondearla y presenta cada variación con sus tres decimales. Los neutros son los pares con variación publicada `0.000`, que es cero con esa precisión y no prueba que el precio no se haya movido. Cambian los pasos 5 del procedimiento y 3 a 5 de la rutina, y los puntos 4, 7 y 8 de «Revisión antes de entregar». A pedido de Osmancito.
@@ -75,3 +79,4 @@ Antes de entregar la lista se comprueba, con la respuesta de la API a la vista:
 13 de noviembre de 2026: el procedimiento excluye los pares en `BREAK` al consultar la lista de 24 horas: la cruza con el catálogo de pares (`exchangeInfo`) y conserva solo los `TRADING`, porque esos pares devuelven operaciones antiguas bajo fechas recientes. Gana el paso 3, la nota sobre los pares en `BREAK` y el punto 3 de «Revisión antes de entregar». A pedido de Osmancito.
 
 © 2026 Osmancito
+
