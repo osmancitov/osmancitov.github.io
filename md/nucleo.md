@@ -251,11 +251,11 @@ También se le ha llamado: «investigación de activos».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/gainers-y-losers.md)
 
-Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, descartar los pares en pausa (`BREAK`), que no generan datos de mercado, y ordenarlos por esa variación.
+Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, descartar los pares en pausa (`BREAK`), que no generan datos de mercado, y ordenarlos por esa variación, con desempate alfabético del símbolo. Su rutina compara además los pares con el registro de `osmancitov/tesoreria` y presenta los diez primeros, los neutros (variación cero) y los diez últimos, con su posición en la lista completa.
 
 También se le ha llamado: «los top gainers y losers».
 
-**Cuándo se aplica:** cuando el autor pide la lista más reciente de los pares que más suben o de los que más bajan.
+**Cuándo se aplica:** cuando el autor pide la lista más reciente de los pares que más suben o de los que más bajan, o la rutina de gainers y losers.
 
 **Necesita:** ningún otro documento.
 
@@ -287,6 +287,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+13 de noviembre de 2026: la entrada de Gainers y Losers recoge su rutina (comparación con el registro de `osmancitov/tesoreria` y presentación en tres zonas), el desempate alfabético y su «cuándo se aplica». No cambia la lista ni las dependencias. A pedido de Osmancito.
 
 13 de noviembre de 2026: la entrada de Gainers y Losers recoge que se descartan solo los pares en `BREAK`, no todos los que no están en `TRADING`. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
