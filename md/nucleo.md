@@ -247,6 +247,18 @@ También se le ha llamado: «investigación de activos».
 
 **Necesita:** el **Dominio Cero** y **Elementos de Estilo**, que rigen cómo se escribe la entrega: cifras de lectura con los datos exactos aparte, fecha una sola vez, salvedades sin repetir y prueba de oído. Si además se publica como página del sitio, **Publicar una entrada** y, para la ilustración, el **Pintor de Imágenes**.
 
+### Gainers y Losers: `gainers-y-losers.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/gainers-y-losers.md)
+
+Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia y ordenarlos por esa variación.
+
+También se le ha llamado: «los top gainers y losers».
+
+**Cuándo se aplica:** cuando el autor pide la lista más reciente de los pares que más suben o de los que más bajan.
+
+**Necesita:** ningún otro documento.
+
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
@@ -275,6 +287,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+13 de noviembre de 2026: nace Gainers y Losers (`gainers-y-losers.md`), el procedimiento rápido para obtener la lista de los pares que más suben y los que más bajan en Binance; entra en la lista con su «cuándo se aplica», y la lista inventaría los diecisiete archivos de la carpeta `md`. A pedido de Osmancito.
 
 12 de noviembre de 2026: la entrada de Investigación de Activos recoge que la glosa de un evento busca lo publicado antes del evento y deja un registro de cobertura. No cambia la lista ni las dependencias.
 
