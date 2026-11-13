@@ -37,4 +37,4 @@ Antes de entregar una lámina se comprueba, con la pieza a la vista:
 2. **Tipo.** El tipo está en el catálogo y corresponde al contenido de la idea.
 3. **Rigor.** Nada presenta como hecho lo que es pregunta o interpretación, ni como foto lo que es ilustración.
 4. **Atribución.** El pie dice «Ilustración editorial · Fuentes: …» y se lee entero.
-5. **Tamaño de entrega.** La lámina se mira al tamaño en que se recibe, el del teléfono: lectura, cortes y relación entre la imagen y el titular.
+5. **Tamaño de entrega.** La lámina se mira al tamaño en que se recibe, el del teléfono: lectura, cortes y relación entre la imagen y el titular. El texto se lee con comodidad sin ampliar la imagen, con líneas cortas y letras que no exigen esfuerzo. Unas seis o siete palabras por línea sirven como orientación, no como límite fijo.
