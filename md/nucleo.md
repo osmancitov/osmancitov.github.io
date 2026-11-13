@@ -197,7 +197,19 @@ Convierte un fragmento de texto en el pedido de pintura para la inteligencia art
 
 También se le ha llamado: «el Pintor», «el módulo del pintor»*.
 
-**Cuándo se aplica:** cuando un texto del sitio necesita una ilustración: convierte el fragmento en el pedido de pintura, o entrega la imagen ya generada. Lo usan los procedimientos de publicación y también se puede encargar directo.
+**Cuándo se aplica:** cuando un texto del sitio necesita una ilustración: convierte el fragmento en el pedido de pintura, o entrega la imagen ya generada. Lo usan los procedimientos de publicación y también se puede encargar directo. No se aplica a una lámina, la pieza de diseño que es ella misma la entrega: ese es el camino de Láminas de Divulgación, independiente de este.
+
+**Necesita:** ningún otro documento.
+
+### Láminas de Divulgación: `laminas-de-divulgacion.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/laminas-de-divulgacion.md)
+
+Fija cómo se hace una lámina, la pieza de diseño que concentra una sola idea en una imagen con titular y atribución: sus partes, sus tipos, Tipográfico de impacto y Cartel de cine, y su rigor. El desarrollo de la idea queda en el texto que acompaña la pieza.
+
+También se le ha llamado: «las láminas». «Tipográfico de impacto» y «cartel de cine» nombran tipos de lámina dentro del módulo, no módulos.
+
+**Cuándo se aplica:** cuando una entrega de divulgación —una noticia, el hallazgo de una investigación, un dato— tiene una idea que una pieza visual sostiene y el encargo pide esa pieza. No se aplica a un texto que necesita una ilustración: ese es el camino del Pintor de Imágenes, independiente de este.
 
 **Necesita:** ningún otro documento.
 
@@ -287,6 +299,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+13 de noviembre de 2026: nace Láminas de Divulgación (`laminas-de-divulgacion.md`), que fija la pieza de diseño de una sola idea, con sus tipos Tipográfico de impacto y Cartel de cine y su catálogo abierto; entra en la lista como camino de imagen independiente del Pintor de Imágenes, y la entrada del Pintor registra la frontera entre los dos. La lista inventaría los dieciocho archivos de la carpeta `md`. A pedido de Osmancito.
 
 13 de noviembre de 2026: la entrada de Gainers y Losers recoge que la rutina ordena sin redondear, muestra tres decimales y llama neutros a los pares con variación publicada `0.000`. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
