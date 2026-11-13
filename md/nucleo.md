@@ -251,7 +251,7 @@ También se le ha llamado: «investigación de activos».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/gainers-y-losers.md)
 
-Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, quedarse con los que Binance negocia (`TRADING`) y ordenarlos por esa variación.
+Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, descartar los pares en pausa (`BREAK`), que no generan datos de mercado, y ordenarlos por esa variación.
 
 También se le ha llamado: «los top gainers y losers».
 
@@ -287,6 +287,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+13 de noviembre de 2026: la entrada de Gainers y Losers recoge que se descartan solo los pares en `BREAK`, no todos los que no están en `TRADING`. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
 13 de noviembre de 2026: la entrada de Gainers y Losers recoge que la lista se limita a los pares que Binance negocia (`TRADING`). No cambia la lista ni las dependencias. A pedido de Osmancito.
 
