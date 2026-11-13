@@ -251,7 +251,7 @@ También se le ha llamado: «investigación de activos».
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/gainers-y-losers.md)
 
-Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, descartar los pares en pausa (`BREAK`), que no generan datos de mercado, y ordenarlos por esa variación, con desempate alfabético del símbolo. Su rutina compara además los pares con el registro de `osmancitov/tesoreria` y presenta los diez primeros, los neutros (variación cero) y los diez últimos, con su posición en la lista completa.
+Obtiene de manera rápida la lista de los pares que más suben (*gainers*) y los que más bajan (*losers*) en Binance: la fuente ya trae calculada la variación de cada par en la ventana móvil, de modo que basta filtrar los pares con la misma moneda de referencia, descartar los pares en pausa (`BREAK`), que no generan datos de mercado, y ordenarlos por esa variación, con desempate alfabético del símbolo. Su rutina compara además los pares con el registro de `osmancitov/tesoreria` y presenta los diez primeros, los neutros (variación publicada `0.000`) y los diez últimos, con su posición en la lista completa y su variación con tres decimales.
 
 También se le ha llamado: «los top gainers y losers».
 
@@ -287,6 +287,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+13 de noviembre de 2026: la entrada de Gainers y Losers recoge que la rutina ordena sin redondear, muestra tres decimales y llama neutros a los pares con variación publicada `0.000`. No cambia la lista ni las dependencias. A pedido de Osmancito.
 
 13 de noviembre de 2026: la entrada de Gainers y Losers recoge su rutina (comparación con el registro de `osmancitov/tesoreria` y presentación en tres zonas), el desempate alfabético y su «cuándo se aplica». No cambia la lista ni las dependencias. A pedido de Osmancito.
 
