@@ -271,6 +271,18 @@ También se le ha llamado: «los top gainers y losers».
 
 **Necesita:** ningún otro documento.
 
+### Radiografía de variación: `radiografia-de-variacion.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/radiografia-de-variacion.md)
+
+Dibuja la radiografía de variación de un activo: la gráfica de sus días que muestra cuánto subió y cuánto bajó en total y cuántos días pasó de cada lado, con las dos razones, la de variación y la de días, a partir de los registros de velas de `osmancitov/hugo`. Cada radiografía lleva el nombre del activo, como «SPCX variación diaria».
+
+También se le ha llamado: «radiografía».
+
+**Cuándo se aplica:** cuando el autor pide la radiografía de un activo.
+
+**Necesita:** ningún otro documento.
+
 ### Núcleo: `nucleo.md`
 
 [Esta misma página](#núcleo)
@@ -299,6 +311,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+15 de noviembre de 2026: nace Radiografía de variación (`radiografia-de-variacion.md`), el procedimiento que dibuja la gráfica diaria de un activo con sus áreas, sus días de cada lado y las dos razones; entra en la lista con su «cuándo se aplica», y la lista inventaría los diecinueve archivos de la carpeta `md`. A pedido de Osmancito.
 
 13 de noviembre de 2026: nace Láminas de Divulgación (`laminas-de-divulgacion.md`), que fija la pieza de diseño de una sola idea, con sus tipos Tipográfico de impacto y Cartel de cine y su catálogo abierto; entra en la lista como camino de imagen independiente del Pintor de Imágenes, y la entrada del Pintor registra la frontera entre los dos. La lista inventaría los dieciocho archivos de la carpeta `md`. A pedido de Osmancito.
 
