@@ -4,7 +4,7 @@
 
 Una **inteligencia artificial de imágenes**, o IA de imágenes, es un programa que pinta una imagen a partir de un texto; su **motor** es el programa concreto que la pinta. Un **pedido de pintura**, que en inglés se llama *prompt*, es el texto que se le da a la IA de imágenes para que pinte. Un **JPG** es un formato de imagen que comprime el archivo para que pese poco. El **archivo md** de una página es el texto con marcas simples de la página. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Una **sala** es cada sección del hotel, guardada en su propio **repositorio**, que es una carpeta que guarda archivos y el historial de sus cambios.
 
-Este módulo convierte un fragmento de texto en el pedido de pintura que la IA necesita para pintar su ilustración. Escribe el pedido en castellano, sea cual sea el idioma del fragmento. Lo usan los módulos que ilustran sus páginas: Destilar una obra, Publicar en Capilla, Publicar en Journal, Productor de Briefings e Incorporar una sala, y también se puede encargar directo.
+Este módulo convierte un fragmento de texto en el pedido de pintura que la IA necesita para pintar su ilustración. Escribe el pedido en castellano, sea cual sea el idioma del fragmento. Lo usan los módulos que ilustran sus páginas: Destilar una obra, Publicar en Capilla, Publicar en Journal e Incorporar una sala, y también se puede encargar directo.
 
 ## Cuándo
 
@@ -113,6 +113,8 @@ Antes de entregar un pedido de pintura o una imagen se comprueba:
 7. **Dominio Cero.** Cada palabra del pedido tiene el significado del diccionario o una definición en su primera aparición.
 
 ## Cambios
+
+16 de noviembre de 2026: el Productor de Briefings deja de usar este módulo porque sus entregas van sin ilustraciones. Los demás proyectos conservan sus reglas de imagen. A pedido de Osmancito.
 
 11 de noviembre de 2026: se añade a la lista de estilos el 53, Ilustración editorial cálida, junto a los pintores y sin quitar ni cambiar ninguno. A pedido de Osmancito.
 

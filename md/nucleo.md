@@ -40,7 +40,7 @@ Un **10/10** es la nota que la asistente se pondría al revisar su propia entreg
 
 1. **Lo pedido, entero.** Hace lo que el autor pidió, sin añadir lo que no pidió ni dejar fuera lo que pidió.
 2. **Sin hallazgos.** Pasa la revisión de cada documento aplicado y no deja ninguno pendiente.
-3. **En la forma en que se recibe.** Lo que se entrega por correo va en **formato rico**, que es un correo con aspecto de página: títulos, imágenes dentro del texto y enlaces con nombre que se abren con un clic. El **texto plano**, que son solo letras sin formato, no cumple, porque corta las frases y deja las direcciones sueltas.
+3. **En la forma en que se recibe.** Lo que se entrega por correo va en **formato rico**, que es un correo con aspecto de página: títulos, las imágenes que el trabajo requiera dentro del texto y enlaces con nombre que se abren con un clic. El **texto plano**, que son solo letras sin formato, no cumple, porque corta las frases y deja las direcciones sueltas.
 4. **Visto tal como llega.** Se mira el resultado ya recibido, abierto como lo abre el autor, y no solo el archivo que se envió. Si algo se ve roto o torcido, se corrige antes de dar el encargo por terminado.
 5. **Con lo dudoso a la vista.** Lo que no se pudo comprobar se declara junto a lo que afirma.
 6. **Entregado y comprobado.** Llega por el canal y a la dirección que el autor pidió, y se comprueba que llegó.
@@ -239,13 +239,13 @@ Es el método aprobado para seleccionar párrafos enteros por cobertura de vocab
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
 
-Lee un boletín por Osmancito e investiga sus asuntos mediante la glosa: el hecho o el tema es el objeto, con fuentes propias y contraste, sin heredar el enfoque del boletín. Devuelve por correo en formato rico un informe detallado, el briefing, con la imagen en línea, el desarrollo con glosa, los posibles efectos sobre los activos, las ideas para la Destilería y las fuentes. Conserva el alcance y la repetición que el autor autorice.
+Lee un boletín por Osmancito e investiga sus asuntos mediante la glosa: el hecho o el tema es el objeto, con fuentes propias y contraste, sin heredar el enfoque del boletín. Devuelve por correo en formato rico un informe detallado, el briefing, sin ilustraciones, con el desarrollo con glosa, los posibles efectos sobre los activos, las ideas para la Destilería y las fuentes. Conserva el alcance y la repetición que el autor autorice. Tras comprobar la entrega y revisar el correo recibido, mueve la edición original a la papelera, sin aplicación retroactiva ni borrado definitivo por la asistente.
 
 También se le ha llamado: «productor de briefings».
 
 **Cuándo se aplica:** cuando el autor pide el briefing de un boletín, una sola edición o cada edición al llegar, según el alcance autorizado.
 
-**Necesita:** el **Dominio Cero** y, para la imagen de apertura, el **Pintor de Imágenes**.
+**Necesita:** el **Dominio Cero** y **Elementos de Estilo**.
 
 ### Investigación de Activos: `investigacion-de-activos.md`
 
@@ -311,6 +311,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+16 de noviembre de 2026: la entrada del Productor de Briefings refleja que los briefings van sin ilustraciones y que el original pasa a la papelera después de verificar la entrega y revisar el correo recibido. Se retira de esa entrada la dependencia del Pintor de Imágenes; las ilustraciones de otros proyectos no cambian. La definición de formato rico conserva las imágenes cuando el trabajo las requiera. A pedido de Osmancito.
 
 15 de noviembre de 2026: nace Radiografía de variación (`radiografia-de-variacion.md`), el procedimiento que dibuja la gráfica diaria de un activo con sus áreas, sus días de cada lado y las dos razones; entra en la lista con su «cuándo se aplica», y la lista inventaría los diecinueve archivos de la carpeta `md`. A pedido de Osmancito.
 

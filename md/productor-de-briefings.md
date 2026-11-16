@@ -15,24 +15,23 @@ No tiene horario. Se hace cuando el autor lo pide, sobre la edición que él se�
 El briefing se escribe en castellano, aunque la edición venga en otra lengua, y lleva sus partes en este orden:
 
 1. **El asunto**: el nombre del boletín y la fecha de la edición.
-2. **La imagen**, arriba del cuerpo del briefing, antes del resumen y en línea: una imagen de apertura relacionada con el contenido de la edición, hecha con el procedimiento de ilustración del hotel, el **Pintor de Imágenes**, que convierte un texto en el pedido de pintura para una inteligencia artificial que genera imágenes. Este módulo no fija su proporción.
-3. **El resumen**: de qué trata la edición, en pocas frases.
-4. **El desarrollo con glosa**: cada tema de la edición, investigado y explicado en su propio apartado. El orden sale de lo que hace falta entender, no del orden del boletín. Cada apartado cuenta lo ocurrido, aporta el contexto necesario y contrasta las explicaciones con fuentes abiertas. Distingue lo que afirma la edición, lo que permite comprobar la investigación y la interpretación de la asistente. Las referencias que lo necesitan se explican donde ayudan a seguir la lectura.
-5. **La glosa complementaria**, solo si queda una referencia que merezca explicación fuera de esos apartados. No repite el desarrollo ni vuelve a resumirlo. Si no hace falta, se omite este apartado. Cada explicación lleva su fuente como enlace con nombre y parte de lo abierto y comprobado, no de la memoria.
-6. **«Posibles efectos sobre los activos»**: qué activos, de los que el autor puede comprar y vender, podrían verse afectados por los hechos investigados, y por qué: el camino desde el hecho hasta el precio, explicado con lo abierto y comprobado. Si la edición no tiene una relación fundada con ningún activo, el apartado lo dice con claridad. No predice precios ni recomienda comprar ni vender, y no nombra la casa de cambio ni la plataforma donde se compran.
-7. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería, sin inventar lo que la edición no sugiere. Si no sugiere nada, el apartado dice «Ninguna».
-8. **Las fuentes**: la lista de las páginas y los registros abiertos para la investigación, cada una como enlace con el nombre de la página, no con su dirección suelta.
-9. **La firma**: firma la asistente, que hace el briefing.
+2. **El resumen**: de qué trata la edición, en pocas frases.
+3. **El desarrollo con glosa**: cada tema de la edición, investigado y explicado en su propio apartado. El orden sale de lo que hace falta entender, no del orden del boletín. Cada apartado cuenta lo ocurrido, aporta el contexto necesario y contrasta las explicaciones con fuentes abiertas. Distingue lo que afirma la edición, lo que permite comprobar la investigación y la interpretación de la asistente. Las referencias que lo necesitan se explican donde ayudan a seguir la lectura.
+4. **La glosa complementaria**, solo si queda una referencia que merezca explicación fuera de esos apartados. No repite el desarrollo ni vuelve a resumirlo. Si no hace falta, se omite este apartado. Cada explicación lleva su fuente como enlace con nombre y parte de lo abierto y comprobado, no de la memoria.
+5. **«Posibles efectos sobre los activos»**: qué activos, de los que el autor puede comprar y vender, podrían verse afectados por los hechos investigados, y por qué: el camino desde el hecho hasta el precio, explicado con lo abierto y comprobado. Si la edición no tiene una relación fundada con ningún activo, el apartado lo dice con claridad. No predice precios ni recomienda comprar ni vender, y no nombra la casa de cambio ni la plataforma donde se compran.
+6. **«Ideas para Destilería»**: lo que la edición sugiere para la Destilería, sin inventar lo que la edición no sugiere. Si no sugiere nada, el apartado dice «Ninguna».
+7. **Las fuentes**: la lista de las páginas y los registros abiertos para la investigación, cada una como enlace con el nombre de la página, no con su dirección suelta.
+8. **La firma**: firma la asistente, que hace el briefing.
 
 ## El correo
 
 El briefing se envía en formato rico, no en texto plano. Es un solo mensaje, con estas condiciones:
 
 1. El cuerpo es una página de correo en HTML, el lenguaje de las páginas web, con una versión en texto plano de respaldo para quien no pueda abrirla.
-2. La imagen de apertura va en línea, arriba, antes del resumen. No se adjunta aparte ni se repite como adjunto.
+2. El briefing no lleva ilustraciones.
 3. Cada parte lleva su título y los temas se separan con aire, para que la vista encuentre dónde está. Los párrafos corren sin saltos de línea dentro de la frase.
 4. Cada enlace se escribe como palabras que lo nombran y abre su página con un clic. Ningún nombre de sitio queda suelto como texto.
-5. Ningún archivo adjunto aparte: un PDF no sustituye al cuerpo del correo, y la imagen en línea forma parte del cuerpo.
+5. Ningún archivo adjunto aparte: un PDF no sustituye al cuerpo del correo.
 6. El ancho del cuerpo cabe en la pantalla de un teléfono sin desplazarse hacia los lados.
 
 ## Cómo se investiga la glosa
@@ -52,12 +51,13 @@ La edición indica qué asuntos hay que cubrir, pero no agota las fuentes ni las
 3. Se lee la edición entera.
 4. Se investiga cada tema con «Cómo se investiga la glosa».
 5. Se abre cada enlace y cada remisión que pida explicación, y se apunta lo que hay detrás con su dirección.
-6. Se hace la imagen de apertura con el Pintor de Imágenes, a partir de lo que trata la edición, y se escribe el briefing con sus partes en su orden.
+6. Se escribe el briefing con sus partes en su orden, sin ilustraciones.
 7. Se declara en el briefing lo que no se pudo comprobar, junto a lo que afirma.
 8. Se envía al correo del autor, desde la dirección de la asistente y en formato rico.
 9. Se comprueba que el correo llegó: la entrega queda comprobada, no presumida.
-10. Se abre el correo recibido en un navegador y se mira entero, tal como lo ve el autor: la imagen en su lugar, los títulos, los enlaces con nombre y los párrafos sin cortes.
+10. Se abre el correo recibido en un navegador y se mira entero, tal como lo ve el autor: los títulos, los enlaces con nombre y los párrafos sin cortes.
 11. Si algo falla en lo que se ve, se corrige y se envía de nuevo antes de dar el trabajo por entregado.
+12. Tras confirmar la entrega y completar la revisión del correo recibido, se mueve la edición original a la papelera. Si ya está allí, se conserva. Esta regla se aplica desde su incorporación: no mueve originales de briefings entregados antes ni autoriza el borrado definitivo.
 
 ## Revisión antes de entregar
 
@@ -65,7 +65,7 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 
 1. **La edición es la pedida.** El boletín y la fecha corresponden a lo encargado.
 2. **La glosa está comprobada y aporta.** Cada explicación sale de fuentes abiertas, o se declara sin comprobar. El informe investiga el objeto sin heredar la conclusión del boletín. Distingue datos, atribuciones e interpretación propia; muestra las discrepancias que cambian la lectura y no confunde sucesión con causa.
-3. **Las partes completas y en orden.** Ninguna parte obligatoria falta ni cambia de lugar; la glosa complementaria aparece solo si hace falta; la imagen va arriba, antes del resumen.
+3. **Las partes completas y en orden.** Ninguna parte obligatoria falta ni cambia de lugar; la glosa complementaria aparece solo si hace falta; el briefing no lleva ilustraciones.
 4. **Efectos sobre los activos.** El apartado explica el camino del hecho al activo con lo comprobado, o dice que no hay relación fundada; no predice precios, no recomienda operar y no nombra la plataforma donde se compran.
 5. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
 6. **Castellano claro.** El texto pasa la revisión de Elementos de Estilo: voz activa, frases que afirman y sin adorno que sobre.
@@ -81,6 +81,8 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 4. No envía texto plano ni adjuntos en lugar del cuerpo: el correo en formato rico es el briefing mismo.
 
 ## Cambios
+
+16 de noviembre de 2026: los briefings dejan de llevar ilustraciones; los otros proyectos conservan sus reglas de imagen. Después de confirmar la entrega y revisar el correo recibido, la edición original pasa a la papelera, sin aplicación retroactiva ni borrado definitivo por la asistente. A pedido de Osmancito.
 
 11 de noviembre de 2026: la glosa pasa a sostener el desarrollo del briefing. La edición fija los asuntos que se cubren, pero el hecho o el tema gobierna la investigación, con fuentes propias, contraste y distinción entre datos, atribuciones e interpretación. La glosa separada queda solo para referencias complementarias, sin repetir el desarrollo. Se conservan la entrega por edición autorizada y las condiciones del correo. A pedido de Osmancito.
 
