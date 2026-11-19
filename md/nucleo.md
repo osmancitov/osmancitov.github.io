@@ -18,13 +18,13 @@ Los módulos viven en la carpeta `md` del repositorio base y cada entrada enlaza
 
 ## Cuándo
 
-Al comenzar toda producción escrita del hotel o cualquier otro encargo al que el autor aplique el Núcleo. También cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo en la lista, y cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, para revisar el conjunto como dice «Qué cumple cada módulo».
+Al comenzar toda producción escrita del hotel, todo trabajo de programación o cualquier otro encargo al que el autor aplique el Núcleo. También cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo en la lista, y cuando cambia el Núcleo, el Productor de Módulos, el Dominio Cero o el Documento Ejemplar, para revisar el conjunto como dice «Qué cumple cada módulo».
 
 ## Cómo se cumple el Núcleo
 
 **Cumplir** es aplicar las instrucciones que corresponden, comprobar el resultado y corregir lo que no cumpla antes de dar el encargo por terminado.
 
-**Aplicación.** La preparación de toda producción escrita del hotel empieza en este Núcleo. El destino y el alcance los fija el encargo; elegir los documentos no cambia lo que el autor pidió. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
+**Aplicación.** La preparación de toda producción escrita del hotel y de todo trabajo de programación empieza en este Núcleo. El destino y el alcance los fija el encargo; elegir los documentos no cambia lo que el autor pidió. Quien lo recibe debe seguir el procedimiento de selección, lectura, aplicación y revisión de los documentos correspondientes.
 
 1. Leer este Núcleo vigente, completo, en su archivo de GitHub.
 2. Identificar qué se pide hacer y elegir los documentos cuyo «Cuándo se aplica» cubre el encargo, junto con los que cada uno «Necesita». Un encargo puede requerir varios. Si ninguno lo cubre, se aplican los generales que valgan, como el Dominio Cero para todo texto que se publica, y se señala el hueco si impide seguir.
@@ -118,6 +118,16 @@ También se le ha llamado: «elementos de estilo».
 **Cuándo se aplica:** siempre que se escribe o se revisa una producción en castellano que el hotel publica o entrega.
 
 **Necesita:** ningún otro documento.
+
+### Diseño orgánico y modular: `diseno-organico-y-modular.md`
+
+[Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/diseno-organico-y-modular.md)
+
+Fija los criterios de diseño para programar: reconocer lo reutilizable de antemano y descubrirlo también al revisar el crecimiento del sistema, compartir lo común y conservar solo las diferencias reales y necesarias. Busca el menor número de implementaciones que cumpla los objetivos.
+
+**Cuándo se aplica:** antes de comenzar un trabajo de programación, durante su desarrollo y al revisar el resultado, tanto en programas nuevos como en cambios de programas existentes.
+
+**Necesita:** ningún otro documento específico de programación.
 
 ### Actualizar Estatus: `actualizar-estatus.md`
 
@@ -291,7 +301,7 @@ Fija lo que se cumple en los encargos a los que el autor lo aplica, qué documen
 
 También se le ha llamado: «el Núcleo», «el índice de documentos», «indice-de-documentos.md» (su nombre anterior).
 
-**Cuándo se aplica:** al comenzar toda producción escrita del hotel o cualquier otro encargo al que el autor aplique el Núcleo, cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo, y cuando cambia uno de los cuatro documentos que todos cumplen, para revisar el conjunto.
+**Cuándo se aplica:** al comenzar toda producción escrita del hotel, todo trabajo de programación o cualquier otro encargo al que el autor aplique el Núcleo, cuando un módulo nace, cambia de nombre o cambia de carpeta, para anotarlo, y cuando cambia uno de los cuatro documentos que todos cumplen, para revisar el conjunto.
 
 **Necesita:** ningún otro módulo para consultarlo. Para corregirlo se abren los documentos del punto 4 de «Cómo se usa la lista».
 
@@ -311,6 +321,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+19 de noviembre de 2026: nace Diseño orgánico y modular (`diseno-organico-y-modular.md`) con los principios acordados por Osmancito. El Núcleo lo incorpora como lectura previa a todo trabajo de programación y como criterio durante el desarrollo y la revisión. La lista inventaría los veinte archivos de la carpeta `md`. A pedido de Osmancito.
 
 16 de noviembre de 2026: la entrada del Productor de Briefings refleja que los briefings van sin ilustraciones y que el original pasa a la papelera después de verificar la entrega y revisar el correo recibido. Se retira de esa entrada la dependencia del Pintor de Imágenes; las ilustraciones de otros proyectos no cambian. La definición de formato rico conserva las imágenes cuando el trabajo las requiera. A pedido de Osmancito.
 
