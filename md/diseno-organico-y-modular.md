@@ -64,6 +64,12 @@ Verificar tanto los casos particulares como el paso efectivo por la lógica com�
 
 Cuando el resultado sea visual, comprobar también su presentación real: una prueba de estructura o de cálculo no sustituye la inspección de la gráfica o de la interfaz.
 
+## 7. Comunicar el estado sin frases de trámite
+
+Los nombres y mensajes de los programas siguen el criterio de comunicación corta y clara del [Núcleo](nucleo.md#comunicación-corta-y-clara). Cada mensaje expresa la acción, el estado o el resultado que importa en ese momento, sin repetir el nombre completo del proceso cuando el contexto ya lo identifica.
+
+La revisión distingue entre trabajo en curso, trabajo terminado y un problema que requiere atención. Acortar un mensaje no debe ocultar errores, cambios importantes ni decisiones pendientes. Los casos que comparten un mecanismo de mensajes mantienen este criterio común, sin añadir copias de la lógica para cambiar sus palabras.
+
 ## Caso ilustrativo: un graficador común
 
 El graficador reúne la lógica compartida de trazado, escala, velocidad, orientación, reajuste y controles, en la medida en que responde al mismo comportamiento.
@@ -82,6 +88,7 @@ La revisión se prepara antes de programar y se completa con el resultado a la v
 - ¿El caso nuevo aporta únicamente lo que cambia y hereda lo demás?
 - ¿Quedó una regla común duplicada detrás de nombres o formas de acceso distintos?
 - ¿La solución elegida usa el menor número de implementaciones que cumple bien los objetivos?
+- ¿Los nombres y mensajes comunican el estado y el resultado sin repeticiones ni pérdida de información necesaria?
 - ¿Las pruebas y, cuando corresponde, la inspección visual comprueban el resultado?
 
 La revisión posterior completa lo que la previsión inicial no podía resolver. Diseñar es también volver sobre lo construido y hacer común lo que el crecimiento permitió reconocer.
@@ -89,3 +96,7 @@ La revisión posterior completa lo que la previsión inicial no podía resolver.
 ## Su propio examen
 
 Este documento reúne el criterio común una sola vez y desarrolla sus consecuencias por temas. El caso del graficador muestra cómo aplicarlo sin imponer una implementación concreta. La revisión permite contrastar lo construido con esos criterios. El texto no incorpora una programación periódica de revisiones ni repite reglas de otros trabajos.
+
+## Cambios
+
+21 de noviembre de 2026: se incorpora el criterio de comunicación corta y clara del Núcleo al diseño y la revisión de mensajes, sin cambiar responsabilidades ni mecanismos. A pedido de Osmancito.

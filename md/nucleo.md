@@ -34,6 +34,14 @@ Al comenzar toda producción escrita del hotel, todo trabajo de programación o 
 
 **Firma de los commits.** Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el nombre y el correo personales de Osmancito, como autor y como committer del cambio.
 
+## Comunicación corta y clara
+
+Los nombres, mensajes y reportes expresan directamente la acción, el estado o el resultado. Se eliminan preámbulos, repeticiones y explicaciones que no ayudan a entender qué ocurre. La extensión depende de la información necesaria, no de un número fijo de palabras.
+
+Un avance se distingue de un resultado. La brevedad conserva los errores, los cambios importantes, las dudas y cualquier decisión que requiera el autor. «Buscando cambios…» indica trabajo en curso; «Sin cambios» indica que terminó sin novedades.
+
+Este criterio se aplica a los textos de los módulos y a los mensajes de los programas. Al revisar una entrega se comprueba que pueda entenderse sin descifrar frases de trámite.
+
 ## Qué es un 10/10
 
 Un **10/10** es la nota que la asistente se pondría al revisar su propia entrega con los ojos del autor. Una entrega lo merece cuando cumple las seis condiciones siguientes:
@@ -321,6 +329,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+21 de noviembre de 2026: se fija el criterio común de comunicación corta y clara para textos y mensajes de programas, conservando estados, resultados y problemas. Diseño orgánico y modular lo incorpora a su revisión de interfaces. A pedido de Osmancito.
 
 19 de noviembre de 2026: nace Diseño orgánico y modular (`diseno-organico-y-modular.md`) con los principios acordados por Osmancito. El Núcleo lo incorpora como lectura previa a todo trabajo de programación y como criterio durante el desarrollo y la revisión. La lista inventaría los veinte archivos de la carpeta `md`. A pedido de Osmancito.
 
