@@ -32,7 +32,7 @@ Al comenzar toda producción escrita del hotel, todo trabajo de programación o 
 4. Hacer el encargo siguiendo esos documentos. Cada documento gobierna su tema; si dos se contradicen, manda el de su propio tema. Preguntar solo si falta un dato indispensable o hay una contradicción que no se resuelve así.
 5. Antes de entregar o publicar, contrastar el resultado con la revisión que pide cada documento aplicado, corregir lo que falle y mencionar al entregar los hallazgos relevantes.
 
-**Firma de los commits.** Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el nombre y el correo personales de Osmancito, como autor y como committer del cambio.
+**Firma de los commits.** Todo commit, de cualquier repositorio de la cuenta osmancitov en GitHub, se firma con el nombre y el correo personales de Osmancito como autor del cambio. El committer puede ser otro, por ejemplo GitHub cuando integra una propuesta desde su interfaz.
 
 ## Comunicación corta y clara
 
@@ -329,6 +329,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+24 de noviembre de 2026: la firma de los commits exige a Osmancito como autor; el committer deja de exigirse, porque GitHub figura como committer al integrar una propuesta desde su interfaz. A pedido de Osmancito.
 
 21 de noviembre de 2026: se fija el criterio común de comunicación corta y clara para textos y mensajes de programas, conservando estados, resultados y problemas. Diseño orgánico y modular lo incorpora a su revisión de interfaces. A pedido de Osmancito.
 
