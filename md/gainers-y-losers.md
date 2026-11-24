@@ -41,7 +41,7 @@ Fuente: la [documentación oficial de la API de Binance Spot](https://github.com
 
 ## Formato de la publicación
 
-La [entrada del 13 de noviembre de 2026](https://osmancitov.github.io/tesoreria/html/261113_gainers-y-losers.html), con sus recortes de texto, es la referencia del formato: imagen de apertura, presentación breve, proporciones y las tres listas. Las explicaciones del método permanecen en este módulo; la página no las repite ni añade advertencias que el autor retiró.
+La entrada del 13 de noviembre de 2026, con sus recortes de texto, es la referencia del formato: imagen de apertura, presentación breve, proporciones y las tres listas. Las explicaciones del método permanecen en este módulo; la página no las repite ni añade advertencias que el autor retiró.
 
 Las tablas llevan la columna **Activo**, no «Par», y muestran el nombre del activo sin el sufijo USDT: BTC, ETH, BNB. El par completo, como BTCUSDT, queda en los datos de trabajo, en la ordenación y en la comparación con el registro, y no aparece en la tabla. La sección «Fuentes» lleva una sola aclaración breve: los precios y las variaciones son los de los pares con USDT, que se toma como aproximación al dólar, y los importes en dólares parten de capitalizaciones en dólares. No se etiqueta todo como USDT: los importes ponderados no son precios en USDT.
 
