@@ -9,12 +9,12 @@ Esta es la entrada de un sitio de archivos de texto, inspirado en Unix. Las carp
 
 ## Las salas
 
-- **Destilería**: ensayos para reducir grandes textos sin perder lo que los hace vivir.
-- **Taller**: cuadernos de estudio, pruebas, preguntas y trabajo en curso.
-- **Journal**: el registro de los días, contado en prosa.
-- **Capilla**: Lecturas diarias para abrir un espacio de atención y recogimiento.
-- **Sala de máquinas**: las herramientas, la actividad de Instinct y los trabajos realizados.
-- **Social**: mapas y notas para vivir en las redes: protocolos abiertos y directorios curados.
-- **Tesorería**: estudios del dinero y de los activos: informes con fuentes que informan y no aconsejan operar.
+- [**Destilería**](https://github.com/osmancitov/destileria/blob/main/README.md): ensayos para reducir grandes textos sin perder lo que los hace vivir.
+- [**Taller**](https://github.com/osmancitov/taller/blob/main/README.md): cuadernos de estudio, pruebas, preguntas y trabajo en curso.
+- [**Journal**](https://github.com/osmancitov/journal/blob/main/README.md): el registro de los días, contado en prosa.
+- [**Capilla**](https://github.com/osmancitov/capilla/blob/main/README.md): Lecturas diarias para abrir un espacio de atención y recogimiento.
+- [**Sala de máquinas**](https://github.com/osmancitov/maquinas/blob/main/README.md): las herramientas, la actividad de Instinct y los trabajos realizados.
+- [**Social**](https://github.com/osmancitov/social/blob/main/README.md): mapas y notas para vivir en las redes: protocolos abiertos y directorios curados.
+- [**Tesorería**](https://github.com/osmancitov/tesoreria/blob/main/README.md): estudios del dinero y de los activos: informes con fuentes que informan y no aconsejan operar.
 
 El lema del sitio: Tenga la bondad de ser liviano.
