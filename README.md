@@ -1,5 +1,5 @@
 **Lobby** · [Destilería](https://github.com/osmancitov/destileria/blob/main/README.md) · [Taller](https://github.com/osmancitov/taller/blob/main/README.md) · [Journal](https://github.com/osmancitov/journal/blob/main/README.md) · [Capilla](https://github.com/osmancitov/capilla/blob/main/README.md)
- · [Sala de máquinas](https://github.com/osmancitov/maquinas/blob/main/README.md) · [Social](https://github.com/osmancitov/social/blob/main/README.md) · [Tesorería](https://github.com/osmancitov/tesoreria/blob/main/README.md)
+ · [Sala de máquinas](https://github.com/osmancitov/maquinas/blob/main/README.md) · [Social](https://github.com/osmancitov/social/blob/main/README.md) · [Tesorería](https://github.com/osmancitov/tesoreria/blob/main/README.md) · [Observatorio Bursátil](https://github.com/osmancitov/hugo/blob/main/README.md)
 
 # Lobby
 
@@ -16,5 +16,6 @@ Esta es la entrada de un sitio de archivos de texto, inspirado en Unix. Las carp
 - [**Sala de máquinas**](https://github.com/osmancitov/maquinas/blob/main/README.md): las herramientas, la actividad de Instinct y los trabajos realizados.
 - [**Social**](https://github.com/osmancitov/social/blob/main/README.md): mapas y notas para vivir en las redes: protocolos abiertos y directorios curados.
 - [**Tesorería**](https://github.com/osmancitov/tesoreria/blob/main/README.md): estudios del dinero y de los activos: informes con fuentes que informan y no aconsejan operar.
+- [**Observatorio Bursátil**](https://github.com/osmancitov/hugo/blob/main/README.md): el visor del mercado: empresas y criptomonedas, con sus precios y sus gráficas.
 
 El lema del sitio: Tenga la bondad de ser liviano.
