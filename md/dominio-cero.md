@@ -19,7 +19,9 @@ Siempre que se escribe o se revisa un texto que el hotel publica.
 
 7. El texto aplica esta base sin anunciarla: explica lo que hace falta, pero no dice que explica, ni para quién escribe, ni lo que el lector no sabe. La claridad queda en cómo está escrito, no en una frase que la anuncie.
 
-8. El texto entrega en su propia lectura todo lo que ofrece. Una promesa no está contenida en el momento del escrito: deja parte de la entrega para un después y queda como una deuda fuera del texto. Por eso el texto presenta sin comprometer: nombrar unos libros no anuncia leerlos, y describir un trabajo no anuncia hacerlo.
+8. El texto entrega en su propia lectura todo lo que ofrece. Una promesa no está contenida en el momento del escrito: deja parte de la entrega para un después y queda como una deuda fuera del texto. Por eso el texto presenta sin comprometer: nombrar unos libros no anuncia leerlos, y describir un trabajo no anuncia hacerlo. Una remisión a otro documento sirve para ampliar, no para sustituir: lo que el lector necesita para entender este texto se define aquí.
+
+9. Cada paso que el texto manda ejecutar indica el resultado esperado. El autor comprueba el procedimiento antes de entregar; lo que no haya podido comprobar queda señalado junto al paso.
 
 ## La necesidad
 
@@ -55,6 +57,8 @@ Este módulo fija una forma de hacer algo, escribir un texto, y por eso es un do
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares, y todo lo necesario para contrastar está en este texto.
 
 ## Cambios
+
+25 de noviembre de 2026: la base gana dos precisiones, que salieron de documentar el Observatorio Bursátil. Una remisión a otro documento amplía y no sustituye lo que el lector necesita. Cada paso que el texto manda ejecutar indica su resultado esperado, y el autor comprueba el procedimiento antes de entregar. Gana el punto 8 y el nuevo punto 9 de «Cómo se construye el texto». A pedido de Osmancito.
 
 8 de noviembre de 2026: se retira la declaración fija del lector cero que abría el texto y la salvedad que la exceptuaba de la regla de no anunciar, en el punto 7 de «Cómo se construye el texto». El sitio pasa a llamarse «el hotel» en lugar de «la casa». A pedido de Osmancito.
 
