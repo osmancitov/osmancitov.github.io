@@ -257,7 +257,7 @@ Es el método aprobado para seleccionar párrafos enteros por cobertura de vocab
 
 [Abrir documento](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/productor-de-briefings.md)
 
-Lee un boletín por Osmancito e investiga sus asuntos mediante la glosa: el hecho o el tema es el objeto, con fuentes propias y contraste, sin heredar el enfoque del boletín. Devuelve por correo en formato rico un informe detallado, el briefing, sin ilustraciones, con el desarrollo con glosa, los posibles efectos sobre los activos, las ideas para la Destilería y las fuentes. Conserva el alcance y la repetición que el autor autorice. Tras comprobar la entrega y revisar el correo recibido, mueve la edición original a la papelera, sin aplicación retroactiva ni borrado definitivo por la asistente.
+Lee una publicación recibida por correo e investiga lo que cuenta con fuentes propias y contraste. La forma habitual es una pieza breve: título de unas siete palabras, entradilla de unas veinte que entrega la conclusión sin repetir el título y cuerpo de setenta a cien que explica su fundamento. Distingue lo que el texto induce a entender de lo que sostienen los hechos y las condiciones, sin buscar desmentidos por sistema. Va sin ilustraciones al canal acordado; el informe detallado queda para pedidos expresos. Conserva el alcance y la repetición autorizados. Tras comprobar y revisar la entrega, mueve la edición original a la papelera, sin borrado definitivo por la asistente.
 
 También se le ha llamado: «productor de briefings».
 
@@ -329,6 +329,8 @@ El Núcleo fija una forma de hacer algo, cumplir un encargo, y es un módulo: ti
 3. **Permitir el contraste sin salir.** Esta sección junta las condiciones y sus lugares: la forma está en «Cómo se cumple el Núcleo» y en «Qué cumple cada módulo», su realización en la lista y en la entrada del Núcleo, y el examen aquí.
 
 ## Cambios
+
+26 de noviembre de 2026: la entrada del Productor de Briefings recoge título, entradilla con la conclusión primero y cuerpo que la sostiene, sus medidas orientativas y el contraste entre lo sugerido y lo comprobable. Distingue la pieza breve por el canal acordado del informe detallado por pedido expreso. No cambian la lista ni las dependencias. A pedido de Osmancito.
 
 24 de noviembre de 2026: la firma de los commits exige a Osmancito como autor; el committer deja de exigirse, porque GitHub figura como committer al integrar una propuesta desde su interfaz. A pedido de Osmancito.
 

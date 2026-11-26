@@ -2,17 +2,33 @@
 
 ## Qué es y para qué sirve
 
-Es el procedimiento que lee un boletín por Osmancito, el autor, e investiga lo que cuenta para devolverle un informe detallado por correo. Un **boletín** es una publicación periódica que llega por correo electrónico, como las cartas que un escritor manda a sus lectores; cada número del boletín es una **edición**. El **correo** es el correo electrónico, mensajes que llegan a una dirección; «el correo del autor» es su buzón. El **briefing**, palabra inglesa que el autor usa para este trabajo, es ese informe detallado: cubre lo que una edición dice y lo amplía mediante la glosa. La **glosa** es la explicación investigada de un hecho, un tema o una referencia: reúne lo comprobado, contrasta las interpretaciones y aporta una lectura propia que se distingue de lo que dicen las fuentes. Un **evento** es un hecho situado en el tiempo, como un anuncio de resultados o una decisión de un banco central. Una **fuente** es la página o el registro de donde sale una afirmación. Cada **enlace**, la dirección de una página que se abre con un clic, permite llegar a una fuente; el enlace no sustituye lo que debe contar el informe. El **sitio** es el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`; una **sala** es cada una de sus secciones. La **Destilería** es la sala del sitio que destila libros. Un **activo** es un producto que se compra y se vende en un mercado. La **asistente** es Instinct, que trabaja por el autor y escribe el briefing. El **hotel** es el sitio de Osmancito, el autor de las páginas: el conjunto de páginas publicadas bajo la dirección `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija por escrito una regla o cómo se hace un trabajo, para que la regla se cumpla y el trabajo salga igual cada vez sin depender de la memoria de nadie, persona o máquina. Un **correo en formato rico** es un correo con aspecto de página: títulos, negritas, imágenes dentro del texto y enlaces que se abren con un clic; lo contrario es el **texto plano**, que son solo letras sin formato, donde los saltos de línea cortan las frases y las direcciones aparecen sueltas. Una **imagen en línea** es la que se ve dentro del cuerpo del correo, en su lugar, y no como archivo adjunto aparte. Un **enlace con nombre** es un enlace escrito con palabras que dicen a qué página lleva, y no con la dirección suelta. El **Núcleo** es el módulo que fija cómo se cumple todo encargo del hotel y qué es un **10/10**: la nota de una entrega que cumple las seis condiciones que el Núcleo enumera. **Elementos de Estilo** es el módulo que reúne los consejos para escribir en castellano con claridad.
+Es el procedimiento que lee una publicación recibida por correo electrónico e investiga lo que cuenta para devolverle a Osmancito una pieza breve en castellano. Un **boletín** es una publicación que se distribuye por correo; cada **edición** es un envío concreto de esa publicación. El **briefing** es la pieza que parte de esa edición, contrasta sus afirmaciones y entrega una conclusión con su fundamento. La **glosa** es esa explicación investigada: distingue los hechos comprobados, lo que afirman las fuentes y la interpretación de quien escribe. La edición es el punto de partida, no el límite de la investigación.
 
-El briefing ahorra trabajo al autor: entiende los asuntos de la edición en un solo correo, sin abrir nada más. El objeto de la investigación es el hecho o el tema, no el reportaje que lo dio a conocer. La edición conserva su lugar como referencia de partida, sin decidir el enfoque ni el límite de la investigación. Además, lo que pueda servir al trabajo del sitio queda recogido en su propio apartado y lo que pueda tocar a los activos que el autor puede comprar y vender, en el suyo.
+El trabajo permite entender qué hay detrás de una noticia, una oferta o una afirmación sin tener que recorrer el correo original. Atiende a lo que sus palabras inducen a entender y lo contrasta con los hechos, las condiciones y los límites comprobables. No busca desmentir por sistema ni clasifica todo como verdad o mentira. Si las pruebas no permiten concluir, dice qué queda incierto.
+
+El **hotel** es el sitio de Osmancito, el autor: el conjunto de páginas bajo `https://osmancitov.github.io`. Un **módulo** es un texto del hotel que fija una regla o una manera de trabajar. La **asistente** es quien prepara el briefing para él. Una **fuente** es la página o el registro de donde sale una afirmación. Un **enlace con nombre** permite abrir esa fuente al pulsar las palabras que la identifican. El **Núcleo** es el módulo que ordena los demás y fija cómo se comprueba una entrega. **Elementos de Estilo** reúne los consejos para escribir con claridad.
 
 ## Cuándo
 
 No tiene horario. Se hace cuando el autor lo pide, sobre la edición que él señale o, si no señala una, sobre la más reciente sin leer del boletín pedido. Cada pedido encarga un solo briefing, salvo el alcance que el autor indique expresamente. Un encargo de preparar cada edición al llegar conserva esa repetición; este módulo no la crea por sí solo.
 
-## El briefing
+## La pieza breve
 
-El briefing se escribe en castellano, aunque la edición venga en otra lengua, y lleva sus partes en este orden:
+La forma habitual tiene tres niveles, en este orden:
+
+1. **Título**, de unas siete palabras: permite reconocer el asunto al recorrer los títulos.
+2. **Entradilla**, de unas veinte palabras: el párrafo inicial que entrega la conclusión sustentada, sin repetir el título. Dice a dónde llega el briefing para que el lector decida si quiere recorrer su explicación. No es una promesa de revelar después el hallazgo.
+3. **Cuerpo**, de setenta a cien palabras: explica el fundamento de esa conclusión, el contexto necesario y el contraste que cambia la lectura. Distingue lo comprobado de las afirmaciones ajenas y de la interpretación propia.
+
+Las medidas orientan la escritura; no justifican añadir relleno ni quitar una condición indispensable. Cada nivel aporta algo que el anterior no daba. Si la evidencia deja una pregunta abierta, la entradilla expresa ese límite en vez de inventar una conclusión firme. Los enlaces con nombre permiten comprobar las fuentes sin sustituir la explicación.
+
+La pieza va sin ilustraciones y se entrega en el canal acordado. La forma breve no obliga a desplegar los apartados del informe detallado ni a enviarlo además por correo. No se rehacen entregas anteriores por este cambio de formato.
+
+## El informe detallado
+
+Se prepara cuando el autor lo pide expresamente. La **Destilería** es la sala del hotel que destila libros. Un **activo** es un producto que se compra y se vende en un mercado. Estos términos corresponden a los apartados de esta forma extensa.
+
+El informe detallado se escribe en castellano, aunque la edición venga en otra lengua, y lleva sus partes en este orden:
 
 1. **El asunto**: el nombre del boletín y la fecha de la edición.
 2. **El resumen**: de qué trata la edición, en pocas frases.
@@ -23,9 +39,9 @@ El briefing se escribe en castellano, aunque la edición venga en otra lengua, y
 7. **Las fuentes**: la lista de las páginas y los registros abiertos para la investigación, cada una como enlace con el nombre de la página, no con su dirección suelta.
 8. **La firma**: firma la asistente, que hace el briefing.
 
-## El correo
+## El informe por correo
 
-El briefing se envía en formato rico, no en texto plano. Es un solo mensaje, con estas condiciones:
+Cuando la entrega acordada es por correo, se envía en **formato rico**, con títulos y enlaces que se abren al pulsarlos, no en **texto plano**, que son solo letras sin formato. Es un solo mensaje, con estas condiciones:
 
 1. El cuerpo es una página de correo en HTML, el lenguaje de las páginas web, con una versión en texto plano de respaldo para quien no pueda abrirla.
 2. El briefing no lleva ilustraciones.
@@ -36,7 +52,9 @@ El briefing se envía en formato rico, no en texto plano. Es un solo mensaje, co
 
 ## Cómo se investiga la glosa
 
-La edición indica qué asuntos hay que cubrir, pero no agota las fuentes ni las preguntas. La investigación sigue el hecho o el tema hasta explicar lo que cambia su comprensión. La extensión sale de lo que aporta, no de una cuota ni de la cantidad de enlaces del boletín.
+La investigación sostiene tanto la pieza breve como el informe detallado. La brevedad cambia la entrega, no la obligación de comprobar lo que se afirma.
+
+La edición indica qué asuntos hay que cubrir, pero no agota las fuentes ni las preguntas. La investigación sigue el hecho o el tema hasta explicar lo que cambia su comprensión. La profundidad de la investigación sale de lo que aporta, no de una cuota ni de la cantidad de enlaces del boletín. La pieza breve concentra ese trabajo en las medidas de «La pieza breve».
 
 1. Se identifica el hecho o el tema de cada apartado sin adoptar como conclusión el titular de la edición.
 2. Se buscan fuentes propias, además de las enlazadas por el boletín. Cuando existe un registro del hecho, como el anuncio original, los resultados publicados o la decisión oficial, se consulta ese registro.
@@ -51,13 +69,13 @@ La edición indica qué asuntos hay que cubrir, pero no agota las fuentes ni las
 3. Se lee la edición entera.
 4. Se investiga cada tema con «Cómo se investiga la glosa».
 5. Se abre cada enlace y cada remisión que pida explicación, y se apunta lo que hay detrás con su dirección.
-6. Se escribe el briefing con sus partes en su orden, sin ilustraciones.
+6. Se escribe la pieza breve con título, entradilla y cuerpo; si se pidió un informe detallado, se usan sus apartados. El texto queda sin ilustraciones.
 7. Se declara en el briefing lo que no se pudo comprobar, junto a lo que afirma.
-8. Se envía al correo del autor, desde la dirección de la asistente y en formato rico.
-9. Se comprueba que el correo llegó: la entrega queda comprobada, no presumida.
-10. Se abre el correo recibido en un navegador y se mira entero, tal como lo ve el autor: los títulos, los enlaces con nombre y los párrafos sin cortes.
-11. Si algo falla en lo que se ve, se corrige y se envía de nuevo antes de dar el trabajo por entregado.
-12. Tras confirmar la entrega y completar la revisión del correo recibido, se mueve la edición original a la papelera. Si ya está allí, se conserva. Esta regla se aplica desde su incorporación: no mueve originales de briefings entregados antes ni autoriza el borrado definitivo.
+8. Se entrega por el canal acordado. Si es correo, se usa el formato rico de «El informe por correo».
+9. Se comprueba que la pieza llegó a su destino: la entrega queda comprobada, no presumida.
+10. Se mira la entrega entera tal como la recibe el autor: título, entradilla, cuerpo y enlaces; en el informe detallado, sus apartados. Si llegó por correo, se abre el mensaje recibido en un navegador.
+11. Si algo falla en lo que se ve, se corrige antes de dar el trabajo por entregado.
+12. Tras confirmar la entrega y completar su revisión, se mueve la edición original a la papelera. Si ya está allí, se conserva. Esta regla se aplica desde su incorporación: no mueve originales de briefings entregados antes ni autoriza el borrado definitivo.
 
 ## Revisión antes de entregar
 
@@ -65,22 +83,24 @@ Antes de enviarse, el briefing pasa esta revisión entera, con el texto a la vis
 
 1. **La edición es la pedida.** El boletín y la fecha corresponden a lo encargado.
 2. **La glosa está comprobada y aporta.** Cada explicación sale de fuentes abiertas, o se declara sin comprobar. El informe investiga el objeto sin heredar la conclusión del boletín. Distingue datos, atribuciones e interpretación propia; muestra las discrepancias que cambian la lectura y no confunde sucesión con causa.
-3. **Las partes completas y en orden.** Ninguna parte obligatoria falta ni cambia de lugar; la glosa complementaria aparece solo si hace falta; el briefing no lleva ilustraciones.
-4. **Efectos sobre los activos.** El apartado explica el camino del hecho al activo con lo comprobado, o dice que no hay relación fundada; no predice precios, no recomienda operar y no nombra la plataforma donde se compran.
+3. **Las partes completas y en orden.** La pieza breve tiene título de unas siete palabras, entradilla de unas veinte con la conclusión y cuerpo de setenta a cien que la sostiene, sin repetirse. El informe detallado sigue sus apartados y omite la glosa complementaria cuando no hace falta. Ninguna forma lleva ilustraciones.
+4. **Efectos sobre los activos, en el informe detallado.** El apartado explica el camino del hecho al activo con lo comprobado, o dice que no hay relación fundada; no predice precios, no recomienda operar y no nombra la plataforma donde se compran.
 5. **Dominio cero.** Cada palabra del briefing tiene el significado del diccionario o el que el briefing mismo le define.
 6. **Castellano claro.** El texto pasa la revisión de Elementos de Estilo: voz activa, frases que afirman y sin adorno que sobre.
-7. **Formato rico.** Se cumplen las seis condiciones de «El correo».
-8. **Visto como llega.** El correo recibido se miró entero, como dice el paso 10, y nada se rompió.
+7. **Canal y forma.** La entrega va al canal acordado. Si es correo, cumple las seis condiciones de «El informe por correo».
+8. **Visto como llega.** La entrega recibida se miró entera, como dice el paso 10, y nada se rompió.
 9. **Diez sobre diez.** El briefing cumple lo que el Núcleo llama un 10/10.
 
 ## Lo que este módulo no hace
 
 1. No amplía la frecuencia ni el destino del encargo: conserva las entregas por edición que el autor haya autorizado, sin crear otras.
 2. No glosa de memoria: lo que no se abrió no se cuenta como si se hubiera abierto.
-3. No publica en el sitio: el briefing se entrega por correo y no toca las páginas ni sus archivos.
-4. No envía texto plano ni adjuntos en lugar del cuerpo: el correo en formato rico es el briefing mismo.
+3. No publica el briefing en el sitio: lo entrega por el canal acordado, sin tocar las páginas ni sus archivos.
+4. Si la entrega es por correo, no usa texto plano ni adjuntos en lugar del cuerpo: el correo en formato rico es el briefing mismo.
 
 ## Cambios
+
+26 de noviembre de 2026: la forma habitual pasa a título de unas siete palabras, entradilla de unas veinte que entrega la conclusión sin repetir el título y cuerpo de setenta a cien que explica su fundamento. Se documenta el contraste entre lo que el texto induce a entender y lo que sostienen los hechos y las condiciones, sin buscar desmentidos por sistema. La pieza breve va al canal acordado; el informe detallado queda para pedidos expresos. Se ajustan los pasos y la revisión sin rehacer entregas anteriores. A pedido de Osmancito.
 
 16 de noviembre de 2026: los briefings dejan de llevar ilustraciones; los otros proyectos conservan sus reglas de imagen. Después de confirmar la entrega y revisar el correo recibido, la edición original pasa a la papelera, sin aplicación retroactiva ni borrado definitivo por la asistente. A pedido de Osmancito.
 
